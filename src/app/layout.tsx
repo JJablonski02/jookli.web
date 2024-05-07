@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import { IBM_Plex_Sans } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import Navbar from "@/components/Navbar";
 
 const IBMPLEX = IBM_Plex_Sans({ 
   subsets: ["latin"], 
@@ -23,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn('font-IBMPLEX antialiased', IBMPLEX.variable)}>
+          <Navbar/>
         {children}
         </body>
     </html>
