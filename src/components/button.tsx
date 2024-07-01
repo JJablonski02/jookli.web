@@ -6,7 +6,6 @@ import styles from './button.module.css'
 interface ButtonProps {
     label?: string;
 }
-
 const Button: React.FC<ButtonProps> = ({ label }) => {
      const [buttonStyle, setButtonStyle] = useState()
      const handleOnClick = () => {
