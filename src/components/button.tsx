@@ -8,14 +8,10 @@ interface ButtonProps {
 }
 const Button: React.FC<ButtonProps> = ({ label }) => {
      const [buttonStyle, setButtonStyle] = useState()
-     const handleOnClick = () => {
-        console.log('click')
-     }
 
         return (
                 <button
-                className="bg-green-600 hover:bg-green-700 text-white font-medium py-1 px-2 rounded"
-                onClick={handleOnClick}
+                className="bg-green-500 hover:bg-green-700 text-white font-medium py-1 px-2 rounded"
                         >
                     {label}
                 </button> 
