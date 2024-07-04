@@ -4,6 +4,7 @@ import { Poppins } from "next/font/google";
 import "../styles/globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const IBMPLEX = Poppins({
   subsets: ["latin"],
@@ -26,6 +27,8 @@ export default function RootLayout({
       <body className={cn("font-IBMPLEX antialiased", IBMPLEX.variable)}>
         <Navbar />
         {children}
+        <div></div>
+        <Footer />
       </body>
     </html>
   );
