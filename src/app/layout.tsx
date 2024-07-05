@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import { Poppins } from "next/font/google";
-import "./globals.css";
+import "../styles/globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const IBMPLEX = Poppins({
   subsets: ["latin"],
-  weight: ['400', '500', '600', '700'],
-  variable: '--font-ibm-plex'
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-ibm-plex",
 });
 
 export const metadata: Metadata = {
@@ -23,9 +24,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn('font-IBMPLEX antialiased', IBMPLEX.variable)}>
+      <body className={cn("font-IBMPLEX antialiased", IBMPLEX.variable)}>
         <Navbar />
         {children}
+        <div></div>
+        <Footer />
       </body>
     </html>
   );
