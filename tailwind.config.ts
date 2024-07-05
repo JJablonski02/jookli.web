@@ -18,6 +18,10 @@ module.exports = {
     },
     extend: {
       colors: {
+        /**primary: "#CCCCCC", /**Tutaj deklaracja koloru np wartość hexa */
+        /**"primary" : "var(--primary)" */ /**W przypadku jeśli chcesz zaimportować kolor z klasy css globals.css */
+        /** Analogicznie dla wszystkich innych przypadków */
+        /**Jeśli chcesz użyć z HSL'em to musisz w globals.css w :root{} zadeklarować zmienną --custom-color: hsl(kolor1, kolor2, kolor3)  */
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -37,7 +41,7 @@ module.exports = {
           700: "#384262",
         },
         primary: {
-          DEFAULT: "hsl(var(--primary))",
+          DEFAULT: "var(--primary)",
           foreground: "hsl(var(--primary-foreground))",
         },
         secondary: {
