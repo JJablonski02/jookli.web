@@ -25,10 +25,8 @@ module.exports = {
         PoppinsExtraBold: ['Poppins-ExtraBold']
       },
       colors: {
-        /**primary: "#CCCCCC", /**Tutaj deklaracja koloru np wartość hexa */
-        /**"primary" : "var(--primary)" */ /**W przypadku jeśli chcesz zaimportować kolor z klasy css globals.css */
-        /** Analogicznie dla wszystkich innych przypadków */
-        /**Jeśli chcesz użyć z HSL'em to musisz w globals.css w :root{} zadeklarować zmienną --custom-color: hsl(kolor1, kolor2, kolor3)  */
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -46,14 +44,6 @@ module.exports = {
           500: "#606C80",
           600: "#2B3674",
           700: "#384262",
-        },
-        primary: {
-          DEFAULT: "var(--primary)",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
