@@ -2,15 +2,20 @@ import React from "react";
 import Link from "next/link";
 import { toHowItWorks, toPaymentMethods, toSupport, toHome } from "./routes";
 import Button from "./button";
+import Image from "next/image";
+import LogoSvg from "../../public/logo.svg";
 
 const Footer = () => {
   return (
-    <footer className="mt-20 px-20 pt-10 bg-secondary ">
+    <footer className="mt-20 px-20  bg-secondary ">
       <div className="flex justify-between items-center">
         <div>
-          <Link href="/" className="flex z-40 font-semibold text-xl mb-4">
-            JOY<span className="text-green-600">PROFITS</span>
-          </Link>
+          <div className="w-fit">
+            {/* poprawić link image aby klikalo się tylko na image */}
+            <Link href="/" className="flex z-40 font-semibold">
+              <Image src={LogoSvg} alt="Logo jookli website" width={100} />
+            </Link>
+          </div>
           <p className="mb-8">Test</p>
           <ul className="flex items-center justify-start gap-4 pt-5 ">
             <li>
