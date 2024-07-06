@@ -17,6 +17,13 @@ module.exports = {
       },
     },
     extend: {
+      fontFamily: {
+        PoppinsRegular : ['Poppins-Regular'],
+        PoppinsMedium : ['Poppins-Medium'],
+        PoppinsSemiBold: ['Poppins-SemiBold'],
+        PoppinsBold : ['Poppins-Bold'],
+        PoppinsExtraBold: ['Poppins-ExtraBold']
+      },
       colors: {
         /**primary: "#CCCCCC", /**Tutaj deklaracja koloru np wartość hexa */
         /**"primary" : "var(--primary)" */ /**W przypadku jeśli chcesz zaimportować kolor z klasy css globals.css */
@@ -68,9 +75,6 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-      },
-      fontFamily: {
-        IBMPlex: ["var(--font-ibm-plex)"],
       },
       backgroundImage: {
         "purple-gradient": "url('/assets/images/gradient-bg.svg')",
