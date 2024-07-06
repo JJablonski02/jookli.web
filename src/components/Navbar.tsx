@@ -18,7 +18,7 @@ const Navbar = () => {
           <Link href="/" className="flex z-40 font-semibold">
             JOY<span className="text-green-600">PROFITS</span>
           </Link>
-          <ul className="flex gap-4 items-center justify-between">
+          <ul className="flex gap-4 items-center justify-between px-5">
             <li>
               <Link href={toHome}>Strona główna</Link>
             </li>
