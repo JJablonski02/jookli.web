@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <header className="container mx-16 mt-32 grid h-full w-full grid-cols-1 place-items-center lg:mt-14 lg:grid-cols-2">
+      <header className="container mx-16 mt-14 grid h-full w-full place-items-center grid-cols-2">
         <div>
-          <h1 className="text-5xl font-extrabold">
+          <h1 className="text-5xl text-primary">
             Lorem ipsum <br /> dolor sit amet.
           </h1>
           <p className="mt-10 text-xl font-semibold">
@@ -15,7 +15,7 @@ export default function Home() {
             Consectetur, nulla.
           </p>
 
-          <h6 className="font-base text-base mt-6">Get the app</h6>
+          <h6 className="text-base mt-6">Get the app</h6>
           <div className="flex gap-4 mt-4">
             <Button label="Get the app" />
 
@@ -34,7 +34,7 @@ export default function Home() {
       </header>
       <div className="py-10 px-10 mx-8 mt-20 border-2 border-black rounded-lg ">
         <div>
-          <h3 className="text-3xl font-bold">lorem</h3>
+          <h3 className="text-3xl">lorem</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio
             eveniet harum magni repellendus totam ipsam quae veniam consequuntur
