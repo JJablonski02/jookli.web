@@ -12,7 +12,7 @@ const Footer = () => {
         <div>
           <div className="w-fit">
             {/* poprawić link image aby klikalo się tylko na image */}
-            <Link href="/" className="flex z-40 font-semibold">
+            <Link href="/">
               <Image src={LogoSvg} alt="Logo jookli website" width={100} />
             </Link>
           </div>
