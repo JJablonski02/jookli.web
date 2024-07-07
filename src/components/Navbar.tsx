@@ -18,9 +18,12 @@ const Navbar = () => {
       <WidthWrapper>
         <div className="flex h-14 items-center justify-between border-b border-zinc-200">
           {/* poprawić link image aby klikalo się tylko na image */}
-          <Link href="/">
-            <Image src={LogoSvg} alt="Logo jookli website" width={100} />
-          </Link>
+
+          <div className="w-48">
+            <Link className="" href="/">
+              <Image src={LogoSvg} alt="Logo jookli website" />
+            </Link>
+          </div>
           <ul className="flex gap-4 items-center justify-between px-5">
             <li>
               <Link href={toHome}>Strona główna</Link>
