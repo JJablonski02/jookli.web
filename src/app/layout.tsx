@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import { Poppins } from "next/font/google";
 import "../styles/globals.css";
-import { cn } from "@/lib/utils";
+
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Providers from "./providers/providers";
@@ -23,7 +21,6 @@ export default function RootLayout({
         <Providers>
           <Navbar />
           {children}
-          <div></div>
           <Footer />
         </Providers>
       </body>
