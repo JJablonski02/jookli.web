@@ -1,6 +1,5 @@
 import Link from "next/link";
 import WidthWrapper from "./WidthWrapper";
-import Button from "./button";
 import LogoSvg from "../../public/logo.svg";
 import {
   toHowItWorks,
@@ -11,6 +10,7 @@ import {
   toHome,
 } from "./routes";
 import Image from "next/image";
+import JPButton from "./JPButton";
 
 const Navbar = () => {
   return (
@@ -40,10 +40,10 @@ const Navbar = () => {
           </ul>
           <div className="h-full flex items-center gap-4">
             <Link href={toSignUp}>
-              <Button label="Zarejestruj" />
+              <JPButton label="Zarejestruj" />
             </Link>
             <Link href={toSignIn}>
-              <Button label="Zaloguj" />
+              <JPButton label="Zaloguj" />
             </Link>
           </div>
         </div>

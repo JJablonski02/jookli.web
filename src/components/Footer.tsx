@@ -1,9 +1,9 @@
 import React from "react";
 import Link from "next/link";
 import { toHowItWorks, toPaymentMethods, toSupport, toHome } from "./routes";
-import Button from "./button";
 import Image from "next/image";
 import LogoSvg from "../../public/logo.svg";
+import JPButton from "./JPButton";
 
 const Footer = () => {
   return (
@@ -34,8 +34,8 @@ const Footer = () => {
         </div>
         <div className="flex flex-col gap-4">
           <h6 className="">Get the app</h6>
-          <Button label="get the app app" />
-          <Button label="get the app app" />
+          <JPButton label="get the app app" />
+          <JPButton label="get the app app" />
         </div>
       </div>
       <div className="mt-12 py-6 border-t border-gray-500">
