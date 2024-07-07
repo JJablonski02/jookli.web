@@ -5,6 +5,7 @@ import "../styles/globals.css";
 import { cn } from "@/lib/utils";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Providers from "./providers/providers";
 
 export const metadata: Metadata = {
   title: "JoyProfits",
@@ -19,10 +20,12 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Navbar />
-        {children}
-        <div></div>
-        <Footer />
+        <Providers>
+          <Navbar />
+          {children}
+          <div></div>
+          <Footer />
+        </Providers>
       </body>
     </html>
   );
