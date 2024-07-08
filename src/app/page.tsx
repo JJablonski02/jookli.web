@@ -2,6 +2,8 @@ import FaqSection from "@/components/FaqSection/Faq";
 import JPButton from "@/components/JPButton";
 import Image from "next/image";
 import Header from "@/components/Header";
+import WCSSection from "@/components/WCSSection/WCSSection";
+import SectionWithImage from "@/components/SectionWithImage/SectionWithImage";
 
 export default function Home() {
   return (
@@ -30,8 +32,8 @@ export default function Home() {
         </div>
       </div>
       <section>{/* appinfo */}</section>
-      <section>{/* mc */}</section>
-      <section>{/* wcl */}</section>
+      <SectionWithImage />
+      <WCSSection />
       <FaqSection />
     </>
   );
