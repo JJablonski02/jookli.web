@@ -7,7 +7,7 @@ const Header = () => {
     <header className="mx-8 mt-14">
       <div className="px-6 grid place-items-center grid-cols-2">
         <div>
-          <h1 className="text-5xl text-primary">
+          <h1 className="text-5xl">
             Lorem ipsum <br /> dolor sit amet.
           </h1>
           <p className="mt-10 text-xl font-semibold">
