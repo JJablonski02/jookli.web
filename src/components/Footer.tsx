@@ -8,15 +8,19 @@ import JPButton from "./JPButton";
 const Footer = () => {
   return (
     <footer className="mt-20 px-20  bg-secondary ">
-      <div className="flex justify-between items-center">
-        <div>
+      <div className="flex justify-between items-center pt-4">
+        <div className="">
           <div className="w-fit">
-            {/* poprawić link image aby klikalo się tylko na image */}
             <Link href="/">
-              <Image src={LogoSvg} alt="Logo jookli website" width={100} />
+              <Image
+                className="my-4"
+                src={LogoSvg}
+                alt="Logo jookli website"
+                width={100}
+              />
             </Link>
           </div>
-          <p className="mb-8">Test</p>
+          <p className="text-black mb-8">Test</p>
           <ul className="flex items-center justify-start gap-4 pt-5 ">
             <li>
               <Link href={toHome}>Strona główna</Link>
@@ -39,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="mt-12 py-6 border-t border-gray-500">
-        <p>© 2024 by ...</p>
+        <p className="text-black">© 2024 by ...</p>
       </div>
     </footer>
   );
