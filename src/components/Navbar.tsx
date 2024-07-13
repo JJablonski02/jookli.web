@@ -14,12 +14,12 @@ import JPButton from "./JPButton";
 
 const Navbar = () => {
   return (
-    <nav className="sticky z-[100] h-14 inset-x-0 top-0 w-full border-b border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
+    <nav className="sticky z-[100] h-[96px] inset-x-0 top-0 w-full border-b border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
       <WidthWrapper>
-        <div className="flex h-14 items-center justify-between border-b border-zinc-200">
-          <div className="w-48">
+        <div className="flex h-[96px] items-center justify-between border-b border-zinc-200">
+          <div className="w-72 min-w-32">
             <Link className="" href="/">
-              <Image src={LogoSvg} alt="Logo jookli website" />
+              <Image className="" src={LogoSvg} alt="Logo jookli website" />
             </Link>
           </div>
           <ul className="flex gap-4 items-center justify-between px-5">
