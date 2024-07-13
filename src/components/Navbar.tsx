@@ -16,7 +16,7 @@ const Navbar = () => {
   return (
     <nav className="sticky z-[100] h-[96px] inset-x-0 top-0 w-full border-b border-gray-200 bg-white/75 backdrop-blur-lg transition-all">
       <WidthWrapper>
-        <div className="flex h-[96px] items-center justify-between border-b border-zinc-200">
+        <div className="flex h-[96px] max-w-7xl mx-auto items-center justify-between">
           <div className="w-72 min-w-32">
             <Link className="" href="/">
               <Image className="" src={LogoSvg} alt="Logo jookli website" />
