@@ -4,10 +4,10 @@ import { InfoData } from "./InfoData";
 
 const InfoSection = () => {
   return (
-    <WidthWrapper>
-      <section className="my-12 flex justify-center items-center flex-col text-center">
-        <div>
-          <div>
+    <section>
+      <WidthWrapper>
+        <div className="my-12">
+          <div className="text-center flex justify-center items-center flex-col">
             <p className="text-primary font-PoppinsSemiBold">app info</p>
             <h2>Lorem, ipsum dolor.</h2>
             <p>
@@ -26,8 +26,8 @@ const InfoSection = () => {
             ))}
           </div>
         </div>
-      </section>
-    </WidthWrapper>
+      </WidthWrapper>
+    </section>
   );
 };
 

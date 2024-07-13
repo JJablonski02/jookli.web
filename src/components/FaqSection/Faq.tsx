@@ -4,8 +4,8 @@ import WidthWrapper from "../WidthWrapper";
 
 const FaqSection = () => {
   return (
-    <WidthWrapper>
-      <section>
+    <section>
+      <WidthWrapper>
         <div className="flex justify-center flex-col items-center text-center py-10 ">
           <div className="">
             <h2 className="text-5xl">FAQ</h2>
@@ -20,8 +20,8 @@ const FaqSection = () => {
             ))}
           </div>
         </div>
-      </section>
-    </WidthWrapper>
+      </WidthWrapper>
+    </section>
   );
 };
 

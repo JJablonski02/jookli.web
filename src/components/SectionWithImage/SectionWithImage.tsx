@@ -8,8 +8,8 @@ import { dataSection } from "./dataSection";
 
 const SectionWithImage = () => {
   return (
-    <WidthWrapper>
-      <section>
+    <section>
+      <WidthWrapper>
         <div className="py-20 m-10 grid place-items-center grid-cols-2 text-center">
           <Image src={logo} alt="Home Image" width={400} height={500} />
           <div>
@@ -31,8 +31,8 @@ const SectionWithImage = () => {
             </div>
           </div>
         </div>
-      </section>
-    </WidthWrapper>
+      </WidthWrapper>
+    </section>
   );
 };
 
