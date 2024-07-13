@@ -16,7 +16,7 @@ const InfoSection = () => {
               deserunt sed distinctio!
             </p>
           </div>
-          <div className="grid grid-cols-2 grid-row pt-8 gap-4 place-items-start">
+          <div className="grid grid-cols-2 grid-row pt-8 gap-4 place-items-start md:flex lg:flex-col md:items-start">
             {InfoData.map((data) => (
               <div className="">
                 {/* svg */}
