@@ -4,6 +4,7 @@ import "../styles/globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Providers from "./providers/providers";
+import NavBarUi from "@/components/NavBarUi";
 
 export const metadata: Metadata = {
   title: "JoyProfits",
@@ -19,7 +20,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Providers>
-          <Navbar />
+          {/* <Navbar /> */}
+          <NavBarUi />
           {children}
           <Footer />
         </Providers>
