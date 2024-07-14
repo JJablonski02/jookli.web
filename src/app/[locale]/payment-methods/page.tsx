@@ -6,7 +6,7 @@ import React from "react";
 const PaymentMethods = () => {
 
   //Przykład użycia
-  //W pliku json budujemy strukturę tak by odseparować tłumaczenia dla każdego ekranu z osobna. Komponenty możesz 
+  //W pliku json [locales/pl.json] budujemy strukturę tak by odseparować tłumaczenia dla każdego ekranu z osobna. Komponenty możesz 
   // odseparować wspólnie jako Components.
   //Jak chcesz sprawdzić działanie tego to w pomieniasz link : http://localhost:3000/payment-methods na http://localhost:3000/en lub http://localhost:3000/pl.
   //wtedy jak wejdziesz na tę stronę to zawartość strony będzie ładowana w innym języku. 
