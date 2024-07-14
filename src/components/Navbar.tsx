@@ -7,7 +7,7 @@ import {
   toHowItWorks,
   toPaymentMethods,
   toSignIn,
-  toSignUp,
+  toRegister,
   toSupport,
   toHome,
 } from "./routes";
@@ -39,7 +39,7 @@ const Navbar = () => {
             </li>
           </ul>
           <div className="h-full flex items-center gap-4">
-            <Link href={toSignUp}>
+            <Link href={toRegister}>
               <JPButton label="Zarejestruj" />
             </Link>
             <Link href={toSignIn}>

@@ -17,7 +17,7 @@ import {
   toHowItWorks,
   toPaymentMethods,
   toSignIn,
-  toSignUp,
+  toRegister,
   toSupport,
 } from "./routes";
 import LogoSvg from "../../public/logo.svg";
@@ -65,7 +65,7 @@ const NavBarUi = () => {
       </NavbarContent>
       <NavbarContent justify="end" className="text-black  ml-4 lg:hidden">
         <NavbarItem>
-          <Button as={Link} href={toSignUp} variant="flat">
+          <Button as={Link} href={toRegister} variant="flat">
             Zarejestruj
           </Button>
         </NavbarItem>

@@ -12,8 +12,8 @@ const FaqSection = () => {
             <p className="text-xl pt-4">random paragraph</p>
           </div>
           <div className="grid grid-cols-3 gap-20 mt-10 md:flex md:flex-col ">
-            {FaqData.map((data) => (
-              <div className="text-start">
+            {FaqData.map((data, index) => (
+              <div key={index} className="text-start">
                 <h3 className="text-xl">{data.header}</h3>
                 <p className="pt-6 "> {data.content}</p>
               </div>

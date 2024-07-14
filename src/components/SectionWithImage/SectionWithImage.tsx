@@ -24,8 +24,8 @@ const SectionWithImage = () => {
               </p>
             </div>
             <div className="grid grid-cols-2 grid-row pt-8 gap-4 place-items-start">
-              {dataSection.map((data) => (
-                <div className="">
+              {dataSection.map((data, index) => (
+                <div key={index} className="">
                   <h3>{data.header}</h3>
                   <p>{data.content}</p>
                 </div>

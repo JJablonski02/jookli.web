@@ -19,8 +19,8 @@ const WCSSection = () => {
           </div>
           <div>
             <div className="p-8 flex justify-center flex-row gap-8 md:flex-col md:gap-16">
-              {WCSData.map((data) => (
-                <div className="w-48">
+              {WCSData.map((data, index) => (
+                <div key={index} className="w-48">
                   <div className="">{data.img}</div>
                   <h6>{data.name}</h6>
                   <p>{data.proffesion}</p>

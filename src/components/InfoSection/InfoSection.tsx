@@ -17,8 +17,8 @@ const InfoSection = () => {
             </p>
           </div>
           <div className="grid grid-cols-2 grid-row pt-8 gap-4 place-items-start md:flex lg:flex-col md:items-start">
-            {InfoData.map((data) => (
-              <div className="">
+            {InfoData.map((data, index) => (
+              <div key={index} className="">
                 {/* svg */}
                 <h3>{data.header}</h3>
                 <p>{data.content}</p>
