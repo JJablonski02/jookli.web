@@ -40,16 +40,16 @@ const NavBarUi = () => {
       <NavbarContent>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Zamknij menu" : "Otwórz menu"}
-          className="hidden md:block"
+          className="hidden lg:block"
         ></NavbarMenuToggle>
-        <NavbarBrand className="min-w-[150px] mx-6 md:hidden">
+        <NavbarBrand className="min-w-[100px] max-w-[150px] mx-6">
           <Link href="/">
             <Image src={LogoSvg} alt="Logo jookli website" />
           </Link>
         </NavbarBrand>
       </NavbarContent>
 
-      <NavbarContent className="flex gap-4 md:hidden" justify="center">
+      <NavbarContent className="flex gap-4 lg:hidden" justify="center">
         <NavbarItem>
           <Link href={toHome}>Strona główna</Link>
         </NavbarItem>
@@ -63,7 +63,7 @@ const NavBarUi = () => {
           <Link href={toSupport}>Wsparcie</Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarContent justify="end" className="text-black  ml-4 md:hidden">
+      <NavbarContent justify="end" className="text-black  ml-4 lg:hidden">
         <NavbarItem>
           <Button as={Link} href={toSignUp} variant="flat">
             Zarejestruj
