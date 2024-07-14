@@ -10,7 +10,7 @@ const SectionWithImage = () => {
   return (
     <section>
       <WidthWrapper>
-        <div className="py-10 m-10 grid place-items-center grid-cols-2 text-center md:flex md:flex-col">
+        <div className="py-10 m-10 grid place-items-center grid-cols-2 text-center md:flex md:flex-col gap-4">
           <div className="md:mb-10">
             <Image src={logo} alt="Home Image" width={400} height={500} />
           </div>
