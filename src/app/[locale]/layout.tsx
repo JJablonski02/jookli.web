@@ -5,6 +5,8 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import NavBarUi from "@/components/NavBarUi";
 import Providers from "../../providers/providers";
+import { getMessages, unstable_setRequestLocale } from "next-intl/server";
+import { NextIntlClientProvider } from "next-intl";
 
 export const metadata: Metadata = {
   title: "JoyProfits",
@@ -18,21 +20,27 @@ interface RootLayoutProps {
   };
 }
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
   params: {
     locale
   }
 }: Readonly<RootLayoutProps>) {
+
+  unstable_setRequestLocale(locale);
+  const messages = await getMessages();
+
   return (
     <html lang={locale}>
       <body>
+      <NextIntlClientProvider messages={messages}>
         <Providers>
           {/* <Navbar /> */}
           <NavBarUi />
           {children}
           <Footer />
         </Providers>
+        </NextIntlClientProvider>
       </body>
     </html>
   );

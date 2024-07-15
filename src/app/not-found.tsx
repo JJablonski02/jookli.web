@@ -1,11 +1,13 @@
 'use client';
 
+import Error from 'next/error';
 //TODO Jps-21
 export default function NotFound() {
+
   return (
-    <html>
-      <body className='text-center'>
-        <h1 className='mt-10 font-semibold'>Something went wrong!</h1>
+    <html lang="en">
+      <body>
+          <Error statusCode={404} />
       </body>
     </html>
   );

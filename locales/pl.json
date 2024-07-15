@@ -1,5 +1,23 @@
 {
     "PaymentMethods" : {
         "title" : "Metody płatności"
+    },
+    "NotFoundPage" : {
+        "pageNotFound" : "Page not found",
+        "pageNotFoundDescription" : "Strona, której szukasz, nie istnieje. Jak się tu dostałeś, pozostaje tajemnicą. Możesz jednak kliknąć poniższy przycisk, aby wrócić do strony głównej."
+    },
+    "Captions" : {
+      "signIn" : "Zaloguj",
+      "register" : "Zarejestruj",
+      "mainPage" : "Strona główna",
+      "howItWorks" : "Na czym to polega",
+      "paymentMethods" : "Metody zarabiania",
+      "support" : "Wsparcie"
+    },
+    "Messages" : {
+
+    }, 
+    "Errors" : {
+
     }
 }
