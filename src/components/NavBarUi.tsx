@@ -22,63 +22,65 @@ import {
 } from "./routes";
 import LogoSvg from "../../public/logo.svg";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 const NavBarUi = () => {
+  const t = useTranslations('Captions');
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
-    "Strona główna",
-    "Na czym to polega",
-    "Metody zarabiania",
-    "Wsparcie",
-    "Zarejestruj",
-    "Zaloguj",
+    "mainPage",
+    "howItWorks",
+    "paymentMethods",
+    "suppport",
+    "register",
+    "signIn",
   ];
 
   return (
-    <Navbar onMenuOpenChange={setIsMenuOpen}>
-      <NavbarContent>
-        <NavbarMenuToggle
-          aria-label={isMenuOpen ? "Zamknij menu" : "Otwórz menu"}
-          className="hidden lg:block"
-        ></NavbarMenuToggle>
-        <NavbarBrand className="min-w-[100px] max-w-[150px] mx-6">
+    <Navbar className="h-[100px] lg:h-[70px] max-w-[1920px] mx-auto" onMenuOpenChange={setIsMenuOpen} maxWidth='full'>
+      <NavbarContent className="flex justify-start items-center">
+        <NavbarBrand className="max-w-[170px] min-w-[170px]">
           <Link href="/">
             <Image src={LogoSvg} alt="Logo jookli website" />
           </Link>
         </NavbarBrand>
+        <NavbarMenuToggle
+          aria-label={isMenuOpen ? "Zamknij menu" : "Otwórz menu"}
+          className="hidden lg:block ml-auto"
+        ></NavbarMenuToggle>
       </NavbarContent>
 
-      <NavbarContent className="flex gap-4 lg:hidden" justify="center">
+      <NavbarContent className="flex lg:hidden gap-10">
         <NavbarItem>
-          <Link href={toHome}>Strona główna</Link>
+          <Link href={toHome}>{t('mainPage')}</Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href={toHowItWorks}>Na czym to polega</Link>
+          <Link href={toHowItWorks}>{t('howItWorks')}</Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href={toPaymentMethods}>Metody zarabiania</Link>
+          <Link href={toPaymentMethods}>{t('paymentMethods')}</Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href={toSupport}>Wsparcie</Link>
+          <Link href={toSupport}>{t('support')}</Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarContent justify="end" className="text-black  ml-4 lg:hidden">
+      <NavbarContent className="ml-4 lg:hidden" justify="end">
         <NavbarItem>
           <Button as={Link} href={toRegister} variant="flat">
-            Zarejestruj
+            {t('register')}
           </Button>
         </NavbarItem>
         <NavbarItem>
           <Button as={Link} href={toSignIn} variant="flat">
-            Zaloguj
+            {t('signIn')}
           </Button>
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (
           <NavbarMenuItem key={`${item}-${index}`}>
-            <Link>{item}</Link>
+            <Link>{t(`${item}`)}</Link>
           </NavbarMenuItem>
         ))}
       </NavbarMenu>

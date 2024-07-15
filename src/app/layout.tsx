@@ -5,7 +5,7 @@ interface RootLayoutProps {
 }
 
 const RootLayout: React.FC<RootLayoutProps> = ({ children }) => {
-  return <>{children}</>;
+return <>{children}</>;
 };
 
 export default RootLayout;

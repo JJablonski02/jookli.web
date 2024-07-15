@@ -3,6 +3,7 @@ import Image from "next/image";
 import JPButton from "./JPButton";
 
 const Header = () => {
+
   return (
     <header className="mx-8 mt-14">
       <div className="px-6 flex justify-between items-center md:flex-col">
