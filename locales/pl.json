@@ -1,4 +1,9 @@
 {
+    "SignIn": {
+        "title" : "Logowanie",
+        "email" : "Adres e-mail",
+        "password" : "Hasło"
+    },
     "PaymentMethods" : {
         "title" : "Metody płatności"
     },
