@@ -25,7 +25,7 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 const NavBarUi = () => {
-  const t = useTranslations('Captions');
+  const t = useTranslations("Captions");
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems = [
@@ -38,7 +38,11 @@ const NavBarUi = () => {
   ];
 
   return (
-    <Navbar className="h-[100px] lg:h-[70px] max-w-[1920px] mx-auto" onMenuOpenChange={setIsMenuOpen} maxWidth='full'>
+    <Navbar
+      className="bg-secondary h-[100px] lg:h-[70px] max-w-[1920px] mx-auto"
+      onMenuOpenChange={setIsMenuOpen}
+      maxWidth="full"
+    >
       <NavbarContent className="flex justify-start items-center">
         <NavbarBrand className="max-w-[170px] min-w-[170px]">
           <Link href="/">
@@ -53,27 +57,37 @@ const NavBarUi = () => {
 
       <NavbarContent className="flex lg:hidden gap-10">
         <NavbarItem>
-          <Link href={toHome}>{t('mainPage')}</Link>
+          <Link href={toHome}>{t("mainPage")}</Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href={toHowItWorks}>{t('howItWorks')}</Link>
+          <Link href={toHowItWorks}>{t("howItWorks")}</Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href={toPaymentMethods}>{t('paymentMethods')}</Link>
+          <Link href={toPaymentMethods}>{t("paymentMethods")}</Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href={toSupport}>{t('support')}</Link>
+          <Link href={toSupport}>{t("support")}</Link>
         </NavbarItem>
       </NavbarContent>
       <NavbarContent className="ml-4 lg:hidden" justify="end">
         <NavbarItem>
-          <Button as={Link} href={toRegister} variant="flat">
-            {t('register')}
+          <Button
+            className="text-primary bg-blue"
+            radius="full"
+            as={Link}
+            href={toRegister}
+          >
+            {t("register")}
           </Button>
         </NavbarItem>
         <NavbarItem>
-          <Button as={Link} href={toSignIn} variant="flat">
-            {t('signIn')}
+          <Button
+            className="text-primary bg-blue"
+            radius="full"
+            as={Link}
+            href={toSignIn}
+          >
+            {t("signIn")}
           </Button>
         </NavbarItem>
       </NavbarContent>
