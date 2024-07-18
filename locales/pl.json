@@ -1,4 +1,8 @@
 {
+    "Header": {
+        "headerDescription": "Zdobywaj nagrody i pieniądze w wolnym czasie!",
+        "downloadApp": "Pobierz aplikację"
+    },
     "SignIn": {
         "title" : "Logowanie",
         "email" : "Email",
