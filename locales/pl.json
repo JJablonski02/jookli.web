@@ -1,8 +1,10 @@
 {
     "SignIn": {
         "title" : "Logowanie",
-        "email" : "Adres e-mail",
-        "password" : "Hasło"
+        "email" : "Email",
+        "emailPlaceholder" : "Email",
+        "password" : "Hasło",
+        "logIn": "Zaloguj"
     },
     "PaymentMethods" : {
         "title" : "Metody płatności"
