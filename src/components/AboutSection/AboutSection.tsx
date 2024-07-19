@@ -1,23 +1,25 @@
 import React from "react";
 import WidthWrapper from "../WidthWrapper";
-import { InfoData } from "./InfoData";
+import { AboutData } from "./AboutData";
+import { useTranslations } from "next-intl";
 
-const InfoSection = () => {
+const AboutSection = () => {
+  const t = useTranslations("AboutSection");
+
   return (
     <section>
       <WidthWrapper>
         <div className="my-12">
           <div className="text-center flex justify-center items-center flex-col">
-            <p className="text-primary font-PoppinsSemiBold">app info</p>
-            <h2>Lorem, ipsum dolor.</h2>
-            <p>
+            <p className="text-primary font-PoppinsSemiBold"></p>
+            <h2 className="text-3xl">{t("headerDescription")}</h2>
+            <p className="w-1/3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
-              voluptatem architecto omnis. Temporibus itaque quas optio, aut
-              deserunt sed distinctio!
+              voluptatem architecto omnis.
             </p>
           </div>
           <div className="grid grid-cols-2 grid-row pt-8 gap-4 place-items-start md:flex lg:flex-col md:items-start">
-            {InfoData.map((data, index) => (
+            {AboutData.map((data, index) => (
               <div key={index} className="">
                 {/* svg */}
                 <h3>{data.header}</h3>
@@ -31,4 +33,4 @@ const InfoSection = () => {
   );
 };
 
-export default InfoSection;
+export default AboutSection;

@@ -1,4 +1,4 @@
-export const InfoData = [
+export const AboutData = [
   {
     header: "header",
     content: "content",
