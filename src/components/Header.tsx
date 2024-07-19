@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import { Button, Link } from "@nextui-org/react";
 import { useTranslations } from "next-intl";
+import JPDownloadButton from "./JPDownloadButton";
 
 const Header = () => {
   const t = useTranslations("Header");
@@ -16,14 +17,7 @@ const Header = () => {
             Consectetur, nulla.
           </p>
           <div className="flex gap-4 mt-4">
-            <Button
-              className="text-primary bg-blue"
-              radius="full"
-              as={Link}
-              href=""
-            >
-              {t("downloadApp")}
-            </Button>
+            <JPDownloadButton className="text-primary bg-blue" />
           </div>
         </div>
         <div>
