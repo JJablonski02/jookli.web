@@ -1,4 +1,7 @@
 {
+    "JPDownloadButton": {
+        "downloadApp": "Pobierz aplikację"
+    },
     "AboutSection": {
         "headerDescription": "O JoyProfits",
         "paragraphDescription": "lorem ipsum dolor sit amet, consectetur adip"
@@ -13,12 +16,10 @@
         "secondTileDescription": "second tile , consectetur adip",
         "thirdTileescription": "thgird tile consectetur adip",
         "fourthTileDescription": "fourth tile, consectetur adip",
-        "fifthTileDescription": "fiftg  tile, consectetur adip",
-        "downloadApp": "Pobierz aplikację"
+        "fifthTileDescription": "fiftg  tile, consectetur adip"
     },
     "Header": {
-        "headerDescription": "Zdobywaj nagrody i pieniądze w wolnym czasie!",
-        "downloadApp": "Pobierz aplikację"
+        "headerDescription": "Zdobywaj nagrody i pieniądze w wolnym czasie!"
     },
     "SignIn": {
         "title" : "Logowanie",
