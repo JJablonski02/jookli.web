@@ -1,6 +1,20 @@
 {
     "AboutSection": {
-        "headerDescription": "O JoyProfits"
+        "headerDescription": "O JoyProfits",
+        "paragraphDescription": "lorem ipsum dolor sit amet, consectetur adip"
+    },
+    "AboutSectionTiles": {
+        "firstTileHeader": "GRAJ I ZARABIAJ",
+        "secondTileHeader": "APLIKACJA IOS & ANDROID",
+        "thirdTileHeader": "WYKRESY HANDLOWE",
+        "fourthTileHeader": "100% BEZPIECZEŃSTWA",
+        "fifthTileHeader": "ZWROT",
+        "firstTileDescription": "first tile consectetur adip",
+        "secondTileDescription": "second tile , consectetur adip",
+        "thirdTileescription": "thgird tile consectetur adip",
+        "fourthTileDescription": "fourth tile, consectetur adip",
+        "fifthTileDescription": "fiftg  tile, consectetur adip",
+        "downloadApp": "Pobierz aplikację"
     },
     "Header": {
         "headerDescription": "Zdobywaj nagrody i pieniądze w wolnym czasie!",
