@@ -1,4 +1,3 @@
-"use client";
 import React from "react";
 import WidthWrapper from "../WidthWrapper";
 import { useTranslations } from "next-intl";
