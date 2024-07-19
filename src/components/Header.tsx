@@ -11,7 +11,7 @@ const Header = () => {
       <div className="px-6 flex justify-between items-center md:flex-col">
         <div className="md:mb-10">
           <h1 className="text-5xl w-1/2">{t("headerDescription")}</h1>
-          <p className="mt-10 text-xl font-semibold w-3/4">
+          <p className="mt-10 text-xl font-semibold w-1/2">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
             Consectetur, nulla.
           </p>
