@@ -32,7 +32,7 @@ const NavBarUi = () => {
     "mainPage",
     "howItWorks",
     "paymentMethods",
-    "suppport",
+    "support",
     "register",
     "signIn",
   ];
