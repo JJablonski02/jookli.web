@@ -1,4 +1,9 @@
-{
+{   
+    "SectionWithImage": {
+        "headerDescription": "lorem ipsum dolor sit amet, consectetur adipiscing",
+        "paragraphDescription":"lorem ipsum dolor sit amet, consectetur adip"
+
+    },
     "JPDownloadButton": {
         "downloadApp": "Pobierz aplikację"
     },
