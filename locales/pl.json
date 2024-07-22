@@ -1,8 +1,18 @@
 {   
+    "WCSSection": {
+        "headerDescription": "Co mówią nasi klienci?"
+    },
     "SectionWithImage": {
         "headerDescription": "lorem ipsum dolor sit amet, consectetur adipiscing",
-        "paragraphDescription":"lorem ipsum dolor sit amet, consectetur adip"
+        "paragraphDescription":"lorem ipsum dolor sit amet, consectetur adip",
+        "analitics": "Analityka",
+        "cashback": "Zwroty",
+        "transactionsDescription": "Szybkie i bezpieczne transakcje"
 
+    },
+    "SectionImageBlueBg": {
+        "headerDescription": "Odkryj nieskończone możliwości dzięki JoyProfits",
+        "paragraphDescription": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feugiat nulla suspendisse tortor aene."
     },
     "JPDownloadButton": {
         "downloadApp": "Pobierz aplikację"
@@ -46,7 +56,9 @@
       "mainPage" : "Strona główna",
       "howItWorks" : "Na czym to polega",
       "paymentMethods" : "Metody zarabiania",
-      "support" : "Wsparcie"
+      "support" : "Wsparcie",
+      "downloadApp" : "Pobierz aplikację",
+      "appDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Incidunt, veniam"
     },
     "Messages" : {
 
