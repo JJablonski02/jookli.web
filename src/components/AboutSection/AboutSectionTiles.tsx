@@ -3,7 +3,7 @@ import React from "react";
 import sidewaysArrows from "../../../public/sidewaysArrows.svg";
 import tradingChart from "../../../public/tradingChart.svg";
 import wallet from "../../../public/wallet.svg";
-import arrowsCircle from "../../../public/arrowsCircle.svg";
+import circleArrows from "../../../public/circleArrows.svg";
 import { useTranslations } from "next-intl";
 import WhiteTile from "./WhiteTile";
 import BlueTile from "./BlueTile";
@@ -40,7 +40,7 @@ const AboutSectionTiles = () => {
           content={t("fourthTileDescription")}
         />
         <WhiteTile
-          src={arrowsCircle}
+          src={circleArrows}
           alt="Arrows circle icon"
           header={t("fifthTileHeader")}
           content={t("fifthTileDescription")}
