@@ -4,47 +4,63 @@ import { toHowItWorks, toPaymentMethods, toSupport, toHome } from "./routes";
 import Image from "next/image";
 import LogoSvg from "../../public/logo.svg";
 import JPButton from "./JPButton";
+import { useTranslations } from "next-intl";
 
 const Footer = () => {
+  const t = useTranslations("Captions");
+
   return (
     <footer className="mt-20 px-20 bg-secondary">
       <div className="max-w-7xl mx-auto ">
-        <div className="flex justify-between items-center pt-4 md:flex-col lg:justify-around ">
+        <div className="w-fit">
+          <Link href="/">
+            <Image
+              className="mb-20 mt-4"
+              src={LogoSvg}
+              alt="Logo jookli website"
+              width={200}
+            />
+          </Link>
+        </div>
+        <div className="flex justify-between md:flex-col lg:justify-around ">
           <div className="">
-            <div className="w-fit">
-              <Link href="/">
-                <Image
-                  className="my-4"
-                  src={LogoSvg}
-                  alt="Logo jookli website"
-                  width={100}
-                />
-              </Link>
-            </div>
-            <p className="text-black mb-8">Test</p>
-            <ul className="flex items-center justify-start gap-4 pt-5 lg:flex-col lg:items-start md:items-center md:mb-10 ">
+            <p className="text-primary pb-6 border-b-[1px] border-primary w-72">
+              MENU
+            </p>
+            <ul className="text-primary text-sm flex items-start justify-start flex-col gap-4 pt-5 md:items-center md:mb-10 ">
               <li>
-                <Link href={toHome}>Strona główna</Link>
+                <Link href={toHome}>{t("mainPage")}</Link>
               </li>
               <li>
-                <Link href={toHowItWorks}>Na czym to polega</Link>
+                <Link href={toHowItWorks}>{t("howItWorks")}</Link>
               </li>
               <li>
-                <Link href={toPaymentMethods}>Metody zarabiania</Link>
+                <Link href={toPaymentMethods}>{t("paymentMethods")}</Link>
               </li>
               <li>
-                <Link href={toSupport}>Wsparcie</Link>
+                <Link href={toSupport}>{t("support")}</Link>
               </li>
             </ul>
           </div>
-          <div className="flex flex-col gap-4">
-            <h6 className="">Get the app</h6>
-            <JPButton label="get the app app" />
-            <JPButton label="get the app app" />
+          <div className="flex flex-col bg-gray rounded-3xl py-[44px] pl-[34px] pr-[54px] w-2/5">
+            <div className="">
+              <p>{t("downloadApp")}</p>
+              <p className="mt-4">{t("appDescription")}</p>
+            </div>
+            <div className="flex flex-row gap-4 mt-6">
+              <JPButton
+                className="text-primary bg-blue rounded-3xl"
+                label="App Store"
+              />
+              <JPButton
+                className="text-primary bg-blue rounded-3xl"
+                label="Play Store"
+              />
+            </div>
           </div>
         </div>
-        <div className="mt-12 py-6 border-t border-gray-500">
-          <p className="text-black">© 2024 by ...</p>
+        <div className="mt-6 py-6 border-t border-gray-500">
+          <p className="text-primary">All rights reserved</p>
         </div>
       </div>
     </footer>
