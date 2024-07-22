@@ -1,9 +1,10 @@
 import FaqSection from "@/components/FaqSection/Faq";
 import Header from "@/components/Header";
 import WCSSection from "@/components/WCSSection/WCSSection";
-import SectionWithImage from "@/components/SectionWithImage/SectionWithImage";
+import SectionWithImage from "@/components/SectionWithImage";
 import PageWrapper from "@/components/PageWrapper";
 import AboutSection from "@/components/AboutSection/AboutSection";
+import SectionImageBlueBg from "@/components/SectionImageBlueBg";
 
 export default function Home() {
   return (
@@ -12,9 +13,9 @@ export default function Home() {
         <Header />
         <AboutSection />
         <SectionWithImage />
-        {/* <SectionWithImage /> musi zostac w  komponencie zmieniony tekst z obrazkiem  */}
+        <SectionImageBlueBg />
         <WCSSection />
-        <FaqSection /> {/* zmienic grida i dodac div wraz z tekstem*/}
+        {/* <FaqSection /> zmienic grida i dodac div wraz z tekstem */}
       </PageWrapper>
     </>
   );
