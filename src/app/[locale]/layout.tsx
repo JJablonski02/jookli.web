@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import '../../styles/globals.css'
+import "../../styles/globals.css";
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 };
 
 interface RootLayoutProps {
-  children: React.ReactNode,
+  children: React.ReactNode;
   params: {
     locale: string;
   };
@@ -22,24 +22,21 @@ interface RootLayoutProps {
 
 export default async function RootLayout({
   children,
-  params: {
-    locale
-  }
+  params: { locale },
 }: Readonly<RootLayoutProps>) {
-
   unstable_setRequestLocale(locale);
   const messages = await getMessages();
 
   return (
     <html lang={locale}>
-      <body>
-      <NextIntlClientProvider messages={messages}>
-        <Providers>
-          {/* <Navbar /> */}
-          <NavBarUi />
-          {children}
-          <Footer />
-        </Providers>
+      <body className="bg-secondary">
+        <NextIntlClientProvider messages={messages}>
+          <Providers>
+            {/* <Navbar /> */}
+            <NavBarUi />
+            {children}
+            <Footer />
+          </Providers>
         </NextIntlClientProvider>
       </body>
     </html>

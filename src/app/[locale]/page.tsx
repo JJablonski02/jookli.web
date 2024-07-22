@@ -1,26 +1,21 @@
 import FaqSection from "@/components/FaqSection/Faq";
 import Header from "@/components/Header";
 import WCSSection from "@/components/WCSSection/WCSSection";
-import SectionWithImage from "@/components/SectionWithImage/SectionWithImage";
-import InfoSection from "@/components/InfoSection/InfoSection";
-import BannerVideo from "@/components/BannerVideo";
-import TextContainer from "@/components/TextContainer";
+import SectionWithImage from "@/components/SectionWithImage";
 import PageWrapper from "@/components/PageWrapper";
+import AboutSection from "@/components/AboutSection/AboutSection";
+import SectionImageBlueBg from "@/components/SectionImageBlueBg";
 
 export default function Home() {
   return (
     <>
       <PageWrapper>
         <Header />
-        <TextContainer
-          header="header"
-          content="content Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet, maiores."
-        />
-        <BannerVideo />
-        <InfoSection />
+        <AboutSection />
         <SectionWithImage />
+        <SectionImageBlueBg />
         <WCSSection />
-        <FaqSection />
+        {/* <FaqSection /> zmienic grida i dodac div wraz z tekstem */}
       </PageWrapper>
     </>
   );

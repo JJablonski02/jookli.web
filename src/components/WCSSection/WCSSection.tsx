@@ -1,34 +1,33 @@
 import React from "react";
 import WidthWrapper from "../WidthWrapper";
 import { WCSData } from "./WCSData";
+import { useTranslations } from "next-intl";
+import JPDownloadButton from "../JPDownloadButton";
 
 const WCSSection = () => {
+  const t = useTranslations("WCSSection");
+
   return (
     <section>
       <WidthWrapper>
-        <div className="my-12 flex justify-center items-center flex-col text-center">
-          <div className="pb-14">
-            <div className="mb-10">svg avatar</div>
-            <h2 className="text-4xl font-PoppinsSemiBold pb-4">
-              What Client Says
+        <div className="my-36 flex justify-center items-center flex-col text-center">
+          <div className=" flex flex-row justify-evenly items-center w-full">
+            <h2 className="text-4xl font-PoppinsSemiBold">
+              {t("headerDescription")}
             </h2>
-            <p className="text-xl">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
-              sapiente.
-            </p>
+            <JPDownloadButton className="text-primary bg-blue" />
           </div>
-          <div>
-            <div className="p-8 flex justify-center flex-row gap-8 md:flex-col md:gap-16">
-              {WCSData.map((data, index) => (
-                <div key={index} className="w-48">
-                  <div className="">{data.img}</div>
-                  <h6>{data.name}</h6>
-                  <p>{data.proffesion}</p>
-                  <p>{data.content}</p>
-                </div>
-              ))}
-            </div>
+          <div className="p-8 flex justify-center flex-row gap-8 text-blue md:flex-col md:gap-16">
+            {WCSData.map((data, index) => (
+              <div key={index} className="w-48 bg-white rounded-xl">
+                <h6>{data.name}</h6>
+                <div className="">{data.img}</div>
+                <p>{data.proffesion}</p>
+                <p>{data.content}</p>
+              </div>
+            ))}
           </div>
+          <div className="">paggination wrzuucic z nextui</div>
         </div>
       </WidthWrapper>
     </section>
