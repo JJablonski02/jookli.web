@@ -12,15 +12,20 @@ const Footer = () => {
   return (
     <footer className="mt-20 px-20 bg-secondary">
       <div className="max-w-7xl mx-auto ">
-        <div className="w-fit">
+        <div className="flex justify-between w-full mb-20 mt-4">
           <Link href="/">
             <Image
-              className="mb-20 mt-4"
+              className=""
               src={LogoSvg}
               alt="Logo jookli website"
               width={200}
             />
           </Link>
+          <div className="text-primary flex flex-row gap-4">
+            <div className="">icon</div>
+            <div className="">icon</div>
+            <div className="">icon</div>
+          </div>
         </div>
         <div className="flex justify-between md:flex-col lg:justify-around ">
           <div className="">
