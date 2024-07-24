@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import "../../styles/globals.css";
 
-import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import NavBarUi from "@/components/NavBarUi";
 import Providers from "../../providers/providers";
@@ -32,7 +31,6 @@ export default async function RootLayout({
       <body className="bg-secondary">
         <NextIntlClientProvider messages={messages}>
           <Providers>
-            {/* <Navbar /> */}
             <NavBarUi />
             {children}
             <Footer />
