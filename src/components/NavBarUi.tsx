@@ -25,11 +25,10 @@ import Image from "next/image";
 import { useTranslations } from "next-intl";
 import JPButton from "./JPButton";
 
-
 type MenuItem = {
-  label: string,
-  route: string,
-}
+  label: string;
+  route: string;
+};
 
 const NavBarUi = () => {
   const t = useTranslations("Captions");
@@ -37,11 +36,11 @@ const NavBarUi = () => {
 
   const menuItems: MenuItem[] = [
     { label: "mainPage", route: toHome },
-    { label: "howItWorks", route: toHowItWorks},
+    { label: "howItWorks", route: toHowItWorks },
     { label: "paymentMethods", route: toPaymentMethods },
     { label: "support", route: toSupport },
     { label: "register", route: toRegister },
-    { label: "signIn", route: toSignIn},
+    { label: "signIn", route: toSignIn },
   ];
 
   return (
@@ -58,7 +57,7 @@ const NavBarUi = () => {
         </NavbarBrand>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Zamknij menu" : "Otwórz menu"}
-          className="hidden lg:block ml-auto"
+          className="text-primary hidden lg:block ml-auto"
         ></NavbarMenuToggle>
       </NavbarContent>
 
@@ -78,29 +77,19 @@ const NavBarUi = () => {
       </NavbarContent>
       <NavbarContent className="ml-4 lg:hidden" justify="end">
         <NavbarItem>
-          <Button
-            className="text-primary bg-blue"
-            radius="full"
-            as={Link}
-            href={toRegister}
-          >
-            {t("register")}
-          </Button>
+          <Link href={toRegister}>
+            <JPButton className="bg-blue rounded-full" label={t("register")} />
+          </Link>
         </NavbarItem>
         <NavbarItem>
-          <Button
-            className="text-primary bg-blue"
-            radius="full"
-            as={Link}
-            href={toSignIn}
-          >
-            {t("signIn")}
-          </Button>
+          <Link href={toSignIn}>
+            <JPButton className="bg-blue rounded-full" label={t("signIn")} />
+          </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu>
+      <NavbarMenu className="bg-secondary text-center text-3xl font-PoppinsSemiBold mt-8">
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item.label}-${index}`}>
+          <NavbarMenuItem className="p-2" key={`${item.label}-${index}`}>
             <Link href={item.route}>{t(`${item.label}`)}</Link>
           </NavbarMenuItem>
         ))}
