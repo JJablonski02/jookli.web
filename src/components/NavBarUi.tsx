@@ -23,18 +23,25 @@ import {
 import LogoSvg from "../../public/logo.svg";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import JPButton from "./JPButton";
+
+
+type MenuItem = {
+  label: string,
+  route: string,
+}
 
 const NavBarUi = () => {
   const t = useTranslations("Captions");
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const menuItems = [
-    "mainPage",
-    "howItWorks",
-    "paymentMethods",
-    "support",
-    "register",
-    "signIn",
+  const menuItems: MenuItem[] = [
+    { label: "mainPage", route: toHome },
+    { label: "howItWorks", route: toHowItWorks},
+    { label: "paymentMethods", route: toPaymentMethods },
+    { label: "support", route: toSupport },
+    { label: "register", route: toRegister },
+    { label: "signIn", route: toSignIn},
   ];
 
   return (
@@ -93,8 +100,8 @@ const NavBarUi = () => {
       </NavbarContent>
       <NavbarMenu>
         {menuItems.map((item, index) => (
-          <NavbarMenuItem key={`${item}-${index}`}>
-            <Link>{t(`${item}`)}</Link>
+          <NavbarMenuItem key={`${item.label}-${index}`}>
+            <Link href={item.route}>{t(`${item.label}`)}</Link>
           </NavbarMenuItem>
         ))}
       </NavbarMenu>
