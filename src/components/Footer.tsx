@@ -5,6 +5,9 @@ import Image from "next/image";
 import LogoSvg from "../../public/logo.svg";
 import JPButton from "./JPButton";
 import { useTranslations } from "next-intl";
+import instagramIcon from "../../public/instagram.svg";
+import linkedInIcon from "../../public/linkedIn.svg";
+import facebookIcon from "../../public/facebook.svg";
 
 const Footer = () => {
   const t = useTranslations("Captions");
@@ -22,9 +25,15 @@ const Footer = () => {
             />
           </Link>
           <div className="text-primary flex flex-row gap-4">
-            <div className="">icon</div>
-            <div className="">icon</div>
-            <div className="">icon</div>
+            <Link href="">
+              <Image src={instagramIcon} alt="instagram icon" />
+            </Link>
+            <Link href="">
+              <Image src={facebookIcon} alt="facebook icon" />
+            </Link>
+            <Link href="">
+              <Image src={linkedInIcon} alt="linkedIn icon" />
+            </Link>
           </div>
         </div>
         <div className="flex justify-between md:flex-col lg:justify-around ">
@@ -49,16 +58,20 @@ const Footer = () => {
           </div>
           <div className="flex flex-col bg-gray rounded-3xl py-[44px] pl-[34px] pr-[54px] w-2/5">
             <div className="">
-              <p>{t("downloadApp")}</p>
+              <p className="font-PoppinsSemiBold text-lg">{t("downloadApp")}</p>
               <p className="mt-4">{t("appDescription")}</p>
             </div>
             <div className="flex flex-row gap-4 mt-6">
               <JPButton
-                className="text-primary bg-blue rounded-3xl"
+                imageType="appStore"
+                alt="appStore icon"
+                className="text-primary bg-blue rounded-3xl flex flex-row gap-2"
                 label="App Store"
               />
               <JPButton
-                className="text-primary bg-blue rounded-3xl"
+                imageType="playStore"
+                alt="playStore icon"
+                className="text-primary bg-blue rounded-3xl flex flex-row gap-2"
                 label="Play Store"
               />
             </div>
