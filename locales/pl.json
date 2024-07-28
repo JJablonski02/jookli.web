@@ -1,4 +1,11 @@
-{   
+{
+    "DownloadSection": {
+        "paragraphDescription":"lorem ipsum doloripsum dolor sit amet, consectetur sit amet, consectetur adip",
+        "headerDescription":"Pobierz naszą aplikację",
+        "tileHeader": "Pobierz na {appName}",
+        "leftTileDescription":"lorem ipsum dolor sit amet, consectlorem ipsum dolor sit amet, consect",
+        "rightTileDescription":"lorem ipsum dolor sit amet, consectlorem ipsum dolor sit amet, consect"
+    },
     "WCSSection": {
         "headerDescription": "Co mówią nasi klienci?"
     },
