@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import { Button, Link } from "@nextui-org/react";
 import { useTranslations } from "next-intl";
 import JPDownloadButton from "./JPDownloadButton";
 

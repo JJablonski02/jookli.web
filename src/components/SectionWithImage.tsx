@@ -1,9 +1,7 @@
 import React from "react";
 import Image from "next/image";
-
 import WidthWrapper from "./WidthWrapper";
 import { useTranslations } from "next-intl";
-
 import analitics from "../../public/analitics.svg";
 import lightning from "../../public/lightning.svg";
 import shoppingCart from "../../public/shoppingCart.svg";
