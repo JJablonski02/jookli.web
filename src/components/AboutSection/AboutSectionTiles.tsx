@@ -13,25 +13,25 @@ const AboutSectionTiles = () => {
   const t = useTranslations("AboutSectionTiles");
 
   return (
-    <div className="w-3/4 mx-auto">
-      <div className="grid grid-cols-3 grid-rows-2 pt-8 gap-4 place-items-center md:flex lg:flex-col md:items-start">
+    <div className="w-4/5 mx-auto lg:w-full">
+      <div className="grid grid-cols-3 grid-rows-2 pt-8 gap-4 place-items-center md:flex md:flex-col md:items-start">
         <WhiteTile
           src={sidewaysArrows}
           alt="Arrows icon"
           header={t("firstTileHeader")}
           content={t("firstTileDescription")}
         />
-        <BlueTile
-          src={sidewaysArrows} // do zmiany obraz
-          alt="Phone image"
-          header={t("secondTileHeader")}
-          content={t("secondTileDescription")}
-        />
         <WhiteTile
           src={tradingChart}
           alt="Trading chart icon"
           header={t("thirdTileHeader")}
           content={t("thirdTileescription")}
+        />
+        <BlueTile
+          src={sidewaysArrows} // do zmiany obraz
+          alt="Phone image"
+          header={t("secondTileHeader")}
+          content={t("secondTileDescription")}
         />
         <WhiteTile
           src={wallet}
@@ -46,8 +46,8 @@ const AboutSectionTiles = () => {
           content={t("fifthTileDescription")}
         />
       </div>
-      <div className="flex justify-center items-center">
-        <JPDownloadButton className="text-primary bg-blue mt-10" />
+      <div className="flex justify-center items-center lg:mx-auto lg:w-3/5 lg:block ">
+        <JPDownloadButton className="text-primary bg-blue mt-10 lg:mt-14 lg:w-full lg:h-14" />
       </div>
     </div>
   );
