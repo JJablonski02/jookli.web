@@ -10,7 +10,6 @@ import {
   NavbarMenu,
   NavbarMenuItem,
   Link,
-  Button,
 } from "@nextui-org/react";
 import {
   toHome,
@@ -57,7 +56,7 @@ const NavBarUi = () => {
         </NavbarBrand>
         <NavbarMenuToggle
           aria-label={isMenuOpen ? "Zamknij menu" : "Otwórz menu"}
-          className="text-primary hidden lg:block ml-auto"
+          className="text-primary hidden lg:block lg:h-[35px] ml-auto"
         ></NavbarMenuToggle>
       </NavbarContent>
 
