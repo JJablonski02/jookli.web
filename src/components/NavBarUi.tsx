@@ -86,7 +86,7 @@ const NavBarUi = () => {
           </Link>
         </NavbarItem>
       </NavbarContent>
-      <NavbarMenu className="bg-secondary text-center text-3xl font-PoppinsSemiBold mt-8">
+      <NavbarMenu className="bg-secondary text-center text-3xl font-PoppinsSemiBold pt-8">
         {menuItems.map((item, index) => (
           <NavbarMenuItem className="p-2" key={`${item.label}-${index}`}>
             <Link href={item.route}>{t(`${item.label}`)}</Link>
