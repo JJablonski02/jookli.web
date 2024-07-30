@@ -9,12 +9,14 @@ const DownloadSection = () => {
   return (
     <section>
       <WidthWrapper>
-        <div className="mx-20">
-          <div className="mb-8 flex flex-row justify-between">
-            <h2 className="text-3xl">{t("headerDescription")}</h2>
-            <p className="text-sm w-1/3">{t("paragraphDescription")}</p>
+        <div className="mx-20 md:mx-0">
+          <div className="mb-8 flex flex-row justify-between md:flex-col md:items-start">
+            <h2 className="text-3xl md:pb-4">{t("headerDescription")}</h2>
+            <p className="text-sm w-1/3 md:w-4/5">
+              {t("paragraphDescription")}
+            </p>
           </div>
-          <div className="grid grid-cols-2 gap-8">
+          <div className="flex md:flex-col gap-8">
             <Tile
               header={t("tileHeader", { appName: "iOS" })}
               description={t("leftTileDescription")}
@@ -22,7 +24,7 @@ const DownloadSection = () => {
                 <JPButton
                   imageType="appStore"
                   alt="appStore icon"
-                  className="text-primary bg-blue rounded-3xl flex flex-row gap-2"
+                  className="text-primary bg-blue rounded-full flex flex-row gap-2 md:h-14 md:w-1/2"
                   label="App Store"
                 />
               }
@@ -34,7 +36,7 @@ const DownloadSection = () => {
                 <JPButton
                   imageType="playStore"
                   alt="playStore icon"
-                  className="text-primary bg-blue rounded-3xl flex flex-row gap-2"
+                  className="text-primary bg-blue rounded-full flex flex-row gap-2 md:h-14 md:w-1/2"
                   label="Play Store"
                 />
               }
