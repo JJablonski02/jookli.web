@@ -13,7 +13,7 @@ const SectionImageBlueBg = () => {
         <div className="py-10 m-10 flex justify-evenly items-center text-center md:flex md:flex-col gap-4">
           <div>
             <div className="flex justify-start md:items-center flex-col w-3/4 md:w-full">
-              <h2 className="text-xl text-primary text-start">
+              <h2 className="text-xl text-primary text-start md:text-center">
                 {t("headerDescription")}
               </h2>
               <p className="mt-10 text-start md:text-center font-semibold">
