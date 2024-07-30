@@ -11,11 +11,11 @@ const WCSSection = () => {
     <section>
       <WidthWrapper>
         <div className="my-36 flex justify-center items-center flex-col text-center">
-          <div className=" flex flex-row justify-evenly items-center w-full">
+          <div className=" flex flex-row justify-evenly items-center w-full md:flex-col md:gap-4">
             <h2 className="text-4xl font-PoppinsSemiBold">
               {t("headerDescription")}
             </h2>
-            <JPDownloadButton className="text-primary bg-blue" />
+            <JPDownloadButton className="text-primary bg-blue md:h-14 md:w-4/5" />
           </div>
           <div className="p-8 flex justify-center flex-row gap-8 text-blue md:flex-col md:gap-16">
             {WCSData.map((data, index) => (
