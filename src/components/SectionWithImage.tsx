@@ -12,7 +12,7 @@ const SectionWithImage = () => {
   return (
     <section>
       <WidthWrapper>
-        <div className="mx-10 my-16 lg:mt-10 mb-20 flex justify-evenly items-center md:flex md:flex-col gap-4 text-start">
+        <div className="mx-10 my-16 lg:mt-10 mb-20 lg:mx-0 flex justify-evenly items-center md:flex md:flex-col gap-4 text-start">
           <div className="md:mb-10">
             <Image src={logo} alt="logo svg" width={400} height={500} />
           </div>
