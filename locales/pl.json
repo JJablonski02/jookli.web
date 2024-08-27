@@ -1,21 +1,20 @@
 {
     "DownloadSection": {
-        "paragraphDescription":"lorem ipsum doloripsum dolor sit amet, consectetur sit amet, consectetur adip",
-        "headerDescription":"Pobierz naszą aplikację",
+        "paragraphDescription": "lorem ipsum doloripsum dolor sit amet, consectetur sit amet, consectetur adip",
+        "headerDescription": "Pobierz naszą aplikację",
         "tileHeader": "Pobierz na {appName}",
-        "leftTileDescription":"lorem ipsum dolor sit amet, consectlorem ipsum dolor sit amet, consect",
-        "rightTileDescription":"lorem ipsum dolor sit amet, consectlorem ipsum dolor sit amet, consect"
+        "leftTileDescription": "lorem ipsum dolor sit amet, consectlorem ipsum dolor sit amet, consect",
+        "rightTileDescription": "lorem ipsum dolor sit amet, consectlorem ipsum dolor sit amet, consect"
     },
     "WCSSection": {
         "headerDescription": "Co mówią nasi klienci?"
     },
-    "SectionWithImage": {
-        "headerDescription": "lorem ipsum dolor sit amet, consectetur adipiscing",
-        "paragraphDescription":"lorem ipsum dolor sit amet, consectetur adip",
+    "HowItWorksSection": {
+        "headerDescription": "Jak to działa",
+        "paragraphDescription": "Podejmując się prostych zadań, masz możliwość zdobycia do 3000 złotych miesięcznie, bez ukrytych opłat czy dodatkowych podatków. Co więcej, Twoje zarobki nie mają górnej granicy – to ty decydujesz, ile chcesz zarobić.Dzięki JoyProfits możesz zarabiać w dowolny sposób",
         "analitics": "Analityka",
         "cashback": "Zwroty",
         "transactionsDescription": "Szybkie i bezpieczne transakcje"
-
     },
     "SectionImageBlueBg": {
         "headerDescription": "Odkryj nieskończone możliwości dzięki JoyProfits",
@@ -25,52 +24,48 @@
         "downloadApp": "Pobierz aplikację"
     },
     "AboutSection": {
-        "headerDescription": "O JoyProfits",
-        "paragraphDescription": "lorem ipsum dolor sit amet, consectetur adip"
+        "headerDescription": "O JoyProfits"
     },
     "AboutSectionTiles": {
-        "firstTileHeader": "GRAJ I ZARABIAJ",
-        "secondTileHeader": "APLIKACJA IOS & ANDROID",
-        "thirdTileHeader": "WYKRESY HANDLOWE",
+        "firstTileHeader": "GRANIE I ZARABIANIE",
+        "secondTileHeader": "IOS & ANDROID APLIKACJA",
+        "thirdTileHeader": "ANALIZA ZAROBKÓW",
         "fourthTileHeader": "100% BEZPIECZEŃSTWA",
-        "fifthTileHeader": "ZWROT",
-        "firstTileDescription": "first tile consectetur adip",
-        "secondTileDescription": "second tile , consectetur adip",
-        "thirdTileescription": "thgird tile consectetur adip",
-        "fourthTileDescription": "fourth tile, consectetur adip",
-        "fifthTileDescription": "fiftg  tile, consectetur adip"
+        "fifthTileHeader": "ZWROTY GOTÓWKI",
+        "firstTileDescription": "Graj w swoje ulubione gry i zarabiaj dzięki zdobywaniu osiągnięć! Odkryj nowe możliwości i przekształć każdą rozgrywkę w źródło dochodu.",
+        "secondTileDescription": "Odkryj naszą aplikację dostępną na iOS i Androidzie! Pobierz już teraz i zacznij korzystać z możliwości jakie oferujemy!",
+        "thirdTileescription": "Dzięki analityce masz pełną kontrolę nad swoimi zarobkami, śledząc i analizując każdy aspekt swoich dochodów.",
+        "fourthTileDescription": "Wypłacaj zarobione pieniądze w prosty i bezpieczny sposób, bezpośrednio na swoje konto bankowe lub konto PayPal.",
+        "fifthTileDescription": "Dokonując zakupów u naszych partnerów, możesz cieszyć się zwrotami gotówki na każde zakupy. Zyskaj dodatkowe korzyści i oszczędności, korzystając z naszej sieci partnerów."
     },
     "Header": {
-        "headerDescription": "Zdobywaj nagrody i pieniądze w wolnym czasie!"
+        "headerDescription": "Zdobywaj nagrody i zarabiaj pieniądze w wolnym czasie!",
+        "headerParagraph": "Pobierz aplikację i zacznij zarabiać gdziekolwiek i kiedykolwiek!"
     },
     "SignIn": {
-        "title" : "Logowanie",
-        "email" : "Email",
-        "emailPlaceholder" : "Email",
-        "password" : "Hasło",
+        "title": "Logowanie",
+        "email": "Email",
+        "emailPlaceholder": "Email",
+        "password": "Hasło",
         "logIn": "Zaloguj"
     },
-    "PaymentMethods" : {
-        "title" : "Metody płatności"
+    "PaymentMethods": {
+        "title": "Metody płatności"
     },
-    "NotFoundPage" : {
-        "pageNotFound" : "Page not found",
-        "pageNotFoundDescription" : "Strona, której szukasz, nie istnieje. Jak się tu dostałeś, pozostaje tajemnicą. Możesz jednak kliknąć poniższy przycisk, aby wrócić do strony głównej."
+    "NotFoundPage": {
+        "pageNotFound": "Page not found",
+        "pageNotFoundDescription": "Strona, której szukasz, nie istnieje. Jak się tu dostałeś, pozostaje tajemnicą. Możesz jednak kliknąć poniższy przycisk, aby wrócić do strony głównej."
     },
-    "Captions" : {
-      "signIn" : "Zaloguj",
-      "register" : "Zarejestruj",
-      "mainPage" : "Strona główna",
-      "howItWorks" : "Na czym to polega",
-      "paymentMethods" : "Metody zarabiania",
-      "support" : "Wsparcie",
-      "downloadApp" : "Pobierz aplikację",
-      "appDescription" : "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Incidunt, veniam"
+    "Captions": {
+        "signIn": "Zaloguj",
+        "register": "Zarejestruj",
+        "mainPage": "Strona główna",
+        "howItWorks": "Na czym to polega",
+        "paymentMethods": "Metody zarabiania",
+        "support": "Wsparcie",
+        "downloadApp": "Pobierz aplikację",
+        "appDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Incidunt, veniam"
     },
-    "Messages" : {
-
-    }, 
-    "Errors" : {
-
-    }
+    "Messages": {},
+    "Errors": {}
 }
