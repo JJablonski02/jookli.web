@@ -1,23 +1,22 @@
 "use client";
 import React from "react";
-import sidewaysArrows from "../../../public/sidewaysArrows.svg";
+import gameController from "../../../public/gameController.svg";
 import tradingChart from "../../../public/tradingChart.svg";
 import wallet from "../../../public/wallet.svg";
-import circleArrows from "../../../public/circleArrows.svg";
 import { useTranslations } from "next-intl";
 import WhiteTile from "./WhiteTile";
 import BlueTile from "./BlueTile";
-import JPDownloadButton from "../JPDownloadButton";
+import securityIcon from "../../../public/securityIcon.svg";
 
 const AboutSectionTiles = () => {
   const t = useTranslations("AboutSectionTiles");
 
   return (
-    <div className="w-4/5 mx-auto lg:w-full">
-      <div className="grid grid-cols-3 grid-rows-2 pt-8 gap-4 place-items-center md:flex md:flex-col md:items-start">
+    <div className="w-[95%] mx-auto lg:w-full">
+      <div className="grid grid-cols-3 grid-rows-2 pt-8 gap-6 place-items-center md:flex md:flex-col md:items-start">
         <WhiteTile
-          src={sidewaysArrows}
-          alt="Arrows icon"
+          src={gameController}
+          alt="Game Controller icon"
           header={t("firstTileHeader")}
           content={t("firstTileDescription")}
         />
@@ -28,26 +27,21 @@ const AboutSectionTiles = () => {
           content={t("thirdTileescription")}
         />
         <BlueTile
-          src={sidewaysArrows} // do zmiany obraz
-          alt="Phone image"
           header={t("secondTileHeader")}
           content={t("secondTileDescription")}
         />
         <WhiteTile
-          src={wallet}
+          src={securityIcon}
           alt="Wallet icon"
           header={t("fourthTileHeader")}
           content={t("fourthTileDescription")}
         />
         <WhiteTile
-          src={circleArrows}
+          src={wallet}
           alt="Arrows circle icon"
           header={t("fifthTileHeader")}
           content={t("fifthTileDescription")}
         />
-      </div>
-      <div className="flex justify-center items-center lg:mx-auto lg:w-3/5 lg:block ">
-        <JPDownloadButton className="text-primary bg-blue mt-10 lg:mt-14 lg:w-full lg:h-14" />
       </div>
     </div>
   );

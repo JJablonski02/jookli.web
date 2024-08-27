@@ -1,21 +1,21 @@
 import Image from "next/image";
 import React from "react";
+import phoneImage from "../../../public/phoneImageBlueBG.png";
 
 interface BlueTileProps {
-  src: string;
-  alt: string;
   header: string;
   content: string;
 }
 
-const BlueTile: React.FC<BlueTileProps> = ({ header, content, src, alt }) => {
+const BlueTile: React.FC<BlueTileProps> = ({ header, content }) => {
   return (
-    <div className="w-full h-full bg-blue rounded-[40px] row-start-1 row-end-3 col-start-2">
-      <div className="flex flex-col flex-start m-6 py-2">
+    <div className="w-full h-full bg-blue rounded-[40px] row-start-1 row-end-3 col-start-2 overflow-hidden">
+      <div className="text-center flex flex-col flex-start m-6 py-2 gap-4 relative">
         <h3>{header}</h3>
         <p>{content}</p>
-        <div className="flex justify-center">
-          <Image src={src} alt={alt} width={50} />
+        <div className="flex justify-center md:hidden ">
+          <Image className="absolute"
+            src={phoneImage} alt="Phone image" width={400} height={800} />
         </div>
       </div>
     </div>
