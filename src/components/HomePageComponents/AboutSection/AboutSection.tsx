@@ -1,5 +1,5 @@
 import React from "react";
-import WidthWrapper from "../WidthWrapper";
+import WidthWrapper from "../../WidthWrapper";
 import { useTranslations } from "next-intl";
 import AboutSectionTiles from "./AboutSectionTiles";
 

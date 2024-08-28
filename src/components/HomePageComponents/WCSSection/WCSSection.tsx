@@ -1,8 +1,8 @@
 import React from "react";
-import WidthWrapper from "../WidthWrapper";
+import WidthWrapper from "../../WidthWrapper";
 import { WCSData } from "./WCSData";
 import { useTranslations } from "next-intl";
-import JPDownloadButton from "../JPDownloadButton";
+import JPDownloadButton from "../../JPDownloadButton";
 
 const WCSSection = () => {
   const t = useTranslations("WCSSection");
@@ -15,7 +15,7 @@ const WCSSection = () => {
             <h2 className="text-4xl font-PoppinsSemiBold">
               {t("headerDescription")}
             </h2>
-            <JPDownloadButton className="text-primary bg-blue md:h-14 md:w-4/5" />
+            <JPDownloadButton className="text-primary p-6 bg-blue md:h-14 md:w-4/5" />
           </div>
           <div className="p-8 flex justify-center flex-row gap-8 text-blue md:flex-col md:gap-16">
             {WCSData.map((data, index) => (

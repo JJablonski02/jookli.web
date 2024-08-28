@@ -1,12 +1,12 @@
 "use client";
 import React from "react";
-import gameController from "../../../public/gameController.svg";
-import tradingChart from "../../../public/tradingChart.svg";
-import wallet from "../../../public/wallet.svg";
+import gameController from "../../../../public/gameController.svg";
+import tradingChart from "../../../../public/tradingChart.svg";
+import wallet from "../../../../public/wallet.svg";
 import { useTranslations } from "next-intl";
 import WhiteTile from "./WhiteTile";
 import BlueTile from "./BlueTile";
-import securityIcon from "../../../public/securityIcon.svg";
+import securityIcon from "../../../../public/securityIcon.svg";
 
 const AboutSectionTiles = () => {
   const t = useTranslations("AboutSectionTiles");

@@ -24,7 +24,7 @@ const Footer = () => {
               width={200}
             />
           </Link>
-          <div className="text-primary flex flex-row gap-4">
+          <div className="text-primary flex flex-row items-center justify-center gap-4">
             <Link href="">
               <Image src={instagramIcon} alt="instagram icon" />
             </Link>

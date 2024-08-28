@@ -1,10 +1,13 @@
 import React from "react";
 import * as i from "next-intl"
+import PageWrapper from "@/components/PageWrapper";
+import DownloadSection from "@/components/HomePageComponents/DownloadSection/DownloadSection";
 
 const HowItWorks = () => {
 
-  console.error()
-  return <div><a>how it works</a></div>;
+  return <PageWrapper>
+    <DownloadSection/>
+  </PageWrapper>;
 };
 
 export default HowItWorks;

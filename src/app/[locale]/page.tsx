@@ -1,10 +1,10 @@
-import Header from "@/components/Header";
-import WCSSection from "@/components/WCSSection/WCSSection";
-import HowItWorksSection from "@/components/HowItWorksSection";
+import Header from "@/components/HomePageComponents/Header";
+import WCSSection from "@/components/HomePageComponents/WCSSection/WCSSection";
+import HowItWorksSection from "@/components/HomePageComponents/HowItWorksSection";
 import PageWrapper from "@/components/PageWrapper";
-import AboutSection from "@/components/AboutSection/AboutSection";
-import SectionImageBlueBg from "@/components/SectionImageBlueBg";
-import DownloadSection from "@/components/DownloadSection/DownloadSection";
+import AboutSection from "@/components/HomePageComponents/AboutSection/AboutSection";
+import SectionImageBlueBg from "@/components/HomePageComponents/SectionImageBlueBg";
+import DownloadSection from "@/components/HomePageComponents/DownloadSection/DownloadSection";
 
 export default function Home() {
   return (
@@ -12,8 +12,8 @@ export default function Home() {
       <Header />
       <AboutSection />
       <HowItWorksSection />
-      <SectionImageBlueBg />
       <WCSSection />
+      <SectionImageBlueBg />
       <DownloadSection />
     </PageWrapper>
   );
