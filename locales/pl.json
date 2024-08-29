@@ -84,7 +84,20 @@
         "StepTile": {
             "firstStep": "Krok 1",
             "secondStep": "Krok 2",
-            "thirdStep": "Krok 3"
+            "thirdStep": "Krok 3",
+            "firstTileHeader":"Rejestracja i konfiguracja konta",
+            "firstTileParagraph":"Proces rejestracji na JoyProfits jest szybki i prosty. Wystarczy podać podstawowe dane, zweryfikować swoje konto, a następnie zalogować się i skonfigurować profil.",
+            "firstTileExtraParagraph":"Po zalogowaniu, możesz skonfigurować swój profil, aby platforma mogła lepiej dostosować rekomendacje zarobkowe do twoich potrzeb.",
+            "secondTileHeader":"Wybór strategii zarobkowej i edukacja",
+            "secondTileParagraph":"JoyProfits oferuje różnorodne strategie zarabiania, takie jak marketing afiliacyjny, udział w programach partnerskich, granie w gry i wypełnianie ankiet. Możesz eksplorować dostępne opcje i wybrać te, które najlepiej odpowiadają twoim potrzebom.",
+            "secondTileExtraParagraph":"Aby zwiększyć swoje szanse na sukces, skorzystaj z licznych materiałów edukacyjnych dostępnych na platformie, takich jak kursy, webinary, artykuły i poradniki. Dodatkowo, masz dostęp do wsparcia technicznego oraz społeczności użytkowników, gdzie można dzielić się doświadczeniami i uzyskać pomoc.",
+            "thirdTileHeader": "Monitorowanie postępów, optymalizacja i wypłaty",
+            "thirdTileParagraph": "Platforma JoyProfits oferuje narzędzia analityczne do monitorowania wyników, co pozwala na identyfikację obszarów do poprawy i bieżącą optymalizację działań w celu maksymalizacji zysków.",
+            "thirdTileExtraParagraph": "Zarobione środki można łatwo wypłacić za pomocą różnych metod płatności, takich jak przelewy bankowe czy konto PayPal. Wypłaty są szybkie i bezpieczne, co zapewnia pełną kontrolę nad finansami."
+        },
+        "Header": {
+            "headerDescription": "Poznaj nowe sposoby zarabiania",
+            "headerParagraph": "Dzięki szerokiej gamie narzędzi i zasobów, każdy może znaleźć sposób na generowanie swoich dochodów."
         }
     },
      
