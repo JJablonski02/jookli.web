@@ -81,6 +81,12 @@
     },
 
     "howItWorksPage": {
+        "Header": {
+            "headerDescription": "Poznaj nowe sposoby zarabiania",
+            "headerParagraph": "Dzięki szerokiej gamie narzędzi i zasobów, każdy może znaleźć sposób na generowanie swoich dochodów.",
+            "downloadIos": "Pobierz Ios",
+            "downloadAndroid": "Pobierz Android"
+        },
         "StepTile": {
             "firstStep": "Krok 1",
             "secondStep": "Krok 2",
@@ -95,9 +101,9 @@
             "thirdTileParagraph": "Platforma JoyProfits oferuje narzędzia analityczne do monitorowania wyników, co pozwala na identyfikację obszarów do poprawy i bieżącą optymalizację działań w celu maksymalizacji zysków.",
             "thirdTileExtraParagraph": "Zarobione środki można łatwo wypłacić za pomocą różnych metod płatności, takich jak przelewy bankowe czy konto PayPal. Wypłaty są szybkie i bezpieczne, co zapewnia pełną kontrolę nad finansami."
         },
-        "Header": {
-            "headerDescription": "Poznaj nowe sposoby zarabiania",
-            "headerParagraph": "Dzięki szerokiej gamie narzędzi i zasobów, każdy może znaleźć sposób na generowanie swoich dochodów."
+        "Section": {
+            "header": "Jak to działa?"
+
         }
     },
      
