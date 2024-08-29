@@ -3,7 +3,7 @@ import WidthWrapper from "../WidthWrapper";
 import { useTranslations } from "next-intl";
 
 const SectionImageBlueBg = () => {
-  const t = useTranslations("SectionImageBlueBg");
+  const t = useTranslations("homePage.SectionImageBlueBg");
   return (
     <section className="bg-blue">
       <WidthWrapper>

@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import JPDownloadButton from "../../JPDownloadButton";
 
 const WCSSection = () => {
-  const t = useTranslations("WCSSection");
+  const t = useTranslations("homePage.WCSSection");
 
   return (
     <section>

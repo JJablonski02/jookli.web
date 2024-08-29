@@ -9,7 +9,7 @@ import BlueTile from "./BlueTile";
 import securityIcon from "../../../../public/securityIcon.svg";
 
 const AboutSectionTiles = () => {
-  const t = useTranslations("AboutSectionTiles");
+  const t = useTranslations("homePage.AboutSectionTiles");
 
   return (
     <div className="w-[95%] mx-auto lg:w-full">

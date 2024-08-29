@@ -30,7 +30,7 @@ type MenuItem = {
 };
 
 const NavBarUi = () => {
-  const t = useTranslations("Captions");
+  const t = useTranslations("globals.Captions");
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
   const menuItems: MenuItem[] = [

@@ -5,7 +5,7 @@ import JPDownloadButton from "../JPDownloadButton";
 import Image from "next/image";
 
 const Header = () => {
-  const t = useTranslations("Header");
+  const t = useTranslations("homePage.Header");
 
   return (
     <header className="mx-8 mt-14 md:mt-10 md:mx-2.5 relative">

@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import AboutSectionTiles from "./AboutSectionTiles";
 
 const AboutSection = () => {
-  const t = useTranslations("AboutSection");
+  const t = useTranslations("homePage.AboutSection");
 
   return (
     <section>

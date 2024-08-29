@@ -9,7 +9,7 @@ import shoppingCart from "../../../public/shoppingCart.svg";
 import phoneImage from "../../../public/phoneImage.png";
 
 const HowItWorksSection = () => {
-  const t = useTranslations("HowItWorksSection");
+  const t = useTranslations("homePage.HowItWorksSection");
   return (
     <section>
       <WidthWrapper>

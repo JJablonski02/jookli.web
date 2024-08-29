@@ -10,7 +10,7 @@ import linkedInIcon from "../../public/linkedIn.svg";
 import facebookIcon from "../../public/facebook.svg";
 
 const Footer = () => {
-  const t = useTranslations("Captions");
+  const t = useTranslations("globals.Captions");
 
   return (
     <footer className="mt-20 px-20 bg-secondary md:px-2.5">

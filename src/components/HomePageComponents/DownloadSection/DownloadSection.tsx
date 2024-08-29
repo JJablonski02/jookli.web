@@ -5,7 +5,7 @@ import Tile from "./Tile";
 import JPButton from "../../JPButton";
 
 const DownloadSection = () => {
-  const t = useTranslations("DownloadSection");
+  const t = useTranslations("homePage.DownloadSection");
   return (
     <section>
       <WidthWrapper>
