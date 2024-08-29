@@ -16,16 +16,16 @@ const StepTile: React.FC<StepTileProps> = ({header, paragraph,secondParagraph, s
   return (
     <section>
         <WidthWrapper>
-            <div className={`${className} flex flex-row justify-evenly items-center`}>
-                <div className="w-[300px] h-[300px] rounded-3xl bg-white flex items-center justify-center">
+            <div className={`${className} flex flex-row justify-between items-center mx-20 my-40`}>
+                <div className="lg:hidden w-[381px] h-[381px] rounded-3xl bg-white flex items-center justify-center">
                     {/* <Image src={image} alt={alt}/> */}
                     image
                 </div>
-                <div className="w-1/2">
+                <div className="w-3/5 flex flex-col lg:w-full lg:text-center lg:items-center">
                     <span className='text-blue text-3xl font-PoppinsMedium'>{step}</span>
-                    <h1 className='text-xl text-white'>{header}</h1>
-                    <p className='text-sm text-white'>{paragraph}</p>
-                    <p className='text-sm text-white'>{secondParagraph}</p>
+                    <h1 className='text-xl text-white mt-6'>{header}</h1>
+                    <p className='text-sm text-white mt-7'>{paragraph}</p>
+                    <p className='text-sm text-white mt-6'>{secondParagraph}</p>
                 </div>
             </div>
         </WidthWrapper>
