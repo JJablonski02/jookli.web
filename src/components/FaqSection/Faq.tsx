@@ -1,6 +1,6 @@
 import React from "react";
 import { FaqData } from "./FaqData";
-import WidthWrapper from "../../WidthWrapper";
+import WidthWrapper from "../WidthWrapper";
 
 const FaqSection = () => {
   return (
