@@ -6,7 +6,7 @@
             "register": "ZAREJESTRUJ",
             "mainPage": "STRONA GŁÓWNA",
             "howItWorks": "JAK TO DZIAŁA",
-            "paymentMethods": "ZARABIANIE",
+            "earnMethods": "ZARABIANIE",
             "support": "WSPARCIE",
             "downloadApp": "Pobierz aplikację",
             "appDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Incidunt, veniam"
@@ -33,7 +33,9 @@
     "homePage": {
         "Header": {
             "headerDescription": "Zdobywaj nagrody i zarabiaj pieniądze w wolnym czasie!",
-            "headerParagraph": "Pobierz aplikację i zacznij zarabiać gdziekolwiek i kiedykolwiek!"
+            "headerParagraph": "Pobierz aplikację i zacznij zarabiać gdziekolwiek i kiedykolwiek!",
+            "downloadIos": "Pobierz Ios",
+            "downloadAndroid": "Pobierz Android"
         },
 
         "DownloadSection": {
@@ -106,12 +108,19 @@
 
         }
     },
+
+    "EarnMethods": {
+        "Header": {
+            "headerDescription": "Tylko jedna aplikacja wiele możliwości! ",
+            "headerParagraph": "Zacznij zarabiać z JoyProfits w prosty i szybki sposób. Sprawdź już teraz jak wiele masz możliwości!",
+            "downloadIos": "Pobierz Ios",
+            "downloadAndroid": "Pobierz Android"
+        }
+    },
      
     "JPDownloadButton": {
         "downloadApp": "Pobierz aplikację"
-    },
-    
-    "PaymentMethods": {
-        "title": "Metody płatności"
     }
+    
+    
 }
