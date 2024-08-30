@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { toHowItWorks, toPaymentMethods, toSupport, toHome } from "./routes";
+import { toHowItWorks, toEarnMethods, toSupport, toHome } from "./routes";
 import Image from "next/image";
 import LogoSvg from "../../public/logo.svg";
 import JPButton from "./JPButton";
@@ -49,7 +49,7 @@ const Footer = () => {
                 <Link href={toHowItWorks}>{t("howItWorks")}</Link>
               </li>
               <li>
-                <Link href={toPaymentMethods}>{t("paymentMethods")}</Link>
+                <Link href={toEarnMethods}>{t("earnMethods")}</Link>
               </li>
               <li>
                 <Link href={toSupport}>{t("support")}</Link>
