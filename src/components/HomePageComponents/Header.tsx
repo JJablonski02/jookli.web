@@ -1,8 +1,8 @@
 import React from "react";
 import phoneImage from "../../../public/phoneImage.png";
 import { useTranslations } from "next-intl";
-import JPDownloadButton from "../JPDownloadButton";
 import Image from "next/image";
+import JPButton from "../JPButton";
 
 const Header = () => {
   const t = useTranslations("homePage.Header");
@@ -21,8 +21,15 @@ const Header = () => {
           <p className="mt-10 text-lg w-2/3 md:mt-6 md:w-full">
             {t('headerParagraph')}
           </p>
-          <div className="w-1/2 mt-8 md:mx-auto md:mt-8 md:w-10/12">
-            <JPDownloadButton className="md:w-full md:h-14 text-primary md:text-xl bg-blue" />
+          <div className="w-2/3 mt-8 md:mx-auto md:mt-8 md:w-10/12 flex justify-start gap-6">
+            <JPButton
+                  className="text-primary font-PoppinsMedium p-6 bg-blue rounded-full flex flex-row gap-2 md:h-14 md:w-1/2"
+                  label={t('downloadIos').toUpperCase()}
+              />
+            <JPButton
+                  className="text-primary font-PoppinsMedium p-6 bg-blue rounded-full flex flex-row gap-2 md:h-14 md:w-1/2"
+                  label={t('downloadAndroid').toUpperCase()}
+              />
           </div>
         </div>
         <div className="lg:hidden z-10 relative right-12">
