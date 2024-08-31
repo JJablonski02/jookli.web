@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+
+const {nextui} = require("@nextui-org/react");
+
 module.exports = {
   darkMode: ["class"],
   content: [
@@ -6,6 +9,7 @@ module.exports = {
     "./components/**/*.{ts,tsx}",
     "./app/**/*.{ts,tsx}",
     "./src/**/*.{ts,tsx}",
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
   ],
   prefix: "",
   theme: {
@@ -16,8 +20,28 @@ module.exports = {
         "2xl": "1400px",
       },
     },
+    screens: {
+      '2xl': {'max': '1535px'},
+      'xl': {'max': '1279px'},
+      'lg': {'max': '1120px'},
+      'md': {'max': '767px'},
+      'sm': {'max': '639px'},
+    },
+    darkMode: "class",
+    plugins: [nextui()],
     extend: {
+      fontFamily: {
+        PoppinsRegular : ['Poppins-Regular'],
+        PoppinsMedium : ['Poppins-Medium'],
+        PoppinsSemiBold: ['Poppins-SemiBold'],
+        PoppinsBold : ['Poppins-Bold'],
+        PoppinsExtraBold: ['Poppins-ExtraBold']
+      },
       colors: {
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
+        blue: "var(--blue)",
+        gray: "var(--gray)",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -35,14 +59,6 @@ module.exports = {
           500: "#606C80",
           600: "#2B3674",
           700: "#384262",
-        },
-        primary: {
-          DEFAULT: "hsl(var(--primary))",
-          foreground: "hsl(var(--primary-foreground))",
-        },
-        secondary: {
-          DEFAULT: "hsl(var(--secondary))",
-          foreground: "hsl(var(--secondary-foreground))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -64,9 +80,6 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-      },
-      fontFamily: {
-        IBMPlex: ["var(--font-ibm-plex)"],
       },
       backgroundImage: {
         "purple-gradient": "url('/assets/images/gradient-bg.svg')",

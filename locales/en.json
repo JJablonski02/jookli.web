@@ -1,0 +1,23 @@
+{
+    "PaymentMethods": {
+      "title": "Payment methods"
+    },
+    "NotFoundPage": {
+      "pageNotFound" : "Page not found",
+      "pageNotFoundDescription" : "The page you are looking for does not exist. How you got here remains a mystery. However, you can click the button below to return to the home page."
+    },
+    "Captions": {
+      "signIn": "Sign In",
+      "register": "Register",
+      "mainPage": "Main Page",
+      "howItWorks": "How It Works",
+      "paymentMethods" : "Payment methods",
+      "support": "Support"
+      },
+      "Messages": {
+
+      },
+      "Errors": {
+
+      }
+  }
