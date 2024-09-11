@@ -3,9 +3,10 @@ import WidthWrapper from "../../WidthWrapper";
 import { WCSData } from "./WCSData";
 import { useTranslations } from "next-intl";
 import JPDownloadButton from "../../JPDownloadButton";
+import Paggination from '@/components/HomePageComponents/WCSSection/test'
 
 const WCSSection = () => {
-  const t = useTranslations("homePage.WCSSection");
+  const t = useTranslations("HomePage.WCSSection");
 
   return (
     <section>
@@ -27,7 +28,9 @@ const WCSSection = () => {
               </div>
             ))}
           </div>
-          <div className="">paggination wrzuucic z nextui</div>
+          <div className="">
+            <Paggination/>
+          </div>
         </div>
       </WidthWrapper>
     </section>
