@@ -6,10 +6,10 @@ import smallGameController from '../../../public/smallGameController.svg';
 import documentSvg from '../../../public/document.svg';
 import videoSvg from '../../../public/video.svg';
 import shoppingCart from "../../../public/shoppingCart.svg";
-import phoneImage from "../../../public/phoneImage.png";
+import phoneImage from "../../../public/DashboardPhone.svg";
 
 const HowItWorksSection = () => {
-  const t = useTranslations("homePage.HowItWorksSection");
+  const t = useTranslations("HomePage.HowItWorksSection");
   return (
     <section>
       <WidthWrapper>

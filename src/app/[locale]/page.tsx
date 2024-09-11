@@ -1,4 +1,4 @@
-import Header from "@/components/HomePageComponents/Header";
+import HomePageHeader from "@/components/HomePageComponents/Header";
 import WCSSection from "@/components/HomePageComponents/WCSSection/WCSSection";
 import HowItWorksSection from "@/components/HomePageComponents/HowItWorksSection";
 import PageWrapper from "@/components/PageWrapper";
@@ -9,7 +9,7 @@ import DownloadSection from "@/components/HomePageComponents/DownloadSection/Dow
 export default function Home() {
   return (
     <PageWrapper>
-      <Header />
+      <HomePageHeader />
       <AboutSection />
       <HowItWorksSection />
       <WCSSection />

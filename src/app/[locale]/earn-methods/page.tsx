@@ -1,4 +1,4 @@
-import Header from "@/components/EarnMethodsComponent/Header";
+import EarnMethodsHeader from "@/components/EarnMethodsComponent/Header";
 import Section from "@/components/EarnMethodsComponent/Section";
 import DownloadSection from "@/components/HomePageComponents/DownloadSection/DownloadSection";
 import PageWrapper from "@/components/PageWrapper";
@@ -10,7 +10,7 @@ const EarnMethods = () => {
 
   return (
     <PageWrapper>
-      <Header/>
+      <EarnMethodsHeader/>
       <Section/>
       <DownloadSection/>
     </PageWrapper>
