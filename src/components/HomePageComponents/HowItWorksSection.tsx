@@ -6,7 +6,7 @@ import smallGameController from '../../../public/smallGameController.svg';
 import documentSvg from '../../../public/document.svg';
 import videoSvg from '../../../public/video.svg';
 import shoppingCart from "../../../public/shoppingCart.svg";
-import phoneImage from "../../../public/DashboardPhone.svg";
+import phoneImage from "../../../public/HiWphone.svg";
 
 const HowItWorksSection = () => {
   const t = useTranslations("HomePage.HowItWorksSection");
@@ -30,25 +30,25 @@ const HowItWorksSection = () => {
             <div className="flex flex-col pt-4 lg:pt-4 gap-4 place-items-start">
               <div className="flex justify-center items-center flex-row">
                 <div className="p-2 rounded-xl bg-blue mr-4">
-                  <Image src={smallGameController} alt="svg icon"/>
+                  <Image src={smallGameController} alt="svg icon" />
                 </div>
                 <p>{t("firstListDescription")}</p>
               </div>
               <div className="flex justify-center items-center flex-row">
                 <div className="p-2 rounded-xl bg-blue mr-4">
-                  <Image src={documentSvg} alt="svg icon"/>
+                  <Image src={documentSvg} alt="svg icon" />
                 </div>
                 <p>{t("secondListDescription")}</p>
               </div>
               <div className="flex justify-center items-center flex-row">
                 <div className="p-2 rounded-xl bg-blue mr-4">
-                  <Image src={videoSvg} alt="svg icon"/>
+                  <Image src={videoSvg} alt="svg icon" />
                 </div>
                 <p>{t("thirdListDescription")}</p>
               </div>
               <div className="flex justify-center items-center flex-row">
                 <div className="p-2 rounded-xl bg-blue mr-4">
-                  <Image src={shoppingCart} alt="svg icon"/>
+                  <Image src={shoppingCart} alt="svg icon" />
                 </div>
                 <p>{t("fourthListDescription")}</p>
               </div>
