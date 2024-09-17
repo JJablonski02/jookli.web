@@ -8,6 +8,19 @@
             "howItWorks": "JAK TO DZIAŁA",
             "earnMethods": "ZARABIANIE",
             "support": "WSPARCIE",
+            "platform": "PLATFORMA",
+            "menu": "MENU",
+            "company": "FIRMA",
+            "policy": "POLITYKA",
+            "blog": "BLOG",
+            "affilateProgram": "PROGRAM REFERENCYJNY",
+            "resources": "ZASOBY",
+            "policyPrivacy": "POLITYKA PRYWATNOŚCI",
+            "terms": "WARUNKI",
+            "copyright": "PRAWA AUTORSKIE",
+            "cookiePolicy": "POLITYKA COOKIE",
+            "adRules": "ZASADY REKLAMOWE",
+            "aboutUs": "O NAS",
             "downloadApp": "Pobierz aplikację",
             "appDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Incidunt, veniam"
         },
@@ -111,6 +124,15 @@
     "EarnMethods": {
         "Header": {
             "headerTitle": "Tylko jedna aplikacja wiele możliwości! ",
+            "headerParagraph": "Jesteśmy dumni z naszej społeczności użytkowników, którzy codziennie odkrywają nowe sposoby na zarabianie online.",
+            "downloadIos": "Pobierz Ios",
+            "downloadAndroid": "Pobierz Android"
+        }
+    },
+
+    "AboutUs": {
+        "Header": {
+            "headerTitle": "Poznaj bliżej twórców JoyProfits!",
             "headerParagraph": "Zacznij zarabiać z JoyProfits w prosty i szybki sposób. Sprawdź już teraz jak wiele masz możliwości!",
             "downloadIos": "Pobierz Ios",
             "downloadAndroid": "Pobierz Android"
