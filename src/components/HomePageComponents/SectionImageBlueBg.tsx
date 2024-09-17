@@ -12,7 +12,7 @@ const SectionImageBlueBg = () => {
               <h2 className="text-3xl text-primary text-start md:text-center">
                 {t("headerDescription")}
               </h2>
-              <p className="mt-10 text-start md:text-center">
+              <p className="mt-10 text-start w-2/3 md:text-center">
                 {t("paragraphDescription")}
               </p>
             </div>
