@@ -1,13 +1,13 @@
 import React from "react";
 import Link from "next/link";
-import { toHowItWorks, toEarnMethods, toSupport, toHome } from "./routes";
 import Image from "next/image";
-import LogoSvg from "../../public/logo.svg";
-import JPButton from "./JPButton";
+import LogoSvg from "../../../public/logo.svg";
+import JPButton from "../JPButton";
 import { useTranslations } from "next-intl";
-import instagramIcon from "../../public/instagram.svg";
-import linkedInIcon from "../../public/linkedIn.svg";
-import facebookIcon from "../../public/facebook.svg";
+import instagramIcon from "../../../public/instagram.svg";
+import linkedInIcon from "../../../public/linkedIn.svg";
+import facebookIcon from "../../../public/facebook.svg";
+import FooterLinks from "./FooterLinks";
 
 const Footer = () => {
   const t = useTranslations("globals.Captions");
@@ -36,28 +36,10 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="flex justify-between md:flex-col lg:justify-around ">
-          <div className="">
-            <p className="text-primary font-PoppinsSemiBold pb-6 border-b-[1px] border-primary w-72 md:w-full">
-              MENU
-            </p>
-            <ul className="text-primary text-sm flex items-start justify-start flex-col gap-4 pt-5 md:items-start md:mb-10 ">
-              <li>
-                <Link href={toHome}>{t("mainPage")}</Link>
-              </li>
-              <li>
-                <Link href={toHowItWorks}>{t("howItWorks")}</Link>
-              </li>
-              <li>
-                <Link href={toEarnMethods}>{t("earnMethods")}</Link>
-              </li>
-              <li>
-                <Link href={toSupport}>{t("support")}</Link>
-              </li>
-            </ul>
-          </div>
-          <div className="flex flex-col bg-gray rounded-3xl py-[44px] pl-[34px] pr-[54px] w-2/5 md:w-full">
-            <div className="">
+        <div className="flex flex-row justify-between items-center mb-10 lg:flex-col lg:gap-8 lg:justify-evenly ">
+          <FooterLinks />
+          <div className="flex flex-col bg-gray rounded-3xl py-[44px] pl-[34px] pr-[54px] w-2/5 lg:w-full">
+            <div>
               <p className="font-PoppinsSemiBold text-lg">{t("downloadApp")}</p>
               <p className="mt-4">{t("appDescription")}</p>
             </div>
