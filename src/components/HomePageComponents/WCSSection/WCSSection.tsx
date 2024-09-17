@@ -1,6 +1,4 @@
 import React from "react";
-import WidthWrapper from "../../WidthWrapper";
-import { WCSData } from "./WCSData";
 import { useTranslations } from "next-intl";
 import JPDownloadButton from "../../JPDownloadButton";
 import { EmblaCarousel } from "@/components/EmblaCarouselComponent/EmblaCarousel";
