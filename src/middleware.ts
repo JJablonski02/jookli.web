@@ -21,5 +21,14 @@ export const config = {
     '/support',
     '/register',
     '/sign-in',
+    '/about-us',
+    '/blog',
+    '/affilate',
+    '/resources',
+    '/policy-privacy',
+    '/terms',
+    '/copyright',
+    '/cookie-policy',
+    '/adveristment-rules',
   ]
 };
