@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import { Button } from "@nextui-org/react";
 import JPImage from "./JPImage";
+import { Button } from "@nextui-org/button";
 
 interface ButtonProps {
   imageType?: "playStore" | "appStore";

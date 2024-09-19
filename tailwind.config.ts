@@ -89,6 +89,11 @@ module.exports = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+        square: "calc(var(--radius) + 46px)"
+      },
+      borderWidth: {
+        '6' : '6px',
+        '5' : '5px',
       },
       keyframes: {
         "accordion-down": {
