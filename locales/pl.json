@@ -6,8 +6,21 @@
             "register": "ZAREJESTRUJ",
             "mainPage": "STRONA GŁÓWNA",
             "howItWorks": "JAK TO DZIAŁA",
-            "paymentMethods": "ZARABIANIE",
+            "earnMethods": "ZARABIANIE",
             "support": "WSPARCIE",
+            "platform": "PLATFORMA",
+            "menu": "MENU",
+            "company": "FIRMA",
+            "policy": "POLITYKA",
+            "blog": "BLOG",
+            "affilateProgram": "PROGRAM REFERENCYJNY",
+            "resources": "ZASOBY",
+            "policyPrivacy": "POLITYKA PRYWATNOŚCI",
+            "terms": "WARUNKI",
+            "copyright": "PRAWA AUTORSKIE",
+            "cookiePolicy": "POLITYKA COOKIE",
+            "adRules": "ZASADY REKLAMOWE",
+            "aboutUs": "O NAS",
             "downloadApp": "Pobierz aplikację",
             "appDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Incidunt, veniam"
         },
@@ -30,10 +43,12 @@
         "Errors": {}
     },
 
-    "homePage": {
+    "HomePage": {
         "Header": {
-            "headerDescription": "Zdobywaj nagrody i zarabiaj pieniądze w wolnym czasie!",
-            "headerParagraph": "Pobierz aplikację i zacznij zarabiać gdziekolwiek i kiedykolwiek!"
+            "headerTitle": "Zdobywaj nagrody i zarabiaj pieniądze w wolnym czasie!",
+            "headerParagraph": "Pobierz aplikację i zacznij zarabiać gdziekolwiek i kiedykolwiek!",
+            "downloadIos": "Pobierz Ios",
+            "downloadAndroid": "Pobierz Android"
         },
 
         "DownloadSection": {
@@ -80,9 +95,9 @@
         }
     },
 
-    "howItWorksPage": {
+    "HowItWorksPage": {
         "Header": {
-            "headerDescription": "Poznaj nowe sposoby zarabiania",
+            "headerTitle": "Poznaj nowe sposoby zarabiania",
             "headerParagraph": "Dzięki szerokiej gamie narzędzi i zasobów, każdy może znaleźć sposób na generowanie swoich dochodów.",
             "downloadIos": "Pobierz Ios",
             "downloadAndroid": "Pobierz Android"
@@ -103,15 +118,30 @@
         },
         "Section": {
             "header": "Jak to działa?"
+        }
+    },
 
+    "EarnMethods": {
+        "Header": {
+            "headerTitle": "Tylko jedna aplikacja wiele możliwości! ",
+            "headerParagraph": "Jesteśmy dumni z naszej społeczności użytkowników, którzy codziennie odkrywają nowe sposoby na zarabianie online.",
+            "downloadIos": "Pobierz Ios",
+            "downloadAndroid": "Pobierz Android"
+        }
+    },
+
+    "AboutUs": {
+        "Header": {
+            "headerTitle": "Poznaj bliżej twórców JoyProfits!",
+            "headerParagraph": "Zacznij zarabiać z JoyProfits w prosty i szybki sposób. Sprawdź już teraz jak wiele masz możliwości!",
+            "downloadIos": "Pobierz Ios",
+            "downloadAndroid": "Pobierz Android"
         }
     },
      
     "JPDownloadButton": {
         "downloadApp": "Pobierz aplikację"
-    },
-    
-    "PaymentMethods": {
-        "title": "Metody płatności"
     }
+    
+    
 }

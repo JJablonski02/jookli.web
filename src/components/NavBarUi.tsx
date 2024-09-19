@@ -14,7 +14,7 @@ import {
 import {
   toHome,
   toHowItWorks,
-  toPaymentMethods,
+  toEarnMethods,
   toSignIn,
   toRegister,
   toSupport,
@@ -36,7 +36,7 @@ const NavBarUi = () => {
   const menuItems: MenuItem[] = [
     { label: "mainPage", route: toHome },
     { label: "howItWorks", route: toHowItWorks },
-    { label: "paymentMethods", route: toPaymentMethods },
+    { label: "earnMethods", route: toEarnMethods },
     { label: "support", route: toSupport },
     { label: "register", route: toRegister },
     { label: "signIn", route: toSignIn },
@@ -68,7 +68,7 @@ const NavBarUi = () => {
           <Link href={toHowItWorks}>{t("howItWorks")}</Link>
         </NavbarItem>
         <NavbarItem>
-          <Link href={toPaymentMethods}>{t("paymentMethods")}</Link>
+          <Link href={toEarnMethods}>{t("earnMethods")}</Link>
         </NavbarItem>
         <NavbarItem>
           <Link href={toSupport}>{t("support")}</Link>

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import phoneImage from "../../../../public/phoneImageBlueBG.png";
+import phoneImage from "../../../../public/AboutPhone.svg";
 
 interface BlueTileProps {
   header: string;

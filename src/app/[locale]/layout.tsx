@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "../../styles/globals.css";
 
-import Footer from "@/components/Footer";
+import Footer from "@/components/Footer/Footer";
 import NavBarUi from "@/components/NavBarUi";
 import Providers from "../../providers/providers";
 import { getMessages, unstable_setRequestLocale } from "next-intl/server";
