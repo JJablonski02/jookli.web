@@ -6,21 +6,23 @@ import smallGameController from '../../../public/smallGameController.svg';
 import documentSvg from '../../../public/document.svg';
 import videoSvg from '../../../public/video.svg';
 import shoppingCart from "../../../public/shoppingCart.svg";
-import phoneImage from "../../../public/HiWphone.svg";
+import dashboardPhone from "../../../public/dashboard.svg";
+import { Squares } from "./Squares";
 
 const HowItWorksSection = () => {
   const t = useTranslations("HomePage.HowItWorksSection");
   return (
     <section>
-      <WidthWrapper>
-        <div className="mx-40 my-16 lg:mt-10 mb-20 lg:mx-0 flex justify-evenly items-center  md:flex md:flex-col gap-20 text-start">
+      <WidthWrapper className="my-36">
+        <Squares position="left">
+        <div className="ml-96 lg:mt-10 lg:mx-0 flex justify-evenly items-center md:flex md:flex-col gap-20 text-start">
           <div className="lg:hidden">
-            <Image src={phoneImage} alt="logo svg" width={400} height={600} />
+            <Image src={dashboardPhone} alt="logo svg" className="h-2/3"/>
           </div>
           <div className="w-3/4">
-            <div className="">
+            <div>
               <h2 className="text-3xl text-primary">{t("headerDescription")}</h2>
-              <p className="mt-8 lg:mt-6">
+              <p className="mt-8 lg:mt-6 w-3/4">
                 {t("paragraphDescription")}
               </p>
               <p className="mt-6 lg:mt-4">
@@ -55,6 +57,7 @@ const HowItWorksSection = () => {
             </div>
           </div>
         </div>
+        </Squares>
       </WidthWrapper>
     </section>
   );
