@@ -22,7 +22,7 @@ const Header: React.FC<HeaderProps> = ({ header, headerParagraph, firstButtonLab
           <span className="border-[5px] border-blue w-[381px] h-[381px] absolute rounded-[54px] rotate-45 -right-40 top-16"></span>
           <span className="border-[5px] border-blue w-[381px] h-[381px] absolute rounded-[54px] rotate-45 -right-60 top-16"></span>
         </div> */}
-        <div className="p-2 md:px-0 flex justify-between items-center md:flex-col mr-64">
+        <div className="p-2 md:px-0 flex justify-between items-center md:flex-col">
           <div className="md:flex md:items-center md:flex-col">
             <h1 className="text-5xl w-10/12 md:w-full">
               {header}
@@ -41,9 +41,9 @@ const Header: React.FC<HeaderProps> = ({ header, headerParagraph, firstButtonLab
               />
             </div>
           </div>
-          <div className="lg:hidden">
+          <div className="lg:hidden mr-64 h-full w-full justify-end flex">
             {src &&
-              <Image src={src} alt="Phone image" width={433} height={777} />
+              <Image src={src} alt="Phone image"/>
             }
             {secondSrc &&
               <Image className="absolute -top-12 right-44 -z-10" src={secondSrc} alt="Phone image" width={343} height={677} />
