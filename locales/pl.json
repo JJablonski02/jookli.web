@@ -59,7 +59,17 @@
         },
 
         "WCSSection": {
-            "headerDescription": "Co mówią nasi użytkownicy?"
+            "headerDescription": "Co mówią nasi użytkownicy?",
+            "user1Description" : "Aplikacja ma wiele sposobów na zarobek, ale najbardziej podoba mi się możliwość oglądania filmików. Często mam wolny czas, więc mogę dorobić kilka złotych w międzyczasie. Wypłaty są szybkie i bezproblemowe.",
+            "user2Description" : "Fajna aplikacja dla kogoś, kto ma trochę wolnego czasu i chce dodatkowo zarobić. Najbardziej lubię opcję grania w gry. Analizy zarobków pomagają mi lepiej zrozumieć, ile i gdzie mogę zarobić więcej.",
+            "user3Description" : "Bardzo wygodna aplikacja. Gram w gry, kiedy mam czas, a do tego oglądam filmiki, żeby dorobić. Cashbacki to ekstra sprawa, a wypłaty działają bez zarzutu.",
+            "user4Description" : "Dobrze zaprojektowana aplikacja z różnorodnymi opcjami zarabiania – od gier po oglądanie filmów.",
+            "user5Description" : "Różnorodne sposoby zarabiania i szybkie wypłaty na PayPal. Cashbacki to super dodatek!",
+            "user6Description" : "Dobre opcje zarabiania i cashbacki. Czasem wypłata trwa dłużej, ale generalnie polecam.",
+            "user7Description" : "Fajne, że mogę wybierać między różnymi platformami – filmy, gry i inne. Wypłaty szybkie.",
+            "user8Description" : "Spoko, że jest kilka platform do wyboru. Czasem wolę grać, czasem oglądać filmy. Wypłaty ok.",
+            "user9Description" : "Dużo możliwości zarobku, wszystko działa płynnie.",
+            "user10Description" : "Polecam, działa sprawnie, a zarobki wypłacane bez problemów."
         },
 
         "HowItWorksSection": {
