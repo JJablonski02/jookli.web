@@ -17,6 +17,7 @@ const DownloadSection = () => {
             <Tile
               header={t("tileHeader", { appName: "iOS" })}
               description={t("leftTileDescription")}
+              type='ios'
               children={
                 <JPButton
                   imageType="appStore"
@@ -29,6 +30,7 @@ const DownloadSection = () => {
             <Tile
               header={t("tileHeader", { appName: "Android" })}
               description={t("rightTileDescription")}
+              type='android'
               children={
                 <JPButton
                   imageType="playStore"
