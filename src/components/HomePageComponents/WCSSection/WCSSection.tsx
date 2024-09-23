@@ -11,7 +11,7 @@ const WCSSection = () => {
     <section>
       <div className="mb-10">
         <div className="px-2.5 mt-24 flex justify-center items-center flex-col text-center">
-          <div className=" flex flex-row justify-evenly items-center w-full md:flex-col md:gap-4">
+          <div className=" flex flex-row justify-between items-center w-full md:flex-col md:gap-4 mb-8 px-10">
             <h2 className="text-4xl font-PoppinsSemiBold">
               {t("headerDescription")}
             </h2>
