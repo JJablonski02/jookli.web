@@ -151,7 +151,10 @@
      
     "JPDownloadButton": {
         "downloadApp": "Pobierz aplikację"
+    },
+    "VerifyEmail" : {
+        "accountActivated" : "Konto zostało aktywowane",
+        "hello" : "Cześć",
+        "thankYouNote" : "Dziękujemy, Twój adres email został zweryfikowany. Twoje konto jest teraz aktywne. Użyj przycisku poniżej, by powrócić do aplikacji."
     }
-    
-    
 }
