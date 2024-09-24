@@ -11,7 +11,7 @@ const AboutSection = () => {
       <WidthWrapper>
         <div className="my-12 mx-20 md:mx-0">
           <div className="text-center md:items-start md:text-start flex justify-center items-center flex-col">
-            <h2 className="pb-4">{t("headerDescription")}</h2>
+            <h2 className="text-4xl pb-4">{t("headerDescription")}</h2>
           </div>
           <AboutSectionTiles />
         </div>

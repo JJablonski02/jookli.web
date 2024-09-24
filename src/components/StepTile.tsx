@@ -17,7 +17,7 @@ const StepTile: React.FC<StepTileProps> = ({ header, paragraph, secondParagraph,
         <section>
             <WidthWrapper>
                 <div className={`${className} flex flex-row justify-between items-center gap-8 mx-20 my-40`}>
-                    <div className="lg:hidden w-[400px] h-[400px] flex items-center justify-center">
+                    <div className="lg:hidden flex items-center justify-center">
                         <Image className='rounded-3xl' src={src} alt={alt} />
                     </div>
                     <div className="w-3/5 flex flex-col lg:w-full lg:text-center lg:items-center">
