@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import "../../styles/globals.css";
 import '../../styles/components.css';
-
-import Footer from "@/components/Footer/Footer";
-import NavBarUi from "@/components/NavBarUi";
 import Providers from "../../providers/providers";
 import { getMessages, unstable_setRequestLocale } from "next-intl/server";
 import { NextIntlClientProvider } from "next-intl";
@@ -13,7 +10,7 @@ export const metadata: Metadata = {
   description: "Earn rewards and money in your spare time!",
 };
 
-interface RootLayoutProps {
+export interface RootLayoutProps {
   children: React.ReactNode;
   params: {
     locale: string;
@@ -32,9 +29,7 @@ export default async function RootLayout({
       <body className="bg-secondary">
         <NextIntlClientProvider messages={messages}>
           <Providers>
-            <NavBarUi />
             {children}
-            <Footer />
           </Providers>
         </NextIntlClientProvider>
       </body>

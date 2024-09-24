@@ -167,6 +167,7 @@
     "VerifyEmail" : {
         "accountActivated" : "Konto zostało aktywowane",
         "hello" : "Cześć",
-        "thankYouNote" : "Dziękujemy, Twój adres email został zweryfikowany. Twoje konto jest teraz aktywne. Użyj przycisku poniżej, by powrócić do aplikacji."
+        "thankYouNote" : "Dziękujemy, Twój adres email został zweryfikowany. Twoje konto jest teraz aktywne. Użyj przycisku poniżej, by powrócić do aplikacji.",
+        "returnToApp" : "Powróć do aplikacji"
     }
 }
