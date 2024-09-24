@@ -6,9 +6,17 @@ type FetchOptions = {
     headers?: Record<string, string>;
 };
 
+//Temporary uri
+const serverUri = "https://xnvx3hxz-7133.euw.devtunnels.ms/";
+
 /**Fetcher */
 export const fetcher = async (url: string, options: FetchOptions = {}) => {
-    const response = await fetch(url, {
+
+    if(process.env.NODE_ENV !==  'production'){
+        logRequest(url, options);
+    }
+
+    const response = await fetch(serverUri + url, {
         method: options.method || 'GET',
         headers: {
             'Content-Type': 'application/json',
@@ -17,9 +25,29 @@ export const fetcher = async (url: string, options: FetchOptions = {}) => {
         body: options.body ? JSON.stringify(options.body) : undefined,
     });
 
-    if (!response.ok) {
-        return handleError(response);
+    if(process.env.NODE_ENV !==  'production'){
+        logResponse(response);
     }
-
-    return response.json();
+    
+    return response;
 };
+
+const logRequest = (url: string, options: FetchOptions) => {
+    console.log(
+        '%c[REQUEST]', 
+        'color: orange; font-weight: bold;', 
+        `Endpoint: ${serverUri + url}`, 
+        'Body:', 
+        options.body ? JSON.stringify(options.body) : 'Empty'
+    );
+}
+
+const logResponse = (response: Response) => {
+    console.log(
+        '%c[RESPONSE]', 
+        'color: blue; font-weight: bold;', 
+        `Status: ${response.status}`, 
+        'Response Data:', 
+        response
+    );
+}
