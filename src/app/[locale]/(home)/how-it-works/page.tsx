@@ -5,7 +5,7 @@ import DownloadSection from "@/components/HomePageComponents/DownloadSection/Dow
 import StepTile from "@/components/StepTile";
 import HowItWorksHeader from "@/components/HowItWorksPageComponents/Header";
 import Section from "@/components/HowItWorksPageComponents/Section";
-import MachineLearningImage from "../../../../public/MachineLearning.png"
+import MachineLearningImage from "../../../../../public/MachineLearning.png"
 
 const HowItWorks = () => {
   const t = useTranslations('HowItWorksPage.StepTile');
