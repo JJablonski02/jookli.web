@@ -1,14 +1,16 @@
 'use client'
 
 import { fetchConfirmAccountEmail } from "@/api/rest/emails";
+import { JookliException } from "@/types/jookli";
 import { Card, CardBody } from "@nextui-org/card"
 import { useTranslations } from "next-intl";
 import { useSearchParams } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 const verifyEmail : React.FC = () => {
     const searchParams = useSearchParams();
     const token = searchParams.get('token');
+    const [response, setResponse] = useState<string | null>();
 
     const t = useTranslations();
     
@@ -16,8 +18,16 @@ const verifyEmail : React.FC = () => {
     useEffect(() => {
         const fetch = async () => {
             if (token) {
-                const res = await fetchConfirmAccountEmail({ token: token });
-                console.log(res);
+                fetchConfirmAccountEmail({ token: token }).then(
+                    async (res) => {
+                        if(res.ok){
+                            
+                        }else{
+                            var result = await res.json() as JookliException;
+                            setResponse(result.error_description);
+                        }
+                    }
+                );
             }
         }
        
@@ -31,6 +41,7 @@ const verifyEmail : React.FC = () => {
                 <p>{t('VerifyEmail.accountActivated')}</p>
                 <p>{t('VerifyEmail.hello')}, </p>
                 <p>{t('VerifyEmail.thankYouNote')}</p>
+                <p>{response}</p>
             </CardBody>
         </Card>
     )
