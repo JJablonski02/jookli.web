@@ -10,8 +10,8 @@ const WCSSection = () => {
   return (
     <section>
       <div className="mb-10">
-        <div className="px-2.5 mt-24 flex justify-center items-center flex-col text-center">
-          <div className=" flex flex-row justify-between items-center w-full md:flex-col md:gap-4 mb-8 px-10">
+        <div className="mt-24 mx-20 md:mx-0 flex justify-center items-center flex-col text-center">
+          <div className=" flex flex-row justify-between items-center w-full md:flex-col md:gap-4 mb-8">
             <h2 className="text-4xl font-PoppinsSemiBold">
               {t("headerDescription")}
             </h2>

@@ -12,7 +12,7 @@ const AboutSectionTiles = () => {
   const t = useTranslations("HomePage.AboutSectionTiles");
 
   return (
-    <div className="w-[95%] mx-auto lg:w-full">
+    <div className="w-full mx-auto">
       <div className="grid grid-cols-3 grid-rows-2 pt-8 gap-6 place-items-center md:flex md:flex-col md:items-start">
         <WhiteTile
           src={gameController}
