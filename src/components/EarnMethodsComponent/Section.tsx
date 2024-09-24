@@ -8,7 +8,7 @@ const Section = () => {
   return (
     <section>
       <WidthWrapper>
-        <div className="mx-20 md:mx-0">x</div>
+        <div className="mx-20 my-12 md:mx-0">x</div>
       </WidthWrapper>
     </section>
   )

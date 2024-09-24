@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = ({ header, headerParagraph, firstButtonLab
 
   return (
     <header>
-      <div className="mx-20 mt-14 md:mt-10 md:mx-2.5 relative">
+      <div className="mx-20 my-12 md:mt-10 md:mx-2.5 relative">
         <Squares position="right">
           <div className="p-2 md:px-0 flex justify-between items-center md:flex-col">
             <div className="md:flex md:items-center md:flex-col">

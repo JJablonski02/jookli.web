@@ -9,10 +9,10 @@ const WCSSection = () => {
 
   return (
     <section>
-      <div className="mb-10">
-        <div className="mt-24 mx-20 md:mx-0 flex justify-center items-center flex-col text-center">
+      <div className="mb-12">
+        <div className="mx-20 md:mx-0 flex justify-center items-center flex-col text-center">
           <div className=" flex flex-row justify-between items-center w-full md:flex-col md:gap-4 mb-8">
-            <h2 className="text-4xl font-PoppinsSemiBold">
+            <h2 className="text-3xl font-PoppinsSemiBold">
               {t("headerDescription")}
             </h2>
             <JPDownloadButton className="text-primary p-6 bg-blue md:h-14 md:w-4/5" />

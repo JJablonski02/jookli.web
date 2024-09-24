@@ -9,7 +9,7 @@ const DownloadSection = () => {
   return (
     <section>
       <WidthWrapper>
-        <div className="mx-20 md:mx-0">
+        <div className="my-12 mx-20 md:mx-0">
           <div className="mb-8">
             <h2 className="text-3xl md:pb-4">{t("headerDescription")}</h2>
           </div>

@@ -13,7 +13,7 @@ const Footer = () => {
   const t = useTranslations("globals.Captions");
 
   return (
-    <footer className="max-w-[1920px] mx-auto mt-20 px-20 bg-secondary md:px-2.5">
+    <footer className="max-w-[1920px] mx-auto mt-12 px-20 bg-secondary md:px-2.5">
       <div className="w-full">
         <div className="flex justify-between w-full mb-20 mt-4 md:flex-col md:items-center md:gap-4 md:my-8">
           <Link href="/">
