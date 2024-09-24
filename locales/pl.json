@@ -146,6 +146,18 @@
             "headerParagraph": "Zacznij zarabiać z JoyProfits w prosty i szybki sposób. Sprawdź już teraz jak wiele masz możliwości!",
             "downloadIos": "Pobierz Ios",
             "downloadAndroid": "Pobierz Android"
+        },
+        "StepTile": {
+            "headerDescription": "Co mówią nasi użytkownicy?",
+            "firstTileHeader":"Witaj!",
+            "firstTileParagraph":"Nazywam się Jakub i jestem twórcą aplikacji, która łączy przyjemne z pożytecznym – umożliwia zarabianie pieniędzy poprzez granie w gry, oglądanie filmów i wykonywanie wielu innych zadań.",
+            "firstTileExtraParagraph":"Jako pasjonat nowych technologii i rozrywki, zrozumiałem, że coraz więcej osób spędza swój wolny czas w wirtualnym świecie. Postanowiłem stworzyć rozwiązanie, które pozwoli czerpać korzyści finansowe z tej aktywności. Aplikacja JoyProfits jest wynikiem dogłębnych analiz, badań rynkowych i wielomiesięcznej pracy mojej oraz mojego zespołu nad stworzeniem bezpiecznego i przyjaznego dla użytkownika narzędzia.",
+            "secondTileHeader":"Nasza misja",
+            "secondTileParagraph":"Nasza misja polega na przekształceniu codziennych rozrywek w realne korzyści finansowe. W dobie cyfryzacji i rosnącej popularności wirtualnych rozrywek, dostrzegliśmy ogromny potencjał w wykorzystaniu czasu spędzanego online do generowania dodatkowych dochodów.",
+            "secondTileExtraParagraph":"Stawiamy na bliski kontakt z użytkownikami oraz elastyczność w reagowaniu na ich potrzeby. Każdego dnia pracujemy nad udoskonaleniem aplikacji, aby dostarczać jak najlepsze doświadczenia i możliwości zarobkowe. Naszym celem jest stworzenie społeczności, w której każdy użytkownik może czerpać korzyści finansowe z tego, co sprawia mu przyjemność.",
+            "thirdTileHeader": "Odkryj JoyProfits",
+            "thirdTileParagraph": "Zapraszam do odkrycia potencjału naszej aplikacji i dołączenia do grona zadowolonych użytkowników, którzy już teraz korzystają z możliwości zarabiania pieniędzy poprzez zabawę i rozrywkę.",
+            "thirdTileExtraParagraph": "Razem zmieniamy sposób, w jaki postrzegamy czas spędzany online, tworząc nowe, innowacyjne źródła dochodu."
         }
     },
      
