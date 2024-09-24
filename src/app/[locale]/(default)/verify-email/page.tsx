@@ -5,8 +5,7 @@ import { JookliException } from "@/types/jookli";
 import { Button } from "@nextui-org/button";
 import { Card, CardBody } from "@nextui-org/card"
 import { useTranslations } from "next-intl";
-import { notFound, redirect, useSearchParams } from "next/navigation";
-import { useRouter } from "next/router";
+import { useSearchParams } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const verifyEmail : React.FC = () => {

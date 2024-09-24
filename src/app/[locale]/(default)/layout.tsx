@@ -1,4 +1,3 @@
-import Footer from "@/components/Footer/Footer";
 import NavBarUi from "@/components/NavBarUi";
 import RootLayout from '../root-layout';
 
