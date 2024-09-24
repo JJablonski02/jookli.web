@@ -46,7 +46,7 @@ const NavBarUi = () => {
 
   return (
     <Navbar
-      className="bg-secondary h-[100px] lg:h-[70px] max-w-[1920px] mx-auto"
+      className="bg-secondary max-w-[1920px] mx-auto header-height" 
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="full"
     >
