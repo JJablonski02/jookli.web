@@ -1,6 +1,6 @@
-/** @type {import('tailwindcss').Config} */
+import {nextui} from '@nextui-org/theme'
 
-const {nextui} = require("@nextui-org/react");
+/** @type {import('tailwindcss').Config} */
 
 module.exports = {
   darkMode: ["class"],
@@ -27,8 +27,6 @@ module.exports = {
       'md': {'max': '767px'},
       'sm': {'max': '639px'},
     },
-    darkMode: "class",
-    plugins: [nextui()],
     extend: {
       fontFamily: {
         PoppinsRegular : ['Poppins-Regular'],
@@ -110,6 +108,7 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
     },
+    darkMode: "class",
   },
-  plugins: [require("tailwindcss-animate")],
+  plugins: [nextui(), require("tailwindcss-animate")],
 };

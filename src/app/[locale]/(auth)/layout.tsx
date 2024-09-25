@@ -1,6 +1,6 @@
 import NavBarUi from "@/components/NavBarUi";
 import RootLayout from '../root-layout';
-
+import Header from "@nextui-org/button"
 export interface ClientLayoutProps {
   children: React.ReactNode;
   params: {

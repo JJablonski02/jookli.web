@@ -24,7 +24,7 @@
             "downloadApp": "Pobierz aplikację",
             "appDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Incidunt, veniam"
         },
-
+        
         "SignIn": {
             "title": "Logowanie",
             "email": "Email",
@@ -41,6 +41,18 @@
         "Messages": {},
 
         "Errors": {}
+    },
+
+    "SignIn": {
+        "title": "Logowanie",
+        "email": "Email",
+        "enterEmail" : "Wprowadź adres email",
+        "enterPassword" : "Wprowadź hasło",
+        "emailPlaceholder": "Email",
+        "password": "Hasło",
+        "logIn": "Zaloguj",
+        "signIn" : "Zaloguj się",
+        "orSignInWith" : "lub zaloguj się przez"
     },
 
     "HomePage": {
@@ -185,5 +197,14 @@
         "hello" : "Cześć",
         "thankYouNote" : "Dziękujemy, Twój adres email został zweryfikowany. Twoje konto jest teraz aktywne. Użyj przycisku poniżej, by powrócić do aplikacji.",
         "returnToApp" : "Powróć do aplikacji"
+    },
+    "Validation" : {
+        "emailRequired" : "Email is required",
+        "passwordRequired" : "Password is required",
+        "minLength" : "Minimalna długość to {count} znaków",
+        "maxLength" : "Maksymalna długość to {count} znaków",
+        "invalidEmail" : "Niepoprawny adres email",
+        "passwordSpecialChar" : "Wymagany znak specjalny",
+        "passwordUppercase" : "Wymagana przynajmniej jedna wielka litera"
     }
 }

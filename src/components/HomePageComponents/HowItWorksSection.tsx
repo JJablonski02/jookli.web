@@ -13,7 +13,7 @@ const HowItWorksSection = () => {
   const t = useTranslations("HomePage.HowItWorksSection");
   return (
     <section>
-      <WidthWrapper className="my-12">
+      <WidthWrapper className="my-12 relative">
         <Squares position="left">
           <div className="ml-96 lg:mt-10 lg:mx-0 flex justify-evenly items-center md:flex md:flex-col gap-20 text-start">
             <div className="lg:hidden">
