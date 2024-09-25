@@ -9,7 +9,7 @@ const WCSSection = () => {
 
   return (
     <section>
-      <div className="mb-12">
+      <div className="my-12">
         <div className="mx-20 md:mx-0 flex justify-center items-center flex-col text-center">
           <div className=" flex flex-row justify-between items-center w-full md:flex-col md:gap-4 mb-8">
             <h2 className="text-3xl font-PoppinsSemiBold">
