@@ -1,6 +1,5 @@
 import React from 'react'
 import { FooterMenuData, FooterCompanyData, FooterPlatformData, FooterPolicyData } from './FooterData'
-
 import { useTranslations } from 'next-intl';
 import Link from 'next/link';
 
