@@ -20,7 +20,7 @@ const Header: React.FC<HeaderProps> = ({ header, headerParagraph, firstButtonLab
         <Squares position="right">
           <div className="p-2 md:px-0 flex justify-between items-center md:flex-col">
             <div className="md:flex md:items-center md:flex-col">
-              <h1 className="text-5xl md:w-full">
+              <h1 className="text-5xl lg:w-full">
                 {header}
               </h1>
               <p className="mt-8 text-lg md:mt-6 md:w-full">

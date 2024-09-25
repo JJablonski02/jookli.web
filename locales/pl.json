@@ -88,7 +88,8 @@
         },
 
         "AboutSection": {
-            "headerDescription": "O JoyProfits"
+            "header": "O JoyProfits",
+            "description" : "Odkryj naszą aplikację dostępną na iOS i Androidzie! Pobierz już teraz i zacznij korzystać z możliwości jakie oferujemy!"
         },
 
         "AboutSectionTiles": {
