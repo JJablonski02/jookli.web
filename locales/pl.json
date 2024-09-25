@@ -138,6 +138,21 @@
             "headerParagraph": "Jesteśmy dumni z naszej społeczności użytkowników, którzy codziennie odkrywają nowe sposoby na zarabianie online.",
             "downloadIos": "Pobierz Ios",
             "downloadAndroid": "Pobierz Android"
+        },
+        "Section": {
+            "header": "Jedna aplikacja, wiele możliwości zarabiania",
+            "Tile1Header": "Granie w gry",
+            "Tile1Description": "Zdobywaj punkty za osiąganie poziomów i odblokowywanie funkcji w grach mobilnych. Wykonuj zadania o różnym stopniu trudności w ulubionych grach.",
+            "Tile2Header": "Oglądanie filmów",
+            "Tile2Description": "Zarabiaj, oglądając filmy i reklamy. Poświęć chwilę na interesujące treści i otrzymuj wynagrodzenie za każdą obejrzaną reklamę lub film. Wybieraj spośród różnych kategorii i tematów.",
+            "Tile3Header": "Wypełnianie ankiet",
+            "Tile3Description": "Odpowiadaj na pytania i dziel się swoją opinią, otrzymując wynagrodzenie za każdą ukończoną ankietę. Im więcej ankiet ukończysz, tym większe zarobki.",
+            "Tile4Header": "Zakupy online",
+            "Tile4Description": "Kupuj w ulubionych sklepach i zyskaj zwrot gotówki oraz dodatkowe dochody. Rejestruj się na stronach internetowych sklepów, aby otrzymać darmowe próbki i kody rabatowe.",
+            "Tile5Header": "Microtasks",
+            "Tile5Description": "Zarabiaj, ucząc się nowych umiejętności, takich jak programowanie czy grafika komputerowa. Wybierz interesujące kursy i wykonuj dostępne zadania na JoyProfits.",
+            "Tile6Header": "Osiągnięcia",
+            "Tile6Description": "Realizuj cele na JoyProfits, zdobywaj nagrody i zwiększaj swoje dochody. Każde osiągnięcie przybliża Cię do wyższych zysków i dodatkowych nagród."
         }
     },
 
