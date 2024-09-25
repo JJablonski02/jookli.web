@@ -13,7 +13,7 @@ const AboutSectionTiles = () => {
 
   return (
     <div className="w-full mx-auto">
-      <div className="grid grid-cols-3 grid-rows-2 pt-8 gap-4 place-items-center md:flex md:flex-col md:items-start">
+      <div className="grid grid-cols-3 grid-rows-2 pt-8 gap-4 place-items-center lg:flex lg:flex-col lg:items-start">
         <WhiteTile
           src={gameController}
           alt="Game Controller icon"
