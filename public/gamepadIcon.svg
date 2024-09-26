@@ -1,0 +1,11 @@
+<svg width="30" height="30" viewBox="0 0 29 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Gamepad">
+<path id="Rectangle 74" d="M1 7.05456C1 3.4729 4.41503 0.674246 8.35065 1.03063L13.5726 1.5035C14.1034 1.55158 14.6383 1.55158 15.1691 1.5035L20.391 1.03063C24.3267 0.674246 27.7417 3.4729 27.7417 7.05455V14.3187C27.7417 18.6694 21.4629 20.3184 18.8923 16.6429C17.06 14.0231 12.8737 13.9356 10.9099 16.4761L10.5299 16.9677C7.5928 20.7672 1 18.8853 1 14.2474V7.05456Z" stroke="#0095FF" stroke-width="2"/>
+<g id="Group 225">
+<ellipse id="Ellipse 39" cx="22.0114" cy="7.21075" rx="1.33708" ry="1.21079" fill="#0095FF"/>
+<ellipse id="Ellipse 40" cx="19.3373" cy="10.8432" rx="1.33708" ry="1.21079" fill="#0095FF"/>
+</g>
+<path id="Line" d="M9.02246 11.2622L9.02246 6.41903" stroke="#0095FF" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Line_2" d="M6.34819 8.84058H11.6965" stroke="#0095FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+</svg>

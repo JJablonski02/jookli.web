@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import JPButton from "@/components/JPButton";
+import JPButton from "@/components/buttons/JPButton";
 import WidthWrapper from "./WidthWrapper";
 
 const BannerVideo = () => {

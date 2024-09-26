@@ -24,7 +24,7 @@
             "downloadApp": "Pobierz aplikację",
             "appDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Incidunt, veniam"
         },
-
+        
         "SignIn": {
             "title": "Logowanie",
             "email": "Email",
@@ -41,6 +41,22 @@
         "Messages": {},
 
         "Errors": {}
+    },
+
+    "SignIn": {
+        "title": "Logowanie",
+        "email": "Email",
+        "enterEmail" : "Wprowadź adres email",
+        "enterPassword" : "Wprowadź hasło",
+        "emailPlaceholder": "Email",
+        "password": "Hasło",
+        "logIn": "Zaloguj",
+        "signIn" : "Zaloguj się",
+        "orSignInWith" : "lub zaloguj się przez",
+        "forgotPassword" : "Zapomniałeś hasła?",
+        "reset" : "Zresetuj",
+        "haveAnAccount" : "Masz już konto?",
+        "register" : "Zarejetruj się"
     },
 
     "HomePage": {
@@ -88,7 +104,8 @@
         },
 
         "AboutSection": {
-            "headerDescription": "O JoyProfits"
+            "header": "O JoyProfits",
+            "description" : "Odkryj naszą aplikację dostępną na iOS i Androidzie! Pobierz już teraz i zacznij korzystać z możliwości jakie oferujemy!"
         },
 
         "AboutSectionTiles": {
@@ -137,6 +154,21 @@
             "headerParagraph": "Jesteśmy dumni z naszej społeczności użytkowników, którzy codziennie odkrywają nowe sposoby na zarabianie online.",
             "downloadIos": "Pobierz Ios",
             "downloadAndroid": "Pobierz Android"
+        },
+        "Section": {
+            "header": "Jedna aplikacja, wiele możliwości zarabiania",
+            "Tile1Header": "Granie w gry",
+            "Tile1Description": "Zdobywaj punkty za osiąganie poziomów i odblokowywanie funkcji w grach mobilnych. Wykonuj zadania o różnym stopniu trudności w ulubionych grach.",
+            "Tile2Header": "Oglądanie filmów",
+            "Tile2Description": "Zarabiaj, oglądając filmy i reklamy. Poświęć chwilę na interesujące treści i otrzymuj wynagrodzenie za każdą obejrzaną reklamę lub film. Wybieraj spośród różnych kategorii i tematów.",
+            "Tile3Header": "Wypełnianie ankiet",
+            "Tile3Description": "Odpowiadaj na pytania i dziel się swoją opinią, otrzymując wynagrodzenie za każdą ukończoną ankietę. Im więcej ankiet ukończysz, tym większe zarobki.",
+            "Tile4Header": "Zakupy online",
+            "Tile4Description": "Kupuj w ulubionych sklepach i zyskaj zwrot gotówki oraz dodatkowe dochody. Rejestruj się na stronach internetowych sklepów, aby otrzymać darmowe próbki i kody rabatowe.",
+            "Tile5Header": "Microtasks",
+            "Tile5Description": "Zarabiaj, ucząc się nowych umiejętności, takich jak programowanie czy grafika komputerowa. Wybierz interesujące kursy i wykonuj dostępne zadania na JoyProfits.",
+            "Tile6Header": "Osiągnięcia",
+            "Tile6Description": "Realizuj cele na JoyProfits, zdobywaj nagrody i zwiększaj swoje dochody. Każde osiągnięcie przybliża Cię do wyższych zysków i dodatkowych nagród."
         }
     },
 
@@ -146,12 +178,37 @@
             "headerParagraph": "Zacznij zarabiać z JoyProfits w prosty i szybki sposób. Sprawdź już teraz jak wiele masz możliwości!",
             "downloadIos": "Pobierz Ios",
             "downloadAndroid": "Pobierz Android"
+        },
+        "StepTile": {
+            "headerDescription": "Co mówią nasi użytkownicy?",
+            "firstTileHeader":"Witaj!",
+            "firstTileParagraph":"Nazywam się Jakub i jestem twórcą aplikacji, która łączy przyjemne z pożytecznym – umożliwia zarabianie pieniędzy poprzez granie w gry, oglądanie filmów i wykonywanie wielu innych zadań.",
+            "firstTileExtraParagraph":"Jako pasjonat nowych technologii i rozrywki, zrozumiałem, że coraz więcej osób spędza swój wolny czas w wirtualnym świecie. Postanowiłem stworzyć rozwiązanie, które pozwoli czerpać korzyści finansowe z tej aktywności. Aplikacja JoyProfits jest wynikiem dogłębnych analiz, badań rynkowych i wielomiesięcznej pracy mojej oraz mojego zespołu nad stworzeniem bezpiecznego i przyjaznego dla użytkownika narzędzia.",
+            "secondTileHeader":"Nasza misja",
+            "secondTileParagraph":"Nasza misja polega na przekształceniu codziennych rozrywek w realne korzyści finansowe. W dobie cyfryzacji i rosnącej popularności wirtualnych rozrywek, dostrzegliśmy ogromny potencjał w wykorzystaniu czasu spędzanego online do generowania dodatkowych dochodów.",
+            "secondTileExtraParagraph":"Stawiamy na bliski kontakt z użytkownikami oraz elastyczność w reagowaniu na ich potrzeby. Każdego dnia pracujemy nad udoskonaleniem aplikacji, aby dostarczać jak najlepsze doświadczenia i możliwości zarobkowe. Naszym celem jest stworzenie społeczności, w której każdy użytkownik może czerpać korzyści finansowe z tego, co sprawia mu przyjemność.",
+            "thirdTileHeader": "Odkryj JoyProfits",
+            "thirdTileParagraph": "Zapraszam do odkrycia potencjału naszej aplikacji i dołączenia do grona zadowolonych użytkowników, którzy już teraz korzystają z możliwości zarabiania pieniędzy poprzez zabawę i rozrywkę.",
+            "thirdTileExtraParagraph": "Razem zmieniamy sposób, w jaki postrzegamy czas spędzany online, tworząc nowe, innowacyjne źródła dochodu."
         }
     },
      
     "JPDownloadButton": {
         "downloadApp": "Pobierz aplikację"
+    },
+    "VerifyEmail" : {
+        "accountActivated" : "Konto zostało aktywowane",
+        "hello" : "Cześć",
+        "thankYouNote" : "Dziękujemy, Twój adres email został zweryfikowany. Twoje konto jest teraz aktywne. Użyj przycisku poniżej, by powrócić do aplikacji.",
+        "returnToApp" : "Powróć do aplikacji"
+    },
+    "Validation" : {
+        "emailRequired" : "Adres email jest wymagany",
+        "passwordRequired" : "Hasło jest wymagane",
+        "minLength" : "Minimalna długość to {count} znaków",
+        "maxLength" : "Maksymalna długość to {count} znaków",
+        "invalidEmail" : "Niepoprawny adres email",
+        "passwordSpecialChar" : "Wymagany znak specjalny",
+        "passwordUppercase" : "Wymagana przynajmniej jedna wielka litera"
     }
-    
-    
 }

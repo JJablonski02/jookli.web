@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import Image from "next/image";
 import LogoSvg from "../../../public/logo.svg";
-import JPButton from "../JPButton";
+import JPButton from "../buttons/JPButton";
 import { useTranslations } from "next-intl";
 import instagramIcon from "../../../public/instagram.svg";
 import linkedInIcon from "../../../public/linkedIn.svg";
@@ -13,7 +13,7 @@ const Footer = () => {
   const t = useTranslations("globals.Captions");
 
   return (
-    <footer className="max-w-[1920px] mx-auto mt-20 px-20 bg-secondary md:px-2.5">
+    <footer className="max-w-[1920px] mx-auto mt-12 px-20 bg-secondary md:px-2.5 w-full">
       <div className="w-full">
         <div className="flex justify-between w-full mb-20 mt-4 md:flex-col md:items-center md:gap-4 md:my-8">
           <Link href="/">
@@ -45,13 +45,13 @@ const Footer = () => {
             </div>
             <div className="flex flex-row gap-4 mt-6 md:flex-col">
               <JPButton
-                imageType="appStore"
+                iconType="apple"
                 alt="appStore icon"
                 className="text-primary bg-blue rounded-full flex flex-row gap-2 md:h-14"
                 label="App Store"
               />
               <JPButton
-                imageType="playStore"
+                iconType="googlePlayStore"
                 alt="playStore icon"
                 className="text-primary bg-blue rounded-full flex flex-row gap-2 md:h-14"
                 label="Play Store"

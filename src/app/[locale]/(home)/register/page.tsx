@@ -1,6 +1,6 @@
 "use client";
-import JPButton from "@/components/JPButton";
-import JPTextInput from "@/components/JPTextInput";
+import JPButton from "@/components/buttons/JPButton";
+import JPInputFormField from "@/components/JPInputFormField";
 import { useTranslations } from "next-intl";
 import React, { useState } from "react";
 
@@ -9,7 +9,7 @@ interface UserCredentialsProps {
   password: string;
 }
 
-const SignIn = () => {
+const Register = () => {
   const [user, setUser] = useState<UserCredentialsProps>({
     email: "",
     password: "",
@@ -24,14 +24,22 @@ const SignIn = () => {
           <div className="flex justify-center items-center flex-col">
             <div className="flex flex-row w-full justify-center items-center gap-2 m-2 p-2 border-2 border-gray-500">
               <label>{t("email")}: </label>
-              <JPTextInput
+              <JPInputFormField
+                className="p-2 w-full"
+                placeholder={t("emailPlaceholder")}
+              />
+            </div>
+            <div className="flex flex-row w-full justify-center items-center gap-2 m-2 p-2 border-2 border-gray-500">
+              <label>{t("email")}: </label>
+              <JPInputFormField
                 className="p-2 w-full"
                 placeholder={t("emailPlaceholder")}
               />
             </div>
             <div className="flex flex-row w-full justify-center items-center gap-2 m-2 p-2 border-2 border-gray-500 ">
               <label>{t("password")}: </label>
-              <JPTextInput className="p-2 w-full" placeholder={t("password")} />
+              <JPInputFormField className="p-2 w-full" 
+              placeholder={t("password")} />
             </div>
           </div>
           <div className="flex gap-4 items-center justify-center p-4">
@@ -48,4 +56,4 @@ const SignIn = () => {
   );
 };
 
-export default SignIn;
+export default Register;

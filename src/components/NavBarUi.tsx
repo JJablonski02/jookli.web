@@ -24,7 +24,7 @@ import {
 import LogoSvg from "../../public/logo.svg";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import JPButton from "./JPButton";
+import JPButton from "./buttons/JPButton";
 
 type MenuItem = {
   label: string;
@@ -46,7 +46,7 @@ const NavBarUi = () => {
 
   return (
     <Navbar
-      className="bg-secondary h-[100px] lg:h-[70px] max-w-[1920px] mx-auto"
+      className="bg-secondary max-w-[1920px] mx-auto header-height" 
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="full"
     >

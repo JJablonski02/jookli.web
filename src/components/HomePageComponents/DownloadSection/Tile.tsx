@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import logo from "../../../../public/logo.svg";
 import iphone from "@/../public/iphone.svg"
 import samsung from "@/../public/samsung-phone.svg";
 
@@ -26,7 +25,7 @@ const Tile: React.FC<TileProps> = ({ header, description, type, children }) => {
           ) : (
             <Image src={iphone} alt="iphone" />
           )}
-         </div>
+        </div>
       </div>
     </div>
   );

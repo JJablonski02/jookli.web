@@ -1,6 +1,6 @@
+import AboutUsSection from '@/components/AboutUsComponent/AboutUsSection';
 import AboutUsHeader from '@/components/AboutUsComponent/Header';
 import AboutUsStepTiles from '@/components/AboutUsComponent/StepTiles';
-import { EmblaCarousel } from '@/components/EmblaCarouselComponent/EmblaCarousel';
 import DownloadSection from '@/components/HomePageComponents/DownloadSection/DownloadSection';
 import PageWrapper from '@/components/PageWrapper';
 import React from 'react'
@@ -10,7 +10,7 @@ const AboutUs = () => {
         <PageWrapper>
             <AboutUsHeader />
             <AboutUsStepTiles />
-            <EmblaCarousel />
+            <AboutUsSection />
             <DownloadSection />
         </PageWrapper>
     )
