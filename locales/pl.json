@@ -52,7 +52,11 @@
         "password": "Hasło",
         "logIn": "Zaloguj",
         "signIn" : "Zaloguj się",
-        "orSignInWith" : "lub zaloguj się przez"
+        "orSignInWith" : "lub zaloguj się przez",
+        "forgotPassword" : "Zapomniałeś hasła?",
+        "reset" : "Zresetuj",
+        "haveAnAccount" : "Masz już konto?",
+        "register" : "Zarejetruj się"
     },
 
     "HomePage": {
@@ -199,8 +203,8 @@
         "returnToApp" : "Powróć do aplikacji"
     },
     "Validation" : {
-        "emailRequired" : "Email is required",
-        "passwordRequired" : "Password is required",
+        "emailRequired" : "Adres email jest wymagany",
+        "passwordRequired" : "Hasło jest wymagane",
         "minLength" : "Minimalna długość to {count} znaków",
         "maxLength" : "Maksymalna długość to {count} znaków",
         "invalidEmail" : "Niepoprawny adres email",

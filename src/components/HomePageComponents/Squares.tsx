@@ -20,7 +20,7 @@ export const Squares: React.FC<ISquares> = ({
     'right-0 -translate-y-1/2 translate-x-[-1.875rem] z-0 rounded-square';
 
   return (
-    <div className="overflow-visible bg-secondary">
+    <div className="relative overflow-visible">
       <div className={`${commonClasses + positionFirstClasses}`}/>
       <div className={`${commonClasses + positionSecondClasses}`} />
       <div className="relative z-10">{children}</div>

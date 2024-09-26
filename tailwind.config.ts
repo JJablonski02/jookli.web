@@ -38,9 +38,11 @@ module.exports = {
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
+        'secondary-light' : "var(--secondary-light)",
+        'secondary-light-foreground' : "var(--secondary-light-foreground)",
         blue: "var(--blue)",
         gray: "var(--gray)",
-        border: "hsl(var(--border))",
+        border: "var(--border)",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",

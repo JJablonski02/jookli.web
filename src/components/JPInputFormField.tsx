@@ -7,6 +7,7 @@ const JPInputFormField : React.FC<InputProps> = ({...props }) => {
       <Input 
           variant='faded' 
           labelPlacement="inside"
+          className="h-20"
           color={'secondary'}
           {...props}
       />

@@ -15,7 +15,7 @@ export default function ClientLayout({
   return (
     <RootLayout params={params}>
       <NavBarUi/>
-        <main className="main-height">
+        <main className="flex items-center justify-center h-full">
             {children}
         </main>
     </RootLayout>

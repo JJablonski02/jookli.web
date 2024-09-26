@@ -24,7 +24,7 @@ import {
 import LogoSvg from "../../public/logo.svg";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import JPButton from "./JPButton";
+import JPButton from "./buttons/JPButton";
 
 type MenuItem = {
   label: string;

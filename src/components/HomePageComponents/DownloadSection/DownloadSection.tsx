@@ -2,7 +2,7 @@ import React from "react";
 import WidthWrapper from "../../WidthWrapper";
 import { useTranslations } from "next-intl";
 import Tile from "./Tile";
-import JPButton from "../../JPButton";
+import JPButton from "../../buttons/JPButton";
 
 const DownloadSection = () => {
   const t = useTranslations("HomePage.DownloadSection");
@@ -20,7 +20,7 @@ const DownloadSection = () => {
               type='ios'
               children={
                 <JPButton
-                  imageType="appStore"
+                  iconType="apple"
                   alt="appStore icon"
                   className="text-primary p-6 bg-blue rounded-full flex flex-row gap-2 md:h-14 md:w-1/2"
                   label="App Store"
@@ -33,7 +33,7 @@ const DownloadSection = () => {
               type='android'
               children={
                 <JPButton
-                  imageType="playStore"
+                  iconType="googlePlayStore"
                   alt="playStore icon"
                   className="text-primary p-6 bg-blue rounded-full flex flex-row gap-2 md:h-14 md:w-1/2"
                   label="Play Store"

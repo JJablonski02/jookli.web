@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslations } from "next-intl";
-import JPDownloadButton from "../../JPDownloadButton";
+import JPDownloadButton from "../../buttons/JPDownloadButton";
 import { EmblaCarousel } from "@/components/EmblaCarouselComponent/EmblaCarousel";
 
 

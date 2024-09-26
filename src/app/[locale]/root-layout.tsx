@@ -26,7 +26,7 @@ export default async function RootLayout({
 
   return (
     <html lang={locale}>
-      <body className="bg-secondary">
+      <body>
         <NextIntlClientProvider messages={messages}>
           <Providers>
             {children}

@@ -1,5 +1,5 @@
 "use client";
-import JPButton from "@/components/JPButton";
+import JPButton from "@/components/buttons/JPButton";
 import JPInputFormField from "@/components/JPInputFormField";
 import { useTranslations } from "next-intl";
 import React, { useState } from "react";

@@ -1,27 +1,27 @@
 "use client";
 import React from "react";
-import JPImage from "./JPImage";
+import JPIcon, { JPIconType } from "./JPIcon";
 import { Button, ButtonProps } from "@nextui-org/button";
 
 interface JPButtonProps extends ButtonProps {
-  imageType?: "playStore" | "appStore";
+  iconType?: JPIconType;
   label?: string;
   className?: string;
   alt?: string;
 }
 
 const JPButton: React.FC<JPButtonProps> = ({
-  imageType,
+  iconType: iconType,
   label,
   alt,
   className,
   ...props}) => {
   return (
-    <Button className={className} color="default" {...props}>
-      {imageType && (
-        <JPImage type={imageType} width={20} height={20} alt={alt} />
+    <Button className={'h-12 ' + className} color="default" {...props}>
+      {iconType && (
+        <JPIcon type={iconType} width={20} height={20} alt={alt} />
       )}
-      {label}
+      <p className="text-white text-sm">{label}</p>
     </Button>
   );
 };

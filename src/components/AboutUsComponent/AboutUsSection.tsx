@@ -1,5 +1,5 @@
 import React from 'react'
-import JPDownloadButton from '../JPDownloadButton'
+import JPDownloadButton from '../buttons/JPDownloadButton'
 import { EmblaCarousel } from '../EmblaCarouselComponent/EmblaCarousel'
 import { useTranslations } from 'next-intl'
 
