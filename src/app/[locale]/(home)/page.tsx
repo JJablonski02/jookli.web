@@ -15,6 +15,6 @@ export default function Home() {
       <WCSSection />
       <SectionImageBlueBg />
       <DownloadSection />
-    </PageWrapper>
+    </PageWrapper>    
   );
 }

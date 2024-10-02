@@ -13,9 +13,8 @@ const HowItWorksSection = () => {
   const t = useTranslations("HomePage.HowItWorksSection");
   return (
     <section>
-      <WidthWrapper className="my-12 relative">
         <Squares position="left">
-          <div className="ml-96 lg:mt-10 lg:mx-0 flex justify-evenly items-center md:flex md:flex-col gap-20 text-start">
+          <div className="lg:mt-10 lg:mx-0 flex justify-evenly items-center md:flex md:flex-col gap-20 text-start w-full">
             <div className="lg:hidden">
               <Image src={dashboardPhone} alt="logo svg" className="h-2/3" />
             </div>
@@ -58,7 +57,6 @@ const HowItWorksSection = () => {
             </div>
           </div>
         </Squares>
-      </WidthWrapper>
     </section>
   );
 };

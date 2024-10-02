@@ -16,38 +16,36 @@ const Header: React.FC<HeaderProps> = ({ header, headerParagraph, firstButtonLab
 
   return (
     <header>
-      <div className="mx-20 my-12 md:mt-10 md:mx-2.5 overflow-x-hidden">
         <Squares position="right">
-          <div className="p-2 md:px-0 flex justify-between items-center md:flex-col">
-            <div className="md:flex md:items-center md:flex-col">
-              <h1 className="text-5xl lg:w-full">
-                {header}
-              </h1>
-              <p className="mt-8 text-lg md:mt-6 md:w-full">
-                {headerParagraph}
-              </p>
-              <div className="mt-10 md:mx-auto md:mt-8 md:w-10/12 flex justify-start gap-6">
-                <JPButton
-                  className="text-primary font-PoppinsMedium p-6 bg-blue rounded-full flex flex-row gap-2 md:h-14 md:w-1/2"
-                  label={firstButtonLabel}
-                />
-                <JPButton
-                  className="text-primary font-PoppinsMedium p-6 bg-blue rounded-full flex flex-row gap-2 md:h-14 md:w-1/2"
-                  label={secondButtonLabel}
-                />
+            <div className="p-2 py-5 pl-20 gap-5 flex justify-between items-center md:flex-col lg:text-center lg:items-center lg:pr-20 md:px-0">
+              <div className="md:flex md:items-center md:flex-col w-3/4 lg:w-full">
+                <h1 className="text-5xl md:text-4xl whitespace-pre-wrap lg:whitespace-normal">
+                  {header}
+                </h1>
+                <p className="mt-8 text-lg md:mt-6 md:w-full md:text-center">
+                  {headerParagraph}
+                </p>
+                <div className="mt-10 lg:mx-auto md:mt-8 lg:w-10/12 flex justify-start gap-6">
+                  <JPButton
+                    className="text-primary font-PoppinsMedium p-6 bg-blue rounded-full flex flex-row gap-2 lg:h-14 lg:w-1/2"
+                    label={firstButtonLabel}
+                  />
+                  <JPButton
+                    className="text-primary font-PoppinsMedium p-6 bg-blue rounded-full flex flex-row gap-2 lg:h-14 lg:w-1/2"
+                    label={secondButtonLabel}
+                  />
+                </div>
+              </div>
+              <div className="lg:hidden">
+                {src &&
+                  <Image src={src} alt="Phone image" />
+                }
+                {secondSrc &&
+                  <Image className="absolute -top-12 right-44 -z-10" src={secondSrc} alt="Phone image" width={343} height={677} />
+                }
               </div>
             </div>
-            <div className="lg:hidden mr-64 h-full w-full justify-end flex">
-              {src &&
-                <Image src={src} alt="Phone image" />
-              }
-              {secondSrc &&
-                <Image className="absolute -top-12 right-44 -z-10" src={secondSrc} alt="Phone image" width={343} height={677} />
-              }
-            </div>
-          </div>
-        </Squares>
-      </div>
+            </Squares>
     </header>
   );
 };
