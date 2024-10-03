@@ -1,13 +1,20 @@
+import { HTMLAttributes } from 'react'
 
-interface ISquares {
+interface ISquares extends HTMLAttributes<HTMLDivElement> {
     children: React.ReactElement,
-    position: 'left' | 'right'
+    position: 'left' | 'right',
+    square1Id?: string,
+    square2Id?: string,
 }
 
 export const Squares: React.FC<ISquares> = ({
   children,
-  position
+  position,
+  className,
+  square1Id,
+  square2Id
 }) => {
+
     const commonClasses = 'lg:hidden absolute h-2/3 aspect-square border-5 border-blue transform rotate-45 top-1/2 z-0 rounded-square ';
 
     const positionFirstClasses = position === 'left' ? 
@@ -24,9 +31,9 @@ export const Squares: React.FC<ISquares> = ({
 
   return (
     <div className="relative w-full max-h">
-        <div className={`${commonClasses + positionFirstClasses}`}/>
-        <div className={`${commonClasses + positionSecondClasses}`} />
-        <div className={childrenClasses}>{children}</div> 
+        <div id={square1Id} className={`${commonClasses + positionFirstClasses}`}/>
+        <div id={square2Id} className={`${commonClasses + positionSecondClasses}`} />
+        <div className={`${childrenClasses} + " " + ${className}`}>{children}</div> 
     </div>
   );
 };
