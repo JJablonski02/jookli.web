@@ -43,7 +43,7 @@ const Header: React.FC<HeaderProps> = ({ header, headerParagraph, firstButtonLab
                   <Image src={src} alt="Phone image" />
                 }
                 {secondSrc &&
-                  <Image className="absolute top-14 -right-40" src={secondSrc} alt="Phone image" />
+                  <Image className="absolute top-14 -right-40 z-[1]" src={secondSrc} alt="Phone image" />
                 }
               </div>
             </div>

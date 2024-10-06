@@ -7,7 +7,7 @@ const SectionImageBlueBg = () => {
   return (
     <section className="bg-blue rounded-3xl md:rounded-none">
       <WidthWrapper>
-        <div className="px-20 py-10 my-12 flex text-center md:flex md:flex-col gap-4 md:px-0">
+        <div className="px-20 py-10 mt-12 mb-32 flex text-center md:flex md:flex-col gap-4 md:px-0">
           <div className="flex justify-start md:items-center flex-col md:w-full">
             <h2 className="text-3xl text-primary text-start md:text-center">
               {t("headerDescription")}

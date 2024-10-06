@@ -25,7 +25,7 @@ export const Squares: React.FC<ISquares> = ({
     'left-0 -translate-y-1/2 translate-x-[4.375rem]' :
     'right-0 -translate-y-1/2 translate-x-[5.5rem]';
 
-    const commonChildrenClasses = "relative z-1 w-[80%] lg:w-full flex min-h-[680px]";
+    const commonChildrenClasses = "relative z-1 w-[80%] lg:w-full flex min-h-[680px] lg:min-h-0";
 
     const childrenClasses = position === 'left' ? `${commonChildrenClasses} ml-auto` : `${commonChildrenClasses}`; {/**Ustalona max-h jako stała na 680px */}
 

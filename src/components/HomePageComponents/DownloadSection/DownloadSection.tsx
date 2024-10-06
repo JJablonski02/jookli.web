@@ -4,13 +4,17 @@ import { useTranslations } from "next-intl";
 import Tile from "./Tile";
 import JPButton from "../../buttons/JPButton";
 
-const DownloadSection = () => {
+interface IDownloadSection {
+  betterStyling?: boolean;
+}
+
+const DownloadSection : React.FC<IDownloadSection> = ({ betterStyling }) => {
   const t = useTranslations("HomePage.DownloadSection");
   return (
     <section>
       <WidthWrapper>
-        <div className="my-12 mx-20 md:mx-0">
-          <div className="mb-8">
+        <div className={`my-12 lg:mt-12 mx-20 md:mx-0 ${betterStyling && "relative mt-0 md:mt-12"}`}>
+          <div className={`mb-12 md:mb-6 ${betterStyling && "top-[-80px] left-0 absolute lg:static"}`}>
             <h2 className="text-3xl md:pb-4">{t("headerDescription")}</h2>
           </div>
           <div className="flex md:flex-col gap-8">
