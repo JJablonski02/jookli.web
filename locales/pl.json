@@ -59,6 +59,26 @@
         "register" : "Zarejetruj się"
     },
 
+    "Support" : {
+        "contactWithUs" : "Skontaktuj się z nami",
+        "fillDataDescription" : "Uzupełnij dane i opisz problem lub zdarzenie, a my skonatkujemy się z Tobą bezzwłocznie. Pamiętaj, że zgłoszenie możesz wysłać również nie będąc jeszcze użytkownikiem JoyProfits.",
+        "fillForm" : "Uzupełnij formularz",
+        "selectReportType" : "Wybierz typ zgłoszenia",
+        "contactEmail" : "Kontaktowy adres email",
+        "describeReport" : "Opisz powód zgłoszenia",
+        "sendReport" : "Wyślij zgłoszenie",
+        "payoutProblem" : "Problem z wypłatą",
+        "paymentMethod" : "Metoda płatności",
+        "taskWasNotCounted" : "Zadanie nie zostało policzone",
+        "technicalError" : "Błąd techniczny",
+        "reviews" : "Opinie",
+        "cooperation" : "Współpraca",
+        "promote" : "Promocja",
+        "firstName" : "Twoje imię",
+        "lastName" : "Twoje nazwisko",
+        "iConsentToContact" : "Wyrażam zgodę na kontakt i otrzymywanie informacji od JoyProfits za pośrednictwem poczty elektronicznej."
+    },
+
     "HomePage": {
         "Header": {
             "headerTitle": "Zdobywaj nagrody i\nzarabiaj pieniądze w\nwolnym czasie!",
