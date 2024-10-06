@@ -3,6 +3,8 @@ import phoneImage from "../../../public/HiWphone.svg";
 import { useTranslations } from "next-intl";
 import Header from "../Header";
 
+
+
 const HowItWorksHeader = () => {
   const t = useTranslations("HowItWorksPage.Header");
 
@@ -14,6 +16,8 @@ const HowItWorksHeader = () => {
       secondButtonLabel={t('downloadAndroid').toUpperCase()}
       src={phoneImage}
       secondSrc={phoneImage}
+      square1Id="square1"
+      square2Id="square2"
     />
   );
 };

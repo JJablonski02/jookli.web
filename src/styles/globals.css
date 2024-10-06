@@ -117,6 +117,6 @@
     }
     
     [data-overlay-container=true] {
-      @apply min-h-full flex min-w-full flex-col max-w-[1920px] mx-auto
+      @apply min-h-full h-full flex min-w-full flex-col max-w-[1920px] mx-auto
     }
   }
