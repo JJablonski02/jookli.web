@@ -19,7 +19,7 @@ const Header: React.FC<HeaderProps> = ({ header, headerParagraph, firstButtonLab
   return (
     <header>
         <Squares position="right" square1Id={square1Id} square2Id={square2Id} >
-            <div className="p-2 py-5 pl-20 gap-5 flex justify-between items-center md:flex-col lg:text-center lg:items-center lg:pr-20 md:px-0">
+            <div className="p-2 py-5 pl-20 gap-5 flex justify-between items-center md:flex-col lg:text-center lg:items-center lg:pr-20 md:px-0 flex-grow">
               <div className="md:flex md:items-center md:flex-col w-3/4 lg:w-full">
                 <h1 className="text-5xl md:text-4xl whitespace-pre-wrap lg:whitespace-normal">
                   {header}
