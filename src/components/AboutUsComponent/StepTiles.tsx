@@ -1,8 +1,8 @@
 import React from 'react'
-import StepTile from '../StepTile'
 import MachineLearning from '../../../public/MachineLearning.png'
 import phoneImage from '../../../public/HiWphone.svg'
 import { useTranslations } from 'next-intl'
+import StepTile from '../StepTile'
 
 const AboutUsStepTiles = () => {
     const t = useTranslations('AboutUs.StepTile')
@@ -15,6 +15,10 @@ const AboutUsStepTiles = () => {
                 secondParagraph={t("firstTileExtraParagraph")}
                 src={MachineLearning}
                 alt={"Machine Learning Image"}
+                square1Id='square1'
+                square2Id='square2'
+                squaresPosition='left'
+                stepType='1'
             />
             <StepTile
                 className="flex-row-reverse"
@@ -23,6 +27,10 @@ const AboutUsStepTiles = () => {
                 secondParagraph={t("secondTileExtraParagraph")}
                 src={MachineLearning}
                 alt={"Machine Learning Image"}
+                square1Id='square1'
+                square2Id='square2'
+                squaresPosition='left'
+                stepType='1'
             />
             <StepTile
                 header={t("thirdTileHeader")}
@@ -30,6 +38,10 @@ const AboutUsStepTiles = () => {
                 secondParagraph={t("thirdTileExtraParagraph")}
                 src={phoneImage}
                 alt={"Machine Learning Image"}
+                square1Id='square1'
+                square2Id='square2'
+                squaresPosition='left'
+                stepType='1'
             />
 
 
