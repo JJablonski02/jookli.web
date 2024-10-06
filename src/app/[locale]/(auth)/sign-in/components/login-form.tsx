@@ -27,10 +27,10 @@ export const LoginForm = () => {
 
   return (
     <Card className="bg-secondary-light max-w-md mx-auto w-full md:h-full md:max-w-none md:rounded-none">
-      <CardBody className="space-y-4 flex items-center justify-center flex-col gap-4 py-8 overflow-hidden">
+      <CardBody className="space-y-4 flex items-center justify-center flex-col gap-8 py-8 overflow-hidden">
           <h2 className="text-3xl">{t("signIn")}</h2>
           <form
-            className="flex justify-center items-center flex-col w-3/4"
+            className="flex justify-center items-center flex-col w-3/4 gap-4"
             method="POST"
             onSubmit={handleSubmit(onSubmit)}
           >

@@ -6,20 +6,24 @@ export const useSupportSchema = () => {
 
   return z.object({
     firstName: z.string()
-      .min(1, {message: t('passwordRequired')})
-      .min(8, { message: t('minLength', { count: 8 }) })
+      .min(1, {message: t('firstNameRequired')})
       .max(100, { message: t('maxLength', { count: 100 }) }),
       lastName: z.string()
-      .min(1, {message: t('passwordRequired')})
-      .min(8, { message: t('minLength', { count: 8 }) })
+      .min(1, {message: t('lastNameRequired')})
       .max(100, { message: t('maxLength', { count: 100 }) }),
-      category: z.string()
-      .min(1, {message: t('passwordRequired')}),
     email: z.string()
         .min(1, {message: t('emailRequired')})
         .min(5, { message: t('minLength', { count: 5 }) })
         .max(100, { message: t('maxLength', { count: 100 }) })
         .email({ message: t('invalidEmail') }),
+    consent: z.boolean().refine((value) => value === true, {
+        message: t('consentRequired')
+    }),
+    category: z.string()
+    .min(1, {message: t('categorySelectionRequired')}),
+    description: z.string()
+        .min(1, {message: t('descriptionRequired')})
+        .min(20, {message: t('minLength', { count: 20 })})
     });
 };
 

@@ -10,9 +10,9 @@ const Support = () => {
 
   return (
     <PageWrapper>
-        <div className="h-[400px] mx-20 flex flex-col py-20">
-          <h2 className="text-4xl">{t('contactWithUs')}</h2>
-          <p className="text-xl max-w-[80%] flex flex-grow items-center justify-center">{t('fillDataDescription')}</p>
+        <div className="min-h-[400px] w-3/4 flex flex-col mx-auto py-20">
+          <h2 className="text-4xl md:text-center md:text-3xl">{t('contactWithUs')}</h2>
+          <p className="text-xl md:text-lg max-w-[80%] flex flex-grow items-center justify-center md:max-w-[95%] md:text-center md:mt-8">{t('fillDataDescription')}</p>
         </div>
       <SupportForm/>
     </PageWrapper>

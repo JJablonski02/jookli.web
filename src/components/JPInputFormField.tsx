@@ -2,15 +2,26 @@
 import { Input, InputProps } from "@nextui-org/input";
 import React from "react";
 
-const JPInputFormField : React.FC<InputProps> = ({...props }) => {
+interface IJPInputFormField extends InputProps {
+  topLabel?: string;
+}
+
+const JPInputFormField : React.FC<IJPInputFormField> = ({...props }) => {
   return (
-      <Input 
-          variant='faded' 
-          labelPlacement="inside"
-          height={29}
-          color={'secondary'}
-          {...props}
-      />
+    <div className="w-full">
+      {props.topLabel && 
+        <p className="mb-1 md:text-sm">
+        {props.required && <span className="text-danger">* </span>}
+        {props.topLabel}
+        </p>}
+        <Input 
+            variant='faded' 
+            size="lg"
+            labelPlacement="inside"
+            color={'secondary'}
+            {...props}
+        />
+    </div>
   );
 };
 

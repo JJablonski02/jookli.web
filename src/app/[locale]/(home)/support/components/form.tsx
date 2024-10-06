@@ -19,6 +19,7 @@ export const SupportForm = () => {
     handleSubmit,
     setValue,
     control,
+    trigger,
     formState: { errors, isValid },
   } = useForm<SupportSchema>({
     mode: "onChange",
@@ -38,14 +39,17 @@ export const SupportForm = () => {
     []
   );
 
-  const onSubmit = async (data: any) => {};
+  const onSubmit = async (data: any) => {
+    await trigger();
+    console.log('clc')
+  };
 
   return (
-    <Card className="bg-secondary-light w-3/4 mx-auto md:h-full md:max-w-none md:rounded-none">
+    <Card className="bg-secondary-light w-3/4 mx-auto md:h-full md:max-w-none md:w-[90%]">
       <CardBody className="space-y-4 flex items-center justify-center flex-col gap-8 py-8 overflow-hidden">
         <h2 className="text-3xl">{t("fillForm")}</h2>
         <form
-          className="flex justify-center items-center flex-col w-3/4 gap-8"
+          className="flex justify-center items-center flex-col w-3/4 md:w-full gap-4"
           method="POST"
           onSubmit={handleSubmit(onSubmit)}
         >
@@ -55,13 +59,14 @@ export const SupportForm = () => {
             control={control}
             render={({ field: { onChange, onBlur, value } }) => (
               <JPInputFormField
-                label={t("firstName")}
+                topLabel={t("firstName")}
+                required
                 value={value}
                 onBlur={onBlur}
                 onChange={onChange}
-                onClear={() => setValue("email", "")}
-                errorMessage={errors.email?.message}
-                isInvalid={errors.email ? true : false}
+                onClear={() => setValue("firstName", "")}
+                errorMessage={errors.firstName?.message}
+                isInvalid={errors.firstName ? true : false}
               />
             )}
           />
@@ -72,13 +77,14 @@ export const SupportForm = () => {
             control={control}
             render={({ field: { onChange, onBlur, value } }) => (
               <JPInputFormField
-                label={t("lastName")}
+                topLabel={t("lastName")}
+                required
                 value={value}
                 onBlur={onBlur}
                 onChange={onChange}
-                onClear={() => setValue("email", "")}
-                errorMessage={errors.email?.message}
-                isInvalid={errors.email ? true : false}
+                onClear={() => setValue("lastName", "")}
+                errorMessage={errors.lastName?.message}
+                isInvalid={errors.lastName ? true : false}
               />
             )}
           />
@@ -88,7 +94,8 @@ export const SupportForm = () => {
             control={control}
             render={({ field: { onChange, onBlur, value } }) => (
               <JPInputFormField
-                label={t("contactEmail")}
+                topLabel={t("contactEmail")}
+                required
                 value={value}
                 onBlur={onBlur}
                 onChange={onChange}
@@ -103,34 +110,60 @@ export const SupportForm = () => {
             name="category"
             defaultValue=""
             control={control}
-            render={({ field: { onChange, onBlur, value } }) => (
-              <JPDropdownField data={dropdownData} />
+            render={({ field: { onChange }, fieldState: { error } }) => (
+                <div className="w-full">
+                    <JPDropdownField 
+                        topLabel={t('selectReportType')} 
+                        data={dropdownData} 
+                        required
+                        onSelectionChange={onChange}/>
+                    {error && <p className="text-danger">{error.message}</p>} {/* Komunikat o błędzie */}
+                </div>
+              
             )}
           />
-
           <Controller
-            name="category"
+            name="description"
             defaultValue=""
             control={control}
             render={({ field: { onChange, onBlur, value } }) => (
-              <JPTextAreaField label={t("describeReport")} />
+              <JPTextAreaField 
+              topLabel={t("describeReport")} 
+              required
+              onChange={onChange}
+              onBlur={onBlur}
+              value={value}
+              onClear={() => setValue("description", "")}
+              errorMessage={errors.description?.message}
+              isInvalid={errors.description ? true : false}
+              />
             )}
           />
-
+                <p className="md:text-sm">
+                    <span className="text-danger">* </span>
+                    - 
+                    {t('requiredFields')}
+                </p>
           <Controller
-            name="category"
-            defaultValue=""
+            name="consent"
             control={control}
-            render={({ field: { onChange, onBlur, value } }) => (
-              <JPCheckbox label={t('iConsentToContact')}/>
+            defaultValue={false}
+            render={({ field: { onChange, value } }) => (
+                <div>
+                    <JPCheckbox 
+                    label={t("iConsentToContact")} 
+                    checked={value} 
+                    onChange={onChange}
+                    />
+                    {errors.consent && <p className="text-danger">{errors.consent.message}</p>} {/* Komunikat o błędzie */}
+              </div>
             )}
           />
 
           <JPButton
             type="submit"
-            className="w-full bg-blue"
+            className="w-full bg-blue mt-12"
             label={t("sendReport")}
-            disabled={!isValid}
           />
         </form>
       </CardBody>
