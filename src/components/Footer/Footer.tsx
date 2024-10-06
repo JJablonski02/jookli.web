@@ -36,7 +36,7 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-row justify-between items-center mb-10 lg:flex-col lg:gap-8 lg:justify-evenly ">
+        <div className="flex flex-row justify-between items-center mb-10 lg:flex-col lg:gap-8 lg:justify-evenly gap-6">
           <FooterLinks />
           <div className="flex flex-col bg-gray rounded-3xl py-[44px] pl-[34px] pr-[54px] w-2/5 lg:w-full">
             <div>
