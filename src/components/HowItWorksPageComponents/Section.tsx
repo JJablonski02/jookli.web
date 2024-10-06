@@ -12,7 +12,7 @@ const Section = () => {
     <section>
       <WidthWrapper>
         <div className="mx-20 my-12 flex justify-end relative md:mx-0">
-          <div className='min-h-[467px] lg:min-h-[1100px] w-4/5 pb-[25px] flex'>
+          <div className='min-h-[467px] lg:min-h-[1200px] w-4/5 pb-[25px] flex'>
             <div className='bg-white rounded-[162px] lg:rounded-[100px] flex-grow'></div>
             <div className='bg-blue p-6 rounded-2xl absolute left-0 bottom-0 w-11/12 min-h-[66%] flex flex-col'>
               <div className="text-center lg:mb-8 mt-4">

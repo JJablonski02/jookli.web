@@ -42,7 +42,7 @@ export const StepOverview : React.FC<IStepOverview> = ({ variant }) => {
     }[variant];
 
     return(
-        <div className="flex flex-col items-center justify-center text-center mx-auto">
+        <div className="flex flex-col items-center justify-center text-center mx-auto gap-4">
             <Image src={src} alt={altText} />
             <p className="whitespace-pre-wrap">
                 {text}
