@@ -7,6 +7,9 @@ import HowItWorksHeader from "@/components/HowItWorksPageComponents/Header";
 import Section from "@/components/HowItWorksPageComponents/Section";
 import MachineLearningImage from "../../../../../public/MachineLearning.png"
 import { HorizontalLine } from "@/components/horizontal-line";
+import registerScreen from "../../../../../public/register-screen.svg"
+import strategySelection from "../../../../../public/strategy-selection.svg"
+import analyticsScreen from "../../../../../public/analytics-screen.svg"
 
 
 const HowItWorks = () => {
@@ -17,11 +20,12 @@ const HowItWorks = () => {
       <HowItWorksHeader/>
           <HorizontalLine variant="1"/>
           <StepTile
+            stepType="1"
             header={t("firstTileHeader")}
             paragraph={t("firstTileParagraph")}
             secondParagraph={t("firstTileExtraParagraph")}
             step={t('firstStep')}
-            src={MachineLearningImage}
+            src={registerScreen}
             alt={"Machine Learning Image"}
             squaresPosition="left"
             square1Id="square3"
@@ -29,12 +33,13 @@ const HowItWorks = () => {
           />
           <HorizontalLine variant="2"/>
           <StepTile
+            stepType="2"
             className="flex-row-reverse"
             header={t("secondTileHeader")}
             paragraph={t("secondTileParagraph")}
             secondParagraph={t("secondTileExtraParagraph")}
             step={t('secondStep')}
-            src={MachineLearningImage}
+            src={strategySelection}
             alt={"Machine Learning Image"}
             squaresPosition="right"
             square1Id="square5"
@@ -42,11 +47,12 @@ const HowItWorks = () => {
           />
           <HorizontalLine variant="3"/>
           <StepTile
+            stepType="3"
             header={t("thirdTileHeader")}
             paragraph={t("thirdTileParagraph")}
             secondParagraph={t("thirdTileExtraParagraph")}
             step={t('thirdStep')}
-            src={MachineLearningImage}
+            src={analyticsScreen}
             alt={"Machine Learning Image"}
             squaresPosition="left"
             square1Id="square7"
