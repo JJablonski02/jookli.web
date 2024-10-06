@@ -19,9 +19,9 @@ interface StepTileProps {
 const StepTile: React.FC<StepTileProps> = ({ header, paragraph, secondParagraph, step, src, alt, squaresPosition, square1Id, square2Id, className }) => {
     return (
         <section>
-            <Squares position={squaresPosition} className='h-[680px]' square1Id={square1Id} square2Id={square2Id}>
-                <WidthWrapper>
-                    <div className={`${className} flex flex-row justify-between items-center gap-8 mx-20 my-40`}>
+            <Squares className='w-[90%]' position={squaresPosition} square1Id={square1Id} square2Id={square2Id}>
+                <WidthWrapper className='self-center'>
+                    <div className={`${className} flex flex-row justify-between items-center gap-8 mx-20`}>
                         <div className="lg:hidden flex items-center justify-center">
                             <Image className='rounded-3xl' src={src} alt={alt} />
                         </div>
