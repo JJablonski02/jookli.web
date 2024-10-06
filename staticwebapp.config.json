@@ -1,0 +1,14 @@
+{
+    "routes": [
+        {
+            "route": "/",
+            "redirect": "/[locale]/(home)",
+            "statusCode": 302
+        },
+        {
+            "route": "/:path*",
+            "redirect": "/[locale]/(home)",
+            "statusCode": 302
+        }
+    ]
+}
