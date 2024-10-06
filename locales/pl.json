@@ -55,8 +55,22 @@
         "orSignInWith" : "lub zaloguj się przez",
         "forgotPassword" : "Zapomniałeś hasła?",
         "reset" : "Zresetuj",
-        "haveAnAccount" : "Masz już konto?",
+        "haveNotAnAccount" : "Nie masz konta?",
         "register" : "Zarejetruj się"
+    },
+
+    "Register" : {
+        "title": "Logowanie",
+        "email": "Email",
+        "enterEmail" : "Wprowadź adres email",
+        "enterPassword" : "Wprowadź hasło",
+        "reEnterPassword" : "Potwierdź hasło",
+        "emailPlaceholder": "Email",
+        "password": "Hasło",
+        "register" : "Zarejestruj się",
+        "orRegisterWith" : "lub zarejestruj się przez",
+        "haveAnAccount" : "Masz już konto?",
+        "signIn" : "Zaloguj się"
     },
 
     "Support" : {
@@ -242,6 +256,7 @@
         "maxLength" : "Maksymalna długość to {count} znaków",
         "invalidEmail" : "Niepoprawny adres email",
         "passwordSpecialChar" : "Wymagany znak specjalny",
-        "passwordUppercase" : "Wymagana przynajmniej jedna wielka litera"
+        "passwordUppercase" : "Wymagana przynajmniej jedna wielka litera",
+        "passwordsMismatch" : "Hasła nie są takie same"
     }
 }
