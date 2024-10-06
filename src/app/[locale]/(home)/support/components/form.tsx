@@ -1,5 +1,6 @@
 "use client";
 
+import { fetchReport } from "@/api/rest/administration";
 import JPButton from "@/components/buttons/JPButton";
 import { JPCheckbox } from "@/components/JPCheckbox";
 import { DropdownData, JPDropdownField } from "@/components/JPDropdownField";
@@ -9,18 +10,19 @@ import { SupportSchema, useSupportSchema } from "@/lib/zod/support";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { Card, CardBody } from "@nextui-org/card";
 import { useTranslations } from "next-intl";
-import { useMemo } from "react";
+import { useMemo, useState } from "react";
 import { Controller, useForm } from "react-hook-form";
 
 export const SupportForm = () => {
   const t = useTranslations("Support");
+  const [sent, setSent] = useState(false);
   const supportSchema = useSupportSchema();
   const {
     handleSubmit,
     setValue,
     control,
     trigger,
-    formState: { errors, isValid },
+    formState: { errors, isValid, isSubmitting },
   } = useForm<SupportSchema>({
     mode: "onChange",
     resolver: zodResolver(supportSchema),
@@ -39,9 +41,17 @@ export const SupportForm = () => {
     []
   );
 
-  const onSubmit = async (data: any) => {
-    await trigger();
-    console.log('clc')
+  const onSubmit = async (data: SupportSchema) => {
+    const isFormValid = await trigger();
+    if(isFormValid){
+        try{
+            const result = await fetchReport(data);
+            setSent(result.ok);
+        }
+        catch{
+            
+        }
+    }
   };
 
   return (
@@ -162,6 +172,8 @@ export const SupportForm = () => {
 
           <JPButton
             type="submit"
+            isLoading={isSubmitting}
+            disabled={sent}
             className="w-full bg-blue mt-12"
             label={t("sendReport")}
           />
