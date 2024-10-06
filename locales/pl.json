@@ -145,6 +145,13 @@
         },
         "Section": {
             "header": "Jak to działa?"
+        },
+        "StepOverview": {
+            "registrationAndConfig" : "Rejestracja oraz\nkonfiguracja konta",
+            "strategySelection" : "Wybór strategii\nzarobkowej",
+            "educationAndSupport" : "Edukacja\noraz wsparcie",
+            "analysis" : "Monitoring postępów\ni optymalizacja",
+            "payouts" : "Wypłaty zarobionych\nśrodków"
         }
     },
 
