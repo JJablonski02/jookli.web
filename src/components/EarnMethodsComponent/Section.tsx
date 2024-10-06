@@ -10,7 +10,7 @@ const Section = () => {
   return (
     <section>
       <WidthWrapper>
-        <div className="mx-20 my-40 md:mx-0">
+        <div className="mx-20 mt-40 md:mx-0">
           <h2 className='text-4xl text-center mb-8 md:text-start'>{t('header')}</h2>
           <div className="grid grid-cols-3 gap-8 lg:grid-cols-2 md:grid-cols-1">
             {SectionData.map((data, index) => (

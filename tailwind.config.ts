@@ -40,6 +40,7 @@ module.exports = {
         secondary: "var(--secondary)",
         'secondary-light' : "var(--secondary-light)",
         'secondary-light-foreground' : "var(--secondary-light-foreground)",
+        success: "var(--blue)",
         blue: "var(--blue)",
         gray: "var(--gray)",
         border: "var(--border)",

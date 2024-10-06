@@ -22,7 +22,7 @@
             "adRules": "ZASADY REKLAMOWE",
             "aboutUs": "O NAS",
             "downloadApp": "Pobierz aplikację",
-            "appDescription": "Lorem ipsum dolor sit, amet consectetur adipisicing elit.Incidunt, veniam"
+            "appDescription": "Dołącz do naszej platformy i odkryj, jak możesz zarabiać na swoich umiejętnościach"
         },
         
         "SignIn": {
@@ -55,8 +55,43 @@
         "orSignInWith" : "lub zaloguj się przez",
         "forgotPassword" : "Zapomniałeś hasła?",
         "reset" : "Zresetuj",
-        "haveAnAccount" : "Masz już konto?",
+        "haveNotAnAccount" : "Nie masz konta?",
         "register" : "Zarejetruj się"
+    },
+
+    "Register" : {
+        "title": "Logowanie",
+        "email": "Email",
+        "enterEmail" : "Wprowadź adres email",
+        "enterPassword" : "Wprowadź hasło",
+        "reEnterPassword" : "Potwierdź hasło",
+        "emailPlaceholder": "Email",
+        "password": "Hasło",
+        "register" : "Zarejestruj się",
+        "orRegisterWith" : "lub zarejestruj się przez",
+        "haveAnAccount" : "Masz już konto?",
+        "signIn" : "Zaloguj się"
+    },
+
+    "Support" : {
+        "contactWithUs" : "Skontaktuj się z nami",
+        "fillDataDescription" : "Uzupełnij dane i opisz problem lub zdarzenie, a my skonatkujemy się z Tobą bezzwłocznie. Pamiętaj, że zgłoszenie możesz wysłać również nie będąc jeszcze użytkownikiem JoyProfits.",
+        "fillForm" : "Uzupełnij formularz",
+        "selectReportType" : "Wybierz typ zgłoszenia",
+        "contactEmail" : "Kontaktowy adres email",
+        "describeReport" : "Opisz powód zgłoszenia",
+        "sendReport" : "Wyślij zgłoszenie",
+        "payoutProblem" : "Problem z wypłatą",
+        "paymentMethod" : "Metoda płatności",
+        "taskWasNotCounted" : "Zadanie nie zostało policzone",
+        "technicalError" : "Błąd techniczny",
+        "reviews" : "Opinie",
+        "cooperation" : "Współpraca",
+        "promote" : "Promocja",
+        "firstName" : "Twoje imię",
+        "lastName" : "Twoje nazwisko",
+        "iConsentToContact" : "Wyrażam zgodę na kontakt i otrzymywanie informacji od JoyProfits za pośrednictwem poczty elektronicznej.",
+        "requiredFields" : " pola wymagane"
     },
 
     "HomePage": {
@@ -145,6 +180,13 @@
         },
         "Section": {
             "header": "Jak to działa?"
+        },
+        "StepOverview": {
+            "registrationAndConfig" : "Rejestracja oraz\nkonfiguracja konta",
+            "strategySelection" : "Wybór strategii\nzarobkowej",
+            "educationAndSupport" : "Edukacja\noraz wsparcie",
+            "analysis" : "Monitoring postępów\ni optymalizacja",
+            "payouts" : "Wypłaty zarobionych\nśrodków"
         }
     },
 
@@ -205,10 +247,16 @@
     "Validation" : {
         "emailRequired" : "Adres email jest wymagany",
         "passwordRequired" : "Hasło jest wymagane",
+        "firstNameRequired" : "Imię jest wymagane",
+        "lastNameRequired" : "Nazwisko jest wymagane",
+        "consentRequired" : "Zgoda jest wymagana",
+        "descriptionRequired" : "Opis jest wymagany",
+        "categorySelectionRequired" : "Wybór kategorii wymagany",
         "minLength" : "Minimalna długość to {count} znaków",
         "maxLength" : "Maksymalna długość to {count} znaków",
         "invalidEmail" : "Niepoprawny adres email",
         "passwordSpecialChar" : "Wymagany znak specjalny",
-        "passwordUppercase" : "Wymagana przynajmniej jedna wielka litera"
+        "passwordUppercase" : "Wymagana przynajmniej jedna wielka litera",
+        "passwordsMismatch" : "Hasła nie są takie same"
     }
 }
