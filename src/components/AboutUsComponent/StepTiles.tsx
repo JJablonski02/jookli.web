@@ -4,6 +4,7 @@ import MachineLearning from '../../../public/MachineLearning.png'
 import phoneImage from '../../../public/HiWphone.svg'
 import { useTranslations } from 'next-intl'
 import { HorizontalLine } from '../horizontal-line'
+import Image from 'next/image'
 
 const AboutUsStepTiles = () => {
     const t = useTranslations('AboutUs.StepTile')
@@ -17,8 +18,9 @@ const AboutUsStepTiles = () => {
                 alt={"Jakub_Jablonski_image"}
                 squaresPosition='left'
                 customContent={
-                    <div className='w-[500px] h-[500px] relative bg-secondary-light'>
-                    </div>
+                    <div className='max-w-[500px] max-h-[500px] md:flex-grow md:h-full bg-secondary-light'> /** TODO */
+                    <Image src={MachineLearning} alt="Jakub_Jablonski_image" className='flex-grow'/>
+                </div>
                 }
                             />
             <HorizontalLine variant='2' />
