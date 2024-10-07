@@ -1,8 +1,9 @@
 import React from 'react'
+import StepTile from '../../components/StepTile'
 import MachineLearning from '../../../public/MachineLearning.png'
 import phoneImage from '../../../public/HiWphone.svg'
 import { useTranslations } from 'next-intl'
-import StepTile from '../StepTile'
+import { HorizontalLine } from '../horizontal-line'
 
 const AboutUsStepTiles = () => {
     const t = useTranslations('AboutUs.StepTile')
@@ -13,13 +14,14 @@ const AboutUsStepTiles = () => {
                 header={t("firstTileHeader")}
                 paragraph={t("firstTileParagraph")}
                 secondParagraph={t("firstTileExtraParagraph")}
-                src={MachineLearning}
-                alt={"Machine Learning Image"}
-                square1Id='square1'
-                square2Id='square2'
+                alt={"Jakub_Jablonski_image"}
                 squaresPosition='left'
-                stepType='1'
-            />
+                customContent={
+                    <div className='w-[500px] h-[500px] relative bg-secondary-light'>
+                    </div>
+                }
+                            />
+            <HorizontalLine variant='2' />
             <StepTile
                 className="flex-row-reverse"
                 header={t("secondTileHeader")}
@@ -27,24 +29,20 @@ const AboutUsStepTiles = () => {
                 secondParagraph={t("secondTileExtraParagraph")}
                 src={MachineLearning}
                 alt={"Machine Learning Image"}
-                square1Id='square1'
-                square2Id='square2'
-                squaresPosition='left'
-                stepType='1'
+                stepType='2'
+                squaresPosition='right'
             />
+            <HorizontalLine variant='3' />
             <StepTile
                 header={t("thirdTileHeader")}
                 paragraph={t("thirdTileParagraph")}
                 secondParagraph={t("thirdTileExtraParagraph")}
                 src={phoneImage}
                 alt={"Machine Learning Image"}
-                square1Id='square1'
-                square2Id='square2'
                 squaresPosition='left'
-                stepType='1'
+                stepType='3'
             />
-
-
+            <HorizontalLine variant='4' />
         </div>
     )
 }
