@@ -15,7 +15,7 @@ export const Squares: React.FC<ISquares> = ({
   square2Id
 }) => {
 
-    const commonClasses = 'lg:hidden absolute h-[480px] aspect-square border-5 border-blue transform rotate-45 top-1/2 rounded-square ';
+    const commonClasses = 'lg:hidden absolute h-[480px] aspect-square border-5 border-blue transform rotate-45 top-1/2 rounded-square z-[2] bg-secondary ';
 
     const positionFirstClasses = position === 'left' ? 
     'left-0 -translate-y-1/2 translate-x-[-3.75rem]' : 
@@ -25,9 +25,9 @@ export const Squares: React.FC<ISquares> = ({
     'left-0 -translate-y-1/2 translate-x-[4.375rem]' :
     'right-0 -translate-y-1/2 translate-x-[5.5rem]';
 
-    const commonChildrenClasses = "relative z-1 w-[80%] lg:w-full flex min-h-[680px] lg:min-h-0 ";
+    const commonChildrenClasses = "relative z-[3] w-[80%] lg:w-full flex min-h-[680px] lg:min-h-0 ";
 
-    const childrenClasses = position === 'left' ? `${commonChildrenClasses} ml-auto` : `${commonChildrenClasses}`; {/**Ustalona max-h jako stała na 680px */}
+    const childrenClasses = position === 'left' ? `${commonChildrenClasses} ml-auto ` : `${commonChildrenClasses}`; {/**Ustalona max-h jako stała na 680px */}
 
   return (
     <div className="relative w-full">

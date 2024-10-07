@@ -10,11 +10,12 @@ interface StepTileProps {
   secondParagraph: string;
   step?: string;
   alt: string;
-  src: StaticImageData;
+  src?: StaticImageData;
   squaresPosition: "left" | "right";
   square1Id?: string;
   square2Id?: string;
-  stepType: "1" | "2" | "3";
+  stepType?: "1" | "2" | "3";
+  customContent?: React.ReactElement;
 }
 
 const StepTile: React.FC<StepTileProps> = ({
@@ -29,44 +30,48 @@ const StepTile: React.FC<StepTileProps> = ({
   square2Id,
   stepType,
   className,
+  customContent,
 }) => {
   return (
     <section>
       <Squares
-        className="w-[90%] lg:my-12"
+        className="w-[90%] lg:my-12 overflow-hidden"
         position={squaresPosition}
         square1Id={square1Id}
         square2Id={square2Id}
       >
         <WidthWrapper className="self-center">
           <div
-            className={`${className} flex flex-row justify-between items-center gap-8 mx-20 md:mx-0`}
+            className={`${className} flex flex-row lg:flex-col justify-between items-center gap-8 mx-20 md:mx-0`}
           >
-            <div className="lg:hidden flex items-center justify-center">
-            <div className="overflow-hidden min-w-[500px] max-h-[500px] flex items-center justify-center bg-white border-4 border-blue rounded-[90px]">
-              {stepType === "1" ? (
+            <div className=" flex items-center justify-center">
+              <div className="overflow-hidden min-w-[500px] max-h-[500px] md:w-[95%] md:aspect-[1/1] md:min-w-0 flex items-center justify-center bg-white border-4 border-blue rounded-[90px]">
+                {customContent ? (
+                  customContent
+                ) : stepType === "1" && src ? (
                   <Image
-                    className="object-cover transform translate-y-[20px] mb-[-250px]"
+                    className="object-cover transform translate-y-[20px] mb-[-250px] md:translate-y-[8%]"
                     src={src}
                     alt={alt}
                     height={400}
                     width={400}
                   />
-                ) : stepType === "2" ? (
-                    <Image
-                        className="object-cover flex-grow"
-                        src={src}
-                        alt={alt}
-
-                    />
+                ) : stepType === "2" && src ? (
+                  <Image
+                    className="object-cover flex-grow"
+                    src={src}
+                    alt={alt}
+                  />
+                ) : src ? (
+                  <Image
+                    className="object-cover transform translate-y-[20px] mb-[-250px] md:translate-y-[8%]"
+                    src={src}
+                    alt={alt}
+                    height={400}
+                    width={400}
+                  />
                 ) : (
-                    <Image
-                        className="object-cover transform translate-y-[20px] mb-[-250px]"
-                        src={src}
-                        alt={alt}
-                        height={400}
-                        width={400}
-                    />
+                  <></>
                 )}
               </div>
             </div>
@@ -74,9 +79,15 @@ const StepTile: React.FC<StepTileProps> = ({
               <span className="text-blue text-3xl font-PoppinsMedium">
                 {step}
               </span>
-              <h1 className="text-xl text-white mt-6">{header}</h1>
-              <p className="text-sm text-white mt-7">{paragraph}</p>
-              <p className="text-sm text-white mt-6">{secondParagraph}</p>
+              <h1 className="text-3xl lg:text-2xl md:text-xl text-white mt-6">
+                {header}
+              </h1>
+              <p className="text-xl lg:text-lg md:text-sm text-white mt-7 line-clamp-[20]">
+                {paragraph}
+                <br />
+                <br />
+                {secondParagraph}
+              </p>
             </div>
           </div>
         </WidthWrapper>

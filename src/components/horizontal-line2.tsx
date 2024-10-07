@@ -20,10 +20,10 @@ export const HorizontalLine2 : React.FC<IHorizontalLine> = ({ variant }) => {
         <>
             {variant === "1" ? ( /**variant 1 */
                 <div className='w-full flex justify-center lg:hidden'>
-                    <div className='w-full max-w-[1920px] pl-[168.5px] pr-[270px] mt-[-25px] mb-[-232px]'>
-                    <div className='w-full relative'>
+                    <div className='w-full max-w-[1920px] pl-[168.5px] pr-[270px] mt-[-2.3%] mb-[-15%]'>
+                    <div className='w-full'>
                         <Image 
-                            className='w-full'
+                            className='w-full z-[1]'
                             src={horizontalLine} 
                             alt='horizontalline-rl' 
                         />
@@ -32,7 +32,7 @@ export const HorizontalLine2 : React.FC<IHorizontalLine> = ({ variant }) => {
             </div>
             ) : ( /**variant 2 */
                 <div className='w-full flex justify-center lg:hidden overflow-hidden min-h-[150px]'>
-                    <div className='w-full max-w-[1920px] pl-[168.5px] pr-[270px] mt-[-320px] mb-[-120px] relative'>
+                    <div className='w-full max-w-[1920px] pl-[168.5px] pr-[270px] mt-[-20%] mb-[-1%] relative'>
                         <div className='w-full'>
                             <Image 
                                 className='w-full'

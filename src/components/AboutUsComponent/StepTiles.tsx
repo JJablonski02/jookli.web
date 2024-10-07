@@ -14,11 +14,13 @@ const AboutUsStepTiles = () => {
                 header={t("firstTileHeader")}
                 paragraph={t("firstTileParagraph")}
                 secondParagraph={t("firstTileExtraParagraph")}
-                src={MachineLearning}
-                alt={"Machine Learning Image"}
+                alt={"Jakub_Jablonski_image"}
                 squaresPosition='left'
-                stepType='2'
-            />
+                customContent={
+                    <div className='w-[500px] h-[500px] relative bg-secondary-light'>
+                    </div>
+                }
+                            />
             <HorizontalLine variant='2' />
             <StepTile
                 className="flex-row-reverse"
