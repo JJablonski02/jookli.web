@@ -1,20 +1,20 @@
-"use client";
+"use client"
 
-import { zodResolver } from "@hookform/resolvers/zod";
-import { Card, CardBody } from "@nextui-org/card";
-import { Link } from "@nextui-org/link";
-import { useTranslations } from "next-intl";
-import { Controller, useForm } from "react-hook-form";
+import { zodResolver } from "@hookform/resolvers/zod"
+import { Card, CardBody } from "@nextui-org/card"
+import { Link } from "@nextui-org/link"
+import { useTranslations } from "next-intl"
+import { Controller, useForm } from "react-hook-form"
 
-import JPButton from "@/components/buttons/JPButton";
-import JPExternalServiceButton from "@/components/buttons/JPExternalServiceButton";
-import JPInputFormField from "@/components/JPInputFormField";
-import type { LoginSchema } from "@/lib/zod/login";
-import { useLoginSchema } from "@/lib/zod/login";
+import JPButton from "@/components/buttons/JPButton"
+import JPExternalServiceButton from "@/components/buttons/JPExternalServiceButton"
+import JPInputFormField from "@/components/JPInputFormField"
+import type { LoginSchema } from "@/lib/zod/login"
+import { useLoginSchema } from "@/lib/zod/login"
 
 export const LoginForm = () => {
-  const t = useTranslations("SignIn");
-  const loginSchema = useLoginSchema();
+  const t = useTranslations("SignIn")
+  const loginSchema = useLoginSchema()
   const {
     handleSubmit,
     setValue,
@@ -23,9 +23,9 @@ export const LoginForm = () => {
   } = useForm<LoginSchema>({
     mode: "onChange",
     resolver: zodResolver(loginSchema),
-  });
+  })
 
-  const onSubmit = async (data: any) => {};
+  const onSubmit = async (data: any) => {}
 
   return (
     <Card className="mx-auto w-full max-w-md bg-secondary-light sm:max-w-[85%]">
@@ -111,5 +111,5 @@ export const LoginForm = () => {
         </form>
       </CardBody>
     </Card>
-  );
-};
+  )
+}

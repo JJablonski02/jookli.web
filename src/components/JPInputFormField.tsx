@@ -1,16 +1,18 @@
-"use client";
+"use client"
 
-import { BREAKPOINTS } from "@/lib/breakpoints";
-import type { InputProps } from "@nextui-org/input";
-import { Input } from "@nextui-org/input";
-import React from "react";
-import { useMediaQuery } from "react-responsive";
+import type { InputProps } from "@nextui-org/input"
+import { Input } from "@nextui-org/input"
+import React from "react"
+import { useMediaQuery } from "react-responsive"
+
+import { BREAKPOINTS } from "@/lib/breakpoints"
+
 interface IJPInputFormField extends InputProps {
-  topLabel?: string;
+  topLabel?: string
 }
 
 const JPInputFormField: React.FC<IJPInputFormField> = ({ ...props }) => {
-  const isSm = useMediaQuery({ maxWidth: BREAKPOINTS.SM });
+  const isSm = useMediaQuery({ maxWidth: BREAKPOINTS.SM })
 
   return (
     <div className="w-full">
@@ -28,7 +30,7 @@ const JPInputFormField: React.FC<IJPInputFormField> = ({ ...props }) => {
         {...props}
       />
     </div>
-  );
-};
+  )
+}
 
-export default JPInputFormField;
+export default JPInputFormField
