@@ -1,4 +1,4 @@
 export const handleError = (error: Response) => {
-    //TODO
-    return error;
+  // TODO
+  return error
 }

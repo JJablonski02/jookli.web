@@ -1,21 +1,23 @@
-import React from "react";
-import WidthWrapper from "./WidthWrapper";
-import Image, { StaticImageData } from "next/image";
-import { Squares } from "./HomePageComponents/Squares";
+import type { StaticImageData } from "next/image"
+import Image from "next/image"
+import React from "react"
+
+import { Squares } from "./HomePageComponents/Squares"
+import WidthWrapper from "./WidthWrapper"
 
 interface StepTileProps {
-  className?: string;
-  header: string;
-  paragraph: string;
-  secondParagraph: string;
-  step?: string;
-  alt: string;
-  src?: StaticImageData;
-  squaresPosition: "left" | "right";
-  square1Id?: string;
-  square2Id?: string;
-  stepType?: "1" | "2" | "3";
-  customContent?: React.ReactElement;
+  className?: string
+  header: string
+  paragraph: string
+  secondParagraph: string
+  step?: string
+  alt: string
+  src?: StaticImageData
+  squaresPosition: "left" | "right"
+  square1Id?: string
+  square2Id?: string
+  stepType?: "1" | "2" | "3"
+  customContent?: React.ReactElement
 }
 
 const StepTile: React.FC<StepTileProps> = ({
@@ -35,54 +37,49 @@ const StepTile: React.FC<StepTileProps> = ({
   return (
     <section>
       <Squares
-        className="w-[90%] lg:my-12 overflow-hidden"
+        className="w-[90%] overflow-hidden lg:my-12"
         position={squaresPosition}
         square1Id={square1Id}
         square2Id={square2Id}
       >
         <WidthWrapper className="self-center">
           <div
-            className={`${className} flex flex-row lg:flex-col justify-between items-center gap-8 mx-20 md:mx-0`}
+            className={`${className} mx-20 flex flex-row items-center justify-between gap-8 lg:flex-col md:mx-0`}
           >
-            <div className=" flex items-center justify-center">
-              <div className="overflow-hidden min-w-[500px] max-h-[500px] md:w-[95%] md:aspect-[1/1] md:min-w-0 flex items-center justify-center bg-white border-4 border-blue rounded-[90px]">
-                {customContent ? (
-                  customContent
-                ) : stepType === "1" && src ? (
-                  <Image
-                    className="object-cover transform translate-y-[20px] mb-[-250px] md:translate-y-[8%]"
-                    src={src}
-                    alt={alt}
-                    height={400}
-                    width={400}
-                  />
-                ) : stepType === "2" && src ? (
-                  <Image
-                    className="object-cover flex-grow"
-                    src={src}
-                    alt={alt}
-                  />
-                ) : src ? (
-                  <Image
-                    className="object-cover transform translate-y-[20px] mb-[-250px] md:translate-y-[8%]"
-                    src={src}
-                    alt={alt}
-                    height={400}
-                    width={400}
-                  />
-                ) : (
-                  <></>
-                )}
+            <div className="flex items-center justify-center">
+              <div className="flex max-h-[500px] min-w-[500px] items-center justify-center overflow-hidden rounded-[90px] border-4 border-blue bg-white md:aspect-[1/1] md:w-[95%] md:min-w-0">
+                {customContent ||
+                  (stepType === "1" && src ? (
+                    <Image
+                      className="mb-[-250px] translate-y-[20px] object-cover md:translate-y-[8%]"
+                      src={src}
+                      alt={alt}
+                      height={400}
+                      width={400}
+                    />
+                  ) : stepType === "2" && src ? (
+                    <Image className="grow object-cover" src={src} alt={alt} />
+                  ) : src ? (
+                    <Image
+                      className="mb-[-250px] translate-y-[20px] object-cover md:translate-y-[8%]"
+                      src={src}
+                      alt={alt}
+                      height={400}
+                      width={400}
+                    />
+                  ) : (
+                    <></>
+                  ))}
               </div>
             </div>
-            <div className="w-3/5 flex flex-col lg:w-full lg:text-center lg:items-center">
-              <span className="text-blue text-3xl font-PoppinsMedium">
+            <div className="flex w-3/5 flex-col lg:w-full lg:items-center lg:text-center">
+              <span className="font-PoppinsMedium text-3xl text-blue">
                 {step}
               </span>
-              <h1 className="text-3xl lg:text-2xl md:text-xl text-white mt-6">
+              <h1 className="mt-6 text-3xl text-white lg:text-2xl md:text-xl">
                 {header}
               </h1>
-              <p className="text-xl lg:text-lg md:text-sm text-white mt-7 line-clamp-[20]">
+              <p className="mt-7 line-clamp-[20] text-xl text-white lg:text-lg md:text-sm">
                 {paragraph}
                 <br />
                 <br />
@@ -93,7 +90,7 @@ const StepTile: React.FC<StepTileProps> = ({
         </WidthWrapper>
       </Squares>
     </section>
-  );
-};
+  )
+}
 
-export default StepTile;
+export default StepTile

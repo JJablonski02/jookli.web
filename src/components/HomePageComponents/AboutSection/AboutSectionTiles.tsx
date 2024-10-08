@@ -1,19 +1,21 @@
-"use client";
-import React from "react";
-import gameController from "../../../../public/gameController.svg";
-import tradingChart from "../../../../public/tradingChart.svg";
-import wallet from "../../../../public/wallet.svg";
-import { useTranslations } from "next-intl";
-import WhiteTile from "./WhiteTile";
-import BlueTile from "./BlueTile";
-import securityIcon from "../../../../public/securityIcon.svg";
+"use client"
+
+import { useTranslations } from "next-intl"
+import React from "react"
+
+import gameController from "../../../../public/gameController.svg"
+import securityIcon from "../../../../public/securityIcon.svg"
+import tradingChart from "../../../../public/tradingChart.svg"
+import wallet from "../../../../public/wallet.svg"
+import BlueTile from "./BlueTile"
+import WhiteTile from "./WhiteTile"
 
 const AboutSectionTiles = () => {
-  const t = useTranslations("HomePage.AboutSectionTiles");
+  const t = useTranslations("HomePage.AboutSectionTiles")
 
   return (
-    <div className="w-full mx-auto">
-      <div className="grid grid-cols-3 grid-rows-2 pt-8 gap-4 place-items-center lg:flex lg:flex-col lg:items-start">
+    <div className="mx-auto w-full">
+      <div className="grid grid-cols-3 grid-rows-2 place-items-center gap-4 pt-8 lg:flex lg:flex-col lg:items-start">
         <WhiteTile
           src={gameController}
           alt="Game Controller icon"
@@ -44,7 +46,7 @@ const AboutSectionTiles = () => {
         />
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default AboutSectionTiles;
+export default AboutSectionTiles

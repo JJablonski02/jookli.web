@@ -1,12 +1,13 @@
-import Footer from "@/components/Footer/Footer";
-import NavBarUi from "@/components/NavBarUi";
-import RootLayout from '../root-layout';
+import Footer from "@/components/Footer/Footer"
+import NavBarUi from "@/components/NavBarUi"
+
+import RootLayout from "../root-layout"
 
 export interface HomeLayoutProps {
-  children: React.ReactNode;
+  children: React.ReactNode
   params: {
-    locale: string;
-  };
+    locale: string
+  }
 }
 
 export default function HomeLayout({
@@ -15,9 +16,9 @@ export default function HomeLayout({
 }: Readonly<HomeLayoutProps>) {
   return (
     <RootLayout params={params}>
-      <NavBarUi/>
-        {children}
+      <NavBarUi />
+      {children}
       <Footer />
     </RootLayout>
-  );
+  )
 }

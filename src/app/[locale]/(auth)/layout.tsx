@@ -1,11 +1,12 @@
-import NavBarUi from "@/components/NavBarUi";
-import RootLayout from '../root-layout';
-import Header from "@nextui-org/button"
+import NavBarUi from "@/components/NavBarUi"
+
+import RootLayout from "../root-layout"
+
 export interface ClientLayoutProps {
-  children: React.ReactNode;
+  children: React.ReactNode
   params: {
-    locale: string;
-  };
+    locale: string
+  }
 }
 
 export default function ClientLayout({
@@ -14,10 +15,8 @@ export default function ClientLayout({
 }: Readonly<ClientLayoutProps>) {
   return (
     <RootLayout params={params}>
-      <NavBarUi/>
-        <main className="flex items-center main-height">
-            {children}
-        </main>
+      <NavBarUi />
+      <main className="main-height flex items-center">{children}</main>
     </RootLayout>
-  );
+  )
 }

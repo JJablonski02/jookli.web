@@ -1,20 +1,20 @@
-import Image from "next/image";
-import React from "react";
+import Image from "next/image"
+import React from "react"
 
 interface whiteTileProps {
-  src: string;
-  alt: string;
-  header: string;
-  content: string;
+  src: string
+  alt: string
+  header: string
+  content: string
 }
 
 const WhiteTile: React.FC<whiteTileProps> = ({ header, content, src, alt }) => {
   return (
-    <div className="w-full h-full rounded-[40px] bg-primary">
-      <div className="flex flex-col flex-start m-6">
-        <div className="flex flex-row items-center gap-[20px] mb-[8px]">
+    <div className="size-full rounded-[40px] bg-primary">
+      <div className="flex-start m-6 flex flex-col">
+        <div className="mb-[8px] flex flex-row items-center gap-[20px]">
           <Image
-            className="bg-blue rounded-3xl"
+            className="rounded-3xl bg-blue"
             width={68}
             src={src}
             alt={alt}
@@ -24,7 +24,7 @@ const WhiteTile: React.FC<whiteTileProps> = ({ header, content, src, alt }) => {
         <p className="text-black">{content}</p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default WhiteTile;
+export default WhiteTile
