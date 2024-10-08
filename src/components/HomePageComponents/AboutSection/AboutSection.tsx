@@ -1,24 +1,25 @@
-import React from "react";
-import WidthWrapper from "../../WidthWrapper";
-import { useTranslations } from "next-intl";
-import AboutSectionTiles from "./AboutSectionTiles";
+import { useTranslations } from "next-intl"
+import React from "react"
+
+import WidthWrapper from "../../WidthWrapper"
+import AboutSectionTiles from "./AboutSectionTiles"
 
 const AboutSection = () => {
-  const t = useTranslations("HomePage.AboutSection");
+  const t = useTranslations("HomePage.AboutSection")
 
   return (
     <section>
       <WidthWrapper>
-        <div className="my-12 mx-20 md:mx-0">
-          <div className="text-center md:items-start md:text-start flex justify-center items-center flex-col space-y-4">
+        <div className="mx-20 my-12 md:mx-0">
+          <div className="flex flex-col items-center justify-center space-y-4 text-center md:items-start md:text-start">
             <h2 className="text-3xl">{t("header")}</h2>
-            <h3 className="text-lg font-PoppinsRegular" >{t('description')}</h3>
+            <h3 className="font-PoppinsRegular text-lg">{t("description")}</h3>
           </div>
           <AboutSectionTiles />
         </div>
       </WidthWrapper>
     </section>
-  );
-};
+  )
+}
 
-export default AboutSection;
+export default AboutSection

@@ -1,11 +1,11 @@
-import React from 'react';
+import React from "react"
 
 interface NotFoundLayoutProps {
-  children: React.ReactNode;
+  children: React.ReactNode
 }
 
 const NotFoundLayout: React.FC<NotFoundLayoutProps> = ({ children }) => {
-return <>{children}</>;
-};
+  return <>{children}</>
+}
 
-export default NotFoundLayout;
+export default NotFoundLayout
