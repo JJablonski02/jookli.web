@@ -1,4 +1,5 @@
-import {nextui} from '@nextui-org/theme'
+const { BREAKPOINTS } = require('./src/lib/breakpoints');
+import {nextui} from '@nextui-org/theme' 
 
 /** @type {import('tailwindcss').Config} */
 
@@ -21,11 +22,11 @@ module.exports = {
       },
     },
     screens: {
-      '2xl': {'max': '1535px'},
-      'xl': {'max': '1279px'},
-      'lg': {'max': '1120px'},
-      'md': {'max': '767px'},
-      'sm': {'max': '639px'},
+      '2xl': {'max': BREAKPOINTS['2XL']},
+      'xl': {'max': BREAKPOINTS.XL},
+      'lg': {'max': BREAKPOINTS.LG},
+      'md': {'max': BREAKPOINTS.MD},
+      'sm': {'max': BREAKPOINTS.SM},
     },
     extend: {
       fontFamily: {

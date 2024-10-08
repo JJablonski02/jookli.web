@@ -1,20 +1,20 @@
-"use client"
+"use client";
 
-import { zodResolver } from "@hookform/resolvers/zod"
-import { Card, CardBody } from "@nextui-org/card"
-import { Link } from "@nextui-org/link"
-import { useTranslations } from "next-intl"
-import { Controller, useForm } from "react-hook-form"
+import { zodResolver } from "@hookform/resolvers/zod";
+import { Card, CardBody } from "@nextui-org/card";
+import { Link } from "@nextui-org/link";
+import { useTranslations } from "next-intl";
+import { Controller, useForm } from "react-hook-form";
 
-import JPButton from "@/components/buttons/JPButton"
-import JPExternalServiceButton from "@/components/buttons/JPExternalServiceButton"
-import JPInputFormField from "@/components/JPInputFormField"
-import type { RegisterSchema } from "@/lib/zod/register"
-import { useRegisterSchema } from "@/lib/zod/register"
+import JPButton from "@/components/buttons/JPButton";
+import JPExternalServiceButton from "@/components/buttons/JPExternalServiceButton";
+import JPInputFormField from "@/components/JPInputFormField";
+import type { RegisterSchema } from "@/lib/zod/register";
+import { useRegisterSchema } from "@/lib/zod/register";
 
 export const RegisterForm = () => {
-  const t = useTranslations("Register")
-  const registerSchema = useRegisterSchema()
+  const t = useTranslations("Register");
+  const registerSchema = useRegisterSchema();
   const {
     handleSubmit,
     setValue,
@@ -23,16 +23,16 @@ export const RegisterForm = () => {
   } = useForm<RegisterSchema>({
     mode: "onChange",
     resolver: zodResolver(registerSchema),
-  })
+  });
 
-  const onSubmit = async (data: RegisterSchema) => {}
+  const onSubmit = async (data: RegisterSchema) => {};
 
   return (
-    <Card className="mx-auto w-full max-w-md bg-secondary-light md:max-w-[95%]">
-      <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-8">
-        <h2 className="text-3xl">{t("register")}</h2>
+    <Card className="mx-auto w-full max-w-md bg-secondary-light sm:max-w-[85%]">
+      <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-8 sm:gap-0">
+        <h2 className="text-3xl sm:text-lg">{t("register")}</h2>
         <form
-          className="flex w-3/4 flex-col items-center justify-center gap-4 md:w-full"
+          className="flex w-3/4 flex-col items-center justify-center gap-4 sm:w-full"
           method="POST"
           onSubmit={handleSubmit(onSubmit)}
         >
@@ -99,26 +99,26 @@ export const RegisterForm = () => {
               />
             </div>
           </div>
-          <div className="mt-16 flex w-full items-center justify-center">
+          <div className="mt-16 flex w-full items-center justify-center sm:mt-0">
             <div className="h-px grow bg-border" />
-            <div className="my-2 px-4 text-center">
+            <div className="my-2 px-4 text-center sm:text-sm">
               <p>{t("orRegisterWith")}</p>
             </div>
             <div className="h-px grow bg-border" />
           </div>
-          <div className="my-4 flex items-center justify-center gap-6">
+          <div className="my-4 flex items-center justify-center gap-6 sm:my-0">
             <JPExternalServiceButton serviceType="google" />
             <JPExternalServiceButton serviceType="apple" />
             <JPExternalServiceButton serviceType="microsoft" />
           </div>
-          <div className="my-2 flex flex-row items-center justify-center space-x-1 md:flex-col">
+          <div className="my-2 flex flex-row items-center justify-center space-x-1 md:flex-col sm:text-sm">
             <p>{t("haveAnAccount")}</p>
-            <Link href="/sign-in" className="mb-[2px] text-blue">
+            <Link href="/sign-in" className="mb-[2px] text-blue sm:text-sm">
               {t("signIn")}
             </Link>
           </div>
         </form>
       </CardBody>
     </Card>
-  )
-}
+  );
+};
