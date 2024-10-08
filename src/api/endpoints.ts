@@ -1,29 +1,29 @@
 export type Emails = {
-    'confirm-account': string
+  "confirm-account": string
 }
 
 export type Server = {
-    'server-status' : string
+  "server-status": string
 }
 
 export type Administration = {
-    'report' : string
+  report: string
 }
 
 export type Endpoints = {
-    emails: Emails
-    administration: Administration
-    server: Server
+  emails: Emails
+  administration: Administration
+  server: Server
 }
 
-export const endpoints : Endpoints = {
-    emails: {
-        'confirm-account': 'api/useraccess/confirm-account'
-    },
-    server: {
-        'server-status' : 'api/server/status'
-    },
-    administration: {
-        'report' : 'api/administration/report'
-    }
+export const endpoints: Endpoints = {
+  emails: {
+    "confirm-account": "api/useraccess/confirm-account",
+  },
+  server: {
+    "server-status": "api/server/status",
+  },
+  administration: {
+    report: "api/administration/report",
+  },
 }

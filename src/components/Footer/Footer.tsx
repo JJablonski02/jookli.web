@@ -1,21 +1,22 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import LogoSvg from "../../../public/logo.svg";
-import JPButton from "../buttons/JPButton";
-import { useTranslations } from "next-intl";
-import instagramIcon from "../../../public/instagram.svg";
-import linkedInIcon from "../../../public/linkedIn.svg";
-import facebookIcon from "../../../public/facebook.svg";
-import FooterLinks from "./FooterLinks";
+import Image from "next/image"
+import Link from "next/link"
+import { useTranslations } from "next-intl"
+import React from "react"
+
+import facebookIcon from "../../../public/facebook.svg"
+import instagramIcon from "../../../public/instagram.svg"
+import linkedInIcon from "../../../public/linkedIn.svg"
+import LogoSvg from "../../../public/logo.svg"
+import JPButton from "../buttons/JPButton"
+import FooterLinks from "./FooterLinks"
 
 const Footer = () => {
-  const t = useTranslations("globals.Captions");
+  const t = useTranslations("globals.Captions")
 
   return (
-    <footer className="max-w-[1920px] mx-auto mt-12 px-20 bg-secondary md:px-2.5 w-full">
+    <footer className="mx-auto mt-12 w-full max-w-[1920px] bg-secondary px-20 md:px-2.5">
       <div className="w-full">
-        <div className="flex justify-between w-full mb-20 mt-4 md:flex-col md:items-center md:gap-4 md:my-8">
+        <div className="mb-20 mt-4 flex w-full justify-between md:my-8 md:flex-col md:items-center md:gap-4">
           <Link href="/">
             <Image
               className=""
@@ -24,7 +25,7 @@ const Footer = () => {
               width={200}
             />
           </Link>
-          <div className="text-primary flex flex-row items-center justify-center gap-4">
+          <div className="flex flex-row items-center justify-center gap-4 text-primary">
             <Link href="">
               <Image src={instagramIcon} alt="instagram icon" />
             </Link>
@@ -36,35 +37,35 @@ const Footer = () => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-row justify-between items-center mb-10 lg:flex-col lg:gap-8 lg:justify-evenly gap-6">
+        <div className="mb-10 flex flex-row items-center justify-between gap-6 lg:flex-col lg:justify-evenly lg:gap-8">
           <FooterLinks />
-          <div className="flex flex-col bg-gray rounded-3xl py-[44px] pl-[34px] pr-[54px] w-2/5 lg:w-full">
+          <div className="flex w-2/5 flex-col rounded-3xl bg-gray py-[44px] pl-[34px] pr-[54px] lg:w-full">
             <div>
               <p className="font-PoppinsSemiBold text-lg">{t("downloadApp")}</p>
               <p className="mt-4">{t("appDescription")}</p>
             </div>
-            <div className="flex flex-row gap-4 mt-6 md:flex-col">
+            <div className="mt-6 flex flex-row gap-4 md:flex-col">
               <JPButton
                 iconType="apple"
                 alt="appStore icon"
-                className="text-primary bg-blue rounded-full flex flex-row gap-2 md:h-14"
+                className="flex flex-row gap-2 rounded-full bg-blue text-primary md:h-14"
                 label="App Store"
               />
               <JPButton
                 iconType="googlePlayStore"
                 alt="playStore icon"
-                className="text-primary bg-blue rounded-full flex flex-row gap-2 md:h-14"
+                className="flex flex-row gap-2 rounded-full bg-blue text-primary md:h-14"
                 label="Play Store"
               />
             </div>
           </div>
         </div>
-        <div className="mt-6 py-6 border-t border-gray-500">
+        <div className="border-gray-500 mt-6 border-t py-6">
           <p className="text-primary">All rights reserved</p>
         </div>
       </div>
     </footer>
-  );
-};
+  )
+}
 
-export default Footer;
+export default Footer

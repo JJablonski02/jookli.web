@@ -19,4 +19,4 @@ export const FaqData = [
     content:
       "Our dedicated support team is here to assist you. Reach out via [mention preferred support channels, e.g., live chat, email, or phone], and we'll get back to you promptly.",
   },
-];
+]

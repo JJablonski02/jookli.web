@@ -1,26 +1,29 @@
-import React from "react";
-import Image from "next/image";
+import Image from "next/image"
+import React from "react"
+
 import iphone from "@/../public/iphone.svg"
-import samsung from "@/../public/samsung-phone.svg";
+import samsung from "@/../public/samsung-phone.svg"
 
 interface TileProps {
-  header: string;
-  description: string;
-  type: "android" | "ios";
-  children: React.ReactNode;
+  header: string
+  description: string
+  type: "android" | "ios"
+  children: React.ReactNode
 }
 
 const Tile: React.FC<TileProps> = ({ header, description, type, children }) => {
   return (
-    <div className="bg-white rounded-2xl">
-      <div className="flex flex-col items-center pt-8 px-8">
-        <h3 className="text-black text-2xl mb-4 font-PoppinsMedium">
+    <div className="rounded-2xl bg-white">
+      <div className="flex flex-col items-center px-8 pt-8">
+        <h3 className="mb-4 font-PoppinsMedium text-2xl text-black">
           {header}
         </h3>
-        <p className="text-black text-md text-center mb-4 max-w-[80%] md:max-w-full">{description}</p>
+        <p className="text-md mb-4 max-w-[80%] text-center text-black md:max-w-full">
+          {description}
+        </p>
         {children}
         <div className="mt-8">
-          {type === 'android' ? (
+          {type === "android" ? (
             <Image src={samsung} alt="samsung" />
           ) : (
             <Image src={iphone} alt="iphone" />
@@ -28,7 +31,7 @@ const Tile: React.FC<TileProps> = ({ header, description, type, children }) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Tile;
+export default Tile

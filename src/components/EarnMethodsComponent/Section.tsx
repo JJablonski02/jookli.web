@@ -1,23 +1,29 @@
-import React from 'react'
-import { useTranslations } from 'next-intl'
-import WidthWrapper from '../WidthWrapper';
-import { SectionData } from './SectionData';
-import Image from 'next/image';
+import Image from "next/image"
+import { useTranslations } from "next-intl"
+import React from "react"
+
+import WidthWrapper from "../WidthWrapper"
+import { SectionData } from "./SectionData"
 
 const Section = () => {
-  const t = useTranslations('EarnMethods.Section');
+  const t = useTranslations("EarnMethods.Section")
 
   return (
     <section>
       <WidthWrapper>
-        <div className="mx-20 mt-40 md:mx-0">
-          <h2 className='text-4xl text-center mb-8 md:text-start'>{t('header')}</h2>
+        <div className="relative mx-20 mt-40 lg:mt-20 md:mx-0 md:mt-10">
+          <h2 className="absolute left-1/2 top-[-70px] mb-8 -translate-x-1/2 -translate-y-1/2 text-center text-4xl lg:static lg:top-0 lg:translate-x-0 lg:translate-y-0">
+            {t("header")}
+          </h2>
           <div className="grid grid-cols-3 gap-8 lg:grid-cols-2 md:grid-cols-1">
             {SectionData.map((data, index) => (
-              <div key={index} className='p-6 rounded-2xl border-white border-2'>
+              <div
+                key={index}
+                className="z-[3] rounded-2xl border-2 border-white bg-secondary p-6"
+              >
                 <div className="flex flex-row items-center gap-4 pb-4">
-                  <div className='bg-white rounded-full p-3'>
-                    <Image src={data.icon} alt='icon' />
+                  <div className="rounded-full bg-white p-3">
+                    <Image src={data.icon} alt="icon" />
                   </div>
                   <h3>{t(`${data.header}`)}</h3>
                 </div>

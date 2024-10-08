@@ -1,39 +1,38 @@
-"use client";
+"use client"
 
-import React from "react";
+import { Link } from "@nextui-org/link"
 import {
     Navbar,
     NavbarBrand,
     NavbarContent,
     NavbarItem,
-    NavbarMenuToggle,
     NavbarMenu,
     NavbarMenuItem,
-} from "@nextui-org/navbar";
+    NavbarMenuToggle,
+} from "@nextui-org/navbar"
+import Image from "next/image"
+import { useTranslations } from "next-intl"
+import React from "react"
+
+import LogoSvg from "../../public/logo.svg"
+import JPButton from "./buttons/JPButton"
 import {
-    Link
-} from "@nextui-org/link";
-import {
+    toEarnMethods,
     toHome,
     toHowItWorks,
-    toEarnMethods,
-    toSignIn,
     toRegister,
+    toSignIn,
     toSupport,
-} from "./routes";
-import LogoSvg from "../../public/logo.svg";
-import Image from "next/image";
-import { useTranslations } from "next-intl";
-import JPButton from "./buttons/JPButton";
+} from "./routes"
 
 type MenuItem = {
-    label: string;
-    route: string;
-};
+    label: string
+    route: string
+}
 
 const NavBarUi = () => {
-    const t = useTranslations("globals.Captions");
-    const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+    const t = useTranslations("globals.Captions")
+    const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
     const menuItems: MenuItem[] = [
         { label: "mainPage", route: toHome },
@@ -42,27 +41,27 @@ const NavBarUi = () => {
         { label: "support", route: toSupport },
         { label: "register", route: toRegister },
         { label: "signIn", route: toSignIn },
-    ];
+    ]
 
     return (
         <Navbar
-            className="bg-secondary mx-auto header-height"
+            className="header-height mx-auto max-w-[1920px] bg-secondary"
             onMenuOpenChange={setIsMenuOpen}
             maxWidth="full"
         >
-            <NavbarContent className="flex justify-start items-center">
-                <NavbarBrand className="max-w-[170px] min-w-[170px]">
+            <NavbarContent className="flex items-center justify-start">
+                <NavbarBrand className="min-w-[170px] max-w-[170px]">
                     <Link href="/">
                         <Image src={LogoSvg} alt="Logo jookli website" />
                     </Link>
                 </NavbarBrand>
                 <NavbarMenuToggle
                     aria-label={isMenuOpen ? "Zamknij menu" : "Otwórz menu"}
-                    className="text-primary hidden lg:block lg:h-[35px] ml-auto"
-                ></NavbarMenuToggle>
+                    className="ml-auto hidden text-primary lg:block lg:h-[35px]"
+                />
             </NavbarContent>
 
-            <NavbarContent className="flex lg:hidden gap-10">
+            <NavbarContent className="flex gap-10 lg:hidden">
                 <NavbarItem>
                     <Link href={toHome}>{t("mainPage")}</Link>
                 </NavbarItem>
@@ -79,16 +78,16 @@ const NavBarUi = () => {
             <NavbarContent className="ml-4 lg:hidden" justify="end">
                 <NavbarItem>
                     <Link href={toRegister}>
-                        <JPButton className="bg-blue rounded-full" label={t("register")} />
+                        <JPButton className="rounded-full bg-blue" label={t("register")} />
                     </Link>
                 </NavbarItem>
                 <NavbarItem>
                     <Link href={toSignIn}>
-                        <JPButton className="bg-blue rounded-full" label={t("signIn")} />
+                        <JPButton className="rounded-full bg-blue" label={t("signIn")} />
                     </Link>
                 </NavbarItem>
             </NavbarContent>
-            <NavbarMenu className="bg-secondary text-center text-3xl font-PoppinsSemiBold pt-8">
+            <NavbarMenu className="bg-secondary pt-8 text-center font-PoppinsSemiBold text-3xl">
                 {menuItems.map((item, index) => (
                     <NavbarMenuItem className="p-2" key={`${item.label}-${index}`}>
                         <Link href={item.route}>{t(`${item.label}`)}</Link>
@@ -96,7 +95,7 @@ const NavBarUi = () => {
                 ))}
             </NavbarMenu>
         </Navbar>
-    );
-};
+    )
+}
 
-export default NavBarUi;
+export default NavBarUi
