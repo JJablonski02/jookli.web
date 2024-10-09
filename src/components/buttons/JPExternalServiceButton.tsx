@@ -4,7 +4,7 @@ import type { ButtonProps } from "@nextui-org/button"
 import { Button } from "@nextui-org/button"
 import React from "react"
 
-import JPIcon from "./JPIcon"
+import { JPIcon } from "./JPIcon"
 
 export type ExternalServiceType = "apple" | "google" | "microsoft"
 
