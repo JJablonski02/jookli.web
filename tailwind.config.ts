@@ -1,5 +1,7 @@
-const { BREAKPOINTS } = require('./src/lib/breakpoints');
-import {nextui} from '@nextui-org/theme' 
+// eslint-disable-next-line import/no-import-module-exports
+import { nextui } from "@nextui-org/theme"
+
+const { BREAKPOINTS } = require("./src/lib/breakpoints")
 
 /** @type {import('tailwindcss').Config} */
 
@@ -22,25 +24,25 @@ module.exports = {
       },
     },
     screens: {
-      '2xl': {'max': BREAKPOINTS['2XL']},
-      'xl': {'max': BREAKPOINTS.XL},
-      'lg': {'max': BREAKPOINTS.LG},
-      'md': {'max': BREAKPOINTS.MD},
-      'sm': {'max': BREAKPOINTS.SM},
+      "2xl": { max: BREAKPOINTS["2XL"] },
+      xl: { max: BREAKPOINTS.XL },
+      lg: { max: BREAKPOINTS.LG },
+      md: { max: BREAKPOINTS.MD },
+      sm: { max: BREAKPOINTS.SM },
     },
     extend: {
       fontFamily: {
-        PoppinsRegular : ['Poppins-Regular'],
-        PoppinsMedium : ['Poppins-Medium'],
-        PoppinsSemiBold: ['Poppins-SemiBold'],
-        PoppinsBold : ['Poppins-Bold'],
-        PoppinsExtraBold: ['Poppins-ExtraBold']
+        PoppinsRegular: ["Poppins-Regular"],
+        PoppinsMedium: ["Poppins-Medium"],
+        PoppinsSemiBold: ["Poppins-SemiBold"],
+        PoppinsBold: ["Poppins-Bold"],
+        PoppinsExtraBold: ["Poppins-ExtraBold"],
       },
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
-        'secondary-light' : "var(--secondary-light)",
-        'secondary-light-foreground' : "var(--secondary-light-foreground)",
+        "secondary-light": "var(--secondary-light)",
+        "secondary-light-foreground": "var(--secondary-light-foreground)",
         success: "var(--blue)",
         blue: "var(--blue)",
         gray: "var(--gray)",
@@ -91,11 +93,11 @@ module.exports = {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
-        square: "calc(var(--radius) + 46px)"
+        square: "calc(var(--radius) + 46px)",
       },
       borderWidth: {
-        '6' : '6px',
-        '5' : '5px',
+        "6": "6px",
+        "5": "5px",
       },
       keyframes: {
         "accordion-down": {
@@ -114,5 +116,6 @@ module.exports = {
     },
     darkMode: "class",
   },
+  // eslint-disable-next-line global-require
   plugins: [nextui(), require("tailwindcss-animate")],
-};
+}
