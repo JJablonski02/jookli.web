@@ -26,13 +26,13 @@ const Footer = () => {
             />
           </Link>
           <div className="flex flex-row items-center justify-center gap-4 text-primary">
-            <Link href="">
+            <Link href="https://www.instagram.com/joyprofits">
               <Image src={instagramIcon} alt="instagram icon" />
             </Link>
-            <Link href="">
+            <Link href="https://www.facebook.com/joyprofits">
               <Image src={facebookIcon} alt="facebook icon" />
             </Link>
-            <Link href="">
+            <Link href="https://www.linkedin.com/joyprofits">
               <Image src={linkedInIcon} alt="linkedIn icon" />
             </Link>
           </div>

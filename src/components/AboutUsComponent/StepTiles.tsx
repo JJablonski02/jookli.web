@@ -20,8 +20,6 @@ const AboutUsStepTiles = () => {
         squaresPosition="left"
         customContent={
           <div className="max-h-[500px] max-w-[500px] bg-secondary-light md:h-full md:grow">
-            {" "}
-            /** TODO */
             <Image
               src={MachineLearning}
               alt="Jakub_Jablonski_image"

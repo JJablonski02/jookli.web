@@ -20,8 +20,8 @@ export function EmblaCarousel() {
     <div className="embla">
       <div className="embla__viewport overflow-hidden" ref={emblaRef}>
         <div className="embla__container">
-          {WCSData.map((data, index) => (
-            <div key={index} className="embla__slide">
+          {WCSData.map((data) => (
+            <div key={data.id} className="embla__slide">
               <div className="h-[var(--slide-height)] min-w-0 select-none rounded-[1.8rem] bg-white p-8 shadow-inner">
                 <div className="mb-4 flex items-center justify-between">
                   <span className="flex flex-row gap-2">

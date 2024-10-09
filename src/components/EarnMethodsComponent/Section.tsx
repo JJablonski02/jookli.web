@@ -16,9 +16,9 @@ const Section = () => {
             {t("header")}
           </h2>
           <div className="grid grid-cols-3 gap-8 lg:grid-cols-2 md:grid-cols-1">
-            {SectionData.map((data, index) => (
+            {SectionData.map((data) => (
               <div
-                key={index}
+                key={data.id}
                 className="z-[3] rounded-2xl border-2 border-white bg-secondary p-6"
               >
                 <div className="flex flex-row items-center gap-4 pb-4">

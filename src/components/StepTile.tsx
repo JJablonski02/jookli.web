@@ -49,27 +49,39 @@ const StepTile: React.FC<StepTileProps> = ({
             <div className="flex items-center justify-center">
               <div className="flex max-h-[500px] min-w-[500px] items-center justify-center overflow-hidden rounded-[90px] border-4 border-blue bg-white md:aspect-[1/1] md:w-[95%] md:min-w-0">
                 {customContent ||
-                  (stepType === "1" && src ? (
-                    <Image
-                      className="mb-[-250px] translate-y-[20px] object-cover md:translate-y-[8%]"
-                      src={src}
-                      alt={alt}
-                      height={400}
-                      width={400}
-                    />
-                  ) : stepType === "2" && src ? (
-                    <Image className="grow object-cover" src={src} alt={alt} />
-                  ) : src ? (
-                    <Image
-                      className="mb-[-250px] translate-y-[20px] object-cover md:translate-y-[8%]"
-                      src={src}
-                      alt={alt}
-                      height={400}
-                      width={400}
-                    />
-                  ) : (
-                    <></>
-                  ))}
+                  (() => {
+                    if (stepType === "1" && src) {
+                      return (
+                        <Image
+                          className="mb-[-250px] translate-y-[20px] object-cover md:translate-y-[8%]"
+                          src={src}
+                          alt={alt}
+                          height={400}
+                          width={400}
+                        />
+                      )
+                    }
+                    if (stepType === "2" && src) {
+                      return (
+                        <Image
+                          className="grow object-cover"
+                          src={src}
+                          alt={alt}
+                        />
+                      )
+                    }
+                    if (src) {
+                      return (
+                        <Image
+                          className="mb-[-250px] translate-y-[20px] object-cover md:translate-y-[8%]"
+                          src={src}
+                          alt={alt}
+                          height={400}
+                          width={400}
+                        />
+                      )
+                    }
+                  })()}
               </div>
             </div>
             <div className="flex w-3/5 flex-col lg:w-full lg:items-center lg:text-center">
