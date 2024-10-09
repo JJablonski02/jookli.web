@@ -1,4 +1,3 @@
-import { useTranslations } from "next-intl"
 import React from "react"
 
 import EarnMethodsHeader from "@/components/EarnMethodsComponent/Header"
@@ -8,8 +7,6 @@ import { HorizontalLine2 } from "@/components/horizontal-line2"
 import PageWrapper from "@/components/PageWrapper"
 
 const EarnMethods = () => {
-  const t = useTranslations("EarnMethods")
-
   return (
     <PageWrapper>
       <EarnMethodsHeader />

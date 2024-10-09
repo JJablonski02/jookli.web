@@ -25,7 +25,7 @@ export const RegisterForm = () => {
     resolver: zodResolver(registerSchema),
   })
 
-  const onSubmit = async (data: RegisterSchema) => {}
+  const onSubmit = async () => {}
 
   return (
     <Card className="mx-auto w-full max-w-md bg-secondary-light sm:max-w-[85%]">

@@ -30,6 +30,7 @@ export const fetcher = async (url: string, options: FetchOptions = {}) => {
 }
 
 const logRequest = (url: string, options: FetchOptions) => {
+  // eslint-disable-next-line no-console
   console.log(
     "%c[REQUEST]",
     "color: orange; font-weight: bold;",
@@ -40,6 +41,7 @@ const logRequest = (url: string, options: FetchOptions) => {
 }
 
 const logResponse = (response: Response) => {
+  // eslint-disable-next-line no-console
   console.log(
     "%c[RESPONSE]",
     "color: blue; font-weight: bold;",

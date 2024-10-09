@@ -32,7 +32,7 @@ export const JPDropdownField: React.FC<IJPDropdownField> = ({
   const selectedValue = React.useMemo(() => {
     const selectedKey = Array.from(selectedKeys)[0]
     return selectedKey ? data[selectedKey] : "Wybierz opcję"
-  }, [selectedKeys])
+  }, [selectedKeys, data])
 
   const onSelectedChange = (keys: SharedSelection) => {
     const currentKey = keys?.currentKey

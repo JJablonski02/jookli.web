@@ -9,7 +9,7 @@ import { useEffect, useState } from "react"
 import { fetchConfirmAccountEmail } from "@/api/rest/emails"
 import type { JookliException } from "@/types/jookli"
 
-const verifyEmail: React.FC = () => {
+const VerifyEmail: React.FC = () => {
   const searchParams = useSearchParams()
   const token = searchParams.get("token")
   const [name, setName] = useState<string | null>()
@@ -56,4 +56,4 @@ const verifyEmail: React.FC = () => {
   )
 }
 
-export default verifyEmail
+export default VerifyEmail

@@ -5,7 +5,7 @@ import { Button } from "@nextui-org/button"
 import React from "react"
 
 import type { JPIconType } from "./JPIcon"
-import JPIcon from "./JPIcon"
+import { JPIcon } from "./JPIcon"
 
 interface JPButtonProps extends ButtonProps {
   iconType?: JPIconType

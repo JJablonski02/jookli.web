@@ -25,7 +25,7 @@ export const LoginForm = () => {
     resolver: zodResolver(loginSchema),
   })
 
-  const onSubmit = async (data: any) => {}
+  const onSubmit = async () => {}
 
   return (
     <Card className="mx-auto w-full max-w-md bg-secondary-light sm:max-w-[85%]">

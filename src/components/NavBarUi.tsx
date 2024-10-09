@@ -45,7 +45,7 @@ const NavBarUi = () => {
 
   return (
     <Navbar
-      className="header-height mx-auto max-w-[1920px] bg-secondary"
+      className="header-height mx-auto bg-secondary"
       onMenuOpenChange={setIsMenuOpen}
       maxWidth="full"
     >
@@ -61,7 +61,7 @@ const NavBarUi = () => {
         />
       </NavbarContent>
 
-      <NavbarContent className="flex gap-10 lg:hidden">
+      <NavbarContent className="gap-10 lg:hidden" justify="center">
         <NavbarItem>
           <Link href={toHome}>{t("mainPage")}</Link>
         </NavbarItem>
@@ -88,8 +88,8 @@ const NavBarUi = () => {
         </NavbarItem>
       </NavbarContent>
       <NavbarMenu className="bg-secondary pt-8 text-center font-PoppinsSemiBold text-3xl">
-        {menuItems.map((item, index) => (
-          <NavbarMenuItem className="p-2" key={`${item.label}-${index}`}>
+        {menuItems.map((item) => (
+          <NavbarMenuItem className="p-2" key={`${item.label}`}>
             <Link href={item.route}>{t(`${item.label}`)}</Link>
           </NavbarMenuItem>
         ))}

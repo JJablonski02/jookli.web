@@ -27,28 +27,26 @@ const DownloadSection: React.FC<IDownloadSection> = ({ betterStyling }) => {
               header={t("tileHeader", { appName: "iOS" })}
               description={t("leftTileDescription")}
               type="ios"
-              children={
-                <JPButton
-                  iconType="apple"
-                  alt="appStore icon"
-                  className="flex flex-row gap-2 rounded-full bg-blue p-6 text-primary md:h-14 md:w-1/2"
-                  label="App Store"
-                />
-              }
-            />
+            >
+              <JPButton
+                iconType="apple"
+                alt="appStore icon"
+                className="flex flex-row gap-2 rounded-full bg-blue p-6 text-primary md:h-14 md:w-1/2"
+                label="App Store"
+              />
+            </Tile>
             <Tile
               header={t("tileHeader", { appName: "Android" })}
               description={t("rightTileDescription")}
               type="android"
-              children={
-                <JPButton
-                  iconType="googlePlayStore"
-                  alt="playStore icon"
-                  className="flex flex-row gap-2 rounded-full bg-blue p-6 text-primary md:h-14 md:w-1/2"
-                  label="Play Store"
-                />
-              }
-            />
+            >
+              <JPButton
+                iconType="googlePlayStore"
+                alt="playStore icon"
+                className="flex flex-row gap-2 rounded-full bg-blue p-6 text-primary md:h-14 md:w-1/2"
+                label="Play Store"
+              />
+            </Tile>
           </div>
         </div>
       </WidthWrapper>

@@ -1,11 +1,11 @@
 import type { TextAreaProps } from "@nextui-org/input"
 import { Textarea } from "@nextui-org/input"
 
-interface JPTextAreaField extends TextAreaProps {
+interface IJPTextAreaField extends TextAreaProps {
   topLabel?: string
 }
 
-export const JPTextAreaField: React.FC<JPTextAreaField> = ({
+export const JPTextAreaField: React.FC<IJPTextAreaField> = ({
   topLabel,
   ...props
 }) => {

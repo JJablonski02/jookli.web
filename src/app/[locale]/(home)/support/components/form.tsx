@@ -24,7 +24,7 @@ export const SupportForm = () => {
     setValue,
     control,
     trigger,
-    formState: { errors, isValid, isSubmitting },
+    formState: { errors, isSubmitting },
   } = useForm<SupportSchema>({
     mode: "onChange",
     resolver: zodResolver(supportSchema),
@@ -40,7 +40,7 @@ export const SupportForm = () => {
       COOPERATION: t("cooperation"),
       PROMOTE: t("promote"),
     }),
-    []
+    [t]
   )
 
   const onSubmit = async (data: SupportSchema) => {
@@ -49,7 +49,9 @@ export const SupportForm = () => {
       try {
         const result = await fetchReport(data)
         setSent(result.ok)
-      } catch {}
+      } catch {
+        /* empty */
+      }
     }
   }
 
