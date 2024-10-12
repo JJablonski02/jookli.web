@@ -5,7 +5,7 @@ import arrow from "../../../public/arrow.svg"
 export const StepArrow = () => {
   return (
     <div>
-      <Image src={arrow} alt="arrow" className="lg:rotate-90" />
+      <Image src={arrow} alt="arrow" className="lg:rotate-90 md:h-[30px]" />
     </div>
   )
 }

@@ -27,7 +27,10 @@ export default async function RootLayout({
   const messages = await getMessages()
 
   return (
-    <html lang={locale}>
+    <html
+      lang={locale}
+      suppressHydrationWarning /** Wyłączamy hydracje w trybie development/test. Hydracja poprzez localhost wywołuje nieoczekiwany błąd w konsoli dewelopreskiej. W przypadku produkcji elementy renderowane są poprawnie. */
+    >
       <body>
         <NextIntlClientProvider messages={messages}>
           <Providers>{children}</Providers>

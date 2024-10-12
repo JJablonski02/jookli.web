@@ -36,7 +36,7 @@ export const Squares: React.FC<ISquares> = ({
       : `${commonChildrenClasses}`
 
   return (
-    <div className="relative w-full">
+    <div className="relative max-h-[694px] w-full px-5 lg:max-h-none">
       <div
         id={square1Id}
         className={`${commonClasses + positionFirstClasses}`}
