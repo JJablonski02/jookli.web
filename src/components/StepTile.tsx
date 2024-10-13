@@ -2,7 +2,7 @@ import type { StaticImageData } from "next/image"
 import Image from "next/image"
 import React from "react"
 
-import { Squares } from "./HomePageComponents/Squares"
+import { Squares } from "./Squares"
 import WidthWrapper from "./WidthWrapper"
 
 interface StepTileProps {

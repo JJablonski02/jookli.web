@@ -47,6 +47,7 @@ const NavBarUi = () => {
     <Navbar
       className="header-height mx-auto bg-secondary"
       onMenuOpenChange={setIsMenuOpen}
+      isMenuOpen={isMenuOpen}
       maxWidth="full"
     >
       <NavbarContent className="flex items-center justify-start">
@@ -90,7 +91,9 @@ const NavBarUi = () => {
       <NavbarMenu className="bg-secondary pt-8 text-center font-PoppinsSemiBold text-3xl">
         {menuItems.map((item) => (
           <NavbarMenuItem className="p-2" key={`${item.label}`}>
-            <Link href={item.route}>{t(`${item.label}`)}</Link>
+            <Link onClick={() => setIsMenuOpen(false)} href={item.route}>
+              {t(`${item.label}`)}
+            </Link>
           </NavbarMenuItem>
         ))}
       </NavbarMenu>

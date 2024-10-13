@@ -14,7 +14,7 @@ const Footer = () => {
   const t = useTranslations("globals.Captions")
 
   return (
-    <footer className="mx-auto mt-12 w-full max-w-[1920px] bg-secondary px-20 md:px-2.5">
+    <footer className="mx-auto mt-12 w-full max-w-[1920px] bg-secondary px-20 md:px-5">
       <div className="w-full">
         <div className="mb-20 mt-4 flex w-full justify-between md:my-8 md:flex-col md:items-center md:gap-4">
           <Link href="/">
@@ -60,7 +60,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-gray-500 mt-6 border-t py-6">
+        <div className="mt-6 border-t border-white py-6">
           <p className="text-primary">All rights reserved</p>
         </div>
       </div>
