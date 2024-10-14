@@ -30,9 +30,9 @@ export const LoginForm = () => {
   return (
     <Card className="mx-auto w-full max-w-md bg-secondary-light sm:max-w-[85%]">
       <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-8 sm:gap-0">
-        <h2 className="text-3xl sm:text-lg">{t("signIn")}</h2>
+        <h2 className="text-3xl sm:text-2xl">{t("signIn")}</h2>
         <form
-          className="flex w-3/4 flex-col items-center justify-center gap-4 sm:w-full"
+          className="flex w-3/4 flex-col items-center justify-center gap-4 sm:w-[90%]"
           method="POST"
           onSubmit={handleSubmit(onSubmit)}
         >
@@ -80,11 +80,11 @@ export const LoginForm = () => {
                 disabled={!isValid}
               />
             </div>
-            <div className="my-2 flex flex-row items-center justify-center space-x-1 sm:text-sm">
-              <p>{t("forgotPassword")}</p>
+            <div className="my-2 flex flex-row items-center justify-center space-x-1">
+              <p className="sm:text-medium">{t("forgotPassword")}</p>
               <Link
                 href="/reset-password"
-                className="mb-[2px] text-blue sm:text-sm"
+                className="mb-[2px] text-xl text-blue sm:text-medium"
               >
                 {t("reset")}
               </Link>
@@ -92,8 +92,8 @@ export const LoginForm = () => {
           </div>
           <div className="mt-16 flex w-full items-center justify-center sm:mt-0">
             <div className="h-px grow bg-border" />
-            <div className="my-2 px-4 text-center sm:text-sm">
-              <p>{t("orSignInWith")}</p>
+            <div className="my-2 px-4 text-center">
+              <p className="sm:text-medium">{t("orSignInWith")}</p>
             </div>
             <div className="h-px grow bg-border" />
           </div>
@@ -102,9 +102,12 @@ export const LoginForm = () => {
             <JPExternalServiceButton serviceType="apple" />
             <JPExternalServiceButton serviceType="microsoft" />
           </div>
-          <div className="my-2 flex flex-row items-center justify-center space-x-1 md:flex-col sm:text-sm">
-            <p>{t("haveNotAnAccount")}</p>
-            <Link href="/register" className="mb-[2px] text-blue sm:text-sm">
+          <div className="my-2 flex flex-row items-center justify-center space-x-1 md:flex-col">
+            <p className="sm:text-medium">{t("haveNotAnAccount")}</p>
+            <Link
+              href="/register"
+              className="mb-[2px] text-xl text-blue sm:text-medium"
+            >
               {t("register")}
             </Link>
           </div>

@@ -2,6 +2,7 @@ import type { StaticImageData } from "next/image"
 import Image from "next/image"
 import React from "react"
 
+import { MotionDiv } from "./motion-components/motion-div"
 import { Squares } from "./Squares"
 import WidthWrapper from "./WidthWrapper"
 
@@ -43,7 +44,7 @@ const StepTile: React.FC<StepTileProps> = ({
         square2Id={square2Id}
       >
         <WidthWrapper className="self-center">
-          <div
+          <MotionDiv
             className={`${className} mx-20 flex flex-row items-center justify-between gap-8 lg:flex-col md:mx-0`}
           >
             <div className="flex items-center justify-center">
@@ -85,20 +86,18 @@ const StepTile: React.FC<StepTileProps> = ({
               </div>
             </div>
             <div className="flex w-3/5 flex-col lg:w-full lg:items-center lg:text-center">
-              <span className="font-PoppinsMedium text-3xl text-blue">
+              <span className="font-PoppinsMedium text-5xl text-blue">
                 {step}
               </span>
-              <h1 className="mt-6 text-3xl text-white lg:text-2xl md:text-xl">
-                {header}
-              </h1>
-              <p className="mt-7 line-clamp-[20] text-xl text-white lg:text-lg md:text-sm">
+              <h1 className="mt-6 text-2xl text-white">{header}</h1>
+              <p className="mt-7 line-clamp-[20] text-start text-xl text-white lg:text-lg">
                 {paragraph}
                 <br />
                 <br />
                 {secondParagraph}
               </p>
             </div>
-          </div>
+          </MotionDiv>
         </WidthWrapper>
       </Squares>
     </section>

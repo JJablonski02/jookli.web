@@ -1,5 +1,6 @@
 import "../../styles/globals.css"
 import "../../styles/components.css"
+import "../../../public/icons.svg"
 
 import type { Metadata } from "next"
 import { NextIntlClientProvider } from "next-intl"
@@ -27,11 +28,12 @@ export default async function RootLayout({
   const messages = await getMessages()
 
   return (
-    <html
-      lang={locale}
-      suppressHydrationWarning /** Wyłączamy hydracje w trybie development/test. Hydracja poprzez localhost wywołuje nieoczekiwany błąd w konsoli dewelopreskiej. W przypadku produkcji elementy renderowane są poprawnie. */
-    >
-      <body>
+    <html lang={locale}>
+      <body
+        suppressHydrationWarning={
+          process.env.NODE_ENV !== "production"
+        } /** Wyłączamy hydracje w trybie development/test. Hydracja poprzez localhost wywołuje nieoczekiwany błąd w konsoli dewelopreskiej. W przypadku produkcji elementy renderowane są poprawnie. [BUG NextJS] */
+      >
         <NextIntlClientProvider messages={messages}>
           <Providers>{children}</Providers>
         </NextIntlClientProvider>

@@ -24,7 +24,9 @@ const JPButton: React.FC<JPButtonProps> = ({
   return (
     <Button className={`h-12 ${className}`} color="default" {...props}>
       {iconType && <JPIcon type={iconType} width={20} height={20} alt={alt} />}
-      <p className="text-sm text-white">{label}</p>
+      <p className="whitespace-normal break-words text-sm text-white">
+        {label}
+      </p>
     </Button>
   )
 }

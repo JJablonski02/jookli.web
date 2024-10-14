@@ -122,6 +122,10 @@
       "user10Description": "Polecam, działa sprawnie, a zarobki wypłacane bez problemów."
     },
 
+    "TrustedUs" : {
+      "trustedUs" : "Zaufali nam"
+    },
+
     "HowItWorksSection": {
       "headerDescription": "Jak to działa",
       "paragraphDescription": "Podejmując się prostych zadań, masz możliwość zdobycia do 3000 złotych miesięcznie, bez ukrytych opłat czy dodatkowych podatków. Co więcej, Twoje zarobki nie mają górnej granicy – to ty decydujesz, ile chcesz zarobić.",
@@ -135,6 +139,12 @@
     "SectionImageBlueBg": {
       "headerDescription": "Jakie są korzyści",
       "paragraphDescription": "JoyProfits oferuje możliwość pracy, zarówno na pełny etat, jak i jako dodatkowe źródło dochodu, dostępną dla osób z całego świata. Możesz zarabiać pieniądze korzystając z dowolnego urządzenia z dostępem do internetu, niezależnie od tego, gdzie się znajdujesz. Otrzymasz wynagrodzenie za czas i wysiłek poświęcony na korzystanie z platformy."
+    },
+
+    "Benefits" : {
+      "headerDescription" : "W czym pomoże Ci JoyProfits?",
+      "description" : "JoyProfits pomoże Ci wykorzystać Twoje mocne strony, oferując sześć różnych sposobów na zarabianie. Dzięki temu możesz wybrać opcję, która najlepiej pasuje do Twoich umiejętności i zainteresowań. Platforma pozwala skutecznie przełożyć Twój wysiłek i czas na konkretne zyski.",
+      "seeMore" : "Zobacz więcej"
     },
 
     "AboutSection": {
@@ -206,7 +216,7 @@
       "Tile3Description": "Odpowiadaj na pytania i dziel się swoją opinią, otrzymując wynagrodzenie za każdą ukończoną ankietę. Im więcej ankiet ukończysz, tym większe zarobki.",
       "Tile4Header": "Zakupy online",
       "Tile4Description": "Kupuj w ulubionych sklepach i zyskaj zwrot gotówki oraz dodatkowe dochody. Rejestruj się na stronach internetowych sklepów, aby otrzymać darmowe próbki i kody rabatowe.",
-      "Tile5Header": "Microtasks",
+      "Tile5Header": "Mikrozadania",
       "Tile5Description": "Zarabiaj, ucząc się nowych umiejętności, takich jak programowanie czy grafika komputerowa. Wybierz interesujące kursy i wykonuj dostępne zadania na JoyProfits.",
       "Tile6Header": "Osiągnięcia",
       "Tile6Description": "Realizuj cele na JoyProfits, zdobywaj nagrody i zwiększaj swoje dochody. Każde osiągnięcie przybliża Cię do wyższych zysków i dodatkowych nagród."

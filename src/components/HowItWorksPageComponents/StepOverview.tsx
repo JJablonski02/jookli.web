@@ -6,6 +6,7 @@ import education from "../../../public/education.svg"
 import payouts from "../../../public/payouts.svg"
 import register from "../../../public/register.svg"
 import strategy from "../../../public/strategy.svg"
+import { MotionDiv } from "../motion-components/motion-div"
 
 type StepOverViewType = "1" | "2" | "3" | "4" | "5"
 
@@ -41,9 +42,9 @@ export const StepOverview: React.FC<IStepOverview> = ({ variant }) => {
   }[variant]
 
   return (
-    <div className="mx-auto flex flex-col items-center justify-center gap-4 text-center">
+    <MotionDiv className="mx-auto flex flex-col items-center justify-center gap-4 text-center">
       <Image src={src} alt={altText} className="md:h-[40px]" />
       <p className="whitespace-pre-wrap">{text}</p>
-    </div>
+    </MotionDiv>
   )
 }

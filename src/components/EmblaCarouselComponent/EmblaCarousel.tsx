@@ -9,15 +9,16 @@ import React from "react"
 import user from "@/../public/user.svg"
 
 import { WCSData } from "../HomePageComponents/WCSSection/WCSData"
+import { MotionDiv } from "../motion-components/motion-div"
 
 export function EmblaCarousel() {
   const [emblaRef] = useEmblaCarousel({ loop: true, slidesToScroll: "auto" }, [
-    Autoplay({ playOnInit: true }),
-  ])
+    Autoplay({ playOnInit: true, delay: 5000 }),
+  ]) /** 5 sekund */
   const t = useTranslations()
 
   return (
-    <div className="embla">
+    <MotionDiv className="embla">
       <div className="embla__viewport overflow-hidden" ref={emblaRef}>
         <div className="embla__container">
           {WCSData.map((data) => (
@@ -42,12 +43,13 @@ export function EmblaCarousel() {
                   <p className="line-clamp-6 text-lg text-secondary lg:text-sm">
                     {t(`HomePage.WCSSection.${data.content}`)}
                   </p>
+                  <p className="text-sm text-secondary">(translated)</p>
                 </div>
               </div>
             </div>
           ))}
         </div>
       </div>
-    </div>
+    </MotionDiv>
   )
 }

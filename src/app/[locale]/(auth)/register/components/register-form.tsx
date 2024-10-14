@@ -30,9 +30,9 @@ export const RegisterForm = () => {
   return (
     <Card className="mx-auto w-full max-w-md bg-secondary-light sm:max-w-[85%]">
       <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-8 sm:gap-0">
-        <h2 className="text-3xl sm:text-lg">{t("register")}</h2>
+        <h2 className="text-3xl sm:text-2xl">{t("register")}</h2>
         <form
-          className="flex w-3/4 flex-col items-center justify-center gap-4 sm:w-full"
+          className="flex w-3/4 flex-col items-center justify-center gap-4 sm:w-[90%]"
           method="POST"
           onSubmit={handleSubmit(onSubmit)}
         >
@@ -101,8 +101,8 @@ export const RegisterForm = () => {
           </div>
           <div className="mt-16 flex w-full items-center justify-center sm:mt-0">
             <div className="h-px grow bg-border" />
-            <div className="my-2 px-4 text-center sm:text-sm">
-              <p>{t("orRegisterWith")}</p>
+            <div className="my-2 px-4 text-center">
+              <p className="sm:text-medium">{t("orRegisterWith")}</p>
             </div>
             <div className="h-px grow bg-border" />
           </div>
@@ -111,9 +111,12 @@ export const RegisterForm = () => {
             <JPExternalServiceButton serviceType="apple" />
             <JPExternalServiceButton serviceType="microsoft" />
           </div>
-          <div className="my-2 flex flex-row items-center justify-center space-x-1 md:flex-col sm:text-sm">
-            <p>{t("haveAnAccount")}</p>
-            <Link href="/sign-in" className="mb-[2px] text-blue sm:text-sm">
+          <div className="my-2 flex flex-row items-center justify-center space-x-1 md:flex-col">
+            <p className="sm:text-medium">{t("haveAnAccount")}</p>
+            <Link
+              href="/sign-in"
+              className="mb-[2px] text-xl text-blue sm:text-medium"
+            >
               {t("signIn")}
             </Link>
           </div>
