@@ -22,7 +22,7 @@ export const MotionDiv: React.FC<MotionDivProps> = ({
     if (isInView) {
       mainControls.start("visible")
     }
-  }, [isInView])
+  }, [isInView, mainControls])
 
   return (
     <motion.div
