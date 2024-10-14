@@ -38,6 +38,9 @@ module.exports = {
         PoppinsBold: ["Poppins-Bold"],
         PoppinsExtraBold: ["Poppins-ExtraBold"],
       },
+      fontSize: {
+        "5xl": ["2.875rem", { lineHeight: "1.1" }],
+      },
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",

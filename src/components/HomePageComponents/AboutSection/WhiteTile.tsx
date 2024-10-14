@@ -1,6 +1,8 @@
 import Image from "next/image"
 import React from "react"
 
+import { MotionDiv } from "@/components/motion-components/motion-div"
+
 interface whiteTileProps {
   src: string
   alt: string
@@ -10,7 +12,7 @@ interface whiteTileProps {
 
 const WhiteTile: React.FC<whiteTileProps> = ({ header, content, src, alt }) => {
   return (
-    <div className="size-full rounded-[40px] bg-primary">
+    <MotionDiv className="size-full rounded-[40px] bg-primary">
       <div className="flex-start m-6 flex flex-col">
         <div className="mb-[8px] flex flex-row items-center gap-[20px]">
           <Image
@@ -19,11 +21,11 @@ const WhiteTile: React.FC<whiteTileProps> = ({ header, content, src, alt }) => {
             src={src}
             alt={alt}
           />
-          <h3 className="text-black">{header}</h3>
+          <h2 className="text-xl text-black">{header}</h2>
         </div>
         <p className="text-black">{content}</p>
       </div>
-    </div>
+    </MotionDiv>
   )
 }
 

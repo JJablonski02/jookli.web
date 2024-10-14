@@ -1,6 +1,8 @@
 import { useTranslations } from "next-intl"
 import React from "react"
 
+import { MotionDiv } from "@/components/motion-components/motion-div"
+
 import JPButton from "../../buttons/JPButton"
 import WidthWrapper from "../../WidthWrapper"
 import Tile from "./Tile"
@@ -17,11 +19,11 @@ const DownloadSection: React.FC<IDownloadSection> = ({ betterStyling }) => {
         <div
           className={`mx-20 my-12 lg:mt-12 md:mx-0 ${betterStyling && "relative mt-0 md:mt-12"}`}
         >
-          <div
+          <MotionDiv
             className={`mb-12 md:mb-6 ${betterStyling && "absolute left-0 top-[-80px] lg:static"}`}
           >
             <h2 className="text-3xl md:pb-4">{t("headerDescription")}</h2>
-          </div>
+          </MotionDiv>
           <div className="flex gap-8 md:flex-col">
             <Tile
               header={t("tileHeader", { appName: "iOS" })}
@@ -31,7 +33,7 @@ const DownloadSection: React.FC<IDownloadSection> = ({ betterStyling }) => {
               <JPButton
                 iconType="apple"
                 alt="appStore icon"
-                className="flex flex-row gap-2 rounded-full bg-blue p-6 text-primary md:h-14 md:w-1/2"
+                className="flex flex-row gap-2 rounded-full bg-blue p-6 text-primary md:h-14 md:w-1/2 sm:w-full"
                 label="App Store"
               />
             </Tile>
@@ -43,7 +45,7 @@ const DownloadSection: React.FC<IDownloadSection> = ({ betterStyling }) => {
               <JPButton
                 iconType="googlePlayStore"
                 alt="playStore icon"
-                className="flex flex-row gap-2 rounded-full bg-blue p-6 text-primary md:h-14 md:w-1/2"
+                className="flex flex-row gap-2 rounded-full bg-blue p-6 text-primary md:h-14 md:w-1/2 sm:w-full"
                 label="Play Store"
               />
             </Tile>

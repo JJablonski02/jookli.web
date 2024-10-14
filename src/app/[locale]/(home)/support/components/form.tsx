@@ -60,7 +60,7 @@ export const SupportForm = () => {
       <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-8">
         <h2 className="text-3xl">{t("fillForm")}</h2>
         <form
-          className="flex w-3/4 flex-col items-center justify-center gap-4 md:w-full"
+          className="flex w-3/4 flex-col items-center justify-center gap-4 md:w-[90%]"
           method="POST"
           onSubmit={handleSubmit(onSubmit)}
         >

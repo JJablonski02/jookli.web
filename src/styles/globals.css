@@ -92,7 +92,7 @@
       src: url(../../fonts/Poppins-ExtraBold.ttf);
     }
     body {
-      @apply bg-secondary text-foreground min-h-screen overflow-x-hidden;
+      @apply bg-secondary text-foreground min-h-screen overflow-x-hidden min-w-[320px]; /** Uogólniona minimalna szerokość telefonu jest przyjęta jako 320px. Do tej szerokości należy dostosowywać UI*/
     }
     html {
       font-family: "Poppins-Regular", "sans";
@@ -112,8 +112,7 @@
     }
 
     p {
-      font-family: "Poppins-regular";
-      color: var(--primary)
+      @apply text-xl font-PoppinsRegular text-primary;
     }
     
     [data-overlay-container=true] {
