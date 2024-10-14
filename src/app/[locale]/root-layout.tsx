@@ -1,6 +1,5 @@
 import "../../styles/globals.css"
 import "../../styles/components.css"
-import "../../../public/icons.svg"
 
 import type { Metadata } from "next"
 import { NextIntlClientProvider } from "next-intl"
