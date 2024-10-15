@@ -5,6 +5,8 @@ import type { Metadata } from "next"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages, unstable_setRequestLocale } from "next-intl/server"
 
+import { JPToaster } from "@/components/JPToaster"
+
 import Providers from "../../providers/providers"
 
 export const metadata: Metadata = {
@@ -34,6 +36,7 @@ export default async function RootLayout({
         } /** Wyłączamy hydracje w trybie development/test. Hydracja poprzez localhost wywołuje nieoczekiwany błąd w konsoli dewelopreskiej. W przypadku produkcji elementy renderowane są poprawnie. [BUG NextJS] */
       >
         <NextIntlClientProvider messages={messages}>
+          <JPToaster />
           <Providers>{children}</Providers>
         </NextIntlClientProvider>
       </body>

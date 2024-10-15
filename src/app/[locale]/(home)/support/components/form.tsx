@@ -5,6 +5,7 @@ import { Card, CardBody } from "@nextui-org/card"
 import { useTranslations } from "next-intl"
 import { useMemo, useState } from "react"
 import { Controller, useForm } from "react-hook-form"
+import { toast } from "react-hot-toast"
 
 import { fetchReport } from "@/api/rest/administration"
 import JPButton from "@/components/buttons/JPButton"
@@ -47,10 +48,13 @@ export const SupportForm = () => {
     const isFormValid = await trigger()
     if (isFormValid) {
       try {
-        const result = await fetchReport(data)
-        setSent(result.ok)
+        await fetchReport(data)
+        // setSent(result.ok) //TODO
+        toast.success(
+          "Twoje zgłoszenie zostało wysłane! Sprawdź swoją skrzynkę pocztową."
+        )
       } catch {
-        /* empty */
+        toast.error("Wystąpił błąd podczas wysyłania zgłoszenia.")
       }
     }
   }
@@ -100,7 +104,7 @@ export const SupportForm = () => {
             )}
           />
           <Controller
-            name="email"
+            name="emailAddress"
             defaultValue=""
             control={control}
             render={({ field: { onChange, onBlur, value } }) => (
@@ -110,15 +114,15 @@ export const SupportForm = () => {
                 value={value}
                 onBlur={onBlur}
                 onChange={onChange}
-                onClear={() => setValue("email", "")}
-                errorMessage={errors.email?.message}
-                isInvalid={!!errors.email}
+                onClear={() => setValue("emailAddress", "")}
+                errorMessage={errors.emailAddress?.message}
+                isInvalid={!!errors.emailAddress}
               />
             )}
           />
 
           <Controller
-            name="category"
+            name="reportType"
             defaultValue=""
             control={control}
             render={({ field: { onChange }, fieldState: { error } }) => (
