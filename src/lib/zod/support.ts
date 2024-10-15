@@ -13,7 +13,7 @@ export const useSupportSchema = () => {
       .string()
       .min(1, { message: t("lastNameRequired") })
       .max(100, { message: t("maxLength", { count: 100 }) }),
-    email: z
+    emailAddress: z
       .string()
       .min(1, { message: t("emailRequired") })
       .min(5, { message: t("minLength", { count: 5 }) })
@@ -22,7 +22,7 @@ export const useSupportSchema = () => {
     consent: z.boolean().refine((value) => value === true, {
       message: t("consentRequired"),
     }),
-    category: z.string().min(1, { message: t("categorySelectionRequired") }),
+    reportType: z.string().min(1, { message: t("categorySelectionRequired") }),
     description: z
       .string()
       .min(1, { message: t("descriptionRequired") })
