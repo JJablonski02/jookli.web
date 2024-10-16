@@ -1,3 +1,5 @@
+import { unstable_setRequestLocale } from "next-intl/server"
+
 import AboutSection from "@/components/HomePageComponents/AboutSection/AboutSection"
 import { Benefits } from "@/components/HomePageComponents/Benefits"
 import DownloadSection from "@/components/HomePageComponents/DownloadSection/DownloadSection"
@@ -8,7 +10,13 @@ import { TrustedUsCarousel } from "@/components/HomePageComponents/TrustedUs/Tru
 import WCSSection from "@/components/HomePageComponents/WCSSection/WCSSection"
 import PageWrapper from "@/components/PageWrapper"
 
-export default function Home() {
+type Props = {
+  params: { locale: string }
+}
+
+export default function Home({ params: { locale } }: Props) {
+  unstable_setRequestLocale(locale)
+
   return (
     <PageWrapper>
       <HomePageHeader />

@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl"
+import { unstable_setRequestLocale } from "next-intl/server"
 import React from "react"
 
 import { MotionDiv } from "@/components/motion-components/motion-div"
@@ -6,7 +7,12 @@ import PageWrapper from "@/components/PageWrapper"
 
 import { SupportForm } from "./components/form"
 
-const Support = () => {
+type Props = {
+  params: { locale: string }
+}
+
+const Support = ({ params: { locale } }: Props) => {
+  unstable_setRequestLocale(locale)
   const t = useTranslations("Support")
 
   return (

@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation"
 import { getRequestConfig } from "next-intl/server"
 
-import SUPPORTED_LOCALES from "./supported-locales"
+import SUPPORTED_LOCALES from "../supported-locales"
 
 const locales = SUPPORTED_LOCALES
 
