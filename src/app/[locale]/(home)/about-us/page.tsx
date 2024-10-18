@@ -1,3 +1,4 @@
+import { unstable_setRequestLocale } from "next-intl/server"
 import React from "react"
 
 import AboutUsSection from "@/components/AboutUsComponent/AboutUsSection"
@@ -7,7 +8,13 @@ import DownloadSection from "@/components/HomePageComponents/DownloadSection/Dow
 import { HorizontalLine } from "@/components/horizontal-line"
 import PageWrapper from "@/components/PageWrapper"
 
-const AboutUs = () => {
+type Props = {
+  params: { locale: string }
+}
+
+const AboutUs = ({ params: { locale } }: Props) => {
+  unstable_setRequestLocale(locale)
+
   return (
     <PageWrapper>
       <AboutUsHeader />

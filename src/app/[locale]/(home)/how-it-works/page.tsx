@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl"
+import { unstable_setRequestLocale } from "next-intl/server"
 import React from "react"
 
 import DownloadSection from "@/components/HomePageComponents/DownloadSection/DownloadSection"
@@ -13,7 +14,12 @@ import analyticsScreen from "../../../../../public/analytics-screen.svg"
 import registerScreen from "../../../../../public/register-screen.svg"
 import strategySelection from "../../../../../public/strategy-selection.svg"
 
-const HowItWorks = () => {
+type Props = {
+  params: { locale: string }
+}
+
+const HowItWorks = ({ params: { locale } }: Props) => {
+  unstable_setRequestLocale(locale)
   const t = useTranslations("HowItWorksPage.StepTile")
 
   return (

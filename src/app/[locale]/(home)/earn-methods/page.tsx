@@ -1,3 +1,4 @@
+import { unstable_setRequestLocale } from "next-intl/server"
 import React from "react"
 
 import EarnMethodsHeader from "@/components/EarnMethodsComponent/Header"
@@ -6,7 +7,13 @@ import DownloadSection from "@/components/HomePageComponents/DownloadSection/Dow
 import { HorizontalLine2 } from "@/components/horizontal-line2"
 import PageWrapper from "@/components/PageWrapper"
 
-const EarnMethods = () => {
+type Props = {
+  params: { locale: string }
+}
+
+const EarnMethods = ({ params: { locale } }: Props) => {
+  unstable_setRequestLocale(locale)
+
   return (
     <PageWrapper>
       <EarnMethodsHeader />

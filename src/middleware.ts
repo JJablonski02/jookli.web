@@ -30,5 +30,6 @@ export const config = {
     "/cookie-policy",
     "/adveristment-rules",
     "/verify-email",
+    "/recover-password",
   ],
 }

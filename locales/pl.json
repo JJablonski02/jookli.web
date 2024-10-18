@@ -166,6 +166,12 @@
     }
   },
 
+  "RecoverPassword" : {
+    "password" : "Hasło",
+    "reEnterPassword" : "Powtórz hasło",
+    "confirmNewPassword" : "Potwierdź nowe hasło"
+  },
+
   "HowItWorksPage": {
     "Header": {
       "headerTitle": "Poznaj nowe sposoby zarabiania",
