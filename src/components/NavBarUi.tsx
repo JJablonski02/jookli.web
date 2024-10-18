@@ -82,17 +82,20 @@ const NavBarUi = () => {
 
         <NavbarContent className="ml-4 lg:hidden" justify="end">
           <NavbarItem>
-            <Link href={toRegister}>
-              <JPButton
-                className="rounded-full bg-blue"
-                label={t("register")}
-              />
-            </Link>
+            <JPButton
+              as={Link}
+              href={toRegister}
+              className="rounded-full bg-blue"
+              label={t("register")}
+            />
           </NavbarItem>
           <NavbarItem>
-            <Link href={toSignIn}>
-              <JPButton className="rounded-full bg-blue" label={t("signIn")} />
-            </Link>
+            <JPButton
+              as={Link}
+              href={toSignIn}
+              className="rounded-full bg-blue"
+              label={t("signIn")}
+            />
           </NavbarItem>
         </NavbarContent>
 
