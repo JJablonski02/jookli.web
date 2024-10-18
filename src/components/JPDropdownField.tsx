@@ -8,6 +8,7 @@ import {
   DropdownMenu,
   DropdownTrigger,
 } from "@nextui-org/react"
+import { useTranslations } from "next-intl"
 import React from "react"
 
 export type DropdownData = Record<string, string>
@@ -29,10 +30,12 @@ export const JPDropdownField: React.FC<IJPDropdownField> = ({
     new Set([])
   )
 
+  const t = useTranslations("dropdown")
+
   const selectedValue = React.useMemo(() => {
     const selectedKey = Array.from(selectedKeys)[0]
-    return selectedKey ? data[selectedKey] : "Wybierz opcję"
-  }, [selectedKeys, data])
+    return selectedKey ? data[selectedKey] : t("selectType")
+  }, [selectedKeys, data, t])
 
   const onSelectedChange = (keys: SharedSelection) => {
     const currentKey = keys?.currentKey

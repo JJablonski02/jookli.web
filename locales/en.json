@@ -1,19 +1,276 @@
 {
-  "PaymentMethods": {
-    "title": "Payment methods"
+  "globals": {
+    "Captions": {
+      "signIn": "SIGN IN",
+      "register": "REGISTER",
+      "mainPage": "MAIN PAGE",
+      "howItWorks": "HOW IT WORKS",
+      "earnMethods": "EARNING METHODS",
+      "support": "SUPPORT",
+      "platform": "PLATFORM",
+      "menu": "MENU",
+      "company": "COMPANY",
+      "policy": "POLICY",
+      "blog": "BLOG",
+      "affilateProgram": "AFFILIATE PROGRAM",
+      "resources": "RESOURCES",
+      "policyPrivacy": "PRIVACY POLICY",
+      "terms": "TERMS",
+      "copyright": "COPYRIGHT",
+      "cookiePolicy": "COOKIE POLICY",
+      "adRules": "AD RULES",
+      "aboutUs": "ABOUT US",
+      "downloadApp": "Download the app",
+      "appDescription": "Join our platform and discover how you can earn from your skills"
+    },
+
+    "SignIn": {
+      "title": "Sign In",
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Password",
+      "logIn": "Log In"
+    },
+
+    "NotFoundPage": {
+      "pageNotFound": "Page not found",
+      "pageNotFoundDescription": "The page you are looking for does not exist. How you got here remains a mystery. You can, however, click the button below to return to the homepage."
+    },
+
+    "Messages": {},
+
+    "Errors": {}
   },
-  "NotFoundPage": {
-    "pageNotFound": "Page not found",
-    "pageNotFoundDescription": "The page you are looking for does not exist. How you got here remains a mystery. However, you can click the button below to return to the home page."
-  },
-  "Captions": {
+
+  "SignIn": {
+    "title": "Sign In",
+    "email": "Email",
+    "enterEmail": "Enter your email",
+    "enterPassword": "Enter your password",
+    "emailPlaceholder": "Email",
+    "password": "Password",
+    "logIn": "Log In",
     "signIn": "Sign In",
-    "register": "Register",
-    "mainPage": "Main Page",
-    "howItWorks": "How It Works",
-    "paymentMethods": "Payment methods",
-    "support": "Support"
+    "orSignInWith": "or sign in with",
+    "forgotPassword": "Forgot your password?",
+    "reset": "Reset",
+    "haveNotAnAccount": "Don't have an account?",
+    "register": "Register"
   },
-  "Messages": {},
-  "Errors": {}
+
+  "Register": {
+    "title": "Register",
+    "email": "Email",
+    "enterEmail": "Enter your email",
+    "enterPassword": "Enter your password",
+    "reEnterPassword": "Confirm your password",
+    "emailPlaceholder": "Email",
+    "password": "Password",
+    "register": "Register",
+    "orRegisterWith": "or register with",
+    "haveAnAccount": "Already have an account?",
+    "signIn": "Sign in"
+  },
+
+  "Support": {
+    "contactWithUs": "Contact Us",
+    "fillDataDescription": "Fill in your details and describe the problem or event, and we will contact you immediately. Remember, you can also submit a report without being a JoyProfits user yet.",
+    "fillForm": "Fill out the form",
+    "selectReportType": "Select the type of report",
+    "contactEmail": "Contact email address",
+    "describeReport": "Describe the reason for the report",
+    "sendReport": "Send Report",
+    "payoutProblem": "Payout Problem",
+    "paymentMethod": "Payment Method",
+    "taskWasNotCounted": "Task was not counted",
+    "technicalError": "Technical Error",
+    "reviews": "Reviews",
+    "cooperation": "Cooperation",
+    "promote": "Promotion",
+    "firstName": "Your First Name",
+    "lastName": "Your Last Name",
+    "iConsentToContact": "I agree to be contacted and receive information from JoyProfits via email.",
+    "requiredFields": " required fields"
+  },
+
+  "HomePage": {
+    "Header": {
+      "headerTitle": "Earn rewards and\nmake money in\nyour free time!",
+      "headerParagraph": "Download the app and start earning anywhere and anytime!",
+      "downloadIos": "Download iOS",
+      "downloadAndroid": "Download Android"
+    },
+  
+    "DownloadSection": {
+      "headerDescription": "Download our app",
+      "tileHeader": "Download on {appName}",
+      "leftTileDescription": "Download our app on iOS and discover new possibilities! With an easy-to-use interface, you can quickly manage your tasks, track progress, and enjoy unique features. Experience how simple and enjoyable using the JoyProfits app can be.",
+      "rightTileDescription": "Download our app from Google Play and enjoy full access to all features! With an intuitive interface, you can easily manage your tasks, track progress, and take advantage of unique offers. Install the app and discover how much you can gain!"
+    },
+  
+    "WCSSection": {
+      "headerDescription": "What do our users say?",
+      "user1Description": "The app has many ways to earn, but I especially like the ability to watch videos. I often have some free time, so I can earn a few extra bucks in the meantime. Payouts are quick and hassle-free.",
+      "user2Description": "A great app for someone who has a bit of free time and wants to earn extra. I like the game option the most. The earnings analytics help me better understand how and where I can earn more.",
+      "user3Description": "Very convenient app. I play games when I have time, and I also watch videos to earn more. Cashback is a great feature, and payouts work flawlessly.",
+      "user4Description": "Well-designed app with various earning options – from games to watching videos.",
+      "user5Description": "Varied ways to earn and fast PayPal payouts. Cashbacks are a great addition!",
+      "user6Description": "Good earning options and cashbacks. Sometimes payouts take longer, but I generally recommend it.",
+      "user7Description": "It's great that I can choose between different platforms – videos, games, and more. Payouts are fast.",
+      "user8Description": "Nice that there are several platforms to choose from. Sometimes I prefer playing, sometimes watching videos. Payouts are okay.",
+      "user9Description": "Lots of earning opportunities, everything works smoothly.",
+      "user10Description": "I recommend it, it works efficiently, and earnings are paid out without issues."
+    },
+  
+    "TrustedUs": {
+      "trustedUs": "Trusted by"
+    },
+  
+    "HowItWorksSection": {
+      "headerDescription": "How it works",
+      "paragraphDescription": "By taking on simple tasks, you have the chance to earn up to 3000 PLN per month, with no hidden fees or additional taxes. Moreover, your earnings have no upper limit – you decide how much you want to earn.",
+      "listDescription": "With JoyProfits, you can earn in various ways",
+      "firstListDescription": "by playing games",
+      "secondListDescription": "by filling out surveys",
+      "thirdListDescription": "by watching videos and ads",
+      "fourthListDescription": "by shopping online"
+    },
+  
+    "SectionImageBlueBg": {
+      "headerDescription": "What are the benefits?",
+      "paragraphDescription": "JoyProfits offers the possibility of working full-time or as an additional source of income, available to people from all over the world. You can earn money using any device with internet access, no matter where you are. You will be paid for the time and effort spent using the platform."
+    },
+  
+    "Benefits": {
+      "headerDescription": "How can JoyProfits help you?",
+      "description": "JoyProfits helps you leverage your strengths by offering six different ways to earn. This way, you can choose the option that best matches your skills and interests. The platform effectively turns your effort and time into tangible earnings.",
+      "seeMore": "See more"
+    },
+  
+    "AboutSection": {
+      "header": "About JoyProfits",
+      "description": "Discover our app available on iOS and Android! Download it now and start taking advantage of the opportunities we offer!"
+    },
+  
+    "AboutSectionTiles": {
+      "firstTileHeader": "PLAY AND EARN",
+      "secondTileHeader": "IOS & ANDROID APP",
+      "thirdTileHeader": "EARNINGS ANALYSIS",
+      "fourthTileHeader": "100% SECURITY",
+      "fifthTileHeader": "CASHBACK",
+      "firstTileDescription": "Play your favorite games and earn by achieving milestones! Discover new possibilities and turn every game into an income source.",
+      "secondTileDescription": "Discover our app available on iOS and Android! Download it now and start taking advantage of the opportunities we offer!",
+      "thirdTileescription": "With analytics, you have full control over your earnings, tracking and analyzing every aspect of your income.",
+      "fourthTileDescription": "Withdraw the money you earn easily and securely, directly to your bank account or PayPal.",
+      "fifthTileDescription": "When shopping with our partners, enjoy cashback on every purchase. Gain additional benefits and savings by using our partner network."
+    }
+  },
+
+    "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "Discover new ways to earn",
+      "headerParagraph": "With a wide range of tools and resources, everyone can find a way to generate their income.",
+      "downloadIos": "Download iOS",
+      "downloadAndroid": "Download Android"
+    },
+    "StepTile": {
+      "firstStep": "Step 1",
+      "secondStep": "Step 2",
+      "thirdStep": "Step 3",
+      "firstTileHeader": "Sign up and account setup",
+      "firstTileParagraph": "The registration process on JoyProfits is quick and easy. Just provide basic information, verify your account, then log in and set up your profile.",
+      "firstTileExtraParagraph": "After logging in, you can configure your profile so that the platform can better tailor earning recommendations to your needs.",
+      "secondTileHeader": "Choosing an earning strategy and education",
+      "secondTileParagraph": "JoyProfits offers various earning strategies, such as affiliate marketing, participating in partner programs, playing games, and completing surveys. You can explore the available options and choose the ones that best suit your needs.",
+      "secondTileExtraParagraph": "To increase your chances of success, use the many educational resources available on the platform, such as courses, webinars, articles, and guides. Additionally, you have access to technical support and a community of users to share experiences and get help.",
+      "thirdTileHeader": "Tracking progress, optimization, and payouts",
+      "thirdTileParagraph": "The JoyProfits platform offers analytics tools to monitor performance, allowing you to identify areas for improvement and continuously optimize your activities to maximize profits.",
+      "thirdTileExtraParagraph": "Earned funds can be easily withdrawn using various payment methods, such as bank transfers or PayPal. Payouts are fast and secure, giving you full control over your finances."
+    },
+    "Section": {
+      "header": "How does it work?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "Registration and\naccount setup",
+      "strategySelection": "Choosing an earning\nstrategy",
+      "educationAndSupport": "Education\nand support",
+      "analysis": "Progress tracking\nand optimization",
+      "payouts": "Withdrawing earned\nfunds"
+    }
+  },
+
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "Just one app, many possibilities!",
+      "headerParagraph": "We are proud of our user community, who discover new ways to earn online every day.",
+      "downloadIos": "Download iOS",
+      "downloadAndroid": "Download Android"
+    },
+    "Section": {
+      "header": "One app, many earning possibilities",
+      "Tile1Header": "Playing games",
+      "Tile1Description": "Earn points by leveling up and unlocking features in mobile games. Complete tasks of varying difficulty in your favorite games.",
+      "Tile2Header": "Watching videos",
+      "Tile2Description": "Earn by watching videos and ads. Spend a moment on engaging content and get rewarded for every ad or video you watch. Choose from various categories and topics.",
+      "Tile3Header": "Filling out surveys",
+      "Tile3Description": "Answer questions and share your opinion, earning money for each completed survey. The more surveys you complete, the more you earn.",
+      "Tile4Header": "Shopping online",
+      "Tile4Description": "Shop at your favorite stores and get cashback as well as additional income. Sign up on store websites to receive free samples and discount codes.",
+      "Tile5Header": "Micro-tasks",
+      "Tile5Description": "Earn by learning new skills, such as programming or graphic design. Choose interesting courses and complete available tasks on JoyProfits.",
+      "Tile6Header": "Achievements",
+      "Tile6Description": "Achieve goals on JoyProfits, earn rewards, and boost your income. Each achievement brings you closer to higher profits and additional rewards."
+    }
+  },
+    "AboutUs": {
+    "Header": {
+      "headerTitle": "Get to know the creators of JoyProfits!",
+      "headerParagraph": "Start earning with JoyProfits in a simple and quick way. Check out how many opportunities you have now!",
+      "downloadIos": "Download iOS",
+      "downloadAndroid": "Download Android"
+    },
+    "StepTile": {
+      "headerDescription": "What do our users say?",
+      "firstTileHeader": "Hello!",
+      "firstTileParagraph": "My name is Jakub, and I am the creator of an app that combines fun with usefulness – it allows you to earn money by playing games, watching videos, and completing many other tasks.",
+      "firstTileExtraParagraph": "As a technology and entertainment enthusiast, I realized that more and more people spend their free time in the virtual world. I decided to create a solution that would allow users to benefit financially from this activity. The JoyProfits app is the result of thorough analysis, market research, and several months of work by my team and me to create a safe and user-friendly tool.",
+      "secondTileHeader": "Our mission",
+      "secondTileParagraph": "Our mission is to transform everyday entertainment into real financial benefits. In the age of digitization and the growing popularity of virtual entertainment, we saw a tremendous potential in using time spent online to generate additional income.",
+      "secondTileExtraParagraph": "We focus on close contact with users and flexibility in responding to their needs. Every day, we work on improving the app to provide the best possible experiences and earning opportunities. Our goal is to create a community where every user can reap financial benefits from what they enjoy.",
+      "thirdTileHeader": "Discover JoyProfits",
+      "thirdTileParagraph": "I invite you to explore the potential of our app and join the ranks of satisfied users who are already benefiting from earning money through fun and entertainment.",
+      "thirdTileExtraParagraph": "Together, we are changing the way we perceive time spent online, creating new, innovative sources of income."
+    }
+  },
+
+  "JPDownloadButton": {
+    "downloadApp": "Download the app"
+  },
+  "VerifyEmail": {
+    "accountActivated": "Account has been activated",
+    "hello": "Hello",
+    "thankYouNote": "Thank you, your email address has been verified. Your account is now active. Use the button below to return to the app.",
+    "returnToApp": "Return to the app"
+  },
+  "Validation": {
+    "emailRequired": "Email address is required",
+    "passwordRequired": "Password is required",
+    "firstNameRequired": "First name is required",
+    "lastNameRequired": "Last name is required",
+    "consentRequired": "Consent is required",
+    "descriptionRequired": "Description is required",
+    "categorySelectionRequired": "Category selection is required",
+    "minLength": "Minimum length is {count} characters",
+    "maxLength": "Maximum length is {count} characters",
+    "invalidEmail": "Invalid email address",
+    "passwordSpecialChar": "Special character is required",
+    "passwordUppercase": "At least one uppercase letter is required",
+    "passwordsMismatch": "Passwords do not match"
+  },
+
+  "Dropdown" : {
+    "selectType" : "Select type"
+  }
 }
+
+

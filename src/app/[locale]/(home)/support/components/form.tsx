@@ -49,7 +49,7 @@ export const SupportForm = () => {
     if (isFormValid) {
       try {
         await fetchReport(data)
-        // setSent(result.ok) //TODO
+        setSent(true)
         toast.success(
           "Twoje zgłoszenie zostało wysłane! Sprawdź swoją skrzynkę pocztową."
         )

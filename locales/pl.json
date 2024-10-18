@@ -273,5 +273,9 @@
     "passwordSpecialChar": "Wymagany znak specjalny",
     "passwordUppercase": "Wymagana przynajmniej jedna wielka litera",
     "passwordsMismatch": "Hasła nie są takie same"
+  },
+  
+  "Dropdown" : {
+    "selectType" : "Wybierz typ"
   }
 }
