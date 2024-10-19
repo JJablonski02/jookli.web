@@ -10,34 +10,39 @@ import { MotionDiv } from "../../motion-components/motion-div"
 import { TrustedUsData } from "./TrustedUsData"
 
 export function TrustedUsCarousel() {
-  const [emblaRef] = useEmblaCarousel({ loop: true, slidesToScroll: "auto" }, [
-    AutoScroll({
-      playOnInit: true,
-      stopOnMouseEnter: false,
-      stopOnFocusIn: false,
-      stopOnInteraction: false,
-      speed: 1,
-    }),
-  ])
   const t = useTranslations("HomePage.TrustedUs")
 
+  const [emblaRef, emblaApi] = useEmblaCarousel(
+    { loop: true, slidesToScroll: "auto", dragFree: false },
+    [
+      AutoScroll({
+        playOnInit: true,
+        stopOnMouseEnter: false,
+        stopOnFocusIn: false,
+        stopOnInteraction: false,
+        speed: 1,
+      }),
+    ]
+  )
+
   return (
-    <div>
+    <section>
       <MotionDiv className="w-full justify-center pb-2 pt-5 text-center">
         <h3 className="text-2xl">{t("trustedUs")}</h3>
       </MotionDiv>
-      <MotionDiv className="embla h-[110px]">
-        <div className="embla__viewport overflow-hidden" ref={emblaRef}>
+      <MotionDiv className="embla">
+        <div
+          className="embla__viewport pointer-events-none overflow-hidden"
+          ref={emblaRef}
+        >
           <div className="embla__container">
             {TrustedUsData.map((data) => (
-              <div
-                key={data.id}
-                className="embla__slide mx-4 flex max-h-[110px] max-w-[80px]"
-              >
-                <div className="self-center">
+              <div key={data.id} className="embla__slide mx-12 max-w-[170px]">
+                <div className="h-[110px] w-[80px] select-none">
                   <Image
                     src={data.src}
                     alt="user-svg"
+                    fill
                     className="object-contain"
                   />
                 </div>
@@ -46,6 +51,6 @@ export function TrustedUsCarousel() {
           </div>
         </div>
       </MotionDiv>
-    </div>
+    </section>
   )
 }
