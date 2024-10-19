@@ -1,7 +1,6 @@
 "use client"
 
 import { useSearchParams } from "next/navigation"
-import { useTranslations } from "next-intl"
 import { useEffect, useState } from "react"
 
 import { fetchConfirmAccountEmail } from "@/api/rest/emails"
@@ -12,9 +11,9 @@ import { RecoverPasswordForm } from "./components/form"
 const VerifyEmail: React.FC = () => {
   const searchParams = useSearchParams()
   const token = searchParams.get("token")
-  const [name, setName] = useState<string | null>()
 
-  const t = useTranslations()
+  // eslint-disable-next-line unused-imports/no-unused-vars
+  const [name, setName] = useState<string | null>()
 
   // TODO Rest
   useEffect(() => {
