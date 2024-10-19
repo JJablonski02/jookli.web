@@ -12,7 +12,7 @@ import { TrustedUsData } from "./TrustedUsData"
 export function TrustedUsCarousel() {
   const t = useTranslations("HomePage.TrustedUs")
 
-  const [emblaRef, emblaApi] = useEmblaCarousel(
+  const [emblaRef] = useEmblaCarousel(
     { loop: true, slidesToScroll: "auto", dragFree: false },
     [
       AutoScroll({
