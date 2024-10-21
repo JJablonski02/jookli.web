@@ -1,16 +1,18 @@
-import { createCipheriv, createDecipheriv, randomBytes } from "crypto"
+import CryptoJS from "crypto-js"
 
 /**
  * Klasa enkryptująca dane.
  * Udostępnia funkcje do enkrypcji, dekrypcji, zapisu i odczytu z localStorage.
  */
 export class EncryptionManager {
-  private static algorithm = "aes-256-cbc"
-
   private static keyLength = 32
+  private static ivLength = 16
 
-  private static generateKey(): Buffer {
-    return randomBytes(this.keyLength)
+  private static generateIv(): CryptoJS.lib.WordArray {
+    return CryptoJS.lib.WordArray.random(this.ivLength)
+  }
+  private static generateKey(): CryptoJS.lib.WordArray {
+    return CryptoJS.lib.WordArray.random(this.keyLength)
   }
 
   /**
@@ -19,13 +21,16 @@ export class EncryptionManager {
    */
   static encrypt(text: string): string {
     const key = this.generateKey()
-    const iv = randomBytes(16)
-    const cipher = createCipheriv(this.algorithm, key, iv)
+    const iv = this.generateIv()
+    
 
-    let encrypted = cipher.update(text, "utf8", "hex")
-    encrypted += cipher.final("hex")
+    const encrypted = CryptoJS.AES.encrypt(text, key, {
+        iv: iv,
+        mode: CryptoJS.mode.CBC,
+        padding: CryptoJS.pad.Pkcs7
+    })
 
-    return `${encrypted}:${key.toString("hex")}:${iv.toString("hex")}`
+    return `${encrypted}:${key.toString(CryptoJS.enc.Hex)}:${iv.toString(CryptoJS.enc.Hex)}`
   }
 
   /**
@@ -39,23 +44,35 @@ export class EncryptionManager {
     }
 
     const encryptedText = parts[0]
-    const key = Buffer.from(parts[1], "hex")
-    const iv = Buffer.from(parts[2], "hex")
+    const key = CryptoJS.enc.Hex.parse(parts[1])
+    const iv = CryptoJS.enc.Hex.parse(parts[2])
 
-    const decipher = createDecipheriv(this.algorithm, key, iv)
-    let decrypted = decipher.update(encryptedText, "hex", "utf8")
-    decrypted += decipher.final("utf8")
+    const decrypted = CryptoJS.AES.decrypt(encryptedText, key, {
+        iv: iv,
+        mode: CryptoJS.mode.CBC,
+        padding: CryptoJS.pad.Pkcs7
+    })
 
-    return decrypted
+    return decrypted.toString(CryptoJS.enc.Utf8)
   }
-
+  /**
+   * Funkcja odwracająca dane.
+   * @param data  dane do odwracania.
+   * @returns odwrócone dane.
+   */
+  static reverseData(data: string): string {
+    return data.split("").reverse().join("")
+  }
   /**
    * Zapisuje enkryptowane dane do local storage.
    * @param encryptedData zaszyfrowane dane.
    * @param key nazwa klucza do zapisu.
+   * @param encryptedDataReversed zaszyfrowane dane odwrócone.
    */
   static saveEncryptedItemToLocalStorage(encryptedData: string, key: string) {
-    localStorage.setItem(key, encryptedData)
+    const encryptedDataReversed = this.reverseData(encryptedData)
+    localStorage.setItem(key, encryptedDataReversed)
+    return console.log(encryptedDataReversed, "oto one") 
   }
 
   /**
@@ -64,6 +81,11 @@ export class EncryptionManager {
    * @returns Zwraca odczytane dane z localStorage lub zwraca null, gdy dla szukanego klucza nie ma danych.
    */
   static readEncryptedDataFromLocalStorage(key: string): string | null {
-    return localStorage.getItem(key)
+    const reversedData = localStorage.getItem(key)
+    if (reversedData) {
+        const encryptedData = this.reverseData(reversedData)
+        return encryptedData
+    }
+    return null
   }
 }
