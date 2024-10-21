@@ -30,7 +30,7 @@ export const JPDropdownField: React.FC<IJPDropdownField> = ({
     new Set([])
   )
 
-  const t = useTranslations("dropdown")
+  const t = useTranslations("Dropdown")
 
   const selectedValue = React.useMemo(() => {
     const selectedKey = Array.from(selectedKeys)[0]
