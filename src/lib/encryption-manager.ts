@@ -6,11 +6,13 @@ import CryptoJS from "crypto-js"
  */
 export class EncryptionManager {
   private static keyLength = 32
+
   private static ivLength = 16
 
   private static generateIv(): CryptoJS.lib.WordArray {
     return CryptoJS.lib.WordArray.random(this.ivLength)
   }
+
   private static generateKey(): CryptoJS.lib.WordArray {
     return CryptoJS.lib.WordArray.random(this.keyLength)
   }
@@ -22,12 +24,11 @@ export class EncryptionManager {
   static encrypt(text: string): string {
     const key = this.generateKey()
     const iv = this.generateIv()
-    
 
     const encrypted = CryptoJS.AES.encrypt(text, key, {
-        iv: iv,
-        mode: CryptoJS.mode.CBC,
-        padding: CryptoJS.pad.Pkcs7
+      iv,
+      mode: CryptoJS.mode.CBC,
+      padding: CryptoJS.pad.Pkcs7,
     })
 
     return `${encrypted}:${key.toString(CryptoJS.enc.Hex)}:${iv.toString(CryptoJS.enc.Hex)}`
@@ -48,13 +49,14 @@ export class EncryptionManager {
     const iv = CryptoJS.enc.Hex.parse(parts[2])
 
     const decrypted = CryptoJS.AES.decrypt(encryptedText, key, {
-        iv: iv,
-        mode: CryptoJS.mode.CBC,
-        padding: CryptoJS.pad.Pkcs7
+      iv,
+      mode: CryptoJS.mode.CBC,
+      padding: CryptoJS.pad.Pkcs7,
     })
 
     return decrypted.toString(CryptoJS.enc.Utf8)
   }
+
   /**
    * Funkcja odwracająca dane.
    * @param data  dane do odwracania.
@@ -63,6 +65,7 @@ export class EncryptionManager {
   static reverseData(data: string): string {
     return data.split("").reverse().join("")
   }
+
   /**
    * Zapisuje enkryptowane dane do local storage.
    * @param encryptedData zaszyfrowane dane.
@@ -72,7 +75,6 @@ export class EncryptionManager {
   static saveEncryptedItemToLocalStorage(encryptedData: string, key: string) {
     const encryptedDataReversed = this.reverseData(encryptedData)
     localStorage.setItem(key, encryptedDataReversed)
-    return console.log(encryptedDataReversed, "oto one") 
   }
 
   /**
@@ -83,8 +85,8 @@ export class EncryptionManager {
   static readEncryptedDataFromLocalStorage(key: string): string | null {
     const reversedData = localStorage.getItem(key)
     if (reversedData) {
-        const encryptedData = this.reverseData(reversedData)
-        return encryptedData
+      const encryptedData = this.reverseData(reversedData)
+      return encryptedData
     }
     return null
   }
