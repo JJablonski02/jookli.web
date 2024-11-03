@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.eol": "\n" //LF
+  },
+  "extensions": {
+    "recommendations": [
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "rvest.vs-code-prettier-eslint",
+      "mhutchie.git-graph",
+      "EditorConfig.EditorConfig"
+    ]
+  }
+}
