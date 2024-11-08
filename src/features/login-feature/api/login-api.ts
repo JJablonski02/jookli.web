@@ -14,20 +14,22 @@ export const loginApi = async (
   body.append("password", command.password)
   body.append("grant_type", "password")
   body.append("scope", "jookliApi.read jookliApi.write offline_access")
-  body.append("client_secret", process.env.CLIENT_SECRET || "missing")
-  body.append("client_id", process.env.CLIENT_ID || "missing")
-
+  body.append("client_id", process.env.NEXT_PUBLIC_CLIENT_ID || "missing")
+  body.append(
+    "client_secret",
+    process.env.NEXT_PUBLIC_CLIENT_SECRET || "missing"
+  )
   const response = await fetcher("connect/token", {
     method: "POST",
     headers: {
       "Content-Type": "application/x-www-form-urlencoded",
     },
-    body: body,
+    body,
   })
 
   if (!response.ok) {
     throw new Error("Logowanie nieudane")
   }
 
-  return response.json()
+  return response.data as LoginResponse
 }
