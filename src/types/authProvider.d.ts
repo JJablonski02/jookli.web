@@ -1,14 +1,14 @@
 interface AuthProviderProps {
-    children: React.ReactNode
+  children: React.ReactNode
 }
 
 type User = {
-    email: string
+  email: string
 }
 
 type AuthContextType = {
-    accessToken: string | null
-    refreshToken: string | null
-    setAccessToken: (token: string | null) => void
-    setRefreshToken: (token: string | null) => void
+  accessToken: string | null
+  refreshToken: string | null
+  setAccessToken: (token: string | null) => void
+  setRefreshToken: (token: string | null) => void
 }
