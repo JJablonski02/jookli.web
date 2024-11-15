@@ -9,6 +9,7 @@ import { Controller, useForm } from "react-hook-form"
 import JPButton from "@/components/buttons/JPButton"
 import JPExternalServiceButton from "@/components/buttons/JPExternalServiceButton"
 import JPInputFormField from "@/components/JPInputFormField"
+import { loginApi } from "@/features/login-feature/api/login-api"
 import type { LoginSchema } from "@/lib/zod/login"
 import { useLoginSchema } from "@/lib/zod/login"
 
@@ -25,7 +26,16 @@ export const LoginForm = () => {
     resolver: zodResolver(loginSchema),
   })
 
-  const onSubmit = async () => {}
+  const onSubmit = async (data: LoginSchema) => {
+    try {
+      await loginApi({
+        email: data.email,
+        password: data.password,
+      })
+    } catch (error) {
+      /** Empty */
+    }
+  }
 
   return (
     <Card className="mx-auto w-full max-w-md bg-secondary-light sm:max-w-[85%]">
