@@ -28,13 +28,12 @@ export const LoginForm = () => {
 
   const onSubmit = async (data: LoginSchema) => {
     try {
-      const response = await loginApi({
+      await loginApi({
         email: data.email,
         password: data.password,
       })
-      console.log("Zalogowano pomyślnie", response)
     } catch (error) {
-      console.error("Błąd logowania", error)
+      /** Empty */
     }
   }
 

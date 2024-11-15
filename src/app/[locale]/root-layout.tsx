@@ -1,18 +1,12 @@
 import "../../styles/globals.css"
 import "../../styles/components.css"
 
-import type { Metadata } from "next"
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages, unstable_setRequestLocale } from "next-intl/server"
 
 import { JPToaster } from "@/components/JPToaster"
 
 import Providers from "../../providers/providers"
-
-export const metadata: Metadata = {
-  title: "JoyProfits",
-  description: "Earn rewards and money in your spare time!",
-}
 
 export interface RootLayoutProps {
   children: React.ReactNode
