@@ -4,7 +4,7 @@ import awin from "@/../public/trustedus/awin.svg"
 import ayet from "@/../public/trustedus/ayetstudios.png"
 import bitlabs from "@/../public/trustedus/bitlabs.png"
 // import digitalturbine from "@/../public/trustedus/digitalturbine.png"
-import fyber from "@/../public/trustedus/fyber.png"
+// import fyber from "@/../public/trustedus/fyber.png"
 import googleadmob from "@/../public/trustedus/googleAdMob.png"
 import ironsource from "@/../public/trustedus/ironsource.svg"
 import meta from "@/../public/trustedus/meta.png"
@@ -35,11 +35,11 @@ export const TrustedUsData: TrustedUsDataType[] = [
   //   src: digitalturbine,
   //   alt: "digital-turbine-img",
   // },
-  {
-    id: "fyber",
-    src: fyber,
-    alt: "fyber-img",
-  },
+  // {
+  //   id: "fyber",
+  //   src: fyber,
+  //   alt: "fyber-img",
+  // },
   {
     id: "google-ad-mob",
     src: googleadmob,
