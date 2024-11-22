@@ -48,7 +48,7 @@ const StepTile: React.FC<StepTileProps> = ({
             className={`${className} mx-20 flex flex-row items-center justify-between gap-8 lg:flex-col md:mx-0`}
           >
             <div className="flex items-center justify-center">
-              <div className="flex max-h-[500px] min-w-[500px] items-center justify-center overflow-hidden rounded-[90px] border-4 border-blue bg-white md:aspect-[1/1] md:w-[95%] md:min-w-0">
+              <div className="flex max-h-[500px] min-w-[500px] items-center justify-center overflow-hidden rounded-[90px] border-4 border-blue bg-white md:aspect-[1/1] md:w-4/5 md:min-w-0 md:rounded-[50px]">
                 {customContent ||
                   (() => {
                     if (stepType === "1" && src) {
@@ -86,11 +86,11 @@ const StepTile: React.FC<StepTileProps> = ({
               </div>
             </div>
             <div className="flex w-3/5 flex-col lg:w-full lg:items-center lg:text-center">
-              <span className="font-PoppinsMedium text-5xl text-blue">
+              <span className="font-PoppinsMedium text-5xl text-blue lg:text-4xl md:text-3xl">
                 {step}
               </span>
-              <h1 className="mt-6 text-2xl text-white">{header}</h1>
-              <p className="mt-7 line-clamp-[20] text-start text-xl text-white lg:text-lg">
+              <h1 className="mt-6 text-3xl text-white md:text-2xl">{header}</h1>
+              <p className="lg:text-2 mt-7 line-clamp-[20] text-start text-white md:text-medium">
                 {paragraph}
                 <br />
                 <br />

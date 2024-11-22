@@ -19,7 +19,7 @@ const HowItWorksSection = () => {
           <PhoneImage phoneType="dashboard-phone" />
           <MotionDiv className="w-3/4 md:w-full">
             <div>
-              <h2 className="text-4xl text-primary">
+              <h2 className="text-4xl text-primary lg:text-3xl md:text-2xl">
                 {t("headerDescription")}
               </h2>
               <p className="mt-8 w-3/4 lg:mt-6 md:w-full">

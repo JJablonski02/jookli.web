@@ -24,7 +24,7 @@
 
       --blue: #0095FF;
       --gray: rgba(255, 255, 255, 0.10);
-      
+
       --muted: 210 40% 96.1%;
       --muted-foreground: 215.4 16.3% 46.9%;
 
@@ -112,9 +112,9 @@
     }
 
     p {
-      @apply text-xl font-PoppinsRegular text-primary;
+      @apply text-lg md:text-medium font-PoppinsRegular text-primary;
     }
-    
+
     [data-overlay-container=true] {
       @apply min-h-full h-full flex min-w-full flex-col max-w-[1920px] mx-auto
     }
