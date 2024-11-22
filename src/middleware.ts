@@ -31,5 +31,6 @@ export const config = {
     "/adveristment-rules",
     "/verify-email",
     "/recover-password",
+    "/confirm-email-change",
   ],
 }
