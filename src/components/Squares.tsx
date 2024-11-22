@@ -28,7 +28,7 @@ export const Squares: React.FC<ISquares> = ({
       : "right-0 -translate-y-1/2 translate-x-[5.5rem]"
 
   const commonChildrenClasses =
-    "relative z-[3] w-[80%] lg:w-full flex min-h-[680px] lg:min-h-0 " /** Ustalona min-h jako stała na 680px */
+    "relative z-[3] w-[80%] lg:w-full flex min-h-[680px] lg:min-h-0" /** Ustalona min-h jako stała na 680px */
 
   const childrenClasses =
     position === "left"
@@ -45,7 +45,7 @@ export const Squares: React.FC<ISquares> = ({
         id={square2Id}
         className={`${commonClasses + positionSecondClasses}`}
       />
-      <div className={`${childrenClasses} + " + ${className}`}>{children}</div>
+      <div className={`${childrenClasses} ${className || ""}`}>{children}</div>
     </div>
   )
 }

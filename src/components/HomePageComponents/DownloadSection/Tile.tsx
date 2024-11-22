@@ -19,7 +19,7 @@ const Tile: React.FC<TileProps> = ({ header, description, type, children }) => {
         <h3 className="mb-4 font-PoppinsMedium text-2xl text-black">
           {header}
         </h3>
-        <p className="text-md mb-4 max-w-[80%] text-center text-black md:max-w-full">
+        <p className="mb-4 max-w-[80%] text-center text-medium text-black md:max-w-full">
           {description}
         </p>
         {children}

@@ -28,7 +28,7 @@ const HowItWorks = ({ params: { locale } }: Props) => {
       <HorizontalLine variant="1" />
       <div className="hidden self-center lg:flex">
         <WidthWrapper className="flex justify-center">
-          <h2 className="self-center text-center text-4xl lg:w-3/4 md:w-full">
+          <h2 className="self-center text-center text-2xl lg:w-3/4 md:w-full">
             Zacznij zarabiać już teraz wykonując trzy poniższe kroki
           </h2>
         </WidthWrapper>
