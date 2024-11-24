@@ -20,7 +20,7 @@ const WhiteTile: React.FC<whiteTileProps> = ({ header, content, src, alt }) => {
             src={src}
             alt={alt}
           />
-          <h2 className="text-xl text-black">{header}</h2>
+          <h5 className="font-semibold text-black">{header}</h5>
         </div>
         <p className="text-black">{content}</p>
       </div>

@@ -101,23 +101,8 @@
     @apply border-border;
   }
 
-  h1,
-  h2,
-  h3 {
-    font-family: "Poppins-SemiBold";
-    color: var(--primary);
-    font-size: 30px;
-  }
-
-  h4,
-  h5,
-  h6 {
-    font-family: "Poppins-Bold";
-    color: var(--primary);
-  }
-
   p {
-    @apply font-PoppinsRegular text-lg text-primary md:text-medium;
+    @apply font-PoppinsRegular text-medium text-primary;
   }
 
   [data-overlay-container="true"] {

@@ -16,9 +16,9 @@ const Section = () => {
       <WidthWrapper>
         <div className="relative mx-20 mt-40 lg:mt-20 md:mx-0 md:mt-10">
           <MotionDiv>
-            <h2 className="absolute left-1/2 top-[-70px] mb-8 -translate-x-1/2 -translate-y-1/2 text-center text-4xl lg:static lg:top-0 lg:translate-x-0 lg:translate-y-0">
+            <h3 className="absolute left-1/2 top-[-70px] mb-8 -translate-x-1/2 -translate-y-1/2 text-center lg:static lg:top-0 lg:translate-x-0 lg:translate-y-0">
               {t("header")}
-            </h2>
+            </h3>
           </MotionDiv>
           <div className="grid grid-cols-3 gap-8 lg:grid-cols-2 md:grid-cols-1">
             {SectionData.map((data) => (
@@ -30,7 +30,9 @@ const Section = () => {
                   <div className="rounded-full bg-white p-3">
                     <Image src={data.icon} alt="icon" />
                   </div>
-                  <h3 className="text-2xl">{t(`${data.header}`)}</h3>
+                  <h4 className="font-PoppinsSemiBold">
+                    {t(`${data.header}`)}
+                  </h4>
                 </div>
                 <p>{t(`${data.label}`)}</p>
               </MotionDiv>

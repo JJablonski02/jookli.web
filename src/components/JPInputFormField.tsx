@@ -3,17 +3,12 @@
 import type { InputProps } from "@nextui-org/input"
 import { Input } from "@nextui-org/input"
 import React from "react"
-import { useMediaQuery } from "react-responsive"
-
-import { BREAKPOINTS } from "@/lib/breakpoints"
 
 interface IJPInputFormField extends InputProps {
   topLabel?: string
 }
 
 const JPInputFormField: React.FC<IJPInputFormField> = ({ ...props }) => {
-  const isSm = useMediaQuery({ maxWidth: BREAKPOINTS.SM })
-
   return (
     <div className="w-full">
       {props.topLabel && (
@@ -24,7 +19,7 @@ const JPInputFormField: React.FC<IJPInputFormField> = ({ ...props }) => {
       )}
       <Input
         variant="faded"
-        size={isSm ? "sm" : "md"}
+        size="md"
         labelPlacement="inside"
         color="secondary"
         {...props}

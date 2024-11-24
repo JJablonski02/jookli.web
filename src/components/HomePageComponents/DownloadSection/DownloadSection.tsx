@@ -22,7 +22,7 @@ const DownloadSection: React.FC<IDownloadSection> = ({ betterStyling }) => {
           <MotionDiv
             className={`mb-12 md:mb-6 ${betterStyling && "absolute left-0 top-[-80px] lg:static"}`}
           >
-            <h2 className="text-2xl md:pb-4">{t("headerDescription")}</h2>
+            <h3 className="md:pb-4">{t("headerDescription")}</h3>
           </MotionDiv>
           <div className="flex gap-8 md:flex-col">
             <Tile

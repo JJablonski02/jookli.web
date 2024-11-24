@@ -22,7 +22,7 @@ export const PhoneImage: React.FC<{ phoneType: PhoneType }> = ({
   phoneType,
 }) => {
   return (
-    <MotionDiv className="h-[640px] w-[330px] items-center lg:h-[500px] md:h-[400px] md:w-[300px]">
+    <MotionDiv className="h-[600px] w-[330px] items-center lg:h-[500px] md:h-[400px] md:w-[300px]">
       <div className="relative size-full">
         <Image
           src={phoneImages[phoneType]}

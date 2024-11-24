@@ -16,9 +16,9 @@ const Support = ({ params: { locale } }: Props) => {
 
   return (
     <PageWrapper>
-      <MotionDiv className="mx-auto flex min-h-[400px] w-3/4 flex-col gap-6 py-20">
+      <MotionDiv className="mx-auto flex w-3/4 flex-col gap-6 py-10">
         <h2>{t("contactWithUs")}</h2>
-        <p className="flex max-w-[80%] grow items-center justify-center text-xl md:mt-8 md:max-w-[95%] md:text-center md:text-lg">
+        <p className="flex max-w-[80%] grow md:max-w-full">
           {t("fillDataDescription")}
         </p>
       </MotionDiv>

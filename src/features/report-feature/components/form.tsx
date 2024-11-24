@@ -181,9 +181,12 @@ export const SupportForm = () => {
                   label={t("iConsentToContact")}
                   checked={value}
                   onChange={onChange}
+                  style={{ color: "red" }}
                 />
                 {errors.consent && (
-                  <p className="text-danger">{errors.consent.message}</p>
+                  <p className="text-sm text-danger">
+                    {errors.consent.message}
+                  </p>
                 )}{" "}
                 {/* Komunikat o błędzie */}
               </div>
