@@ -14,7 +14,7 @@ const BlueTile: React.FC<BlueTileProps> = ({ header, content }) => {
   return (
     <MotionDiv className="col-start-2 row-start-1 row-end-3 flex size-full flex-col justify-between overflow-hidden rounded-[40px] bg-blue">
       <div className="m-6 flex flex-col gap-4 py-2 text-center">
-        <h3 className="text-xl">{header}</h3>
+        <h5 className="font-semibold">{header}</h5>
         <p>{content}</p>
       </div>
       <div className="flex justify-center lg:hidden">

@@ -34,19 +34,19 @@ const Header: React.FC<HeaderProps> = ({
       <Squares position="right" square1Id={square1Id} square2Id={square2Id}>
         <div className="flex grow items-center justify-between gap-5 p-2 py-5 pl-20 lg:flex-col lg:items-center lg:px-5 lg:text-center md:px-0">
           <MotionDiv className="w-3/4 lg:w-full md:flex md:flex-col md:items-center">
-            <h1 className="text-ellipsis text-6xl lg:whitespace-normal lg:text-3xl md:text-left md:text-3xl">
+            <h1 className="text-ellipsis lg:whitespace-normal md:text-left">
               {header}
             </h1>
-            <p className="mt-8 text-2xl lg:text-xl md:mt-6 md:w-full md:text-left md:text-lg">
+            <h5 className="mt-8 md:mt-6 md:w-full md:text-left">
               {headerParagraph}
-            </p>
+            </h5>
             <div className="mt-10 flex justify-start gap-6 lg:mx-auto lg:w-10/12 md:mt-8 md:w-full md:gap-0">
               <JPButton
-                className="mx-4 flex h-16 w-[180px] min-w-[120px] flex-row gap-2 rounded-full bg-blue p-6 font-PoppinsMedium text-primary lg:h-14 lg:w-1/2 md:h-12"
+                className="mx-4 flex w-[180px] min-w-[120px] flex-row gap-2 rounded-full bg-blue p-6 font-PoppinsMedium text-primary lg:w-1/2"
                 label={firstButtonLabel}
               />
               <JPButton
-                className="flex h-16 w-[180px] flex-row gap-2 rounded-full bg-blue p-6 font-PoppinsMedium text-primary lg:h-14 lg:w-1/2 md:h-12"
+                className="flex w-[180px] flex-row gap-2 rounded-full bg-blue p-6 font-PoppinsMedium text-primary lg:w-1/2"
                 label={secondButtonLabel}
               />
             </div>

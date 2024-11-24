@@ -43,8 +43,12 @@ export const StepOverview: React.FC<IStepOverview> = ({ variant }) => {
 
   return (
     <MotionDiv className="mx-auto flex flex-col items-center justify-center gap-4 text-center">
-      <Image src={src} alt={altText} className="md:h-[40px]" />
-      <p className="whitespace-pre-wrap">{text}</p>
+      <Image
+        src={src}
+        alt={altText}
+        className="h-[40px] lg:h-[28px] md:h-[26px]"
+      />
+      <p className="line-clamp-2 whitespace-pre-wrap">{text}</p>
     </MotionDiv>
   )
 }

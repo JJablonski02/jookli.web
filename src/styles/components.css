@@ -5,57 +5,93 @@
 @layer components {
   :root {
     --header-height: 100px;
-    --header-height-lg: 70px
+    --header-height-lg: 70px;
+  }
+
+  h1 {
+    @apply text-5xl lg:text-4xl md:text-3xl;
+    font-family: "Poppins-SemiBold";
+    color: var(--primary);
+  }
+
+  h2 {
+    @apply text-4xl lg:text-3xl md:text-2xl;
+    font-family: "Poppins-Semibold";
+    color: var(--primary);
+  }
+
+  h3 {
+    @apply text-3xl lg:text-2xl md:text-xl;
+    font-family: "Poppins-Semibold";
+    color: var(--primary);
+  }
+
+  h4 {
+    @apply text-2xl lg:text-xl md:text-lg;
+    font-family: "Poppins-Regular";
+    color: var(--primary);
+  }
+
+  h5 {
+    @apply text-xl lg:text-lg md:text-medium;
+    font-family: "Poppins-Regular";
+    color: var(--primary);
+  }
+
+  h6 {
+    @apply text-lg lg:text-medium md:text-small;
+    font-family: "Poppins-Regular";
+    color: var(--primary);
   }
 
   .header-height {
     height: var(--header-height) !important;
   }
-  
+
   @media (max-width: 1024px) {
     .header-height {
-      height: var(--header-height-lg) !important; 
+      height: var(--header-height-lg) !important;
     }
   }
 
   .main-height {
     min-height: calc(100vh - var(--header-height));
   }
-  
+
   @media (max-width: 1024px) {
     .main-height {
       min-height: calc(100vh - var(--header-height-lg));
     }
   }
 
+  .embla {
+    max-width: 100vw; /* TODO: Dziwne zachowanie karuzeli embla w przypadku gdy maksymalna  szerokość jest ustawiona procentowo. W przypadku procentów - rozpycha kontener.*/
+    --slide-height: 19rem;
+    --slide-spacing: 1rem;
+    --slide-size: calc(33.33% - 0.5rem);
+  }
+
+  @media (max-width: 1024px) {
     .embla {
-        max-width: 100vw; /* TODO: Dziwne zachowanie karuzeli embla w przypadku gdy maksymalna  szerokość jest ustawiona procentowo. W przypadku procentów - rozpycha kontener.*/
-        --slide-height: 19rem;
-        --slide-spacing: 1rem;
-        --slide-size: calc(33.33% - 0.5rem);
-      }
-
-      @media (max-width: 1024px) {
-        .embla {
-            --slide-size: calc(50% - 1rem);
-        }
-      }
-      
-    .embla__viewport {
-      @apply overflow-hidden;
-    }
-
-    .embla__container {
-      display: flex;
-      touch-action: pan-y pinch-zoom;
-      margin-left: calc(var(--slide-spacing) * -1);
-    }
-
-    .embla__slide {
-      transform: translate3d(0, 0, 0);
-      min-width: 170;
-      flex: 0 0 var(--slide-size);
-      max-width: var(--slide-size);
-      padding-left: var(--slide-spacing);
+      --slide-size: calc(50% - 1rem);
     }
   }
+
+  .embla__viewport {
+    @apply overflow-hidden;
+  }
+
+  .embla__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+  }
+
+  .embla__slide {
+    transform: translate3d(0, 0, 0);
+    min-width: 170;
+    flex: 0 0 var(--slide-size);
+    max-width: var(--slide-size);
+    padding-left: var(--slide-spacing);
+  }
+}

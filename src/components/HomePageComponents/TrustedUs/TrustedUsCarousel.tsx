@@ -28,7 +28,7 @@ export function TrustedUsCarousel() {
   return (
     <section>
       <MotionDiv className="w-full justify-center pb-2 pt-5 text-center">
-        <h3 className="text-2xl">{t("trustedUs")}</h3>
+        <h4>{t("trustedUs")}</h4>
       </MotionDiv>
       <MotionDiv className="embla">
         <div
@@ -37,13 +37,13 @@ export function TrustedUsCarousel() {
         >
           <div className="embla__container">
             {TrustedUsData.map((data) => (
-              <div key={data.id} className="embla__slide mx-12 max-w-[170px]">
+              <div key={data.id} className="embla__slide mx-8 max-w-[170px]">
                 <div className="h-[110px] w-[80px] select-none">
                   <Image
                     src={data.src}
                     alt="user-svg"
                     fill
-                    className="object-contain"
+                    className="max-w-[120px] object-contain"
                   />
                 </div>
               </div>

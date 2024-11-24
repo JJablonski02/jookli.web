@@ -14,9 +14,7 @@ const WCSSection = () => {
       <div className="my-12">
         <div className="mx-20 flex flex-col items-center justify-center text-center md:mx-5">
           <MotionDiv className="mb-8 flex w-full flex-row items-center justify-between md:flex-col md:gap-4">
-            <h2 className="font-PoppinsSemiBold text-4xl lg:text-3xl md:text-2xl">
-              {t("headerDescription")}
-            </h2>
+            <h3>{t("headerDescription")}</h3>
             <JPDownloadButton className="bg-blue p-6 text-primary md:hidden" />
           </MotionDiv>
         </div>
