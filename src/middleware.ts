@@ -14,7 +14,7 @@ export default createMiddleware({
 export const config = {
   matcher: [
     "/",
-    "/:lang(en|es|de|fr|it|nl|dk|swe|pl|pt|ro|vn|tr|id|ru|uk|pk|sa|hi|ta|si|fa|ph|bd|kh|th|jp|chs|cht|kr)/:path*",
+    "/:lang(es|de|fr|it|nl|da|sv|pl|pt|ro|vi|tr|id|ru|uk|pk|sa|hi|ta|si|fa|ph|bd|kh|th|jp|zh-hans|zh-hant|ko)/:path*",
     "/how-it-works",
     "/earn-methods",
     "/support",
