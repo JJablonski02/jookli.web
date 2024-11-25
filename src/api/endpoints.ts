@@ -1,5 +1,6 @@
 export type Emails = {
   "confirm-account": string
+  "confirm-email-change": string
 }
 
 export type Server = {
@@ -19,6 +20,7 @@ export type Endpoints = {
 export const endpoints: Endpoints = {
   emails: {
     "confirm-account": "api/useraccess/confirm-account",
+    "confirm-email-change": "api/useraccess/confirm-email-change",
   },
   server: {
     "server-status": "api/server/status",

@@ -1,0 +1,14 @@
+{
+  "name": "JoyProfits",
+  "short_name": "JoyProfits",
+  "description": "Make money online by watching ads, filling out surveys, playing games, writing comments, typing texts, answering questions, completing offers and more.",
+  "start_url": "https://www.joyprofits.com/",
+  "background_color": "#1E1E1E",
+  "theme_color": "#1E1E1E",
+  "display": "standalone",
+  "platforms": [
+    {"androidSupport": true},
+    {"iosSupport": true},
+    {"webSupport": true}
+  ]
+}

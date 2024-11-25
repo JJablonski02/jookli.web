@@ -2,12 +2,11 @@
 
 import { zodResolver } from "@hookform/resolvers/zod"
 import { Card, CardBody } from "@nextui-org/card"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import { useMemo, useState } from "react"
 import { Controller, useForm } from "react-hook-form"
 import { toast } from "react-hot-toast"
 
-import { fetchReport } from "@/api/rest/administration"
 import JPButton from "@/components/buttons/JPButton"
 import { JPCheckbox } from "@/components/JPCheckbox"
 import { JPDropdownField } from "@/components/JPDropdownField"
@@ -16,8 +15,13 @@ import { JPTextAreaField } from "@/components/JPTextAreaField"
 import type { SupportSchema } from "@/lib/zod/support"
 import { useSupportSchema } from "@/lib/zod/support"
 
+import { fetchReport } from "../api/fetch-report"
+import type { SendReport } from "../types"
+
 export const SupportForm = () => {
   const t = useTranslations("Support")
+  const lang = useLocale()
+
   const [sent, setSent] = useState(false)
   const supportSchema = useSupportSchema()
   const {
@@ -43,10 +47,19 @@ export const SupportForm = () => {
     }),
     [t]
   )
-
-  const onSubmit = async (data: SupportSchema) => {
+  const onSubmit = async (supportSchema: SupportSchema) => {
     const isFormValid = await trigger()
     if (isFormValid) {
+      const data: SendReport = {
+        firstName: supportSchema.firstName,
+        lastName: supportSchema.lastName,
+        emailAddress: supportSchema.emailAddress,
+        consent: supportSchema.consent,
+        reportType: supportSchema.reportType,
+        description: supportSchema.description,
+        language: lang,
+      }
+
       try {
         await fetchReport(data)
         setSent(true)
@@ -168,9 +181,12 @@ export const SupportForm = () => {
                   label={t("iConsentToContact")}
                   checked={value}
                   onChange={onChange}
+                  style={{ color: "red" }}
                 />
                 {errors.consent && (
-                  <p className="text-danger">{errors.consent.message}</p>
+                  <p className="text-sm text-danger">
+                    {errors.consent.message}
+                  </p>
                 )}{" "}
                 {/* Komunikat o błędzie */}
               </div>

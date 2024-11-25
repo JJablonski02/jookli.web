@@ -26,10 +26,10 @@ export function EmblaCarousel() {
               <div className="h-[var(--slide-height)] min-w-0 select-none rounded-[1.8rem] bg-white p-8 shadow-inner">
                 <div className="mb-4 flex items-center justify-between">
                   <span className="flex flex-row gap-2">
-                    <p className="lg:text-md text-xl text-secondary">
+                    <p className="lg:text-md text-medium text-secondary">
                       {data.name}
                     </p>
-                    <p className="lg:text-md text-xl text-secondary">
+                    <p className="lg:text-md text-medium text-secondary">
                       {data.country}
                     </p>
                   </span>

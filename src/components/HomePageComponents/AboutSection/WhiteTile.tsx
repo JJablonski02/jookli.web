@@ -16,12 +16,11 @@ const WhiteTile: React.FC<whiteTileProps> = ({ header, content, src, alt }) => {
       <div className="flex-start m-6 flex flex-col">
         <div className="mb-[8px] flex flex-row items-center gap-[20px]">
           <Image
-            className="rounded-3xl bg-blue"
-            width={68}
+            className="w-[68px] rounded-3xl bg-blue lg:w-[58px] lg:rounded-2xl md:w-[48px]"
             src={src}
             alt={alt}
           />
-          <h2 className="text-xl text-black">{header}</h2>
+          <h5 className="font-semibold text-black">{header}</h5>
         </div>
         <p className="text-black">{content}</p>
       </div>

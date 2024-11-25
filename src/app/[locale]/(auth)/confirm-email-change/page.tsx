@@ -7,14 +7,15 @@ import { useTranslations } from "next-intl"
 import { useEffect, useState } from "react"
 import { LoaderIcon } from "react-hot-toast"
 
-import { fetchConfirmAccountEmail } from "@/api/rest/emails"
 import JPButton from "@/components/buttons/JPButton"
 import { toHome } from "@/components/routes"
+import { fetchConfirmEmailChangeToken } from "@/features/confirm-email-change-feature/api/fetchConfirmationToken"
 
-const VerifyEmail: React.FC = () => {
+const ConfirmEmailChange: React.FC = () => {
   const searchParams = useSearchParams()
   const token = searchParams.get("token")
-  const [name, setName] = useState<string | null>()
+  const [name, setName] = useState<string | null>(null)
+  const [error, setError] = useState<string | null>(null)
 
   const t = useTranslations()
 
@@ -22,13 +23,15 @@ const VerifyEmail: React.FC = () => {
   useEffect(() => {
     const fetch = async () => {
       if (token) {
-        fetchConfirmAccountEmail({ token }).then(async (res) => {
+        fetchConfirmEmailChangeToken({ token }).then(async (res) => {
           if (res.ok) {
             setName(res.data)
           } else {
-            setName(res.error?.errorDescription)
+            setError(res.error?.errorDescription || "Nieprawidłowy token")
           }
         })
+      } else {
+        setError("Szukany zasób nie istnieje...")
       }
     }
 
@@ -38,7 +41,7 @@ const VerifyEmail: React.FC = () => {
   return (
     <Card className="mx-auto w-full max-w-md bg-secondary-light sm:max-w-[85%]">
       <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-8 sm:gap-0">
-        {name ? (
+        {name && (
           <>
             <h2 className="mb-4 text-2xl font-bold">
               {t("VerifyEmail.accountActivated")}
@@ -49,22 +52,24 @@ const VerifyEmail: React.FC = () => {
             <p className="text-gray-600 mb-4">
               {t("VerifyEmail.thankYouNote")}
             </p>
+            <JPButton
+              as={Link}
+              className="bg-blue"
+              href={toHome}
+              label={t("VerifyEmail.returnToApp")}
+            />
           </>
-        ) : (
+        )}
+        {error && <p>{error}</p>}
+        {!error && !name && (
           <LoaderIcon
             style={{ width: "2rem", height: "2rem" }}
             className="self-center"
           />
         )}
-        <JPButton
-          as={Link}
-          className="bg-blue"
-          href={toHome}
-          label={t("VerifyEmail.returnToApp")}
-        />
       </CardBody>
     </Card>
   )
 }
 
-export default VerifyEmail
+export default ConfirmEmailChange
