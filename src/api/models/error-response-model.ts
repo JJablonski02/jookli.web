@@ -1,3 +1,4 @@
+import type { ErrorCodeType } from "../error-code-type"
 import type { ErrorData } from "../types"
 
 export class ErrorResponseModel<T = any> {
@@ -11,7 +12,7 @@ export class ErrorResponseModel<T = any> {
 
   instance: string | null = null
 
-  errorCode: number = 0
+  errorCode?: ErrorCodeType
 
   errorDescription: string | null = null
 

@@ -29,7 +29,7 @@ export const config = {
     "/copyright",
     "/cookie-policy",
     "/adveristment-rules",
-    "/verify-email",
+    "/verify-account",
     "/recover-password",
     "/confirm-email-change",
   ],
