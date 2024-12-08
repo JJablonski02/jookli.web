@@ -100,14 +100,14 @@
       "downloadIos": "Download iOS",
       "downloadAndroid": "Download Android"
     },
-  
+
     "DownloadSection": {
       "headerDescription": "Download our app",
       "tileHeader": "Download on {appName}",
       "leftTileDescription": "Download our app on iOS and discover new possibilities! With an easy-to-use interface, you can quickly manage your tasks, track progress, and enjoy unique features. Experience how simple and enjoyable using the JoyProfits app can be.",
       "rightTileDescription": "Download our app from Google Play and enjoy full access to all features! With an intuitive interface, you can easily manage your tasks, track progress, and take advantage of unique offers. Install the app and discover how much you can gain!"
     },
-  
+
     "WCSSection": {
       "headerDescription": "What do our users say?",
       "user1Description": "The app has many ways to earn, but I especially like the ability to watch videos. I often have some free time, so I can earn a few extra bucks in the meantime. Payouts are quick and hassle-free.",
@@ -121,11 +121,11 @@
       "user9Description": "Lots of earning opportunities, everything works smoothly.",
       "user10Description": "I recommend it, it works efficiently, and earnings are paid out without issues."
     },
-  
+
     "TrustedUs": {
       "trustedUs": "Trusted by"
     },
-  
+
     "HowItWorksSection": {
       "headerDescription": "How it works",
       "paragraphDescription": "By taking on simple tasks, you have the chance to earn up to 3000 PLN per month, with no hidden fees or additional taxes. Moreover, your earnings have no upper limit – you decide how much you want to earn.",
@@ -135,23 +135,23 @@
       "thirdListDescription": "by watching videos and ads",
       "fourthListDescription": "by shopping online"
     },
-  
+
     "SectionImageBlueBg": {
       "headerDescription": "What are the benefits?",
       "paragraphDescription": "JoyProfits offers the possibility of working full-time or as an additional source of income, available to people from all over the world. You can earn money using any device with internet access, no matter where you are. You will be paid for the time and effort spent using the platform."
     },
-  
+
     "Benefits": {
       "headerDescription": "How can JoyProfits help you?",
       "description": "JoyProfits helps you leverage your strengths by offering six different ways to earn. This way, you can choose the option that best matches your skills and interests. The platform effectively turns your effort and time into tangible earnings.",
       "seeMore": "See more"
     },
-  
+
     "AboutSection": {
       "header": "About JoyProfits",
       "description": "Discover our app available on iOS and Android! Download it now and start taking advantage of the opportunities we offer!"
     },
-  
+
     "AboutSectionTiles": {
       "firstTileHeader": "PLAY AND EARN",
       "secondTileHeader": "IOS & ANDROID APP",
@@ -250,7 +250,8 @@
     "accountActivated": "Account has been activated",
     "hello": "Hello",
     "thankYouNote": "Thank you, your email address has been verified. Your account is now active. Use the button below to return to the app.",
-    "returnToApp": "Return to the app"
+    "returnToApp": "Return to the app",
+    "invalidRequest": "Oops... We couldn't process your request..."
   },
   "Validation": {
     "emailRequired": "Email address is required",
@@ -270,7 +271,14 @@
 
   "Dropdown" : {
     "selectType" : "Select type"
-  }
+  },
+  "Errors": {
+    "invalidToken": "Invalid token",
+    "tokenExpired": "Your token has expired",
+    "missingTokenOwner": "Token not identified",
+    "tokenUsed": "Token has already been used",
+    "tokenVerificationFailed": "Token verification failed"
+}
 }
 
 
