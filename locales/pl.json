@@ -257,7 +257,8 @@
     "accountActivated": "Konto zostało aktywowane",
     "hello": "Cześć",
     "thankYouNote": "Dziękujemy, Twój adres email został zweryfikowany. Twoje konto jest teraz aktywne. Użyj przycisku poniżej, by powrócić do aplikacji.",
-    "returnToApp": "Powróć do aplikacji"
+    "returnToApp": "Powróć do aplikacji",
+    "invalidRequest" : "Ups... Nie mogliśmy przetworzyć Twojego żądania..."
   },
   "Validation": {
     "emailRequired": "Adres email jest wymagany",
@@ -274,8 +275,15 @@
     "passwordUppercase": "Wymagana przynajmniej jedna wielka litera",
     "passwordsMismatch": "Hasła nie są takie same"
   },
-  
+
   "Dropdown" : {
     "selectType" : "Wybierz typ"
+  },
+  "Errors": {
+    "invalidToken" : "Nieprawidłowy token",
+    "tokenExpired" : "Twój token stracił ważność",
+    "missingTokenOwner" : "Token nie został zidentyfikowany",
+    "tokenUsed" : "Token został już wykorzystany",
+    "tokenVerificationFailed" : "Weryfikacja tokenu nie powiodła się..."
   }
 }
