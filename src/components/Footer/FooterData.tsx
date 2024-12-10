@@ -8,7 +8,7 @@ import {
   toEarnMethods,
   toHome,
   toHowItWorks,
-  toPolicyPrivacy,
+  toPrivacyPolicy,
   toResources,
   toSupport,
   toTerms,
@@ -57,7 +57,7 @@ export const FooterCompanyData = [
 
 export const FooterPolicyData = [
   {
-    route: toPolicyPrivacy,
+    route: toPrivacyPolicy,
     label: "policyPrivacy",
   },
   {

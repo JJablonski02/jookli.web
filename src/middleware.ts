@@ -24,7 +24,7 @@ export const config = {
     "/blog",
     "/affilate",
     "/resources",
-    "/policy-privacy",
+    "/privacy-policy",
     "/terms",
     "/copyright",
     "/cookie-policy",
