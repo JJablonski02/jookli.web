@@ -72,7 +72,7 @@ export class EncryptionManager {
    * @param key nazwa klucza do zapisu.
    * @param encryptedDataReversed zaszyfrowane dane odwrócone.
    */
-  static saveEncryptedItemToLocalStorage(encryptedData: string, key: string) {
+  static saveEncryptedItemToLocalStorage(key: string, encryptedData: string) {
     const encryptedDataReversed = this.reverseData(encryptedData)
     localStorage.setItem(key, encryptedDataReversed)
   }

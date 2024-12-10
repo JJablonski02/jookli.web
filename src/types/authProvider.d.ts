@@ -8,7 +8,6 @@ type User = {
 
 type AuthContextType = {
   accessToken: string | null
-  refreshToken: string | null
-  setAccessToken: (token: string | null) => void
-  setRefreshToken: (token: string | null) => void
+  onSignIn: (accessToken:string, refreshToken:string) => void
+  onLogout: () => void
 }

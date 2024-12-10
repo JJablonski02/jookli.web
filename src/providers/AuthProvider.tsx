@@ -12,45 +12,44 @@ export const useAuth = (): AuthContextType => {
   return context
 }
 
-function parseToken(encryptedToken: string): EncryptedDataModel {
-  const parts = encryptedToken.split(":")
-
-  if (parts.length != 3) {
-    throw new Error("Invalid token format.")
-  }
-
-  const [text, key, iv] = parts;
-  return { text, key, iv }
-}
-
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [accessToken, setAccessToken] = useState<string | null>(null)
   const refreshToken = "refresh_token"
 
+  useEffect(() => {
+    initializeAuth()
+  }, [])
+
   const initializeAuth = () => {
-
-
     try {
+      const encryptedRefreshToken = EncryptionManager.readEncryptedDataFromLocalStorage(refreshToken)
+
+      if (!encryptedRefreshToken) {
+        return
+      }
+
+      const decryptedRefreshToken = EncryptionManager.decrypt(encryptedRefreshToken)
+
+      if (!decryptedRefreshToken || decryptedRefreshToken.length !== 64) {
+        onLogout()
+        return
+      }
 
     } catch (error) {
-      console.error(error)
+      onLogout()
     }
   }
 
   const onSignIn = (accessToken: string, refreshToken: string) => {
     setAccessToken(accessToken)
     const encryptedRefreshToken = EncryptionManager.encrypt(refreshToken)
-    const parsedEncryptedToken = parseToken(encryptedRefreshToken)
-    EncryptionManager.saveEncryptedItemToLocalStorage(parsedEncryptedToken.text, parsedEncryptedToken.key)
-
+    EncryptionManager.saveEncryptedItemToLocalStorage(refreshToken, encryptedRefreshToken)
   }
 
   const onLogout = () => {
     setAccessToken(null)
     localStorage.removeItem(refreshToken)
   }
-
-  initializeAuth()
 
   const value = {
     accessToken,
