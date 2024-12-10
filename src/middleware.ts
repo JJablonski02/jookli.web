@@ -10,7 +10,7 @@ export default createMiddleware({
   localePrefix,
   defaultLocale: "en",
 })
-
+// |es|de|fr|it|nl|dk|swe|pl|pt|ro|vn|tr|id|ru|uk|pk|sa|hi|ta|si|fa|ph|bd|kh|th|jp|chs|cht|kr
 export const config = {
   matcher: [
     "/",
@@ -24,7 +24,7 @@ export const config = {
     "/blog",
     "/affilate",
     "/resources",
-    "/policy-privacy",
+    "/privacy-policy",
     "/terms",
     "/copyright",
     "/cookie-policy",

@@ -1,4 +1,4 @@
-import { useSearchParams } from "next/navigation"
+import { notFound, useSearchParams } from "next/navigation"
 import { useTranslations } from "next-intl"
 import { useCallback, useEffect, useState } from "react"
 
@@ -64,6 +64,8 @@ export const useVerifyAccount = (): VerifyAccountState => {
         token,
       }
       processVerificationAsync(verifyToken)
+    } else {
+      notFound()
     }
   }, [processVerificationAsync, token])
 
