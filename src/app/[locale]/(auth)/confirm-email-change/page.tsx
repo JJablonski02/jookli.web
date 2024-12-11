@@ -8,8 +8,8 @@ import { useEffect, useState } from "react"
 import { LoaderIcon } from "react-hot-toast"
 
 import JPButton from "@/components/buttons/JPButton"
-import { toHome } from "@/lib/routes"
 import { fetchConfirmEmailChangeToken } from "@/features/confirm-email-change-feature/api/fetchConfirmationToken"
+import { toHome } from "@/lib/routes"
 
 const ConfirmEmailChange: React.FC = () => {
   const searchParams = useSearchParams()
