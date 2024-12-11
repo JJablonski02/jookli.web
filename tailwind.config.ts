@@ -40,7 +40,6 @@ module.exports = {
       },
       fontSize: {
         "5xl": ["2.875rem", { lineHeight: "1.1" }],
-        medium: ["0.875rem", { lineHeight: "1.75" }],
       },
       colors: {
         primary: "var(--primary)",

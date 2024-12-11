@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react"
+import { EncryptionManager } from "@/lib/encryption-manager"
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
 
@@ -13,26 +14,47 @@ export const useAuth = (): AuthContextType => {
 
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [accessToken, setAccessToken] = useState<string | null>(null)
-  const [refreshToken, setRefreshToken] = useState<string | null>(null)
+  const refreshToken = "refresh_token"
 
   useEffect(() => {
-    const storedRefreshToken = localStorage.getItem("reftesh_token")
-    if (storedRefreshToken) {
-      setRefreshToken(storedRefreshToken)
-    }
+    initializeAuth()
   }, [])
 
-  useEffect(() => {
-    if (refreshToken) {
-      localStorage.setItem("refresh_token", refreshToken)
+  const initializeAuth = () => {
+    try {
+      const encryptedRefreshToken = EncryptionManager.readEncryptedDataFromLocalStorage(refreshToken)
+
+      if (!encryptedRefreshToken) {
+        return
+      }
+
+      const decryptedRefreshToken = EncryptionManager.decrypt(encryptedRefreshToken)
+
+      if (!decryptedRefreshToken || decryptedRefreshToken.length !== 64) {
+        onLogout()
+        return
+      }
+
+    } catch (error) {
+      onLogout()
     }
-  }, [refreshToken])
+  }
+
+  const onSignIn = (accessToken: string, refreshToken: string) => {
+    setAccessToken(accessToken)
+    const encryptedRefreshToken = EncryptionManager.encrypt(refreshToken)
+    EncryptionManager.saveEncryptedItemToLocalStorage(refreshToken, encryptedRefreshToken)
+  }
+
+  const onLogout = () => {
+    setAccessToken(null)
+    localStorage.removeItem(refreshToken)
+  }
 
   const value = {
     accessToken,
-    setAccessToken,
-    refreshToken,
-    setRefreshToken,
+    onSignIn,
+    onLogout
   }
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>

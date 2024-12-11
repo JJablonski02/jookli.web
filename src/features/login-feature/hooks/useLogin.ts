@@ -1,12 +1,10 @@
 import { useState } from "react"
-
 import { useAuth } from "@/providers/AuthProvider"
-
 import { loginApi } from "../api/login-api"
 import type { LoginCommand } from "../types/types"
 
 export const useLogin = () => {
-  const { setAccessToken, setRefreshToken } = useAuth()
+  const {onSignIn} = useAuth()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -16,9 +14,8 @@ export const useLogin = () => {
 
     try {
       const { access_token, refresh_token } = await loginApi(command)
-      setAccessToken(access_token)
-      setRefreshToken(refresh_token)
-    } catch (err) {
+      onSignIn(access_token, refresh_token)
+    } catch (error) {
       setError("Nieprawidłowy email lub hasło")
     } finally {
       setLoading(false)

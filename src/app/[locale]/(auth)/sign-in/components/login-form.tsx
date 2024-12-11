@@ -12,6 +12,8 @@ import JPInputFormField from "@/components/JPInputFormField"
 import { loginApi } from "@/features/login-feature/api/login-api"
 import type { LoginSchema } from "@/lib/zod/login"
 import { useLoginSchema } from "@/lib/zod/login"
+import { useAuth } from "@/providers/AuthProvider"
+import { EncryptionManager } from "@/lib/encryption-manager"
 
 export const LoginForm = () => {
   const t = useTranslations("SignIn")
@@ -26,14 +28,32 @@ export const LoginForm = () => {
     resolver: zodResolver(loginSchema),
   })
 
+  const { onSignIn, onLogout } = useAuth()
+
+  const handleLogout = () => {
+    onLogout()
+  }
+
+  const handleLogin = (accessToken: string, refreshToken: string) => {
+    try {
+      onSignIn(accessToken, refreshToken)
+    } catch (error) {
+      // Empty
+    }
+  }
+
   const onSubmit = async (data: LoginSchema) => {
     try {
-      await loginApi({
+      const response = await loginApi({
         email: data.email,
         password: data.password,
       })
+
+      if (response.access_token && response.refresh_token) {
+        handleLogin(response.access_token, response.refresh_token)
+      }
     } catch (error) {
-      /** Empty */
+      console.log("Login failed")
     }
   }
 
