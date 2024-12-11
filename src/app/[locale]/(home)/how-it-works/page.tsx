@@ -29,7 +29,7 @@ const HowItWorks = ({ params: { locale } }: Props) => {
       <div className="hidden self-center lg:flex">
         <WidthWrapper className="flex justify-center">
           <h2 className="self-center text-center text-2xl lg:w-3/4 md:w-full">
-            Zacznij zarabiać już teraz wykonując trzy poniższe kroki
+            {t("startEarningBy3Steps")}
           </h2>
         </WidthWrapper>
       </div>

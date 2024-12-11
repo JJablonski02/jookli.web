@@ -180,6 +180,7 @@
       "downloadAndroid": "Pobierz Android"
     },
     "StepTile": {
+      "startEarningBy3Steps" : "Zacznij zarabiać już teraz wykonując trzy poniższe kroki",
       "firstStep": "Krok 1",
       "secondStep": "Krok 2",
       "thirdStep": "Krok 3",
