@@ -9,11 +9,9 @@ import { Controller, useForm } from "react-hook-form"
 import JPButton from "@/components/buttons/JPButton"
 import JPExternalServiceButton from "@/components/buttons/JPExternalServiceButton"
 import JPInputFormField from "@/components/JPInputFormField"
-import { loginApi } from "@/features/login-feature/api/login-api"
 import type { LoginSchema } from "@/lib/zod/login"
 import { useLoginSchema } from "@/lib/zod/login"
 import { useAuth } from "@/providers/AuthProvider"
-import { EncryptionManager } from "@/lib/encryption-manager"
 
 export const LoginForm = () => {
   const t = useTranslations("SignIn")
@@ -43,18 +41,7 @@ export const LoginForm = () => {
   }
 
   const onSubmit = async (data: LoginSchema) => {
-    try {
-      const response = await loginApi({
-        email: data.email,
-        password: data.password,
-      })
-
-      if (response.access_token && response.refresh_token) {
-        handleLogin(response.access_token, response.refresh_token)
-      }
-    } catch (error) {
-      console.log("Login failed")
-    }
+    /** Empty */
   }
 
   return (
