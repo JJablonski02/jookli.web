@@ -12,7 +12,7 @@ import {
   toResources,
   toSupport,
   toTerms,
-} from "../routes"
+} from "../../lib/routes"
 
 export const FooterMenuData = [
   {

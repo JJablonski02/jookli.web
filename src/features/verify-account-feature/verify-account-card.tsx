@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl"
 import { LoaderIcon } from "react-hot-toast"
 
 import JPButton from "@/components/buttons/JPButton"
-import { toHome } from "@/components/routes"
+import { toHome } from "@/lib/routes"
 
 import { useVerifyAccount } from "./hooks/use-verify-account"
 

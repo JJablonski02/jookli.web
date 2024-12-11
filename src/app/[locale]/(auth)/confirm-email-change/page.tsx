@@ -8,7 +8,7 @@ import { useEffect, useState } from "react"
 import { LoaderIcon } from "react-hot-toast"
 
 import JPButton from "@/components/buttons/JPButton"
-import { toHome } from "@/components/routes"
+import { toHome } from "@/lib/routes"
 import { fetchConfirmEmailChangeToken } from "@/features/confirm-email-change-feature/api/fetchConfirmationToken"
 
 const ConfirmEmailChange: React.FC = () => {

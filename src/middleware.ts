@@ -32,5 +32,6 @@ export const config = {
     "/verify-account",
     "/recover-password",
     "/confirm-email-change",
+    "/terms-of-service",
   ],
 }
