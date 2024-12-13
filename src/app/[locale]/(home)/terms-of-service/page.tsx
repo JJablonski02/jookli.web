@@ -1,10 +1,17 @@
 import { Link } from "@nextui-org/link"
+import { unstable_setRequestLocale } from "next-intl/server"
 
 import { toSupport } from "@/lib/routes"
 
 import styles from "./styles.module.css"
 
-const TermsOfService = () => {
+type Props = {
+  params: { locale: string }
+}
+
+const TermsOfService = ({ params: { locale } }: Props) => {
+  unstable_setRequestLocale(locale)
+
   return (
     <div className="w-full">
       <article id="post-1">

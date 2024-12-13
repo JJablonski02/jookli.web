@@ -39,7 +39,7 @@
   }
 
   h6 {
-    @apply text-lg lg:text-medium md:text-small;
+    @apply text-lg lg:text-medium;
     font-family: "Poppins-Regular";
     color: var(--primary);
   }

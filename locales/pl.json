@@ -122,8 +122,8 @@
       "user10Description": "Polecam, działa sprawnie, a zarobki wypłacane bez problemów."
     },
 
-    "TrustedUs" : {
-      "trustedUs" : "Zaufali nam"
+    "TrustedUs": {
+      "trustedUs": "Zaufali nam"
     },
 
     "HowItWorksSection": {
@@ -141,10 +141,10 @@
       "paragraphDescription": "JoyProfits oferuje możliwość pracy, zarówno na pełny etat, jak i jako dodatkowe źródło dochodu, dostępną dla osób z całego świata. Możesz zarabiać pieniądze korzystając z dowolnego urządzenia z dostępem do internetu, niezależnie od tego, gdzie się znajdujesz. Otrzymasz wynagrodzenie za czas i wysiłek poświęcony na korzystanie z platformy."
     },
 
-    "Benefits" : {
-      "headerDescription" : "W czym pomoże Ci JoyProfits?",
-      "description" : "JoyProfits pomoże Ci wykorzystać Twoje mocne strony, oferując sześć różnych sposobów na zarabianie. Dzięki temu możesz wybrać opcję, która najlepiej pasuje do Twoich umiejętności i zainteresowań. Platforma pozwala skutecznie przełożyć Twój wysiłek i czas na konkretne zyski.",
-      "seeMore" : "Zobacz więcej"
+    "Benefits": {
+      "headerDescription": "W czym pomoże Ci JoyProfits?",
+      "description": "JoyProfits pomoże Ci wykorzystać Twoje mocne strony, oferując sześć różnych sposobów na zarabianie. Dzięki temu możesz wybrać opcję, która najlepiej pasuje do Twoich umiejętności i zainteresowań. Platforma pozwala skutecznie przełożyć Twój wysiłek i czas na konkretne zyski.",
+      "seeMore": "Zobacz więcej"
     },
 
     "AboutSection": {
@@ -166,10 +166,10 @@
     }
   },
 
-  "RecoverPassword" : {
-    "password" : "Hasło",
-    "reEnterPassword" : "Powtórz hasło",
-    "confirmNewPassword" : "Potwierdź nowe hasło"
+  "RecoverPassword": {
+    "password": "Hasło",
+    "reEnterPassword": "Powtórz hasło",
+    "confirmNewPassword": "Potwierdź nowe hasło"
   },
 
   "HowItWorksPage": {
@@ -180,7 +180,7 @@
       "downloadAndroid": "Pobierz Android"
     },
     "StepTile": {
-      "startEarningBy3Steps" : "Zacznij zarabiać już teraz wykonując trzy poniższe kroki",
+      "startEarningBy3Steps": "Zacznij zarabiać już teraz wykonując trzy poniższe kroki",
       "firstStep": "Krok 1",
       "secondStep": "Krok 2",
       "thirdStep": "Krok 3",
@@ -259,7 +259,7 @@
     "hello": "Cześć",
     "thankYouNote": "Dziękujemy, Twój adres email został zweryfikowany. Twoje konto jest teraz aktywne. Użyj przycisku poniżej, by powrócić do aplikacji.",
     "returnToApp": "Powróć do aplikacji",
-    "invalidRequest" : "Ups... Nie mogliśmy przetworzyć Twojego żądania..."
+    "invalidRequest": "Ups... Nie mogliśmy przetworzyć Twojego żądania..."
   },
   "Validation": {
     "emailRequired": "Adres email jest wymagany",
@@ -277,14 +277,14 @@
     "passwordsMismatch": "Hasła nie są takie same"
   },
 
-  "Dropdown" : {
-    "selectType" : "Wybierz typ"
+  "Dropdown": {
+    "selectType": "Wybierz typ"
   },
   "Errors": {
-    "invalidToken" : "Nieprawidłowy token",
-    "tokenExpired" : "Twój token stracił ważność",
-    "missingTokenOwner" : "Token nie został zidentyfikowany",
-    "tokenUsed" : "Token został już wykorzystany",
-    "tokenVerificationFailed" : "Weryfikacja tokenu nie powiodła się..."
+    "invalidToken": "Nieprawidłowy token",
+    "tokenExpired": "Twój token stracił ważność",
+    "missingTokenOwner": "Token nie został zidentyfikowany",
+    "tokenUsed": "Token został już wykorzystany",
+    "tokenVerificationFailed": "Weryfikacja tokenu nie powiodła się..."
   }
 }
