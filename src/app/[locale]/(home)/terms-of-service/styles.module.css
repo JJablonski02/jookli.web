@@ -1,0 +1,37 @@
+.container {
+  @apply mx-auto mt-24 w-3/5 p-4 lg:w-3/4 sm:mt-12 sm:w-full;
+}
+
+.container h2 {
+  @apply my-5;
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.container h3 {
+  @apply mb-5 mt-10;
+  font-size: 1.125rem;
+  color: #cacaca;
+}
+
+.container h4 {
+  @apply mb-5 mt-10;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #cacaca;
+}
+
+.container li {
+  color: var(--primary);
+}
+
+.container p {
+  @apply my-4;
+  font-size: 0.875rem;
+  line-height: 1.75;
+}
+
+.container ul {
+  list-style: square;
+  padding-left: 14px;
+}

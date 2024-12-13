@@ -1,0 +1,11 @@
+.container {
+  @apply w-full bg-secondary-light;
+}
+
+.body {
+  @apply space-y-5 p-2 lg:space-y-3;
+}
+
+.body li {
+  @apply flex-row pb-2;
+}

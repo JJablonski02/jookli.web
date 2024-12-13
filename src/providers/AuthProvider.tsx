@@ -1,4 +1,5 @@
 import { createContext, useContext, useEffect, useState } from "react"
+
 import { EncryptionManager } from "@/lib/encryption-manager"
 
 const AuthContext = createContext<AuthContextType | undefined>(undefined)
@@ -22,19 +23,20 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
 
   const initializeAuth = () => {
     try {
-      const encryptedRefreshToken = EncryptionManager.readEncryptedDataFromLocalStorage(refreshToken)
+      const encryptedRefreshToken =
+        EncryptionManager.readEncryptedDataFromLocalStorage(refreshToken)
 
       if (!encryptedRefreshToken) {
         return
       }
 
-      const decryptedRefreshToken = EncryptionManager.decrypt(encryptedRefreshToken)
+      const decryptedRefreshToken = EncryptionManager.decrypt(
+        encryptedRefreshToken
+      )
 
       if (!decryptedRefreshToken || decryptedRefreshToken.length !== 64) {
         onLogout()
-        return
       }
-
     } catch (error) {
       onLogout()
     }
@@ -43,7 +45,10 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const onSignIn = (accessToken: string, refreshToken: string) => {
     setAccessToken(accessToken)
     const encryptedRefreshToken = EncryptionManager.encrypt(refreshToken)
-    EncryptionManager.saveEncryptedItemToLocalStorage(refreshToken, encryptedRefreshToken)
+    EncryptionManager.saveEncryptedItemToLocalStorage(
+      refreshToken,
+      encryptedRefreshToken
+    )
   }
 
   const onLogout = () => {
@@ -54,7 +59,7 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const value = {
     accessToken,
     onSignIn,
-    onLogout
+    onLogout,
   }
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>

@@ -48,7 +48,7 @@ const StepTile: React.FC<StepTileProps> = ({
             className={`${className} mx-20 flex flex-row items-center justify-between gap-8 lg:flex-col md:mx-0`}
           >
             <div className="flex items-center justify-center">
-              <div className="flex max-h-[400px] min-w-[400px] max-w-[400px] items-center justify-center overflow-hidden rounded-[90px] border-4 border-blue bg-white md:aspect-[1/1] md:w-4/5 md:min-w-0 md:rounded-[50px]">
+              <div className="flex max-h-[400px] min-w-[400px] max-w-[400px] items-center justify-center overflow-hidden rounded-[90px] border-4 border-blue bg-white md:aspect-[1/1] md:w-4/5 md:min-w-[250px] md:rounded-[50px]">
                 {customContent ||
                   (() => {
                     if (stepType === "1" && src) {

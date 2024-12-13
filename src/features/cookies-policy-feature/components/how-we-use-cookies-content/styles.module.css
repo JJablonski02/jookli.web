@@ -1,0 +1,11 @@
+.tableContainer p {
+  @apply py-3
+}
+
+.tableContainer {
+  @apply my-3
+}
+
+.darkRow {
+  @apply bg-secondary opacity-70
+}

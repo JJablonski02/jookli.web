@@ -16,7 +16,6 @@ import { useTranslations } from "next-intl"
 import React from "react"
 
 import LogoSvg from "../../public/logo.svg"
-import JPButton from "./buttons/JPButton"
 import {
   toEarnMethods,
   toHome,
@@ -24,7 +23,8 @@ import {
   toRegister,
   toSignIn,
   toSupport,
-} from "./routes"
+} from "../lib/routes"
+import JPButton from "./buttons/JPButton"
 
 type MenuItem = {
   label: string

@@ -166,7 +166,7 @@
     }
   },
 
-    "HowItWorksPage": {
+  "HowItWorksPage": {
     "Header": {
       "headerTitle": "Discover new ways to earn",
       "headerParagraph": "With a wide range of tools and resources, everyone can find a way to generate their income.",
@@ -174,6 +174,7 @@
       "downloadAndroid": "Download Android"
     },
     "StepTile": {
+      "startEarningBy3Steps": "Start earning money now by following these three steps",
       "firstStep": "Step 1",
       "secondStep": "Step 2",
       "thirdStep": "Step 3",
@@ -222,7 +223,7 @@
       "Tile6Description": "Achieve goals on JoyProfits, earn rewards, and boost your income. Each achievement brings you closer to higher profits and additional rewards."
     }
   },
-    "AboutUs": {
+  "AboutUs": {
     "Header": {
       "headerTitle": "Get to know the creators of JoyProfits!",
       "headerParagraph": "Start earning with JoyProfits in a simple and quick way. Check out how many opportunities you have now!",
@@ -269,8 +270,8 @@
     "passwordsMismatch": "Passwords do not match"
   },
 
-  "Dropdown" : {
-    "selectType" : "Select type"
+  "Dropdown": {
+    "selectType": "Select type"
   },
   "Errors": {
     "invalidToken": "Invalid token",
@@ -278,7 +279,5 @@
     "missingTokenOwner": "Token not identified",
     "tokenUsed": "Token has already been used",
     "tokenVerificationFailed": "Token verification failed"
+  }
 }
-}
-
-

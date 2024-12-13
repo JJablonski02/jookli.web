@@ -1,10 +1,12 @@
 import { useState } from "react"
+
 import { useAuth } from "@/providers/AuthProvider"
+
 import { loginApi } from "../api/login-api"
 import type { LoginCommand } from "../types/types"
 
 export const useLogin = () => {
-  const {onSignIn} = useAuth()
+  const { onSignIn } = useAuth()
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 

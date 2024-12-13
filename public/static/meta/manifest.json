@@ -7,8 +7,8 @@
   "theme_color": "#1E1E1E",
   "display": "standalone",
   "platforms": [
-    {"androidSupport": true},
-    {"iosSupport": true},
-    {"webSupport": true}
+    { "androidSupport": true },
+    { "iosSupport": true },
+    { "webSupport": true }
   ]
 }

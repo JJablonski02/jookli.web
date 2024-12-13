@@ -1,0 +1,30 @@
+.container p {
+  @apply py-3;
+}
+
+.container h3 {
+  @apply mb-4 border-b-1 border-b-white py-4;
+  color: #cacaca;
+}
+
+.container h4 {
+  @apply pt-4;
+  color: #cacaca;
+}
+
+.container h6 {
+  @apply py-3;
+  color: #cacaca;
+}
+
+.container li {
+  list-style: decimal;
+}
+
+.container ol {
+  @apply text-medium text-white pl-4 pt-2
+}
+
+.container li {
+  @apply py-2
+}

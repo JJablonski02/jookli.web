@@ -2,7 +2,7 @@ import type { Metadata } from "next"
 
 import Footer from "@/components/Footer/Footer"
 import NavBarUi from "@/components/NavBarUi"
-import { metadata as siteMetadata } from "@/constants/metadata"
+import { metadata as siteMetadata } from "@/configs/metadata"
 
 import RootLayout from "../root-layout"
 

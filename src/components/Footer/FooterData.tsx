@@ -1,10 +1,9 @@
 import {
   toAboutUs,
-  toAdRules,
+  toAdvertising,
   toAffilate,
   toBlog,
   toCookiePolicy,
-  toCopyright,
   toEarnMethods,
   toHome,
   toHowItWorks,
@@ -12,7 +11,7 @@ import {
   toResources,
   toSupport,
   toTerms,
-} from "../routes"
+} from "../../lib/routes"
 
 export const FooterMenuData = [
   {
@@ -65,7 +64,7 @@ export const FooterPolicyData = [
     label: "terms",
   },
   {
-    route: toCopyright,
+    route: toTerms,
     label: "copyright",
   },
   {
@@ -73,7 +72,7 @@ export const FooterPolicyData = [
     label: "cookiePolicy",
   },
   {
-    route: toAdRules,
+    route: toAdvertising,
     label: "adRules",
   },
 ]
