@@ -1,3 +1,5 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
@@ -8,10 +10,13 @@ import instagramIcon from "../../../public/instagram.svg"
 import linkedInIcon from "../../../public/linkedIn.svg"
 import LogoSvg from "../../../public/logo.svg"
 import JPButton from "../buttons/JPButton"
+import { JPSelect } from "../JP-select"
 import FooterLinks from "./FooterLinks"
+import { useFooterData } from "./hooks/use-footer-data"
 
 const Footer = () => {
   const t = useTranslations("globals.Captions")
+  const { languages, currentLanguage, handleChangeLanguage } = useFooterData()
 
   return (
     <footer className="mx-auto mt-12 w-full max-w-[1920px] bg-secondary px-20 md:px-5">
@@ -26,6 +31,11 @@ const Footer = () => {
             />
           </Link>
           <div className="flex flex-row items-center justify-center gap-4 text-primary">
+            <JPSelect
+              data={languages}
+              placeholder={currentLanguage}
+              onSelectionChange={handleChangeLanguage}
+            />
             <Link href="https://www.instagram.com/joyprofits">
               <Image src={instagramIcon} alt="instagram icon" />
             </Link>
