@@ -19,7 +19,7 @@ const AboutUsStepTiles = () => {
         alt="Jakub_Jablonski_image"
         squaresPosition="left"
         customContent={
-          <div className="max-h-[500px] max-w-[500px] bg-secondary-light md:h-full md:grow">
+          <div className="max-h-[500px] max-w-[500px] md:h-full md:grow">
             <Image
               src={MachineLearning}
               alt="Jakub_Jablonski_image"

@@ -27,26 +27,34 @@ const HowItWorksSection = () => {
             </div>
             <div className="flex flex-col place-items-start gap-4 pt-4 lg:pt-4">
               <div className="flex flex-row items-center justify-center">
-                <div className="mr-4 rounded-xl bg-blue p-2">
-                  <Image src={smallGameController} alt="svg icon" />
+                <div className="mr-4 flex size-12 items-center justify-center rounded-xl bg-blue">
+                  <Image
+                    src={smallGameController}
+                    alt="svg icon"
+                    className="size-9"
+                  />
                 </div>
                 <p>{t("firstListDescription")}</p>
               </div>
               <div className="flex flex-row items-center justify-center">
-                <div className="mr-4 rounded-xl bg-blue p-2">
-                  <Image src={documentSvg} alt="svg icon" />
+                <div className="mr-4 flex size-12 items-center justify-center rounded-xl bg-blue">
+                  <Image
+                    src={documentSvg}
+                    alt="svg icon"
+                    className="ml-1 size-7"
+                  />
                 </div>
                 <p>{t("secondListDescription")}</p>
               </div>
               <div className="flex flex-row items-center justify-center">
-                <div className="mr-4 rounded-xl bg-blue p-2">
-                  <Image src={videoSvg} alt="svg icon" />
+                <div className="mr-4 flex size-12 items-center justify-center rounded-xl bg-blue">
+                  <Image src={videoSvg} alt="svg icon" className="size-10" />
                 </div>
                 <p>{t("thirdListDescription")}</p>
               </div>
               <div className="flex flex-row items-center justify-center">
-                <div className="mr-4 rounded-xl bg-blue p-2">
-                  <Image src={shoppingCart} alt="svg icon" />
+                <div className="mr-4 flex size-12 items-center justify-center rounded-xl bg-blue">
+                  <Image src={shoppingCart} alt="svg icon" className="size-7" />
                 </div>
                 <p>{t("fourthListDescription")}</p>
               </div>

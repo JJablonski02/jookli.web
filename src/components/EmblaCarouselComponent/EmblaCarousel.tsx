@@ -26,12 +26,8 @@ export function EmblaCarousel() {
               <div className="h-[var(--slide-height)] min-w-0 select-none rounded-[1.8rem] bg-white p-8 shadow-inner">
                 <div className="mb-4 flex items-center justify-between">
                   <span className="flex flex-row gap-2">
-                    <p className="lg:text-md text-medium text-secondary">
-                      {data.name}
-                    </p>
-                    <p className="lg:text-md text-medium text-secondary">
-                      {data.country}
-                    </p>
+                    <p className="lg:text-md text-inverted">{data.name}</p>
+                    <span className={`fi fi-${data.country}`} />
                   </span>
                   <Image
                     src={user}
@@ -40,10 +36,10 @@ export function EmblaCarousel() {
                   />
                 </div>
                 <div className="h-full">
-                  <p className="line-clamp-6 text-lg text-secondary lg:text-sm">
+                  <p className="text-inverted line-clamp-6 text-lg lg:text-sm">
                     {t(`HomePage.WCSSection.${data.content}`)}
                   </p>
-                  <p className="text-sm text-secondary">(translated)</p>
+                  <p className="text-inverted text-sm">(translated)</p>
                 </div>
               </div>
             </div>

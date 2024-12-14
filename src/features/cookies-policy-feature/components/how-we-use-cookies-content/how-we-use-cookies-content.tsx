@@ -25,10 +25,10 @@ export const HowWeUseCookiesContent = () => {
           className={styles.tableContainer}
         >
           <TableHeader>
-            <TableColumn width={70} className="bg-secondary-light">
+            <TableColumn width={70}>
               <p>Category of use</p>
             </TableColumn>
-            <TableColumn className="bg-secondary-light">
+            <TableColumn>
               <p>Example</p>
             </TableColumn>
           </TableHeader>

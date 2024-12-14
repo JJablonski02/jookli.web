@@ -2,6 +2,7 @@
 
 import type { SharedSelection } from "@nextui-org/react"
 import { Select, SelectItem } from "@nextui-org/react"
+import type { ReactNode } from "react"
 
 export type JPSelectData<Key extends string = string> = {
   key: Key
@@ -13,6 +14,7 @@ interface JPSelectProps {
   placeholder?: string
   label?: string
   onSelectionChange?: (keys: SharedSelection) => void
+  endContent?: ReactNode
 }
 
 export const JPSelect: React.FC<JPSelectProps> = ({
@@ -20,6 +22,7 @@ export const JPSelect: React.FC<JPSelectProps> = ({
   placeholder,
   label,
   onSelectionChange,
+  endContent,
 }) => {
   return (
     <Select
@@ -30,7 +33,7 @@ export const JPSelect: React.FC<JPSelectProps> = ({
       onSelectionChange={onSelectionChange}
     >
       {(item) => (
-        <SelectItem className="min-h-10" key={item.key}>
+        <SelectItem className="min-h-10" key={item.key} endContent={endContent}>
           {item.label}
         </SelectItem>
       )}

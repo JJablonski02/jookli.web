@@ -32,10 +32,7 @@ export const useFooterData = () => {
     [params, pathname, router]
   )
 
-  const rawCurrentLanguage =
-    languagesMap[currentLanguageCode.toLowerCase() as Language] || ""
-  const currentLanguage =
-    rawCurrentLanguage.charAt(0).toUpperCase() + rawCurrentLanguage.slice(1)
+  const currentLanguage = currentLanguageCode
 
   return {
     languages,
@@ -45,34 +42,34 @@ export const useFooterData = () => {
 }
 
 const languagesMap: Record<Language, string> = {
-  en: "english",
-  es: "spanish",
-  de: "german",
-  fr: "french",
-  it: "italian",
-  nl: "dutch",
-  da: "danish",
-  sv: "swedish",
-  pl: "polish",
-  pt: "portuguese",
-  ro: "romanian",
-  vi: "vietnamese",
-  tr: "turkish",
-  id: "indonesian",
-  ru: "russian",
-  uk: "ukrainian",
-  ur: "urdu",
-  ar: "arabic",
-  hi: "hindi",
-  ta: "tamil",
-  si: "sinhala",
-  fa: "farsi",
-  fil: "filipino",
-  bn: "bangla",
-  km: "cambodian",
-  th: "thai",
-  ja: "japanese",
-  "zh-hant": "chinese-traditional",
-  "zh-hans": "chinese-simplified",
-  ko: "korean",
+  en: "us", // English -> United States
+  es: "es", // Spanish -> Spain
+  de: "de", // German -> Germany
+  fr: "fr", // French -> France
+  it: "it", // Italian -> Italy
+  nl: "nl", // Dutch -> Netherlands
+  da: "dk", // Danish -> Denmark
+  sv: "se", // Swedish -> Sweden
+  pl: "pl", // Polish -> Poland
+  pt: "pt", // Portuguese -> Portugal
+  ro: "ro", // Romanian -> Romania
+  vi: "vi", // Vietnamese -> Vietnam
+  tr: "tr", // Turkish -> Turkey
+  id: "id", // Indonesian -> Indonesia
+  ru: "ru", // Russian -> Russia
+  uk: "ua", // Ukrainian -> Ukraine
+  ur: "pk", // Urdu -> Pakistan
+  ar: "sa", // Arabic -> Saudi Arabia
+  hi: "in", // Hindi -> India
+  ta: "in", // Tamil -> India
+  si: "lk", // Sinhala -> Sri Lanka
+  fa: "ir", // Farsi (Persian) -> Iran
+  fil: "ph", // Filipino -> Philippines
+  bn: "bd", // Bangla -> Bangladesh
+  km: "kh", // Cambodian -> Cambodia
+  th: "th", // Thai -> Thailand
+  ja: "jp", // Japanese -> Japan
+  "zh-hant": "tw", // Chinese Traditional -> Taiwan
+  "zh-hans": "cn", // Chinese Simplified -> China
+  ko: "kr", // Korean -> South Korea
 }

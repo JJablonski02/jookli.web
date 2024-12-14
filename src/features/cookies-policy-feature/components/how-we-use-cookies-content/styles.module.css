@@ -7,5 +7,5 @@
 }
 
 .darkRow {
-  @apply bg-secondary opacity-70
+  @apply opacity-70
 }

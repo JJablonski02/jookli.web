@@ -39,7 +39,7 @@ const ConfirmEmailChange: React.FC = () => {
   }, [token])
 
   return (
-    <Card className="mx-auto w-full max-w-md bg-secondary-light sm:max-w-[85%]">
+    <Card className="mx-auto w-full max-w-md sm:max-w-[85%]">
       <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-8 sm:gap-0">
         {name && (
           <>

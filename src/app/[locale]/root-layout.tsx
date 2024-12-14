@@ -1,5 +1,7 @@
 import "../../styles/globals.css"
 import "../../styles/components.css"
+// eslint-disable-next-line import/no-extraneous-dependencies
+import "flag-icons/css/flag-icons.min.css"
 
 import { NextIntlClientProvider } from "next-intl"
 import { getMessages, unstable_setRequestLocale } from "next-intl/server"

@@ -17,13 +17,24 @@
   },
   "settings": {
     "tailwindcss": {
-      "callees": ["classnames", "clsx", "ctl", "cva", "tv", "cn"] // Tailwind utility class detection for specific libraries
+      "callees": [
+        "classnames",
+        "clsx",
+        "ctl",
+        "cva",
+        "tv",
+        "cn"
+      ] // Tailwind utility class detection for specific libraries
     }
   },
   "overrides": [
     {
       // Configuration specifically for TypeScript files
-      "files": ["**/*.ts", "**/*.tsx", "**/*.mts"], // Applies these rules only to TypeScript files
+      "files": [
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.mts"
+      ], // Applies these rules only to TypeScript files
       "plugins": [
         "@typescript-eslint", // TypeScript specific linting rules
         "unused-imports", // Plugin to automatically remove unused imports
@@ -51,7 +62,9 @@
             "trailingComma": "es5" // Include trailing commas where valid in ES5
           }
         ], // Prevent conflicts between Prettier and Airbnb ESLint rules
-        "tailwindcss/no-custom-classname": ["off"], // Allow custom class names (not restricted to Tailwind)
+        "tailwindcss/no-custom-classname": [
+          "off"
+        ], // Allow custom class names (not restricted to Tailwind)
         "import/no-extraneous-dependencies": "warn", // Warn about extraneous dependencies in TypeScript files
         "no-param-reassign": "off", // Allow parameter reassignment
         "consistent-return": "off", // Disable consistent return requirement
@@ -69,6 +82,7 @@
         "react/no-unstable-nested-components": "off", // Allow unstable nested components (needed by i18n library)
         "@typescript-eslint/comma-dangle": "off", // Disable ESLint comma-dangle rule to avoid conflict with Prettier
         "@typescript-eslint/consistent-type-imports": "error", // Enforce consistent usage of `import type`
+        "tailwindcss/classnames-order": "off", // Disabled class names order in reason it makes conflict with prettier
         "no-restricted-syntax": [
           "error",
           "ForInStatement", // Disallow `for-in` loops
