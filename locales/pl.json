@@ -167,8 +167,8 @@
   },
 
   "RecoverPassword": {
-    "recoverPassword" : "Odzyskaj swoje hasło",
-    "description" : "Wprowadź nowe hasło i potwierdzenie hasła. Kliknij przycisk zatwierdzenia, aby zaktualizować hasło. Postępuj zgodnie z instrukcjami, które otrzymasz, aby zakończyć proces zmiany hasła. Jeśli napotkasz jakiekolwiek problemy, skontaktuj się z pomocą techniczną.",
+    "recoverPassword": "Odzyskaj swoje hasło",
+    "description": "Wprowadź nowe hasło i potwierdzenie hasła. Kliknij przycisk zatwierdzenia, aby zaktualizować hasło. Postępuj zgodnie z instrukcjami, które otrzymasz, aby zakończyć proces zmiany hasła. Jeśli napotkasz jakiekolwiek problemy, skontaktuj się z pomocą techniczną.",
     "password": "Hasło",
     "reEnterPassword": "Powtórz hasło",
     "confirmNewPassword": "Potwierdź nowe hasło"
