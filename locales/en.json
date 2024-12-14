@@ -166,6 +166,14 @@
     }
   },
 
+"RecoverPassword": {
+  "recoverPassword" : "Recover your password",
+  "description" : "Enter your new password and confirm it. Click confirmation button to update your password. Follow the instructions you receive to complete the password change process. If you encounter any issues, please contact technical support.",
+  "password": "Password",
+  "reEnterPassword": "Re-enter password",
+  "confirmNewPassword": "Confirm new password"
+},
+
   "HowItWorksPage": {
     "Header": {
       "headerTitle": "Discover new ways to earn",

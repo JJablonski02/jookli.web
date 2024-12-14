@@ -36,10 +36,10 @@ export function EmblaCarousel() {
                   />
                 </div>
                 <div className="h-full">
-                  <p className="text-inverted line-clamp-6 text-lg lg:text-sm">
+                  <p className="line-clamp-6 text-lg text-inverted lg:text-sm">
                     {t(`HomePage.WCSSection.${data.content}`)}
                   </p>
-                  <p className="text-inverted text-sm">(translated)</p>
+                  <p className="text-sm text-inverted">(translated)</p>
                 </div>
               </div>
             </div>

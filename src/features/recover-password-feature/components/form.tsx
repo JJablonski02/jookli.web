@@ -2,7 +2,7 @@
 
 import { zodResolver } from "@hookform/resolvers/zod"
 import { Card, CardBody } from "@nextui-org/card"
-import { useSearchParams } from "next/navigation"
+import { notFound, useSearchParams } from "next/navigation"
 import { useTranslations } from "next-intl"
 import { useEffect } from "react"
 import { Controller, useForm } from "react-hook-form"
@@ -23,6 +23,7 @@ export const RecoverPasswordForm = () => {
   const {
     handleSubmit,
     setValue,
+    trigger,
     control,
     formState: { errors, isValid },
   } = useForm<RecoverPasswordSchema>({
@@ -30,14 +31,26 @@ export const RecoverPasswordForm = () => {
     resolver: zodResolver(recoverPasswordSchema),
   })
 
-  const onSubmit = async () => {}
+  const onSubmit = async () => {
+    if (!(await trigger())) {
+      /** Empty */
+    }
+    /** Todo rest implementation */
+  }
 
-  useEffect(() => {}, [token])
+  useEffect(() => {
+    if (!token) {
+      notFound()
+    }
+  }, [token])
 
   return (
     <Card className="mx-auto w-full max-w-md sm:max-w-[85%]">
       <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-8 sm:gap-0">
-        <h2 className="text-3xl sm:text-2xl">{t("signIn")}</h2>
+        <div className="mx-6 space-y-6">
+          <h2 className="text-3xl sm:text-2xl">{t("recoverPassword")}</h2>
+          <p>{t("description")}</p>
+        </div>
         <form
           className="flex w-3/4 flex-col items-center justify-center gap-4 sm:w-[90%]"
           method="POST"
