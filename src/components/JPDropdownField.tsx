@@ -64,7 +64,7 @@ export const JPDropdownField: React.FC<IJPDropdownField> = ({
       )}
       <Dropdown backdrop="blur">
         <DropdownTrigger>
-          <Button size="md" className="bg-background-field w-full capitalize">
+          <Button size="md" className="w-full bg-background-field capitalize">
             {selectedValue}
           </Button>
         </DropdownTrigger>
