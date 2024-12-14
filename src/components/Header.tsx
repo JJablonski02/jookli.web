@@ -34,7 +34,7 @@ const Header: React.FC<HeaderProps> = ({
       <Squares position="right" square1Id={square1Id} square2Id={square2Id}>
         <div className="flex grow items-center justify-between gap-5 p-2 py-5 pl-20 lg:flex-col lg:items-center lg:px-5 lg:text-center md:px-0">
           <MotionDiv className="w-3/4 lg:w-full md:flex md:flex-col md:items-center">
-            <h1 className="text-ellipsis lg:whitespace-normal md:text-left">
+            <h1 className="whitespace-pre-line lg:whitespace-normal md:text-left">
               {header}
             </h1>
             <h5 className="mt-8 md:mt-6 md:w-full md:text-left">
@@ -57,12 +57,12 @@ const Header: React.FC<HeaderProps> = ({
                 <Image
                   src={src}
                   alt="Phone image"
-                  className="lg:h-[500px] md:h-[400px]"
+                  className="max-h-[550px] md:h-[400px]"
                 />
               )}
               {secondSrc && (
                 <Image
-                  className="absolute -right-40 top-14 z-[1] lg:hidden"
+                  className="absolute -right-40 top-14 z-[1] max-h-[550px] lg:hidden"
                   src={secondSrc}
                   alt="Phone image"
                 />

@@ -4,6 +4,7 @@ import Image from "next/image"
 import { useTranslations } from "next-intl"
 import React from "react"
 
+import JPButton from "../buttons/JPButton"
 import { MotionDiv } from "../motion-components/motion-div"
 import WidthWrapper from "../WidthWrapper"
 import { SectionData } from "./SectionData"
@@ -24,7 +25,7 @@ const Section = () => {
             {SectionData.map((data) => (
               <MotionDiv
                 key={data.id}
-                className="z-[3] rounded-2xl border-2 border-white bg-secondary p-6"
+                className="z-[3] rounded-2xl border-2 border-white bg-background p-6"
               >
                 <div className="flex flex-row items-center gap-4 pb-4">
                   <div className="rounded-full bg-white p-3">
@@ -35,6 +36,9 @@ const Section = () => {
                   </h4>
                 </div>
                 <p>{t(`${data.label}`)}</p>
+                <div className="mt-6 flex w-full justify-center">
+                  <JPButton label="Read more" className="flex" />
+                </div>
               </MotionDiv>
             ))}
           </div>

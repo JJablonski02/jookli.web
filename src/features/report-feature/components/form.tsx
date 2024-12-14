@@ -73,8 +73,8 @@ export const SupportForm = () => {
   }
 
   return (
-    <Card className="mx-auto w-3/4 bg-secondary-light md:h-full md:w-[90%] md:max-w-none">
-      <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-8">
+    <Card className="mx-auto w-3/4 md:h-full md:w-[90%] md:max-w-none">
+      <CardBody className="flex flex-col items-center justify-center gap-8 space-y-4 overflow-hidden py-14">
         <h2 className="text-3xl">{t("fillForm")}</h2>
         <form
           className="flex w-3/4 flex-col items-center justify-center gap-4 md:w-[90%]"

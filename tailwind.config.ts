@@ -52,8 +52,11 @@ module.exports = {
         border: "var(--border)",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
-        background: "hsl(var(--background))",
+        background: "var(--background)",
+        "background-light": "var(--background-light)",
+        "background-field": "var(--background-field)",
         foreground: "hsl(var(--foreground))",
+        "field-border": "var(--field-border)",
         purple: {
           100: "#F4F7FE",
           200: "#BCB6FF",
@@ -61,6 +64,7 @@ module.exports = {
           500: "#7857FF",
           600: "#4318FF",
         },
+        inverted: "var(--inverted)",
         dark: {
           400: "#7986AC",
           500: "#606C80",

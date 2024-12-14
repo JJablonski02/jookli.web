@@ -167,6 +167,8 @@
   },
 
   "RecoverPassword": {
+    "recoverPassword": "Odzyskaj swoje hasło",
+    "description": "Wprowadź nowe hasło i potwierdzenie hasła. Kliknij przycisk zatwierdzenia, aby zaktualizować hasło. Postępuj zgodnie z instrukcjami, które otrzymasz, aby zakończyć proces zmiany hasła. Jeśli napotkasz jakiekolwiek problemy, skontaktuj się z pomocą techniczną.",
     "password": "Hasło",
     "reEnterPassword": "Powtórz hasło",
     "confirmNewPassword": "Potwierdź nowe hasło"
@@ -276,9 +278,40 @@
     "passwordUppercase": "Wymagana przynajmniej jedna wielka litera",
     "passwordsMismatch": "Hasła nie są takie same"
   },
-
   "Dropdown": {
     "selectType": "Wybierz typ"
+  },
+  "Languages": {
+    "en": "Angielski",
+    "es": "Hiszpański",
+    "de": "Niemiecki",
+    "fr": "Francuski",
+    "it": "Włoski",
+    "nl": "Holenderski",
+    "da": "Duński",
+    "sv": "Szwedzki",
+    "pl": "Polski",
+    "pt": "Portugalski",
+    "ro": "Rumuński",
+    "vi": "Wietnamski",
+    "tr": "Turecki",
+    "id": "Indonezyjski",
+    "ru": "Rosyjski",
+    "uk": "Ukraiński",
+    "ur": "Urdu",
+    "ar": "Arabski",
+    "hi": "Hindi",
+    "ta": "Tamil",
+    "si": "Syngaleski",
+    "fa": "Perski",
+    "fil": "Filipiński",
+    "bn": "Bengalski",
+    "km": "Kambodżański",
+    "th": "Tajski",
+    "ja": "Japoński",
+    "zh-hant": "Chiński-Tradycyjny",
+    "zh-hans": "Chiński-Ułatwiony",
+    "ko": "Koreański"
   },
   "Errors": {
     "invalidToken": "Nieprawidłowy token",

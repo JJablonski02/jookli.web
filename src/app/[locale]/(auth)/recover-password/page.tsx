@@ -1,11 +1,11 @@
 "use client"
 
-import { RecoverPasswordForm } from "./components/form"
+import { RecoverPasswordPage } from "@/features/recover-password-feature/recover-password-page"
 
 const VerifyEmail: React.FC = () => {
   // Not implemented
 
-  return <RecoverPasswordForm />
+  return <RecoverPasswordPage />
 }
 
 export default VerifyEmail

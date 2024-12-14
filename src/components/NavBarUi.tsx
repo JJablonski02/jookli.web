@@ -49,7 +49,7 @@ const NavBarUi = () => {
 
   return (
     <Navbar
-      className="header-height bg-secondary"
+      className="header-height bg-background"
       onMenuOpenChange={setIsMenuOpen}
       isMenuOpen={isMenuOpen}
       maxWidth="full"
@@ -99,7 +99,7 @@ const NavBarUi = () => {
           </NavbarItem>
         </NavbarContent>
 
-        <NavbarMenu className="bg-secondary pt-8 text-center font-PoppinsSemiBold text-3xl">
+        <NavbarMenu className="bg-background pt-8 text-center font-PoppinsSemiBold text-3xl">
           {menuItems.map((item) => (
             <NavbarMenuItem className="p-2" key={`${item.label}`}>
               <Link onClick={() => setIsMenuOpen(false)} href={item.route}>

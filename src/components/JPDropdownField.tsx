@@ -9,15 +9,15 @@ import {
   DropdownTrigger,
 } from "@nextui-org/react"
 import { useTranslations } from "next-intl"
-import React from "react"
+import React, { useEffect } from "react"
 
-export type DropdownData = Record<string, string>
-
+export type DropdownData<T extends string = string> = Record<T, string>
 interface IJPDropdownField {
   data: DropdownData
   onSelectionChange?: (key: string, label: string) => void
   topLabel?: string
   required?: boolean
+  selected?: { key: string }
 }
 
 export const JPDropdownField: React.FC<IJPDropdownField> = ({
@@ -25,12 +25,19 @@ export const JPDropdownField: React.FC<IJPDropdownField> = ({
   topLabel,
   required,
   onSelectionChange,
+  selected,
 }) => {
   const [selectedKeys, setSelectedKeys] = React.useState<SharedSelection>(
     new Set([])
   )
 
   const t = useTranslations("Dropdown")
+
+  useEffect(() => {
+    if (selected?.key) {
+      setSelectedKeys(new Set([selected.key]))
+    }
+  }, [selected])
 
   const selectedValue = React.useMemo(() => {
     const selectedKey = Array.from(selectedKeys)[0]
@@ -57,7 +64,7 @@ export const JPDropdownField: React.FC<IJPDropdownField> = ({
       )}
       <Dropdown backdrop="blur">
         <DropdownTrigger>
-          <Button size="md" className="w-full bg-white capitalize">
+          <Button size="md" className="bg-background-field w-full capitalize">
             {selectedValue}
           </Button>
         </DropdownTrigger>
@@ -66,6 +73,7 @@ export const JPDropdownField: React.FC<IJPDropdownField> = ({
           variant="flat"
           disallowEmptySelection
           className="w-full"
+          content="max-h-[150px]"
           selectionMode="single"
           selectedKeys={selectedKeys}
           onSelectionChange={onSelectedChange}

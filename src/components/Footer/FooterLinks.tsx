@@ -20,7 +20,7 @@ const FooterLinks = () => {
         <ul className="flex flex-col items-start justify-start gap-4 pt-5 text-xs text-primary md:mb-10 md:items-start">
           {FooterMenuData.map((data) => (
             <Link
-              key={data.route}
+              key={data.label}
               href={data.route}
               className="text-medium md:text-sm"
             >
@@ -36,7 +36,7 @@ const FooterLinks = () => {
         <ul className="flex flex-col items-start justify-start gap-4 pt-5 text-xs text-primary md:mb-10 md:items-start">
           {FooterPolicyData.map((data) => (
             <Link
-              key={data.route}
+              key={data.label}
               href={data.route}
               className="text-medium md:text-sm"
             >
@@ -52,7 +52,7 @@ const FooterLinks = () => {
         <ul className="flex flex-col items-start justify-start gap-4 pt-5 text-xs text-primary md:mb-10 md:items-start">
           {FooterPlatformData.map((data) => (
             <Link
-              key={data.route}
+              key={data.label}
               href={data.route}
               className="text-medium md:text-sm"
             >
@@ -68,7 +68,7 @@ const FooterLinks = () => {
         <ul className="flex flex-col items-start justify-start gap-4 pt-5 text-xs text-primary md:mb-10 md:items-start">
           {FooterCompanyData.map((data) => (
             <Link
-              key={data.route}
+              key={data.label}
               href={data.route}
               className="text-medium md:text-sm"
             >

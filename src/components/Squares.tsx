@@ -15,7 +15,7 @@ export const Squares: React.FC<ISquares> = ({
   square2Id,
 }) => {
   const commonClasses =
-    "lg:hidden absolute h-[480px] aspect-square border-5 border-blue transform rotate-45 top-1/2 rounded-square z-[2] bg-secondary "
+    "lg:hidden absolute h-[480px] aspect-square border-5 border-blue transform rotate-45 top-1/2 rounded-square z-[2] bg-background "
 
   const positionFirstClasses =
     position === "left"

@@ -7,7 +7,7 @@ export type Country =
   | "GREECE"
   | "EGYPT"
   | "SAUDI_ARABIA"
-  | "JAPAN"
+  | "CHINA"
 
 export type WCSDataType = {
   id: string
@@ -17,21 +17,21 @@ export type WCSDataType = {
 }
 
 const unicode: Record<Country, string> = {
-  USA: "🇺🇸",
-  INDIA: "🇮🇳",
-  ITALY: "🇮🇹",
-  RUSSIA: "🇷🇺",
-  SPAIN: "🇪🇸",
-  GREECE: "🇬🇷",
-  EGYPT: "🇪🇬",
-  SAUDI_ARABIA: "🇸🇦",
-  JAPAN: "🇯🇵",
+  USA: "us",
+  INDIA: "in",
+  ITALY: "it",
+  RUSSIA: "ru",
+  SPAIN: "es",
+  GREECE: "gr",
+  EGYPT: "eg",
+  SAUDI_ARABIA: "sa",
+  CHINA: "cn",
 }
 
 export const WCSData: WCSDataType[] = [
   {
     id: "aiko-tanaka",
-    country: unicode.JAPAN,
+    country: unicode.CHINA,
     name: "Aiko Tanaka",
     content: "user1Description",
   },

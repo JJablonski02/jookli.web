@@ -166,6 +166,14 @@
     }
   },
 
+  "RecoverPassword": {
+    "recoverPassword": "Recover your password",
+    "description": "Enter your new password and confirm it. Click confirmation button to update your password. Follow the instructions you receive to complete the password change process. If you encounter any issues, please contact technical support.",
+    "password": "Password",
+    "reEnterPassword": "Re-enter password",
+    "confirmNewPassword": "Confirm new password"
+  },
+
   "HowItWorksPage": {
     "Header": {
       "headerTitle": "Discover new ways to earn",
@@ -269,7 +277,38 @@
     "passwordUppercase": "At least one uppercase letter is required",
     "passwordsMismatch": "Passwords do not match"
   },
-
+  "Languages": {
+    "en": "English",
+    "es": "Spanish",
+    "de": "German",
+    "fr": "French",
+    "it": "Italian",
+    "nl": "Dutch",
+    "da": "Danish",
+    "sv": "Swedish",
+    "pl": "Polish",
+    "pt": "Portuguese",
+    "ro": "Romanian",
+    "vi": "Vietnamese",
+    "tr": "Turkish",
+    "id": "Indonesian",
+    "ru": "Russian",
+    "uk": "Ukrainian",
+    "ur": "Urdu",
+    "ar": "Arabic",
+    "hi": "Hindi",
+    "ta": "Tamil",
+    "si": "Sinhala",
+    "fa": "Farsi",
+    "fil": "Filipino",
+    "bn": "Bangla",
+    "km": "Cambodian",
+    "th": "Thai",
+    "ja": "Japanese",
+    "zh-hant": "Chinese-Traditional",
+    "zh-hans": "Chinese-Simplified",
+    "ko": "Korean"
+  },
   "Dropdown": {
     "selectType": "Select type"
   },
