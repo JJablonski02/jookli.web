@@ -167,8 +167,8 @@
   },
 
   "RecoverPassword": {
-    "success" : "Sukces!",
-    "passwordChangedSuccessfully" : "Hasło zostało zmienione pomyślnie",
+    "success": "Sukces!",
+    "passwordChangedSuccessfully": "Hasło zostało zmienione pomyślnie",
     "returnToApp": "Powróć do aplikacji",
     "recoverPassword": "Odzyskaj swoje hasło",
     "description": "Wprowadź nowe hasło i potwierdzenie hasła. Kliknij przycisk zatwierdzenia, aby zaktualizować hasło. Postępuj zgodnie z instrukcjami, które otrzymasz, aby zakończyć proces zmiany hasła. Jeśli napotkasz jakiekolwiek problemy, skontaktuj się z pomocą techniczną.",
@@ -317,13 +317,13 @@
     "ko": "Koreański"
   },
   "Errors": {
-    "unknownError" : "Wystąpił niezidentyfikowany błąd",
+    "unknownError": "Wystąpił niezidentyfikowany błąd",
     "invalidToken": "Nieprawidłowy token",
     "tokenExpired": "Twój token stracił ważność",
     "missingTokenOwner": "Token nie został zidentyfikowany",
     "tokenUsed": "Token został już wykorzystany",
     "tokenVerificationFailed": "Weryfikacja tokenu nie powiodła się...",
-    "invalidPassword" : "Wprowadzone hasło jest nieprawidłowe",
-    "passwordChangeFailed" : "Zmiana hasła nie powiodła się"
+    "invalidPassword": "Wprowadzone hasło jest nieprawidłowe",
+    "passwordChangeFailed": "Zmiana hasła nie powiodła się"
   }
 }
