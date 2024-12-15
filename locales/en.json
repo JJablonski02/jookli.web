@@ -167,6 +167,9 @@
   },
 
   "RecoverPassword": {
+    "success" : "Success!",
+    "passwordChangedSuccessfully" : "Password has been changed successfully",
+    "returnToApp": "Return to the app",
     "recoverPassword": "Recover your password",
     "description": "Enter your new password and confirm it. Click confirmation button to update your password. Follow the instructions you receive to complete the password change process. If you encounter any issues, please contact technical support.",
     "password": "Password",
@@ -313,10 +316,13 @@
     "selectType": "Select type"
   },
   "Errors": {
+    "unknownError" : "An unidentified error occurred",
     "invalidToken": "Invalid token",
     "tokenExpired": "Your token has expired",
     "missingTokenOwner": "Token not identified",
     "tokenUsed": "Token has already been used",
-    "tokenVerificationFailed": "Token verification failed"
+    "tokenVerificationFailed": "Token verification failed",
+    "invalidPassword" : "Entered password is invalid",
+    "passwordChangeFailed" : "Password change failed"
   }
 }

@@ -17,13 +17,7 @@ const JPInputFormField: React.FC<IJPInputFormField> = ({ ...props }) => {
           {props.topLabel}
         </p>
       )}
-      <Input
-        variant="faded"
-        size="md"
-        labelPlacement="inside"
-        color="secondary"
-        {...props}
-      />
+      <Input variant="faded" size="md" labelPlacement="inside" {...props} />
     </div>
   )
 }

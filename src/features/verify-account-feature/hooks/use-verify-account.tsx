@@ -49,7 +49,7 @@ export const useVerifyAccount = (): VerifyAccountState => {
       const response = await fetchConfirmAccount(token)
 
       if (response.ok) {
-        setResult({ success: false })
+        setResult({ success: true })
       } else {
         setResult({ success: false, error: errorMessage(response.error) })
       }
