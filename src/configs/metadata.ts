@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Make money online by watching ads, filling out surveys, playing games, writing comments, typing texts, answering questions, completing offers and more.",
   keywords:
-    "joyprofits, make money online, earn money online, earn money, make money, earn money app, make money app, get paid doing tasks, get paid playing games, earn for playing games, get paid for surveys, paid surveys, make money for playing games, remote work, earning money, making money",
+    "joyprofits, make money online, earn money online, earn money, make money, earn money app, make money app, get paid doing tasks, get paid playing games, earn for playing games, get paid for surveys, paid surveys, make money for playing games, remote work, earning money, making money, awin",
   alternates: {
     canonical: "https://www.joyprofits.com",
     languages: {

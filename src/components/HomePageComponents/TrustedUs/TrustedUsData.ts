@@ -1,6 +1,6 @@
 import type { StaticImageData } from "next/image"
 
-import awin from "@/../public/trustedus/awin.svg"
+// import awin from "@/../public/trustedus/awin.svg"
 import ayet from "@/../public/trustedus/ayetstudios.png"
 // import digitalturbine from "@/../public/trustedus/digitalturbine.png"
 // import fyber from "@/../public/trustedus/fyber.png"
@@ -68,11 +68,11 @@ export const TrustedUsData: TrustedUsDataType[] = [
     src: meta,
     alt: "meta-img",
   },
-  {
-    id: "awin",
-    src: awin,
-    alt: "awin-img",
-  },
+  // {
+  //   id: "awin",
+  //   src: awin,
+  //   alt: "awin-img",
+  // },
   {
     id: "iron-source",
     src: ironsource,
