@@ -5,9 +5,9 @@ import ayet from "@/../public/trustedus/ayetstudios.png"
 // import digitalturbine from "@/../public/trustedus/digitalturbine.png"
 // import fyber from "@/../public/trustedus/fyber.png"
 import googleadmob from "@/../public/trustedus/googleAdMob.png"
-import ironsource from "@/../public/trustedus/ironsource.svg"
+// import ironsource from "@/../public/trustedus/ironsource.svg"
 import meta from "@/../public/trustedus/meta.png"
-import tapjoy from "@/../public/trustedus/tapjoy.png"
+// import tapjoy from "@/../public/trustedus/tapjoy.png"
 import tiktok from "@/../public/trustedus/tiktok.png"
 // import tradedoubler from "@/../public/trustedus/tradedoubler.svg"
 
@@ -48,11 +48,11 @@ export const TrustedUsData: TrustedUsDataType[] = [
   //   src: prodege,
   //   alt: "prodege-img",
   // },
-  {
-    id: "tapjoy",
-    src: tapjoy,
-    alt: "tapjoy-img",
-  },
+  // {
+  //   id: "tapjoy",
+  //   src: tapjoy,
+  //   alt: "tapjoy-img",
+  // },
   {
     id: "tiktok",
     src: tiktok,
@@ -73,9 +73,9 @@ export const TrustedUsData: TrustedUsDataType[] = [
   //   src: awin,
   //   alt: "awin-img",
   // },
-  {
-    id: "iron-source",
-    src: ironsource,
-    alt: "iron-source-img",
-  },
+  // {
+  //   id: "iron-source",
+  //   src: ironsource,
+  //   alt: "iron-source-img",
+  // },
 ]

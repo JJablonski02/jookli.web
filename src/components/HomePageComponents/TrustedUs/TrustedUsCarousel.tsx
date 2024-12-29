@@ -35,7 +35,7 @@ export function TrustedUsCarousel() {
           className="embla__viewport pointer-events-none overflow-hidden"
           ref={emblaRef}
         >
-          <div className="embla__container">
+          <div className="embla__container justify-center">
             {TrustedUsData.map((data) => (
               <div key={data.id} className="embla__slide mx-8 max-w-[170px]">
                 <div className="h-[110px] w-[80px] select-none">
