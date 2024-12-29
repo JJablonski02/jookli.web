@@ -9,7 +9,7 @@ import ironsource from "@/../public/trustedus/ironsource.svg"
 import meta from "@/../public/trustedus/meta.png"
 import tapjoy from "@/../public/trustedus/tapjoy.png"
 import tiktok from "@/../public/trustedus/tiktok.png"
-import tradedoubler from "@/../public/trustedus/tradedoubler.svg"
+// import tradedoubler from "@/../public/trustedus/tradedoubler.svg"
 
 export type TrustedUsDataType = {
   id: string
@@ -58,11 +58,11 @@ export const TrustedUsData: TrustedUsDataType[] = [
     src: tiktok,
     alt: "tiktok-img",
   },
-  {
-    id: "trade-doubler",
-    src: tradedoubler,
-    alt: "trade-doubler-img",
-  },
+  // {
+  //   id: "trade-doubler",
+  //   src: tradedoubler,
+  //   alt: "trade-doubler-img",
+  // },
   {
     id: "meta",
     src: meta,
