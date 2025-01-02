@@ -1,7 +1,9 @@
 import { Link } from "@nextui-org/link"
-import { unstable_setRequestLocale } from "next-intl/server"
+import type { Metadata } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
 import PageWrapper from "@/components/PageWrapper"
+import { GenerateMetadataAlternateUrls } from "@/configs/metadata-generators"
 import { toSupport } from "@/lib/routes"
 
 import styles from "./styles.module.css"
@@ -10,8 +12,30 @@ type Props = {
   params: { locale: string }
 }
 
+export async function generateMetadata({
+  params: { locale },
+}: Props): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "Metadata" })
+  const alternateUrls = GenerateMetadataAlternateUrls({
+    pageUrl: "privacy-policy",
+  })
+  return {
+    title: t("privacyPolicy.title"),
+    description: t("privacyPolicy.description"),
+    openGraph: {
+      title: t("privacyPolicy.title"),
+      description: t("privacyPolicy.description"),
+    },
+    twitter: {
+      title: t("privacyPolicy.title"),
+      description: t("privacyPolicy.description"),
+    },
+    alternates: alternateUrls,
+  }
+}
+
 const PrivacyPolicy = ({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale)
+  setRequestLocale(locale)
 
   return (
     <PageWrapper>

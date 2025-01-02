@@ -1,6 +1,8 @@
 import { Link } from "@nextui-org/link"
-import { unstable_setRequestLocale } from "next-intl/server"
+import type { Metadata } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
+import { GenerateMetadataAlternateUrls } from "@/configs/metadata-generators"
 import { toSupport } from "@/lib/routes"
 
 import styles from "./styles.module.css"
@@ -9,8 +11,30 @@ type Props = {
   params: { locale: string }
 }
 
+export async function generateMetadata({
+  params: { locale },
+}: Props): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "Metadata" })
+  const alternateUrls = GenerateMetadataAlternateUrls({
+    pageUrl: "terms-of-service",
+  })
+  return {
+    title: t("termsOfService.title"),
+    description: t("termsOfService.description"),
+    openGraph: {
+      title: t("termsOfService.title"),
+      description: t("termsOfService.description"),
+    },
+    twitter: {
+      title: t("termsOfService.title"),
+      description: t("termsOfService.description"),
+    },
+    alternates: alternateUrls,
+  }
+}
+
 const TermsOfService = ({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale)
+  setRequestLocale(locale)
 
   return (
     <div className="w-full">

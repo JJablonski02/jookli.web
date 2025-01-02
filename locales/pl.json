@@ -325,5 +325,80 @@
     "tokenVerificationFailed": "Weryfikacja tokenu nie powiodła się...",
     "invalidPassword": "Wprowadzone hasło jest nieprawidłowe",
     "passwordChangeFailed": "Zmiana hasła nie powiodła się"
+  },
+
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - Zarabiaj pieniądze online za darmo",
+      "description": "Zarabiaj pieniądze online, oglądając reklamy, wypełniając ankiety, grając w gry, pisząc komentarze, pisząc teksty, odpowiadając na pytania, realizując oferty i wiele więcej."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - Jak to działa",
+      "description": "Dowiedz się, jak działa JoyProfits i jak możesz zacząć zarabiać w zaledwie 3 prostych krokach. Proste wyjaśnienie wraz ze wskazówkami i metodami zarabiania."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Sposoby zarabiania",
+      "description": "Odkryj różne sposoby zarabiania pieniędzy online z JoyProfits. Graj w gry, oglądaj filmy, wypełniaj ankiety, rób zakupy online i wiele więcej."
+    },
+    "support": {
+      "title": "JoyProfits - Wsparcie",
+      "description": "Jeśli masz pytania, potrzebujesz pomocy lub napotkałeś problem, skontaktuj się z naszym zespołem wsparcia."
+    },
+    "signIn": {
+      "title": "JoyProfits - Zaloguj się",
+      "description": "Zaloguj się do swojego konta JoyProfits i zacznij zarabiać pieniądze online. Zaloguj się, aby uzyskać dostęp do swojego profilu i zarządzać swoimi zarobkami."
+    },
+    "register": {
+      "title": "JoyProfits - Zarejestruj się",
+      "description": "Zarejestruj się na JoyProfits i zacznij zarabiać pieniądze online. Stwórz konto, aby uzyskać dostęp do różnych metod i możliwości zarobku."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - O nas",
+      "description": "Dowiedz się więcej o JoyProfits, twórcach aplikacji i misji stojącej za platformą. Odkryj, jak możesz skorzystać z korzystania z JoyProfits."
+    },
+    "advertising": {
+      "title": "JoyProfits - Reklama",
+      "description": "Poznaj politykę reklamową JoyProfits, zapewniającą przejrzystość, odpowiedzialność i zgodność z przepisami prawa w promowaniu produktów i usług."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Polityka prywatności",
+      "description": "Przeczytaj politykę prywatności JoyProfits, aby dowiedzieć się, jak zbieramy, wykorzystujemy i chronimy Twoje dane osobowe. Zrozum swoje prawa i jak zapewniamy bezpieczeństwo danych."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Warunki korzystania z usługi",
+      "description": "Przeczytaj warunki korzystania z usługi JoyProfits, aby zrozumieć zasady i warunki korzystania z platformy. Dowiedz się o swoich prawach i obowiązkach jako użytkownik."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Polityka cookies",
+      "description": "Przeczytaj politykę cookies JoyProfits, aby dowiedzieć się, jak używamy cookies i podobnych technologii, aby poprawić Twoje doświadczenia na platformie."
+    },
+    "locationData": {
+      "title": "JoyProfits - Dane lokalizacyjne",
+      "description": "Dowiedz się, jak JoyProfits zbiera i wykorzystuje dane lokalizacyjne, aby dostarczyć Ci spersonalizowane usługi i poprawić Twoje doświadczenie użytkownika."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - Zarządzanie danymi użytkowników",
+      "description": "Dowiedz się, jak JoyProfits zarządza danymi użytkowników, aby zapewnić prywatność, bezpieczeństwo i zgodność z przepisami prawa."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Rodzaje cookies",
+      "description": "Dowiedz się, jakiego rodzaju cookies używa JoyProfits, aby poprawić Twoje doświadczenie użytkownika i dostarczyć spersonalizowane usługi."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Transfer danych użytkowników",
+      "description": "Dowiedz się, jak JoyProfits transferuje dane użytkowników, aby zapewnić prywatność, bezpieczeństwo i zgodność z przepisami prawa."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - Potwierdź zmianę adresu e-mail",
+      "description": "Potwierdź zmianę swojego adresu e-mail, aby zaktualizować informacje o swoim koncie. Postępuj zgodnie z instrukcjami, aby zakończyć proces."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - Przywróć hasło",
+      "description": "Przywróć swoje hasło na JoyProfits. Wprowadź nowe hasło i potwierdź je, aby zaktualizować informacje o swoim koncie."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - Weryfikacja konta",
+      "description": "Zweryfikuj swoje konto na JoyProfits, aby aktywować swój profil i zacząć zarabiać pieniądze online."
+    }
   }
 }

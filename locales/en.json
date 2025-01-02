@@ -324,5 +324,79 @@
     "tokenVerificationFailed": "Token verification failed",
     "invalidPassword": "Entered password is invalid",
     "passwordChangeFailed": "Password change failed"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - make money online for free",
+      "description": "Make money online by watching ads, filling out surveys, playing games, writing comments, typing texts, answering questions, completing offers and more."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - How it works",
+      "description": "Learn how JoyProfits works and how you can start earning in just 3 simple steps. A straightforward explanation with tips and earning methods."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Ways to Earn",
+      "description": "Discover various ways to make money online with JoyProfits. Play games, watch videos, fill out surveys, shop online, and much more."
+    },
+    "support": {
+      "title": "JoyProfits - Support",
+      "description": "If you have any questions, need assistance, or encountered an issue, please contact our support team."
+    },
+    "signIn": {
+      "title": "JoyProfits - Sign In",
+      "description": "Sign in to your JoyProfits account and start earning money online. Log in to access your profile and manage your earnings."
+    },
+    "register": {
+      "title": "JoyProfits - Register",
+      "description": "Register on JoyProfits and start earning money online. Create an account to access various earning methods and opportunities."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - About us",
+      "description": "Learn more about JoyProfits, the creators of the app, and the mission behind the platform. Discover how you can benefit from using JoyProfits."
+    },
+    "advertising": {
+      "title": "JoyProfits - Advertising",
+      "description": "Learn about JoyProfits' advertising policy, ensuring transparency, responsibility, and legal compliance in promoting products and services."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Privacy policy",
+      "description": "Read JoyProfits' privacy policy to learn how we collect, use, and protect your personal data. Understand your rights and how we ensure data security."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Terms of service",
+      "description": "Read JoyProfits' terms of service to understand the rules and conditions of using the platform. Learn about your rights and obligations as a user."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Cookies policy",
+      "description": "Read JoyProfits' cookies policy to learn how we use cookies and similar technologies to improve your experience on the platform."
+    },
+    "locationData": {
+      "title": "JoyProfits - Location data",
+      "description": "Learn how JoyProfits collects and uses location data to provide you with personalized services and improve your user experience."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - managing users' data",
+      "description": "Learn how JoyProfits manages users' data to ensure privacy, security, and compliance with legal regulations."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Types of cookies",
+      "description": "Learn about the types of cookies used by JoyProfits to improve your user experience and provide personalized services."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Users transfer data",
+      "description": "Learn how JoyProfits transfers users' data to ensure privacy, security, and compliance with legal regulations."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProifts - Confirm email change",
+      "description": "Confirm your email address change to update your account information. Follow the instructions to complete the process."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - Recover password",
+      "description": "Recover your password on JoyProfits. Enter your new password and confirm it to update your account information."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - Verify account",
+      "description": "Verify your account on JoyProfits to activate your profile and start earning money online."
+    }
   }
 }

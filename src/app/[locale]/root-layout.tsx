@@ -4,7 +4,7 @@ import "../../styles/components.css"
 import "flag-icons/css/flag-icons.min.css"
 
 import { NextIntlClientProvider } from "next-intl"
-import { getMessages, unstable_setRequestLocale } from "next-intl/server"
+import { getMessages, setRequestLocale } from "next-intl/server"
 
 import { JPToaster } from "@/components/JPToaster"
 
@@ -21,7 +21,7 @@ export default async function RootLayout({
   children,
   params: { locale },
 }: Readonly<RootLayoutProps>) {
-  unstable_setRequestLocale(locale)
+  setRequestLocale(locale)
   const messages = await getMessages()
 
   return (

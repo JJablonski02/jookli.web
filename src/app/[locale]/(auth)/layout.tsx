@@ -1,4 +1,5 @@
 import type { Metadata } from "next"
+import { setRequestLocale } from "next-intl/server"
 
 import NavBarUi from "@/components/NavBarUi"
 import { metadata as siteMetadata } from "@/configs/metadata"
@@ -17,6 +18,7 @@ export default function ClientLayout({
   children,
   params,
 }: Readonly<ClientLayoutProps>) {
+  setRequestLocale(params.locale)
   return (
     <RootLayout params={params}>
       <NavBarUi />

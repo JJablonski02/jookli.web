@@ -1,4 +1,5 @@
-import { unstable_setRequestLocale } from "next-intl/server"
+import type { Metadata } from "next"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 
 import AboutSection from "@/components/HomePageComponents/AboutSection/AboutSection"
 import { Benefits } from "@/components/HomePageComponents/Benefits"
@@ -13,9 +14,26 @@ import PageWrapper from "@/components/PageWrapper"
 type Props = {
   params: { locale: string }
 }
+export async function generateMetadata({
+  params: { locale },
+}: Props): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "Metadata" })
+  return {
+    title: t("homePage.title"),
+    description: t("homePage.description"),
+    openGraph: {
+      title: t("homePage.title"),
+      description: t("homePage.description"),
+    },
+    twitter: {
+      title: t("homePage.title"),
+      description: t("homePage.description"),
+    },
+  }
+}
 
 export default function Home({ params: { locale } }: Props) {
-  unstable_setRequestLocale(locale)
+  setRequestLocale(locale)
 
   return (
     <PageWrapper>

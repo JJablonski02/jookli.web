@@ -1,17 +1,41 @@
+import type { Metadata } from "next"
 import { useTranslations } from "next-intl"
-import { unstable_setRequestLocale } from "next-intl/server"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 import React from "react"
 
 import { MotionDiv } from "@/components/motion-components/motion-div"
 import PageWrapper from "@/components/PageWrapper"
+import { GenerateMetadataAlternateUrls } from "@/configs/metadata-generators"
 import { SupportForm } from "@/features/report-feature/components/form"
 
 type Props = {
   params: { locale: string }
 }
 
+export async function generateMetadata({
+  params: { locale },
+}: Props): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "Metadata" })
+  const alternateUrls = GenerateMetadataAlternateUrls({
+    pageUrl: "support",
+  })
+  return {
+    title: t("support.title"),
+    description: t("support.description"),
+    openGraph: {
+      title: t("support.title"),
+      description: t("support.description"),
+    },
+    twitter: {
+      title: t("support.title"),
+      description: t("support.description"),
+    },
+    alternates: alternateUrls,
+  }
+}
+
 const Support = ({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale)
+  setRequestLocale(locale)
   const t = useTranslations("Support")
 
   return (

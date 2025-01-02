@@ -1,5 +1,6 @@
+import type { Metadata } from "next"
 import { useTranslations } from "next-intl"
-import { unstable_setRequestLocale } from "next-intl/server"
+import { getTranslations, setRequestLocale } from "next-intl/server"
 import React from "react"
 
 import DownloadSection from "@/components/HomePageComponents/DownloadSection/DownloadSection"
@@ -9,6 +10,7 @@ import Section from "@/components/HowItWorksPageComponents/Section"
 import PageWrapper from "@/components/PageWrapper"
 import StepTile from "@/components/StepTile"
 import WidthWrapper from "@/components/WidthWrapper"
+import { GenerateMetadataAlternateUrls } from "@/configs/metadata-generators"
 
 import analyticsScreen from "../../../../../public/analytics-screen.svg"
 import registerScreen from "../../../../../public/register-screen.svg"
@@ -18,8 +20,30 @@ type Props = {
   params: { locale: string }
 }
 
+export async function generateMetadata({
+  params: { locale },
+}: Props): Promise<Metadata> {
+  const t = await getTranslations({ locale, namespace: "Metadata" })
+  const alternateUrls = GenerateMetadataAlternateUrls({
+    pageUrl: "how-it-works",
+  })
+  return {
+    title: t("howItWorks.title"),
+    description: t("howItWorks.description"),
+    openGraph: {
+      title: t("howItWorks.title"),
+      description: t("howItWorks.description"),
+    },
+    twitter: {
+      title: t("howItWorks.title"),
+      description: t("howItWorks.description"),
+    },
+    alternates: alternateUrls,
+  }
+}
+
 const HowItWorks = ({ params: { locale } }: Props) => {
-  unstable_setRequestLocale(locale)
+  setRequestLocale(locale)
   const t = useTranslations("HowItWorksPage.StepTile")
 
   return (
