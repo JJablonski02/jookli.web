@@ -7,10 +7,10 @@ const locales = SUPPORTED_LOCALES
 
 // Funkcja sprawdzająca czy szukany adres zawiera odpowedni język w zasobach lokalnych,
 // jeżeli nie to przerzuca stronę na stronę not-found
-export default getRequestConfig(async ({ locale }) => {
-  if (!locales.includes(locale as any)) notFound()
+export default getRequestConfig(async ({ requestLocale }) => {
+  if (!locales.includes(requestLocale as any)) notFound()
 
   return {
-    messages: (await import(`../locales/${locale}.json`)).default,
+    messages: (await import(`../locales/${requestLocale}.json`)).default,
   }
 })

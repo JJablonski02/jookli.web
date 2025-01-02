@@ -1,1 +1,383 @@
-{}
+{
+  "globals": {
+    "Captions": {
+      "signIn": "ĐĂNG NHẬP",
+      "register": "ĐĂNG KÝ",
+      "mainPage": "TRANG CHỦ",
+      "howItWorks": "CÁCH HOẠT ĐỘNG",
+      "earnMethods": "PHƯƠNG PHÁP KIẾM TIỀN",
+      "support": "HỖ TRỢ",
+      "platform": "NỀN TẢNG",
+      "menu": "THỰC ĐƠN",
+      "company": "CÔNG TY",
+      "policy": "CHÍNH SÁCH",
+      "blog": "BLOG",
+      "affilateProgram": "CHƯƠNG TRÌNH GIỚI THIỆU",
+      "resources": "TÀI NGUYÊN",
+      "policyPrivacy": "CHÍNH SÁCH QUYỀN RIÊNG TƯ",
+      "terms": "ĐIỀU KHOẢN",
+      "copyright": "BẢN QUYỀN",
+      "cookiePolicy": "CHÍNH SÁCH COOKIE",
+      "adRules": "QUY TẮC QUẢNG CÁO",
+      "aboutUs": "VỀ CHÚNG TÔI",
+      "downloadApp": "Tải ứng dụng",
+      "appDescription": "Tham gia nền tảng của chúng tôi và khám phá cách bạn có thể kiếm tiền từ kỹ năng của mình"
+    },
+    "SignIn": {
+      "title": "Đăng Nhập",
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Mật khẩu",
+      "logIn": "Đăng nhập"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "Trang không tìm thấy",
+      "pageNotFoundDescription": "Trang bạn tìm không tồn tại. Cách bạn đến đây vẫn là một bí ẩn. Tuy nhiên, bạn có thể nhấn nút dưới đây để quay lại trang chủ."
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "Đăng Nhập",
+    "email": "Email",
+    "enterEmail": "Nhập email",
+    "enterPassword": "Nhập mật khẩu",
+    "emailPlaceholder": "Email",
+    "password": "Mật khẩu",
+    "logIn": "Đăng nhập",
+    "signIn": "Đăng nhập",
+    "orSignInWith": "hoặc đăng nhập bằng",
+    "forgotPassword": "Quên mật khẩu?",
+    "reset": "Đặt lại",
+    "haveNotAnAccount": "Chưa có tài khoản?",
+    "register": "Đăng ký"
+  },
+  "Register": {
+    "title": "Đăng Ký",
+    "email": "Email",
+    "enterEmail": "Nhập email",
+    "enterPassword": "Nhập mật khẩu",
+    "reEnterPassword": "Nhập lại mật khẩu",
+    "emailPlaceholder": "Email",
+    "password": "Mật khẩu",
+    "register": "Đăng ký",
+    "orRegisterWith": "hoặc đăng ký bằng",
+    "haveAnAccount": "Đã có tài khoản?",
+    "signIn": "Đăng nhập"
+  },
+  "Support": {
+    "contactWithUs": "Liên hệ với chúng tôi",
+    "fillDataDescription": "Điền thông tin và mô tả vấn đề hoặc sự cố, chúng tôi sẽ liên hệ với bạn ngay lập tức. Bạn cũng có thể gửi yêu cầu ngay cả khi chưa là người dùng của JoyProfits.",
+    "fillForm": "Điền vào mẫu",
+    "selectReportType": "Chọn loại báo cáo",
+    "contactEmail": "Email liên hệ",
+    "describeReport": "Mô tả lý do báo cáo",
+    "sendReport": "Gửi báo cáo",
+    "payoutProblem": "Vấn đề với thanh toán",
+    "paymentMethod": "Phương thức thanh toán",
+    "taskWasNotCounted": "Nhiệm vụ không được tính",
+    "technicalError": "Lỗi kỹ thuật",
+    "reviews": "Đánh giá",
+    "cooperation": "Hợp tác",
+    "promote": "Khuyến mãi",
+    "firstName": "Tên của bạn",
+    "lastName": "Họ của bạn",
+    "iConsentToContact": "Tôi đồng ý nhận thông tin từ JoyProfits qua email.",
+    "requiredFields": "Các trường bắt buộc"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "Kiếm phần thưởng và\nkiếm tiền trong\nthời gian rảnh!",
+      "headerParagraph": "Tải ứng dụng và bắt đầu kiếm tiền bất cứ đâu và bất kỳ lúc nào!",
+      "downloadIos": "Tải trên iOS",
+      "downloadAndroid": "Tải trên Android"
+    },
+    "DownloadSection": {
+      "headerDescription": "Tải ứng dụng của chúng tôi",
+      "tileHeader": "Tải trên {appName}",
+      "leftTileDescription": "Tải ứng dụng của chúng tôi trên iOS và khám phá những cơ hội mới! Với giao diện dễ sử dụng, bạn có thể nhanh chóng quản lý các nhiệm vụ, theo dõi tiến độ và tận hưởng các tính năng độc đáo. Hãy thử ứng dụng JoyProfits để thấy sự tiện lợi.",
+      "rightTileDescription": "Tải ứng dụng của chúng tôi từ Google Play và tận hưởng đầy đủ các tính năng! Với giao diện trực quan, bạn dễ dàng quản lý nhiệm vụ, theo dõi tiến độ và sử dụng các ưu đãi đặc biệt. Cài đặt ứng dụng và khám phá những gì bạn có thể đạt được!"
+    },
+    "WCSSection": {
+      "headerDescription": "Người dùng nói gì về chúng tôi?",
+      "user1Description": "Ứng dụng có nhiều cách kiếm tiền, nhưng tôi thích nhất là xem video. Tôi thường có thời gian rảnh, nên có thể kiếm thêm vài đồng trong lúc đó. Thanh toán nhanh và không có vấn đề gì.",
+      "user2Description": "Ứng dụng tuyệt vời cho ai có chút thời gian rảnh và muốn kiếm thêm thu nhập. Tôi thích chơi game nhất. Các phân tích thu nhập giúp tôi hiểu rõ hơn về nơi và cách kiếm nhiều tiền hơn.",
+      "user3Description": "Ứng dụng rất tiện lợi. Tôi chơi game khi có thời gian, và xem video để kiếm thêm. Các chương trình hoàn tiền rất hay và thanh toán hoạt động tốt.",
+      "user4Description": "Ứng dụng được thiết kế tốt với nhiều cách kiếm tiền – từ chơi game đến xem video.",
+      "user5Description": "Nhiều cách kiếm tiền và thanh toán nhanh qua PayPal. Hoàn tiền là một điểm cộng!",
+      "user6Description": "Tốt, có nhiều cách kiếm tiền và hoàn tiền. Đôi khi thanh toán mất một chút thời gian, nhưng nhìn chung tôi khuyên dùng.",
+      "user7Description": "Tuyệt, tôi có thể chọn giữa các nền tảng – video, game và nhiều thứ khác. Thanh toán nhanh chóng.",
+      "user8Description": "Tôi thích có thể chọn giữa các nền tảng. Đôi khi tôi chơi game, đôi khi xem video. Thanh toán ổn.",
+      "user9Description": "Nhiều cơ hội kiếm tiền, tất cả hoạt động mượt mà.",
+      "user10Description": "Tôi khuyên dùng, hoạt động tốt và thanh toán không gặp vấn đề gì."
+    },
+    "TrustedUs": {
+      "trustedUs": "Chúng tôi được tin tưởng"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "Cách thức hoạt động",
+      "paragraphDescription": "Bằng cách thực hiện các nhiệm vụ đơn giản, bạn có thể kiếm được tới 3000 VND mỗi tháng, không có phí ẩn hay thuế bổ sung. Hơn nữa, thu nhập của bạn không có giới hạn – bạn quyết định số tiền bạn muốn kiếm.",
+      "listDescription": "Với JoyProfits, bạn có thể kiếm tiền theo bất kỳ cách nào",
+      "firstListDescription": "chơi game",
+      "secondListDescription": "thực hiện khảo sát",
+      "thirdListDescription": "xem video và quảng cáo",
+      "fourthListDescription": "mua sắm trực tuyến"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "Lợi ích là gì",
+      "paragraphDescription": "JoyProfits cung cấp cơ hội làm việc, cả toàn thời gian hay như một nguồn thu nhập phụ, dành cho mọi người trên toàn thế giới. Bạn có thể kiếm tiền sử dụng bất kỳ thiết bị nào có kết nối internet, không quan trọng bạn ở đâu. Bạn sẽ nhận được tiền cho thời gian và công sức bạn dành ra trên nền tảng."
+    },
+    "Benefits": {
+      "headerDescription": "JoyProfits giúp bạn như thế nào?",
+      "description": "JoyProfits giúp bạn phát huy thế mạnh của mình bằng cách cung cấp sáu phương pháp kiếm tiền khác nhau. Nhờ đó, bạn có thể chọn cách phù hợp nhất với kỹ năng và sở thích của mình. Nền tảng giúp bạn chuyển đổi công sức và thời gian thành thu nhập cụ thể.",
+      "seeMore": "Xem thêm"
+    },
+    "AboutSection": {
+      "header": "Về JoyProfits",
+      "description": "Khám phá ứng dụng của chúng tôi có sẵn trên iOS và Android! Tải ngay bây giờ và bắt đầu tận dụng những cơ hội mà chúng tôi mang lại!"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "CHƠI GAME VÀ KIẾM TIỀN",
+      "secondTileHeader": "ỨNG DỤNG IOS & ANDROID",
+      "thirdTileHeader": "PHÂN TÍCH THU NHẬP",
+      "fourthTileHeader": "100% BẢO MẬT",
+      "fifthTileHeader": "HOÀN TIỀN",
+      "firstTileDescription": "Chơi game yêu thích và kiếm tiền nhờ thành tích đạt được! Khám phá cơ hội mới và biến mỗi trận game thành nguồn thu nhập.",
+      "secondTileDescription": "Khám phá ứng dụng của chúng tôi trên iOS và Android! Tải ngay bây giờ và bắt đầu sử dụng những cơ hội mà chúng tôi cung cấp!",
+      "thirdTileescription": "Nhờ phân tích, bạn có thể kiểm soát hoàn toàn thu nhập của mình, theo dõi và phân tích mọi khía cạnh thu nhập.",
+      "fourthTileDescription": "Chuyển tiền thu được một cách đơn giản và an toàn, trực tiếp vào tài khoản ngân hàng hoặc tài khoản PayPal của bạn.",
+      "fifthTileDescription": "Khi mua sắm từ các đối tác của chúng tôi, bạn sẽ nhận được hoàn tiền cho mọi giao dịch. Tận dụng thêm các ưu đãi và tiết kiệm bằng cách sử dụng mạng lưới đối tác của chúng tôi."
+    }
+  },
+  "RecoverPassword": {
+    "success": "Thành công!",
+    "passwordChangedSuccessfully": "Mật khẩu đã được thay đổi thành công",
+    "returnToApp": "Quay lại ứng dụng",
+    "recoverPassword": "Khôi phục mật khẩu của bạn",
+    "description": "Nhập mật khẩu mới và xác nhận mật khẩu. Nhấn nút xác nhận để cập nhật mật khẩu. Làm theo hướng dẫn bạn nhận được để hoàn tất quá trình thay đổi mật khẩu. Nếu gặp bất kỳ vấn đề nào, vui lòng liên hệ với bộ phận hỗ trợ.",
+    "password": "Mật khẩu",
+    "reEnterPassword": "Nhập lại mật khẩu",
+    "confirmNewPassword": "Xác nhận mật khẩu mới"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "Khám phá những cách kiếm tiền mới",
+      "headerParagraph": "Với một loạt công cụ và tài nguyên, bất kỳ ai cũng có thể tìm ra cách tạo ra thu nhập của mình.",
+      "downloadIos": "Tải xuống Ios",
+      "downloadAndroid": "Tải xuống Android"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "Bắt đầu kiếm tiền ngay bây giờ với ba bước sau",
+      "firstStep": "Bước 1",
+      "secondStep": "Bước 2",
+      "thirdStep": "Bước 3",
+      "firstTileHeader": "Đăng ký và cấu hình tài khoản",
+      "firstTileParagraph": "Quá trình đăng ký trên JoyProfits rất nhanh chóng và đơn giản. Chỉ cần cung cấp thông tin cơ bản, xác minh tài khoản, sau đó đăng nhập và cấu hình hồ sơ.",
+      "firstTileExtraParagraph": "Sau khi đăng nhập, bạn có thể cấu hình hồ sơ để nền tảng có thể điều chỉnh các đề xuất kiếm tiền phù hợp với nhu cầu của bạn.",
+      "secondTileHeader": "Chọn chiến lược kiếm tiền và học hỏi",
+      "secondTileParagraph": "JoyProfits cung cấp nhiều chiến lược kiếm tiền khác nhau, như tiếp thị liên kết, tham gia các chương trình đối tác, chơi game và hoàn thành khảo sát. Bạn có thể khám phá các tùy chọn có sẵn và chọn những gì phù hợp nhất với nhu cầu của mình.",
+      "secondTileExtraParagraph": "Để tăng cơ hội thành công, hãy sử dụng nhiều tài liệu giáo dục có sẵn trên nền tảng, như khóa học, hội thảo, bài viết và hướng dẫn. Thêm vào đó, bạn có thể truy cập hỗ trợ kỹ thuật và cộng đồng người dùng để chia sẻ kinh nghiệm và nhận sự giúp đỡ.",
+      "thirdTileHeader": "Theo dõi tiến trình, tối ưu hóa và thanh toán",
+      "thirdTileParagraph": "Nền tảng JoyProfits cung cấp các công cụ phân tích để theo dõi kết quả, giúp nhận diện các lĩnh vực cần cải thiện và tối ưu hóa hành động để tối đa hóa lợi nhuận.",
+      "thirdTileExtraParagraph": "Các khoản thu nhập có thể dễ dàng rút qua nhiều phương thức thanh toán khác nhau, như chuyển khoản ngân hàng hoặc tài khoản PayPal. Các giao dịch rút tiền nhanh chóng và an toàn, đảm bảo bạn có toàn quyền kiểm soát tài chính."
+    },
+    "Section": {
+      "header": "Công việc này hoạt động như thế nào?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "Đăng ký và\ncấu hình tài khoản",
+      "strategySelection": "Chọn chiến lược\nkiếm tiền",
+      "educationAndSupport": "Học hỏi\nvà hỗ trợ",
+      "analysis": "Theo dõi tiến trình\nvà tối ưu hóa",
+      "payouts": "Rút tiền thu nhập\ncủa bạn"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "Chỉ một ứng dụng, nhiều cơ hội!",
+      "headerParagraph": "Chúng tôi tự hào về cộng đồng người dùng của mình, những người mỗi ngày khám phá những cách mới để kiếm tiền trực tuyến.",
+      "downloadIos": "Tải xuống Ios",
+      "downloadAndroid": "Tải xuống Android"
+    },
+    "Section": {
+      "header": "Một ứng dụng, nhiều cách kiếm tiền",
+      "readMore": "Đọc thêm",
+      "Tile1Header": "Chơi game",
+      "Tile1Description": "Kiếm điểm khi hoàn thành các cấp độ và mở khóa các tính năng trong các trò chơi di động. Thực hiện các nhiệm vụ với độ khó khác nhau trong các trò chơi yêu thích của bạn.",
+      "Tile2Header": "Xem video",
+      "Tile2Description": "Kiếm tiền khi xem video và quảng cáo. Dành một chút thời gian cho các nội dung thú vị và nhận thưởng cho mỗi quảng cáo hoặc video bạn xem. Chọn từ các thể loại và chủ đề khác nhau.",
+      "Tile3Header": "Hoàn thành khảo sát",
+      "Tile3Description": "Trả lời các câu hỏi và chia sẻ ý kiến của bạn, nhận thưởng cho mỗi cuộc khảo sát hoàn thành. Càng nhiều khảo sát bạn hoàn thành, thu nhập của bạn càng cao.",
+      "Tile4Header": "Mua sắm trực tuyến",
+      "Tile4Description": "Mua sắm tại các cửa hàng yêu thích và nhận lại tiền mặt cùng thu nhập thêm. Đăng ký tại các cửa hàng trực tuyến để nhận mẫu miễn phí và mã giảm giá.",
+      "Tile5Header": "Nhiệm vụ vi mô",
+      "Tile5Description": "Kiếm tiền khi học các kỹ năng mới, như lập trình hay thiết kế đồ họa. Chọn các khóa học thú vị và thực hiện các nhiệm vụ có sẵn trên JoyProfits.",
+      "Tile6Header": "Thành tích",
+      "Tile6Description": "Hoàn thành các mục tiêu trên JoyProfits, nhận phần thưởng và tăng thu nhập. Mỗi thành tích giúp bạn gần hơn với các khoản thu nhập cao hơn và phần thưởng thêm."
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "Khám phá thêm về những người sáng tạo JoyProfits!",
+      "headerParagraph": "Bắt đầu kiếm tiền với JoyProfits một cách đơn giản và nhanh chóng. Xem ngay bạn có bao nhiêu cơ hội!",
+      "downloadIos": "Tải xuống Ios",
+      "downloadAndroid": "Tải xuống Android"
+    },
+    "StepTile": {
+      "headerDescription": "Người dùng của chúng tôi nói gì?",
+      "firstTileHeader": "Chào mừng!",
+      "firstTileParagraph": "Tôi là Jakub, người sáng tạo ứng dụng giúp kết hợp giữa thú vị và có lợi – cho phép kiếm tiền qua chơi game, xem video và thực hiện nhiều nhiệm vụ khác.",
+      "firstTileExtraParagraph": "Là một người đam mê công nghệ mới và giải trí, tôi nhận thấy rằng ngày càng có nhiều người dành thời gian rảnh của mình trong thế giới ảo. Tôi quyết định tạo ra một giải pháp giúp mọi người có thể kiếm tiền từ những hoạt động này. Ứng dụng JoyProfits là kết quả của quá trình nghiên cứu và phát triển sâu sắc, qua đó tôi và đội ngũ của mình đã tạo ra một công cụ an toàn và thân thiện với người dùng.",
+      "secondTileHeader": "Sứ mệnh của chúng tôi",
+      "secondTileParagraph": "Sứ mệnh của chúng tôi là chuyển đổi những trò giải trí hàng ngày thành lợi ích tài chính thực tế. Trong thời đại số hóa và sự gia tăng sự phổ biến của giải trí trực tuyến, chúng tôi nhận thấy tiềm năng lớn trong việc sử dụng thời gian trực tuyến để tạo ra thu nhập thêm.",
+      "secondTileExtraParagraph": "Chúng tôi cam kết duy trì mối liên hệ chặt chẽ với người dùng và linh hoạt trong việc đáp ứng nhu cầu của họ. Mỗi ngày, chúng tôi nỗ lực cải tiến ứng dụng để mang lại trải nghiệm và cơ hội kiếm tiền tốt nhất. Mục tiêu của chúng tôi là xây dựng một cộng đồng mà mỗi người dùng có thể kiếm lợi nhuận từ những gì họ yêu thích.",
+      "thirdTileHeader": "Khám phá JoyProfits",
+      "thirdTileParagraph": "Mời bạn khám phá tiềm năng của ứng dụng và gia nhập cộng đồng người dùng hài lòng, những người đang tận dụng cơ hội kiếm tiền từ trò chơi và giải trí.",
+      "thirdTileExtraParagraph": "Chúng ta cùng thay đổi cách chúng ta nhìn nhận thời gian trực tuyến, tạo ra các nguồn thu nhập mới và sáng tạo."
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "Tải ứng dụng"
+  },
+  "VerifyEmail": {
+    "accountActivated": "Tài khoản đã được kích hoạt",
+    "hello": "Chào bạn",
+    "thankYouNote": "Cảm ơn bạn, địa chỉ email của bạn đã được xác minh. Tài khoản của bạn hiện đã hoạt động. Sử dụng nút dưới đây để quay lại ứng dụng.",
+    "returnToApp": "Quay lại ứng dụng",
+    "invalidRequest": "Rất tiếc... Chúng tôi không thể xử lý yêu cầu của bạn..."
+  },
+  "Validation": {
+    "emailRequired": "Địa chỉ email là bắt buộc",
+    "passwordRequired": "Mật khẩu là bắt buộc",
+    "firstNameRequired": "Họ là bắt buộc",
+    "lastNameRequired": "Tên là bắt buộc",
+    "consentRequired": "Sự đồng ý là bắt buộc",
+    "descriptionRequired": "Mô tả là bắt buộc",
+    "categorySelectionRequired": "Lựa chọn danh mục là bắt buộc",
+    "minLength": "Độ dài tối thiểu là {count} ký tự",
+    "maxLength": "Độ dài tối đa là {count} ký tự",
+    "invalidEmail": "Địa chỉ email không hợp lệ",
+    "passwordSpecialChar": "Yêu cầu ký tự đặc biệt",
+    "passwordUppercase": "Yêu cầu ít nhất một chữ cái viết hoa",
+    "passwordsMismatch": "Mật khẩu không khớp"
+  },
+  "Dropdown": {
+    "selectType": "Chọn loại"
+  },
+  "Languages": {
+    "en": "Tiếng Anh",
+    "es": "Tiếng Tây Ban Nha",
+    "de": "Tiếng Đức",
+    "fr": "Tiếng Pháp",
+    "it": "Tiếng Ý",
+    "nl": "Tiếng Hà Lan",
+    "da": "Tiếng Đan Mạch",
+    "sv": "Tiếng Thụy Điển",
+    "pl": "Tiếng Ba Lan",
+    "pt": "Tiếng Bồ Đào Nha",
+    "ro": "Tiếng Rumani",
+    "vi": "Tiếng Việt",
+    "tr": "Tiếng Thổ Nhĩ Kỳ",
+    "id": "Tiếng Indonesia",
+    "ru": "Tiếng Nga",
+    "uk": "Tiếng Ukraine",
+    "ur": "Tiếng Urdu",
+    "ar": "Tiếng Ả Rập",
+    "hi": "Tiếng Hindi",
+    "ta": "Tiếng Tamil",
+    "si": "Tiếng Sinhala",
+    "fa": "Tiếng Ba Tư",
+    "tl-PH": "Tiếng Philippines",
+    "bn": "Tiếng Bengal",
+    "km": "Tiếng Campuchia",
+    "th": "Tiếng Thái",
+    "ja": "Tiếng Nhật",
+    "zh-hant": "Tiếng Trung-Truyền thống",
+    "zh-hans": "Tiếng Trung-Dơn giản",
+    "ko": "Tiếng Hàn"
+  },
+  "Errors": {
+    "unknownError": "Đã xảy ra lỗi không xác định",
+    "invalidToken": "Mã thông báo không hợp lệ",
+    "tokenExpired": "Mã thông báo của bạn đã hết hạn",
+    "missingTokenOwner": "Không xác định được chủ sở hữu mã thông báo",
+    "tokenUsed": "Mã thông báo đã được sử dụng",
+    "tokenVerificationFailed": "Xác minh mã thông báo không thành công...",
+    "invalidPassword": "Mật khẩu đã nhập không hợp lệ",
+    "passwordChangeFailed": "Thay đổi mật khẩu không thành công"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - Kiếm tiền trực tuyến miễn phí",
+      "description": "Kiếm tiền trực tuyến bằng cách xem quảng cáo, điền khảo sát, chơi game, viết bình luận, viết bài, trả lời câu hỏi, hoàn thành các ưu đãi và nhiều hơn nữa."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - Cách hoạt động",
+      "description": "Tìm hiểu cách JoyProfits hoạt động và cách bạn có thể bắt đầu kiếm tiền chỉ trong 3 bước đơn giản. Giải thích dễ hiểu cùng với các mẹo và phương pháp kiếm tiền."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Các phương pháp kiếm tiền",
+      "description": "Khám phá các phương pháp kiếm tiền trực tuyến từ JoyProfits. Chơi game, xem video, điền khảo sát, mua sắm trực tuyến và nhiều hơn nữa."
+    },
+    "support": {
+      "title": "JoyProfits - Hỗ trợ",
+      "description": "Nếu bạn có câu hỏi, cần trợ giúp hoặc gặp phải vấn đề, hãy liên hệ với đội ngũ hỗ trợ của chúng tôi."
+    },
+    "signIn": {
+      "title": "JoyProfits - Đăng nhập",
+      "description": "Đăng nhập vào tài khoản JoyProfits của bạn và bắt đầu kiếm tiền trực tuyến. Đăng nhập để truy cập hồ sơ của bạn và quản lý thu nhập."
+    },
+    "register": {
+      "title": "JoyProfits - Đăng ký",
+      "description": "Đăng ký JoyProfits và bắt đầu kiếm tiền trực tuyến. Tạo tài khoản để truy cập các phương pháp và cơ hội kiếm tiền khác nhau."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - Về chúng tôi",
+      "description": "Tìm hiểu thêm về JoyProfits, các nhà sáng lập ứng dụng và sứ mệnh đứng sau nền tảng. Khám phá cách bạn có thể tận dụng việc sử dụng JoyProfits."
+    },
+    "advertising": {
+      "title": "JoyProfits - Quảng cáo",
+      "description": "Tìm hiểu chính sách quảng cáo của JoyProfits, đảm bảo tính minh bạch, trách nhiệm và tuân thủ pháp luật trong việc quảng bá sản phẩm và dịch vụ."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Chính sách bảo mật",
+      "description": "Đọc chính sách bảo mật của JoyProfits để biết cách chúng tôi thu thập, sử dụng và bảo vệ dữ liệu cá nhân của bạn. Hiểu quyền lợi của bạn và cách chúng tôi đảm bảo bảo mật dữ liệu."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Điều khoản dịch vụ",
+      "description": "Đọc điều khoản dịch vụ của JoyProfits để hiểu các quy định và điều kiện sử dụng nền tảng. Tìm hiểu quyền lợi và nghĩa vụ của bạn với tư cách là người dùng."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Chính sách cookie",
+      "description": "Đọc chính sách cookie của JoyProfits để hiểu cách chúng tôi sử dụng cookie và các công nghệ tương tự để cải thiện trải nghiệm của bạn trên nền tảng."
+    },
+    "locationData": {
+      "title": "JoyProfits - Dữ liệu vị trí",
+      "description": "Tìm hiểu cách JoyProfits thu thập và sử dụng dữ liệu vị trí để cung cấp dịch vụ cá nhân hóa và cải thiện trải nghiệm người dùng của bạn."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - Quản lý dữ liệu người dùng",
+      "description": "Tìm hiểu cách JoyProfits quản lý dữ liệu người dùng để đảm bảo bảo mật, quyền riêng tư và tuân thủ các quy định pháp lý."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Các loại cookie",
+      "description": "Tìm hiểu các loại cookie mà JoyProfits sử dụng để cải thiện trải nghiệm người dùng và cung cấp dịch vụ cá nhân hóa."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Chuyển giao dữ liệu người dùng",
+      "description": "Tìm hiểu cách JoyProfits chuyển giao dữ liệu người dùng để đảm bảo bảo mật, quyền riêng tư và tuân thủ các quy định pháp lý."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - Xác nhận thay đổi email",
+      "description": "Xác nhận thay đổi địa chỉ email của bạn để cập nhật thông tin tài khoản. Làm theo hướng dẫn để hoàn tất quá trình."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - Khôi phục mật khẩu",
+      "description": "Khôi phục mật khẩu của bạn trên JoyProfits. Nhập mật khẩu mới và xác nhận lại mật khẩu để cập nhật thông tin tài khoản."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - Xác minh tài khoản",
+      "description": "Xác minh tài khoản của bạn trên JoyProfits để kích hoạt hồ sơ và bắt đầu kiếm tiền trực tuyến."
+    }
+  }
+}

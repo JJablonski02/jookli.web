@@ -1,1 +1,383 @@
-{}
+{
+  "globals": {
+    "Captions": {
+      "signIn": "ACCEDI",
+      "register": "REGISTRATI",
+      "mainPage": "PAGINA PRINCIPALE",
+      "howItWorks": "COME FUNZIONA",
+      "earnMethods": "GUADAGNA",
+      "support": "SUPPORTO",
+      "platform": "PIATTAFORMA",
+      "menu": "MENU",
+      "company": "AZIENDA",
+      "policy": "POLITICA",
+      "blog": "BLOG",
+      "affilateProgram": "PROGRAMMA DI AFFILIAZIONE",
+      "resources": "RISORSE",
+      "policyPrivacy": "POLITICA SULLA PRIVACY",
+      "terms": "CONDIZIONI",
+      "copyright": "DIRITTI D'AUTORE",
+      "cookiePolicy": "POLITICA SUI COOKIE",
+      "adRules": "REGOLAMENTO PUBBLICITARIO",
+      "aboutUs": "CHI SIAMO",
+      "downloadApp": "Scarica l'app",
+      "appDescription": "Unisciti alla nostra piattaforma e scopri come puoi guadagnare con le tue competenze"
+    },
+    "SignIn": {
+      "title": "Accesso",
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Password",
+      "logIn": "Accedi"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "Pagina non trovata",
+      "pageNotFoundDescription": "La pagina che stai cercando non esiste. Come ci sei arrivato rimane un mistero. Tuttavia, puoi fare clic sul pulsante qui sotto per tornare alla pagina principale."
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "Accesso",
+    "email": "Email",
+    "enterEmail": "Inserisci l'indirizzo email",
+    "enterPassword": "Inserisci la password",
+    "emailPlaceholder": "Email",
+    "password": "Password",
+    "logIn": "Accedi",
+    "signIn": "Accedi",
+    "orSignInWith": "o accedi con",
+    "forgotPassword": "Hai dimenticato la password?",
+    "reset": "Reimposta",
+    "haveNotAnAccount": "Non hai un account?",
+    "register": "Registrati"
+  },
+  "Register": {
+    "title": "Registrazione",
+    "email": "Email",
+    "enterEmail": "Inserisci l'indirizzo email",
+    "enterPassword": "Inserisci la password",
+    "reEnterPassword": "Conferma la password",
+    "emailPlaceholder": "Email",
+    "password": "Password",
+    "register": "Registrati",
+    "orRegisterWith": "o registrati con",
+    "haveAnAccount": "Hai già un account?",
+    "signIn": "Accedi"
+  },
+  "Support": {
+    "contactWithUs": "Contattaci",
+    "fillDataDescription": "Compila i dati e descrivi il problema o l'evento, e ti contatteremo al più presto. Ricorda che puoi inviare una segnalazione anche se non sei ancora un utente di JoyProfits.",
+    "fillForm": "Compila il modulo",
+    "selectReportType": "Seleziona il tipo di segnalazione",
+    "contactEmail": "Indirizzo email di contatto",
+    "describeReport": "Descrivi il motivo della segnalazione",
+    "sendReport": "Invia segnalazione",
+    "payoutProblem": "Problema con il pagamento",
+    "paymentMethod": "Metodo di pagamento",
+    "taskWasNotCounted": "Il compito non è stato conteggiato",
+    "technicalError": "Errore tecnico",
+    "reviews": "Recensioni",
+    "cooperation": "Collaborazione",
+    "promote": "Promozione",
+    "firstName": "Il tuo nome",
+    "lastName": "Il tuo cognome",
+    "iConsentToContact": "Acconsento a essere contattato e a ricevere informazioni da JoyProfits tramite email.",
+    "requiredFields": " campi obbligatori"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "Guadagna premi e\nfai soldi nel\ntempo libero!",
+      "headerParagraph": "Scarica l'app e inizia a guadagnare ovunque e in qualsiasi momento!",
+      "downloadIos": "Scarica iOS",
+      "downloadAndroid": "Scarica Android"
+    },
+    "DownloadSection": {
+      "headerDescription": "Scarica la nostra app",
+      "tileHeader": "Scarica su {appName}",
+      "leftTileDescription": "Scarica la nostra app per iOS e scopri nuove opportunità! Grazie a un'interfaccia facile da usare, puoi gestire rapidamente le tue attività, monitorare i progressi e usufruire di funzionalità uniche. Scopri quanto è semplice e piacevole utilizzare JoyProfits.",
+      "rightTileDescription": "Scarica la nostra app da Google Play e goditi l'accesso completo a tutte le funzionalità! Grazie a un'interfaccia intuitiva, puoi facilmente gestire le tue attività, monitorare i progressi e usufruire di offerte uniche. Installa l'app e scopri quanto puoi guadagnare!"
+    },
+    "WCSSection": {
+      "headerDescription": "Cosa dicono i nostri utenti?",
+      "user1Description": "L'app offre molti modi per guadagnare, ma quello che mi piace di più è la possibilità di guardare video. Ho spesso del tempo libero, quindi posso guadagnare qualche euro nel frattempo. I pagamenti sono veloci e senza problemi.",
+      "user2Description": "Ottima app per chi ha un po' di tempo libero e vuole guadagnare extra. Mi piace di più l'opzione di giocare ai giochi. Le analisi dei guadagni mi aiutano a capire meglio quanto e dove posso guadagnare di più.",
+      "user3Description": "App molto comoda. Gioco quando ho tempo e inoltre guardo video per guadagnare. I cashback sono fantastici e i pagamenti funzionano senza intoppi.",
+      "user4Description": "App ben progettata con diverse opzioni per guadagnare – dai giochi ai video.",
+      "user5Description": "Diversi modi per guadagnare e pagamenti veloci su PayPal. I cashback sono un ottimo extra!",
+      "user6Description": "Buone opzioni di guadagno e cashback. A volte il pagamento richiede più tempo, ma in generale la consiglio.",
+      "user7Description": "Mi piace poter scegliere tra diverse piattaforme – video, giochi e altro. Pagamenti veloci.",
+      "user8Description": "Fantastico avere diverse piattaforme tra cui scegliere. A volte preferisco giocare, altre guardare video. Pagamenti ok.",
+      "user9Description": "Molte possibilità di guadagno, tutto funziona senza problemi.",
+      "user10Description": "Consiglio, funziona bene e i guadagni vengono pagati senza problemi."
+    },
+    "TrustedUs": {
+      "trustedUs": "Ci hanno dato fiducia"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "Come funziona",
+      "paragraphDescription": "Svolgendo semplici attività, hai la possibilità di guadagnare fino a 3000 euro al mese, senza costi nascosti o tasse aggiuntive. Inoltre, i tuoi guadagni non hanno un limite massimo – sei tu a decidere quanto vuoi guadagnare.",
+      "listDescription": "Con JoyProfits puoi guadagnare in qualsiasi modo",
+      "firstListDescription": "giocando ai giochi",
+      "secondListDescription": "compilando sondaggi",
+      "thirdListDescription": "guardando video e pubblicità",
+      "fourthListDescription": "facendo acquisti online"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "Quali sono i vantaggi",
+      "paragraphDescription": "JoyProfits offre la possibilità di lavorare sia a tempo pieno che come fonte di reddito aggiuntiva, disponibile per persone di tutto il mondo. Puoi guadagnare denaro utilizzando qualsiasi dispositivo con accesso a internet, indipendentemente da dove ti trovi. Riceverai un compenso per il tempo e gli sforzi dedicati all'utilizzo della piattaforma."
+    },
+    "Benefits": {
+      "headerDescription": "In cosa ti aiuterà JoyProfits?",
+      "description": "JoyProfits ti aiuterà a sfruttare i tuoi punti di forza, offrendo sei diversi modi per guadagnare. In questo modo puoi scegliere l'opzione che meglio si adatta alle tue competenze e interessi. La piattaforma ti consente di trasformare efficacemente il tuo impegno e tempo in guadagni concreti.",
+      "seeMore": "Scopri di più"
+    },
+    "AboutSection": {
+      "header": "Su JoyProfits",
+      "description": "Scopri la nostra app disponibile per iOS e Android! Scaricala ora e inizia a sfruttare le opportunità che offriamo!"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "GIOCARE E GUADAGNARE",
+      "secondTileHeader": "APP IOS & ANDROID",
+      "thirdTileHeader": "ANALISI DEI GUADAGNI",
+      "fourthTileHeader": "100% SICUREZZA",
+      "fifthTileHeader": "CASHBACK",
+      "firstTileDescription": "Gioca ai tuoi giochi preferiti e guadagna raggiungendo obiettivi! Scopri nuove opportunità e trasforma ogni partita in una fonte di reddito.",
+      "secondTileDescription": "Scopri la nostra app disponibile per iOS e Android! Scaricala ora e inizia a sfruttare le opportunità che offriamo!",
+      "thirdTileDescription": "Grazie all'analisi hai il pieno controllo dei tuoi guadagni, monitorando e analizzando ogni aspetto delle tue entrate.",
+      "fourthTileDescription": "Preleva i tuoi guadagni in modo semplice e sicuro, direttamente sul tuo conto bancario o su PayPal.",
+      "fifthTileDescription": "Facendo acquisti con i nostri partner, puoi beneficiare di cashback su ogni acquisto. Ottieni ulteriori vantaggi e risparmi utilizzando la nostra rete di partner."
+    }
+  },
+  "RecoverPassword": {
+    "success": "Successo!",
+    "passwordChangedSuccessfully": "La password è stata cambiata con successo",
+    "returnToApp": "Torna all'app",
+    "recoverPassword": "Recupera la tua password",
+    "description": "Inserisci la nuova password e la conferma della password. Clicca sul pulsante di conferma per aggiornare la password. Segui le istruzioni ricevute per completare il processo di modifica della password. In caso di problemi, contatta il supporto tecnico.",
+    "password": "Password",
+    "reEnterPassword": "Reinserisci la password",
+    "confirmNewPassword": "Conferma nuova password"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "Scopri nuovi modi per guadagnare",
+      "headerParagraph": "Grazie a una vasta gamma di strumenti e risorse, chiunque può trovare un modo per generare reddito.",
+      "downloadIos": "Scarica per iOS",
+      "downloadAndroid": "Scarica per Android"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "Inizia a guadagnare ora seguendo questi tre passaggi",
+      "firstStep": "Passo 1",
+      "secondStep": "Passo 2",
+      "thirdStep": "Passo 3",
+      "firstTileHeader": "Registrazione e configurazione dell'account",
+      "firstTileParagraph": "Il processo di registrazione su JoyProfits è veloce e semplice. Basta inserire i dati di base, verificare il proprio account, accedere e configurare il profilo.",
+      "firstTileExtraParagraph": "Dopo l'accesso, puoi configurare il tuo profilo affinché la piattaforma possa adattare meglio le raccomandazioni di guadagno alle tue esigenze.",
+      "secondTileHeader": "Scelta della strategia di guadagno ed educazione",
+      "secondTileParagraph": "JoyProfits offre diverse strategie di guadagno, come il marketing affiliato, la partecipazione a programmi partner, il gioco, e il completamento di sondaggi. Puoi esplorare le opzioni disponibili e scegliere quelle che meglio si adattano alle tue esigenze.",
+      "secondTileExtraParagraph": "Per aumentare le tue possibilità di successo, utilizza i numerosi materiali educativi disponibili sulla piattaforma, come corsi, webinar, articoli e guide. Inoltre, hai accesso al supporto tecnico e alla community degli utenti, dove puoi condividere esperienze e ottenere aiuto.",
+      "thirdTileHeader": "Monitoraggio dei progressi, ottimizzazione e pagamenti",
+      "thirdTileParagraph": "La piattaforma JoyProfits offre strumenti analitici per monitorare i risultati, consentendo di identificare aree di miglioramento e ottimizzare continuamente le attività per massimizzare i guadagni.",
+      "thirdTileExtraParagraph": "I fondi guadagnati possono essere facilmente prelevati utilizzando vari metodi di pagamento, come bonifici bancari o PayPal. I pagamenti sono rapidi e sicuri, offrendo pieno controllo sulle finanze."
+    },
+    "Section": {
+      "header": "Come funziona?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "Registrazione e\nconfigurazione dell'account",
+      "strategySelection": "Scelta della strategia\ndi guadagno",
+      "educationAndSupport": "Educazione\ne supporto",
+      "analysis": "Monitoraggio progressi\ne ottimizzazione",
+      "payouts": "Pagamenti dei fondi\nguadagnati"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "Un'unica app, infinite possibilità!",
+      "headerParagraph": "Siamo orgogliosi della nostra community di utenti che ogni giorno scoprono nuovi modi per guadagnare online.",
+      "downloadIos": "Scarica per iOS",
+      "downloadAndroid": "Scarica per Android"
+    },
+    "Section": {
+      "header": "Un'unica app, infinite opportunità di guadagno",
+      "readMore": "Leggi di più",
+      "Tile1Header": "Giocare ai giochi",
+      "Tile1Description": "Guadagna punti raggiungendo livelli e sbloccando funzionalità nei giochi mobili. Completa missioni di varia difficoltà nei tuoi giochi preferiti.",
+      "Tile2Header": "Guardare video",
+      "Tile2Description": "Guadagna guardando video e pubblicità. Dedica un momento a contenuti interessanti e ricevi una ricompensa per ogni pubblicità o video visualizzato. Scegli tra diverse categorie e argomenti.",
+      "Tile3Header": "Completare sondaggi",
+      "Tile3Description": "Rispondi a domande e condividi la tua opinione, ricevendo una ricompensa per ogni sondaggio completato. Più sondaggi completi, maggiori saranno i tuoi guadagni.",
+      "Tile4Header": "Shopping online",
+      "Tile4Description": "Acquista nei tuoi negozi preferiti e ottieni cashback e redditi extra. Registrati sui siti web dei negozi per ricevere campioni gratuiti e codici sconto.",
+      "Tile5Header": "Microcompiti",
+      "Tile5Description": "Guadagna imparando nuove competenze, come programmazione o grafica digitale. Scegli corsi interessanti e svolgi i compiti disponibili su JoyProfits.",
+      "Tile6Header": "Obiettivi",
+      "Tile6Description": "Raggiungi obiettivi su JoyProfits, ottieni premi e aumenta i tuoi guadagni. Ogni obiettivo ti avvicina a maggiori profitti e ricompense aggiuntive."
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "Conosci meglio i creatori di JoyProfits!",
+      "headerParagraph": "Inizia a guadagnare con JoyProfits in modo semplice e veloce. Scopri ora quante possibilità hai!",
+      "downloadIos": "Scarica per iOS",
+      "downloadAndroid": "Scarica per Android"
+    },
+    "StepTile": {
+      "headerDescription": "Cosa dicono i nostri utenti?",
+      "firstTileHeader": "Benvenuto!",
+      "firstTileParagraph": "Mi chiamo Jakub e sono il creatore di un'app che unisce l'utile al dilettevole: permette di guadagnare denaro giocando, guardando video e svolgendo molte altre attività.",
+      "firstTileExtraParagraph": "Come appassionato di nuove tecnologie e intrattenimento, ho capito che sempre più persone trascorrono il loro tempo libero nel mondo virtuale. Ho deciso di creare una soluzione che permetta di trarre vantaggi finanziari da questa attività. L'app JoyProfits è il risultato di approfondite analisi, ricerche di mercato e mesi di lavoro mio e del mio team per creare uno strumento sicuro e user-friendly.",
+      "secondTileHeader": "La nostra missione",
+      "secondTileParagraph": "La nostra missione è trasformare le attività quotidiane di intrattenimento in benefici finanziari reali. Nell'era della digitalizzazione e della crescente popolarità dei divertimenti virtuali, abbiamo visto un grande potenziale nell'utilizzo del tempo trascorso online per generare redditi aggiuntivi.",
+      "secondTileExtraParagraph": "Puntiamo a un contatto stretto con gli utenti e alla flessibilità nel rispondere alle loro esigenze. Ogni giorno lavoriamo per migliorare l'applicazione, offrendo le migliori esperienze e opportunità di guadagno. Il nostro obiettivo è creare una comunità in cui ogni utente possa trarre benefici finanziari da ciò che gli piace fare.",
+      "thirdTileHeader": "Scopri JoyProfits",
+      "thirdTileParagraph": "Ti invitiamo a scoprire il potenziale della nostra app e a unirti alla comunità di utenti soddisfatti che già ora stanno beneficiando delle opportunità di guadagno offerte attraverso il divertimento e l'intrattenimento.",
+      "thirdTileExtraParagraph": "Insieme stiamo cambiando il modo in cui percepiamo il tempo trascorso online, creando nuove e innovative fonti di reddito."
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "Scarica l'app"
+  },
+  "VerifyEmail": {
+    "accountActivated": "L'account è stato attivato",
+    "hello": "Ciao",
+    "thankYouNote": "Grazie, il tuo indirizzo email è stato verificato. Il tuo account è ora attivo. Usa il pulsante qui sotto per tornare all'applicazione.",
+    "returnToApp": "Torna all'app",
+    "invalidRequest": "Ops... Non siamo riusciti a elaborare la tua richiesta..."
+  },
+  "Validation": {
+    "emailRequired": "L'indirizzo email è obbligatorio",
+    "passwordRequired": "La password è obbligatoria",
+    "firstNameRequired": "Il nome è obbligatorio",
+    "lastNameRequired": "Il cognome è obbligatorio",
+    "consentRequired": "Il consenso è obbligatorio",
+    "descriptionRequired": "La descrizione è obbligatoria",
+    "categorySelectionRequired": "La selezione della categoria è obbligatoria",
+    "minLength": "La lunghezza minima è di {count} caratteri",
+    "maxLength": "La lunghezza massima è di {count} caratteri",
+    "invalidEmail": "Indirizzo email non valido",
+    "passwordSpecialChar": "È richiesto un carattere speciale",
+    "passwordUppercase": "È richiesta almeno una lettera maiuscola",
+    "passwordsMismatch": "Le password non corrispondono"
+  },
+  "Dropdown": {
+    "selectType": "Seleziona il tipo"
+  },
+  "Languages": {
+    "en": "Inglese",
+    "es": "Spagnolo",
+    "de": "Tedesco",
+    "fr": "Francese",
+    "it": "Italiano",
+    "nl": "Olandese",
+    "da": "Danese",
+    "sv": "Svedese",
+    "pl": "Polacco",
+    "pt": "Portoghese",
+    "ro": "Rumeno",
+    "vi": "Vietnamita",
+    "tr": "Turco",
+    "id": "Indonesiano",
+    "ru": "Russo",
+    "uk": "Ucraino",
+    "ur": "Urdu",
+    "ar": "Arabo",
+    "hi": "Hindi",
+    "ta": "Tamil",
+    "si": "Singalese",
+    "fa": "Persiano",
+    "tl-PH": "Filippino",
+    "bn": "Bengalese",
+    "km": "Cambogiano",
+    "th": "Thailandese",
+    "ja": "Giapponese",
+    "zh-hant": "Cinese-Tradizionale",
+    "zh-hans": "Cinese-Semplificato",
+    "ko": "Coreano"
+  },
+  "Errors": {
+    "unknownError": "Si è verificato un errore sconosciuto",
+    "invalidToken": "Token non valido",
+    "tokenExpired": "Il tuo token è scaduto",
+    "missingTokenOwner": "Il token non è stato identificato",
+    "tokenUsed": "Il token è già stato utilizzato",
+    "tokenVerificationFailed": "Verifica del token fallita...",
+    "invalidPassword": "La password inserita non è valida",
+    "passwordChangeFailed": "Modifica della password non riuscita"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - Guadagna soldi online gratuitamente",
+      "description": "Guadagna soldi online guardando pubblicità, completando sondaggi, giocando, scrivendo commenti, creando testi, rispondendo a domande, realizzando offerte e molto altro."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - Come funziona",
+      "description": "Scopri come funziona JoyProfits e come puoi iniziare a guadagnare in soli 3 semplici passaggi. Spiegazione chiara con consigli e metodi di guadagno."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Metodi per guadagnare",
+      "description": "Scopri diversi modi per guadagnare soldi online con JoyProfits. Gioca, guarda video, completa sondaggi, fai acquisti online e molto altro."
+    },
+    "support": {
+      "title": "JoyProfits - Supporto",
+      "description": "Hai domande, bisogno di assistenza o hai riscontrato un problema? Contatta il nostro team di supporto."
+    },
+    "signIn": {
+      "title": "JoyProfits - Accedi",
+      "description": "Accedi al tuo account JoyProfits e inizia a guadagnare soldi online. Accedi per gestire il tuo profilo e i tuoi guadagni."
+    },
+    "register": {
+      "title": "JoyProfits - Registrati",
+      "description": "Registrati su JoyProfits e inizia a guadagnare soldi online. Crea un account per accedere a vari metodi e opportunità di guadagno."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - Chi siamo",
+      "description": "Scopri di più su JoyProfits, i creatori dell'app e la missione alla base della piattaforma. Scopri come puoi beneficiare di JoyProfits."
+    },
+    "advertising": {
+      "title": "JoyProfits - Pubblicità",
+      "description": "Esplora la politica pubblicitaria di JoyProfits, che garantisce trasparenza, responsabilità e conformità alle normative nella promozione di prodotti e servizi."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Politica sulla privacy",
+      "description": "Leggi la politica sulla privacy di JoyProfits per sapere come raccogliamo, utilizziamo e proteggiamo i tuoi dati personali. Scopri i tuoi diritti e come garantiamo la sicurezza dei dati."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Termini di servizio",
+      "description": "Leggi i termini di servizio di JoyProfits per comprendere le regole e le condizioni di utilizzo della piattaforma. Scopri i tuoi diritti e doveri come utente."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Politica sui cookie",
+      "description": "Leggi la politica sui cookie di JoyProfits per sapere come utilizziamo cookie e tecnologie simili per migliorare la tua esperienza sulla piattaforma."
+    },
+    "locationData": {
+      "title": "JoyProfits - Dati sulla posizione",
+      "description": "Scopri come JoyProfits raccoglie e utilizza i dati sulla posizione per offrirti servizi personalizzati e migliorare la tua esperienza utente."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - Gestione dei dati degli utenti",
+      "description": "Scopri come JoyProfits gestisce i dati degli utenti per garantire privacy, sicurezza e conformità alle normative."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Tipi di cookie",
+      "description": "Scopri quali tipi di cookie utilizza JoyProfits per migliorare la tua esperienza utente e offrire servizi personalizzati."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Trasferimento dei dati degli utenti",
+      "description": "Scopri come JoyProfits trasferisce i dati degli utenti garantendo privacy, sicurezza e conformità alle normative."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - Conferma modifica email",
+      "description": "Conferma la modifica del tuo indirizzo email per aggiornare le informazioni sul tuo account. Segui le istruzioni per completare il processo."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - Recupera password",
+      "description": "Recupera la tua password su JoyProfits. Inserisci una nuova password e confermala per aggiornare le informazioni del tuo account."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - Verifica account",
+      "description": "Verifica il tuo account su JoyProfits per attivare il tuo profilo e iniziare a guadagnare soldi online."
+    }
+  }
+}

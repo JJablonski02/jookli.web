@@ -1,1 +1,383 @@
-{}
+{
+  "globals": {
+    "Captions": {
+      "signIn": "登录",
+      "register": "注册",
+      "mainPage": "主页",
+      "howItWorks": "如何运作",
+      "earnMethods": "赚钱方法",
+      "support": "支持",
+      "platform": "平台",
+      "menu": "菜单",
+      "company": "公司",
+      "policy": "政策",
+      "blog": "博客",
+      "affilateProgram": "推荐计划",
+      "resources": "资源",
+      "policyPrivacy": "隐私政策",
+      "terms": "条款",
+      "copyright": "版权",
+      "cookiePolicy": "Cookie政策",
+      "adRules": "广告规则",
+      "aboutUs": "关于我们",
+      "downloadApp": "下载应用",
+      "appDescription": "加入我们的平台，发现如何通过您的技能赚钱"
+    },
+    "SignIn": {
+      "title": "登录",
+      "email": "电子邮件",
+      "emailPlaceholder": "电子邮件",
+      "password": "密码",
+      "logIn": "登录"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "页面未找到",
+      "pageNotFoundDescription": "您寻找的页面不存在。你是如何来到这里的，仍然是个谜。不过，您可以点击下面的按钮返回主页。"
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "登录",
+    "email": "电子邮件",
+    "enterEmail": "请输入电子邮件地址",
+    "enterPassword": "请输入密码",
+    "emailPlaceholder": "电子邮件",
+    "password": "密码",
+    "logIn": "登录",
+    "signIn": "登录",
+    "orSignInWith": "或通过以下方式登录",
+    "forgotPassword": "忘记密码？",
+    "reset": "重置",
+    "haveNotAnAccount": "没有账户？",
+    "register": "注册"
+  },
+  "Register": {
+    "title": "注册",
+    "email": "电子邮件",
+    "enterEmail": "请输入电子邮件地址",
+    "enterPassword": "请输入密码",
+    "reEnterPassword": "确认密码",
+    "emailPlaceholder": "电子邮件",
+    "password": "密码",
+    "register": "注册",
+    "orRegisterWith": "或通过以下方式注册",
+    "haveAnAccount": "已有账户？",
+    "signIn": "登录"
+  },
+  "Support": {
+    "contactWithUs": "联系我们",
+    "fillDataDescription": "填写数据并描述您的问题或事件，我们会尽快与您联系。请注意，您即使尚未成为JoyProfits用户，也可以提交报告。",
+    "fillForm": "填写表格",
+    "selectReportType": "选择报告类型",
+    "contactEmail": "联系方式电子邮件",
+    "describeReport": "描述报告原因",
+    "sendReport": "发送报告",
+    "payoutProblem": "支付问题",
+    "paymentMethod": "支付方式",
+    "taskWasNotCounted": "任务未被计入",
+    "technicalError": "技术错误",
+    "reviews": "评价",
+    "cooperation": "合作",
+    "promote": "推广",
+    "firstName": "您的名字",
+    "lastName": "您的姓氏",
+    "iConsentToContact": "我同意通过电子邮件接收JoyProfits的联系和信息。",
+    "requiredFields": "必填字段"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "在空闲时间赚取奖励和\n赚钱！",
+      "headerParagraph": "下载应用并开始在任何时间、任何地点赚钱！",
+      "downloadIos": "下载 iOS",
+      "downloadAndroid": "下载 Android"
+    },
+    "DownloadSection": {
+      "headerDescription": "下载我们的应用",
+      "tileHeader": "下载 {appName}",
+      "leftTileDescription": "下载我们的 iOS 应用，探索新机遇！凭借易于使用的界面，您可以快速管理任务，跟踪进度，并享受独特功能。体验 JoyProfits 应用的简单愉快！",
+      "rightTileDescription": "从 Google Play 下载我们的应用，享受完整的功能访问！凭借直观的界面，您可以轻松管理任务，跟踪进度并利用独特的优惠。安装应用并发现您可以获得的收益！"
+    },
+    "WCSSection": {
+      "headerDescription": "我们的用户怎么说？",
+      "user1Description": "这款应用有很多赚钱方法，但我最喜欢的是看视频。我的空闲时间很多，可以在闲暇时赚点外快。提款速度很快，没有问题。",
+      "user2Description": "这是一个很适合有空闲时间并希望额外赚钱的应用。我最喜欢玩游戏的选项。收入分析帮助我更好地理解哪里能赚更多。",
+      "user3Description": "非常方便的应用。我在有空时玩游戏，还看视频赚钱。现金返还很棒，提款也没有问题。",
+      "user4Description": "设计良好的应用，提供多种赚钱方式——从游戏到观看视频。",
+      "user5Description": "多种赚钱方式，快速通过 PayPal 提款。现金返还是一个很好的附加功能！",
+      "user6Description": "不错的赚钱选项和现金返还。有时提款稍慢，但总体来说推荐。",
+      "user7Description": "很棒，可以在不同平台之间选择——视频、游戏等。提款速度快。",
+      "user8Description": "不错，有多个平台可以选择。有时我喜欢玩游戏，有时喜欢看视频。提款也很好。",
+      "user9Description": "有很多赚钱的机会，一切运行顺利。",
+      "user10Description": "推荐，运行顺利，收入支付无问题。"
+    },
+    "TrustedUs": {
+      "trustedUs": "信任我们的人"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "如何运作",
+      "paragraphDescription": "通过完成简单的任务，您可以每月赚取最多3000元，无隐藏费用或额外税费。而且，您的收入没有上限——您可以决定自己赚多少钱。",
+      "listDescription": "通过 JoyProfits，您可以选择任何方式赚钱",
+      "firstListDescription": "玩游戏",
+      "secondListDescription": "填写调查问卷",
+      "thirdListDescription": "观看视频和广告",
+      "fourthListDescription": "在线购物"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "有哪些好处",
+      "paragraphDescription": "JoyProfits 提供全职和兼职工作机会，面向全球的用户。您可以通过任何有互联网连接的设备赚钱，无论身处何地。您将根据在平台上投入的时间和精力获得报酬。"
+    },
+    "Benefits": {
+      "headerDescription": "JoyProfits 能为您带来什么帮助？",
+      "description": "JoyProfits 将帮助您充分利用自己的优势，提供六种不同的赚钱方式。这样，您可以选择最适合您的技能和兴趣的选项。平台将帮助您将时间和精力转化为实际收益。",
+      "seeMore": "查看更多"
+    },
+    "AboutSection": {
+      "header": "关于 JoyProfits",
+      "description": "探索我们的应用，适用于 iOS 和 Android！立即下载，开始体验我们提供的机会！"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "玩游戏和赚钱",
+      "secondTileHeader": "iOS & Android 应用",
+      "thirdTileHeader": "收入分析",
+      "fourthTileHeader": "100% 安全",
+      "fifthTileHeader": "现金返还",
+      "firstTileDescription": "玩您喜欢的游戏，通过获得成就赚钱！发现新机会，将每一场游戏变成收入来源。",
+      "secondTileDescription": "探索我们适用于 iOS 和 Android 的应用！立即下载并开始体验我们提供的机会！",
+      "thirdTileescription": "通过分析，您可以完全掌控您的收入，跟踪和分析每个收入细节。",
+      "fourthTileDescription": "通过简单、安全的方式提款，将赚到的钱直接转到您的银行账户或 PayPal 账户。",
+      "fifthTileDescription": "在我们的合作伙伴处购物，您可以享受每一笔购物的现金返还。通过我们的合作伙伴网络，获得额外的收益和节省！"
+    }
+  },
+  "RecoverPassword": {
+    "success": "成功！",
+    "passwordChangedSuccessfully": "密码已成功更改",
+    "returnToApp": "返回应用",
+    "recoverPassword": "恢复密码",
+    "description": "请输入新密码和确认密码。点击确认按钮更新密码。按照您收到的说明完成密码更改过程。如果遇到任何问题，请联系技术支持。",
+    "password": "密码",
+    "reEnterPassword": "重新输入密码",
+    "confirmNewPassword": "确认新密码"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "了解新的赚钱方式",
+      "headerParagraph": "通过多种工具和资源，每个人都可以找到一种方法来赚取收入。",
+      "downloadIos": "下载 iOS",
+      "downloadAndroid": "下载 Android"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "通过以下三个步骤立即开始赚钱",
+      "firstStep": "第一步",
+      "secondStep": "第二步",
+      "thirdStep": "第三步",
+      "firstTileHeader": "注册和账户配置",
+      "firstTileParagraph": "在 JoyProfits 上注册过程简单快捷。只需提供基本信息，验证您的账户，然后登录并配置您的个人资料。",
+      "firstTileExtraParagraph": "登录后，您可以配置您的个人资料，以便平台能更好地根据您的需求推荐赚钱策略。",
+      "secondTileHeader": "选择赚钱策略和教育",
+      "secondTileParagraph": "JoyProfits 提供多种赚钱策略，如联盟营销、参与合作计划、玩游戏和填写调查问卷。您可以探索可用的选项，选择最适合您的需求的策略。",
+      "secondTileExtraParagraph": "为了增加成功的机会，利用平台上提供的大量教育资源，如课程、网络研讨会、文章和指南。此外，您还可以获得技术支持和用户社区的帮助，分享经验并获得帮助。",
+      "thirdTileHeader": "监控进度，优化和提款",
+      "thirdTileParagraph": "JoyProfits 提供分析工具来监控结果，从而识别需要改进的地方，并进行实时优化，以最大化收益。",
+      "thirdTileExtraParagraph": "赚取的资金可以通过多种支付方式轻松提款，如银行转账或 PayPal 账户。提款快捷且安全，确保您完全掌控财务。"
+    },
+    "Section": {
+      "header": "它是如何工作的？"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "注册和\n账户配置",
+      "strategySelection": "选择赚钱\n策略",
+      "educationAndSupport": "教育\n和支持",
+      "analysis": "监控进度\n和优化",
+      "payouts": "提款赚取\n资金"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "一个应用，多种可能性！",
+      "headerParagraph": "我们为我们的用户社区感到自豪，他们每天都在发现新的在线赚钱方式。",
+      "downloadIos": "下载 iOS",
+      "downloadAndroid": "下载 Android"
+    },
+    "Section": {
+      "header": "一个应用，赚取多种收入",
+      "readMore": "了解更多",
+      "Tile1Header": "玩游戏",
+      "Tile1Description": "通过在移动游戏中完成任务来获得积分，完成不同难度的任务并解锁功能。",
+      "Tile2Header": "观看视频",
+      "Tile2Description": "观看视频和广告赚钱。花时间观看有趣的内容，并为每个观看的广告或视频获得报酬。选择各种类别和主题。",
+      "Tile3Header": "填写调查问卷",
+      "Tile3Description": "回答问题并分享您的意见，每完成一份调查就能获得报酬。完成的问卷越多，赚取的收入越高。",
+      "Tile4Header": "在线购物",
+      "Tile4Description": "在您喜欢的商店购物，赚取现金返还和额外收入。注册商店网站，获得免费的样品和优惠券。",
+      "Tile5Header": "微任务",
+      "Tile5Description": "通过学习新技能赚取收入，例如编程或计算机图形设计。选择有趣的课程并完成 JoyProfits 上的任务。",
+      "Tile6Header": "成就",
+      "Tile6Description": "完成 JoyProfits 上的目标，获得奖励并增加收入。每个成就都让您离更高的收益和额外奖励更近一步。"
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "了解 JoyProfits 的创始人！",
+      "headerParagraph": "通过 JoyProfits 快速轻松地开始赚钱。现在就查看您拥有多少机会！",
+      "downloadIos": "下载 iOS",
+      "downloadAndroid": "下载 Android"
+    },
+    "StepTile": {
+      "headerDescription": "我们的用户怎么说？",
+      "firstTileHeader": "你好！",
+      "firstTileParagraph": "我叫 Jakub，是这款将娱乐与赚钱相结合的应用的创始人，允许用户通过玩游戏、观看视频和执行其他任务赚取收入。",
+      "firstTileExtraParagraph": "作为一名新技术和娱乐的爱好者，我意识到越来越多的人在虚拟世界中度过他们的空闲时间。我决定创建一种解决方案，使人们能够从这一活动中获得经济利益。JoyProfits 应用程序是我和我的团队经过深入分析、市场研究和数月工作的成果，旨在提供一个安全、用户友好的工具。",
+      "secondTileHeader": "我们的使命",
+      "secondTileParagraph": "我们的使命是将日常娱乐转化为真实的经济利益。在数字化和虚拟娱乐日益流行的今天，我们看到利用在线时间创造额外收入的巨大潜力。",
+      "secondTileExtraParagraph": "我们注重与用户的紧密联系，并灵活回应他们的需求。我们每天都在不断改进应用程序，以提供最佳的用户体验和赚钱机会。我们的目标是创建一个社区，让每个用户都能从他们喜欢的活动中获得经济利益。",
+      "thirdTileHeader": "发现 JoyProfits",
+      "thirdTileParagraph": "我邀请您来发现我们应用程序的潜力，并加入那些已经通过娱乐和休闲赚取收入的满意用户。",
+      "thirdTileExtraParagraph": "我们一起改变了人们看待在线时间的方式，创造了全新的创新收入来源。"
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "下载应用"
+  },
+  "VerifyEmail": {
+    "accountActivated": "账户已激活",
+    "hello": "你好",
+    "thankYouNote": "谢谢，您的电子邮件地址已验证，您的账户现已激活。请点击下面的按钮返回应用。",
+    "returnToApp": "返回应用",
+    "invalidRequest": "哎呀...我们无法处理您的请求..."
+  },
+  "Validation": {
+    "emailRequired": "电子邮件地址是必填项",
+    "passwordRequired": "密码是必填项",
+    "firstNameRequired": "名字是必填项",
+    "lastNameRequired": "姓氏是必填项",
+    "consentRequired": "同意是必填项",
+    "descriptionRequired": "描述是必填项",
+    "categorySelectionRequired": "必须选择类别",
+    "minLength": "最小长度为 {count} 个字符",
+    "maxLength": "最大长度为 {count} 个字符",
+    "invalidEmail": "无效的电子邮件地址",
+    "passwordSpecialChar": "需要特殊字符",
+    "passwordUppercase": "至少需要一个大写字母",
+    "passwordsMismatch": "密码不匹配"
+  },
+  "Dropdown": {
+    "selectType": "选择类型"
+  },
+  "Languages": {
+    "en": "英语",
+    "es": "西班牙语",
+    "de": "德语",
+    "fr": "法语",
+    "it": "意大利语",
+    "nl": "荷兰语",
+    "da": "丹麦语",
+    "sv": "瑞典语",
+    "pl": "波兰语",
+    "pt": "葡萄牙语",
+    "ro": "罗马尼亚语",
+    "vi": "越南语",
+    "tr": "土耳其语",
+    "id": "印度尼西亚语",
+    "ru": "俄语",
+    "uk": "乌克兰语",
+    "ur": "乌尔都语",
+    "ar": "阿拉伯语",
+    "hi": "印地语",
+    "ta": "泰米尔语",
+    "si": "僧伽罗语",
+    "fa": "波斯语",
+    "tl-PH": "菲律宾语",
+    "bn": "孟加拉语",
+    "km": "高棉语",
+    "th": "泰语",
+    "ja": "日语",
+    "zh-hant": "繁体中文",
+    "zh-hans": "简体中文",
+    "ko": "韩语"
+  },
+  "Errors": {
+    "unknownError": "发生了未知错误",
+    "invalidToken": "无效的令牌",
+    "tokenExpired": "您的令牌已过期",
+    "missingTokenOwner": "令牌没有被识别",
+    "tokenUsed": "令牌已经被使用",
+    "tokenVerificationFailed": "令牌验证失败...",
+    "invalidPassword": "输入的密码无效",
+    "passwordChangeFailed": "密码更改失败"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - 免费在线赚钱",
+      "description": "通过观看广告、填写问卷、玩游戏、写评论、撰写文章、回答问题、完成任务等方式，在线赚钱。"
+    },
+    "howItWorks": {
+      "title": "JoyProfits - 如何运作",
+      "description": "了解JoyProfits是如何运作的，如何通过三个简单步骤开始赚钱。提供简单的解释以及赚钱的方法和技巧。"
+    },
+    "earnMethods": {
+      "title": "JoyProfits - 赚钱方式",
+      "description": "发现通过JoyProfits在线赚钱的多种方式。玩游戏、观看视频、填写问卷、在线购物等等。"
+    },
+    "support": {
+      "title": "JoyProfits - 支持",
+      "description": "如果您有任何问题、需要帮助或遇到问题，请联系我们的支持团队。"
+    },
+    "signIn": {
+      "title": "JoyProfits - 登录",
+      "description": "登录到您的JoyProfits帐户，开始在线赚钱。登录以访问您的个人资料并管理您的收入。"
+    },
+    "register": {
+      "title": "JoyProfits - 注册",
+      "description": "注册JoyProfits，开始在线赚钱。创建帐户以访问各种赚钱方法和机会。"
+    },
+    "aboutUs": {
+      "title": "JoyProfits - 关于我们",
+      "description": "了解更多关于JoyProfits、应用程序的创建者以及平台背后的使命。发现如何利用JoyProfits带来的优势。"
+    },
+    "advertising": {
+      "title": "JoyProfits - 广告",
+      "description": "了解JoyProfits的广告政策，确保透明度、责任感和遵守法律规定，推广产品和服务。"
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - 隐私政策",
+      "description": "阅读JoyProfits的隐私政策，了解我们如何收集、使用和保护您的个人数据。了解您的权利及我们如何确保数据安全。"
+    },
+    "termsOfService": {
+      "title": "JoyProfits - 服务条款",
+      "description": "阅读JoyProfits的服务条款，了解使用平台的规则和条件。了解作为用户的权利和义务。"
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Cookie政策",
+      "description": "阅读JoyProfits的Cookie政策，了解我们如何使用Cookie和类似技术来改善您的平台体验。"
+    },
+    "locationData": {
+      "title": "JoyProfits - 定位数据",
+      "description": "了解JoyProfits如何收集和使用定位数据，以提供个性化的服务并改善您的用户体验。"
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - 用户数据管理",
+      "description": "了解JoyProfits如何管理用户数据，以确保隐私、安全性并遵守法律规定。"
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Cookie种类",
+      "description": "了解JoyProfits使用的Cookie种类，以改善您的用户体验并提供个性化的服务。"
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - 用户数据传输",
+      "description": "了解JoyProfits如何传输用户数据，以确保隐私、安全性并遵守法律规定。"
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - 确认更改电子邮件",
+      "description": "确认更改您的电子邮件地址，以更新帐户信息。按照指示完成此过程。"
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - 恢复密码",
+      "description": "恢复您的JoyProfits密码。输入并确认新密码，以更新帐户信息。"
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - 验证帐户",
+      "description": "验证您的JoyProfits帐户，激活您的个人资料并开始在线赚钱。"
+    }
+  }
+}

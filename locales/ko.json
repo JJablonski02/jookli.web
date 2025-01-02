@@ -1,1 +1,383 @@
-{}
+{
+  "globals": {
+    "Captions": {
+      "signIn": "로그인",
+      "register": "회원가입",
+      "mainPage": "홈페이지",
+      "howItWorks": "이용 방법",
+      "earnMethods": "수익 창출",
+      "support": "지원",
+      "platform": "플랫폼",
+      "menu": "메뉴",
+      "company": "회사",
+      "policy": "정책",
+      "blog": "블로그",
+      "affilateProgram": "추천 프로그램",
+      "resources": "자원",
+      "policyPrivacy": "개인정보 보호 정책",
+      "terms": "이용 약관",
+      "copyright": "저작권",
+      "cookiePolicy": "쿠키 정책",
+      "adRules": "광고 규정",
+      "aboutUs": "회사 소개",
+      "downloadApp": "앱 다운로드",
+      "appDescription": "우리 플랫폼에 가입하고 자신의 기술로 수익을 창출하는 방법을 알아보세요"
+    },
+    "SignIn": {
+      "title": "로그인",
+      "email": "이메일",
+      "emailPlaceholder": "이메일",
+      "password": "비밀번호",
+      "logIn": "로그인"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "페이지를 찾을 수 없습니다",
+      "pageNotFoundDescription": "찾고 있는 페이지는 존재하지 않습니다. 어떻게 여기에 도달했는지는 미스터리입니다. 하지만 아래 버튼을 클릭하여 홈페이지로 돌아갈 수 있습니다."
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "로그인",
+    "email": "이메일",
+    "enterEmail": "이메일 주소 입력",
+    "enterPassword": "비밀번호 입력",
+    "emailPlaceholder": "이메일",
+    "password": "비밀번호",
+    "logIn": "로그인",
+    "signIn": "로그인",
+    "orSignInWith": "또는 로그인 방법 선택",
+    "forgotPassword": "비밀번호를 잊으셨나요?",
+    "reset": "초기화",
+    "haveNotAnAccount": "계정이 없으신가요?",
+    "register": "회원가입"
+  },
+  "Register": {
+    "title": "회원가입",
+    "email": "이메일",
+    "enterEmail": "이메일 주소 입력",
+    "enterPassword": "비밀번호 입력",
+    "reEnterPassword": "비밀번호 확인",
+    "emailPlaceholder": "이메일",
+    "password": "비밀번호",
+    "register": "회원가입",
+    "orRegisterWith": "또는 다른 방법으로 회원가입",
+    "haveAnAccount": "이미 계정이 있으신가요?",
+    "signIn": "로그인"
+  },
+  "Support": {
+    "contactWithUs": "저희에게 연락하기",
+    "fillDataDescription": "데이터를 입력하고 문제나 사건을 설명해 주시면, 저희가 신속하게 연락드리겠습니다. JoyProfits의 사용자일 필요 없이 신고를 보낼 수 있습니다.",
+    "fillForm": "양식 작성",
+    "selectReportType": "신고 유형 선택",
+    "contactEmail": "연락처 이메일",
+    "describeReport": "신고 사유 설명",
+    "sendReport": "신고 보내기",
+    "payoutProblem": "지급 문제",
+    "paymentMethod": "지불 방법",
+    "taskWasNotCounted": "작업이 계산되지 않았습니다",
+    "technicalError": "기술적 오류",
+    "reviews": "리뷰",
+    "cooperation": "협력",
+    "promote": "홍보",
+    "firstName": "이름",
+    "lastName": "성",
+    "iConsentToContact": "JoyProfits로부터 이메일을 통해 연락을 받고 정보를 받는 것에 동의합니다.",
+    "requiredFields": "필수 항목"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "보상 받기 및\n여유 시간에\n돈 벌기!",
+      "headerParagraph": "앱을 다운로드하고 언제 어디서든 돈을 벌기 시작하세요!",
+      "downloadIos": "iOS 다운로드",
+      "downloadAndroid": "Android 다운로드"
+    },
+    "DownloadSection": {
+      "headerDescription": "앱 다운로드",
+      "tileHeader": "{appName}에 다운로드",
+      "leftTileDescription": "iOS에서 JoyProfits 앱을 다운로드하고 새로운 기회를 발견하세요! 직관적인 인터페이스로 작업을 관리하고 진행 상황을 추적하며 고유한 기능을 쉽게 이용할 수 있습니다. JoyProfits 앱을 사용하는 것이 얼마나 간편하고 즐거운지 경험해 보세요.",
+      "rightTileDescription": "Google Play에서 JoyProfits 앱을 다운로드하고 모든 기능에 완전히 액세스하세요! 직관적인 인터페이스로 작업을 관리하고 진행 상황을 추적하며 특별한 제안을 이용할 수 있습니다. 앱을 설치하고 얼마나 많은 혜택을 받을 수 있는지 확인하세요!"
+    },
+    "WCSSection": {
+      "headerDescription": "우리 사용자들의 목소리",
+      "user1Description": "이 앱은 다양한 방법으로 수익을 올릴 수 있어요. 하지만 특히 영상 시청 기능이 마음에 들어요. 자주 여유 시간이 있어서 그 사이에 몇 푼을 벌 수 있어요. 출금도 빠르고 문제없어요.",
+      "user2Description": "여유 시간이 있는 사람에게 적합한 앱이에요. 나는 게임을 좋아해요. 수익 분석이 내가 더 많이 벌 수 있는 방법을 이해하는 데 도움이 돼요.",
+      "user3Description": "매우 편리한 앱이에요. 시간이 있을 때 게임도 하고, 영상도 보면서 돈을 벌어요. 캐시백도 좋아요, 출금도 문제없어요.",
+      "user4Description": "잘 설계된 앱이고 다양한 수익 창출 옵션이 있어요. 게임에서 영상 시청까지.",
+      "user5Description": "다양한 수익 창출 방법과 빠른 PayPal 출금. 캐시백도 훌륭해요!",
+      "user6Description": "좋은 수익 창출 옵션과 캐시백. 가끔 출금이 조금 늦어지지만 전반적으로 추천해요.",
+      "user7Description": "여러 플랫폼을 선택할 수 있어 좋아요 – 영화, 게임 등. 출금도 빠르고 좋아요.",
+      "user8Description": "몇 가지 플랫폼을 선택할 수 있어서 좋아요. 가끔 게임, 가끔 영화를 봐요. 출금도 괜찮아요.",
+      "user9Description": "수익 창출 기회가 많고 모든 것이 원활하게 작동해요.",
+      "user10Description": "추천해요, 잘 작동하고 수익도 문제없이 출금돼요."
+    },
+    "TrustedUs": {
+      "trustedUs": "우리를 신뢰한 사람들"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "이용 방법",
+      "paragraphDescription": "간단한 작업을 통해 월 3000 PLN까지 벌 수 있으며, 숨겨진 수수료나 추가 세금은 없습니다. 더 중요한 것은, 수익에 한도가 없다는 것입니다 – 얼마나 벌지 결정하는 것은 당신에게 달려 있습니다.",
+      "listDescription": "JoyProfits를 통해 다양한 방법으로 수익을 올릴 수 있습니다.",
+      "firstListDescription": "게임을 하며",
+      "secondListDescription": "설문을 작성하며",
+      "thirdListDescription": "영상을 보고 광고를 시청하며",
+      "fourthListDescription": "온라인 쇼핑을 하며"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "어떤 이점이 있나요?",
+      "paragraphDescription": "JoyProfits는 전 세계 누구나 이용할 수 있는 정규직 및 부업 형태의 일자리를 제공합니다. 인터넷만 있으면 언제 어디서나 일을 통해 돈을 벌 수 있습니다. 플랫폼을 이용한 시간과 노력에 대해 보상을 받게 됩니다."
+    },
+    "Benefits": {
+      "headerDescription": "JoyProfits가 어떻게 도움이 되나요?",
+      "description": "JoyProfits는 여섯 가지 방법으로 수익을 올릴 수 있도록 돕습니다. 이를 통해 자신에게 맞는 옵션을 선택할 수 있으며, 플랫폼은 시간과 노력을 구체적인 수익으로 전환할 수 있도록 도와줍니다.",
+      "seeMore": "자세히 보기"
+    },
+    "AboutSection": {
+      "header": "JoyProfits에 대해",
+      "description": "iOS 및 Android에서 사용할 수 있는 우리의 앱을 발견하세요! 지금 바로 다운로드하여 우리가 제공하는 기회를 시작하세요!"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "게임하고 돈 벌기",
+      "secondTileHeader": "iOS & Android 앱",
+      "thirdTileHeader": "수익 분석",
+      "fourthTileHeader": "100% 안전성",
+      "fifthTileHeader": "캐시백",
+      "firstTileDescription": "좋아하는 게임을 하고 업적을 달성하여 돈을 벌어보세요! 새로운 기회를 발견하고 모든 게임을 수익으로 바꾸세요.",
+      "secondTileDescription": "iOS와 Android에서 사용할 수 있는 우리의 앱을 확인하세요! 지금 바로 다운로드하여 우리가 제공하는 기회를 이용하세요!",
+      "thirdTileescription": "분석 기능을 통해 수익을 완벽하게 관리하고 모든 수입 항목을 추적하고 분석할 수 있습니다.",
+      "fourthTileDescription": "벌어들인 돈을 간편하고 안전하게 은행 계좌나 PayPal 계좌로 인출하세요.",
+      "fifthTileDescription": "우리의 파트너와 거래 시 모든 구매에 대해 캐시백 혜택을 받을 수 있습니다. 파트너 네트워크를 통해 추가적인 혜택과 절약을 경험하세요."
+    }
+  },
+  "RecoverPassword": {
+    "success": "성공!",
+    "passwordChangedSuccessfully": "비밀번호가 성공적으로 변경되었습니다.",
+    "returnToApp": "앱으로 돌아가기",
+    "recoverPassword": "비밀번호 복구",
+    "description": "새로운 비밀번호와 비밀번호 확인을 입력하세요. 확인 버튼을 클릭하여 비밀번호를 업데이트하세요. 비밀번호 변경 절차를 완료하기 위한 안내를 따라주세요. 문제가 발생하면 고객 지원팀에 문의하세요.",
+    "password": "비밀번호",
+    "reEnterPassword": "비밀번호 재입력",
+    "confirmNewPassword": "새로운 비밀번호 확인"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "새로운 수익 창출 방법을 알아보세요",
+      "headerParagraph": "다양한 도구와 자원을 통해 누구나 수익을 창출할 방법을 찾을 수 있습니다.",
+      "downloadIos": "iOS 다운로드",
+      "downloadAndroid": "Android 다운로드"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "아래 세 가지 단계를 따라 바로 수익을 창출하세요",
+      "firstStep": "1단계",
+      "secondStep": "2단계",
+      "thirdStep": "3단계",
+      "firstTileHeader": "회원 가입 및 계정 설정",
+      "firstTileParagraph": "JoyProfits에 가입하는 과정은 빠르고 간단합니다. 기본 정보를 입력하고 계정을 인증한 후 로그인하여 프로필을 설정하세요.",
+      "firstTileExtraParagraph": "로그인 후 프로필을 설정하면 플랫폼이 수익 창출을 위한 맞춤 추천을 제공할 수 있습니다.",
+      "secondTileHeader": "수익 전략 선택 및 교육",
+      "secondTileParagraph": "JoyProfits는 제휴 마케팅, 파트너 프로그램 참여, 게임, 설문 조사 등 다양한 수익 전략을 제공합니다. 여러 옵션을 탐색하고 자신의 필요에 맞는 방법을 선택하세요.",
+      "secondTileExtraParagraph": "성공 확률을 높이기 위해 플랫폼에서 제공하는 교육 자료(강의, 웨비나, 기사 및 가이드 등)를 활용하세요. 또한, 기술 지원 및 사용자 커뮤니티를 통해 경험을 공유하고 도움을 받을 수 있습니다.",
+      "thirdTileHeader": "진행 상황 모니터링, 최적화 및 지급",
+      "thirdTileParagraph": "JoyProfits 플랫폼은 분석 도구를 제공하여 성과를 모니터링하고 개선이 필요한 부분을 찾아 최적화를 통해 수익을 극대화할 수 있도록 돕습니다.",
+      "thirdTileExtraParagraph": "적립한 금액은 다양한 결제 방법(은행 송금, PayPal 계좌 등)을 통해 쉽게 인출할 수 있습니다. 지급은 빠르고 안전하며, 재정에 대한 완전한 제어를 제공합니다."
+    },
+    "Section": {
+      "header": "어떻게 작동하나요?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "회원 가입 및\n계정 설정",
+      "strategySelection": "수익 전략\n선택",
+      "educationAndSupport": "교육\n및 지원",
+      "analysis": "진행 상황\n모니터링 및 최적화",
+      "payouts": "수익 지급\n수단"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "하나의 앱으로 다양한 기회!",
+      "headerParagraph": "우리는 매일 온라인으로 새로운 수익 창출 방법을 발견하는 사용자 커뮤니티를 자랑스럽게 생각합니다.",
+      "downloadIos": "iOS 다운로드",
+      "downloadAndroid": "Android 다운로드"
+    },
+    "Section": {
+      "header": "하나의 앱으로 다양한 수익 창출 방법",
+      "readMore": "자세히 보기",
+      "Tile1Header": "게임하기",
+      "Tile1Description": "모바일 게임에서 레벨을 올리고 기능을 잠금 해제하여 포인트를 얻으세요. 다양한 난이도의 작업을 완료하며 게임을 즐기세요.",
+      "Tile2Header": "영상 시청",
+      "Tile2Description": "영화와 광고를 시청하며 돈을 벌어보세요. 흥미로운 콘텐츠를 보고 각 광고 또는 영화를 시청한 대가로 보상을 받으세요. 다양한 카테고리와 주제 중에서 선택할 수 있습니다.",
+      "Tile3Header": "설문 조사 작성",
+      "Tile3Description": "질문에 답하고 의견을 나누며 각 설문을 완료할 때마다 보상을 받으세요. 더 많은 설문을 완료할수록 더 많은 수익을 얻을 수 있습니다.",
+      "Tile4Header": "온라인 쇼핑",
+      "Tile4Description": "좋아하는 쇼핑몰에서 구매하고 캐시백 및 추가 수익을 얻으세요. 상점 웹사이트에 가입하여 무료 샘플과 할인 코드를 받을 수 있습니다.",
+      "Tile5Header": "마이크로 작업",
+      "Tile5Description": "프로그래밍, 그래픽 디자인 등 새로운 기술을 배우며 돈을 벌어보세요. 흥미로운 강좌를 선택하고 JoyProfits에서 제공하는 작업을 수행하세요.",
+      "Tile6Header": "성취",
+      "Tile6Description": "JoyProfits에서 목표를 달성하고 보상을 얻어 수익을 증가시키세요. 각 성취는 더 높은 수익과 추가 보상으로 이어집니다."
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "JoyProfits의 창립자들을 더 알아보세요!",
+      "headerParagraph": "JoyProfits와 함께 간단하고 빠르게 수익을 창출하세요. 지금 바로 다양한 기회를 확인하세요!",
+      "downloadIos": "iOS 다운로드",
+      "downloadAndroid": "Android 다운로드"
+    },
+    "StepTile": {
+      "headerDescription": "우리 사용자들은 뭐라고 할까요?",
+      "firstTileHeader": "안녕하세요!",
+      "firstTileParagraph": "저는 Jakub입니다. 게임을 하고 영화를 보고 다양한 작업을 통해 돈을 벌 수 있는 애플리케이션을 만들었습니다.",
+      "firstTileExtraParagraph": "새로운 기술과 오락에 대한 열정을 가진 저는 점점 더 많은 사람들이 가상 세계에서 여가 시간을 보내고 있다는 것을 깨달았습니다. 그래서 이 활동을 통해 경제적 혜택을 얻을 수 있는 솔루션을 만들기로 했습니다. JoyProfits 애플리케이션은 철저한 분석과 시장 조사를 기반으로 저와 제 팀이 안전하고 사용자 친화적인 도구를 만들기 위해 여러 달 동안 노력한 결과입니다.",
+      "secondTileHeader": "우리의 미션",
+      "secondTileParagraph": "우리의 미션은 일상적인 오락을 실제 재정적 이익으로 변환하는 것입니다. 디지털화와 가상 오락의 인기가 높아짐에 따라 우리는 온라인 시간을 활용하여 추가 수익을 창출하는 거대한 잠재력을 발견했습니다.",
+      "secondTileExtraParagraph": "우리는 사용자와의 긴밀한 소통과 그들의 요구에 대응하는 유연성을 중요시합니다. 매일 우리는 최고의 경험과 수익 기회를 제공하기 위해 애플리케이션을 개선하고 있습니다. 우리의 목표는 사용자가 즐기는 활동을 통해 재정적 이익을 얻을 수 있는 커뮤니티를 만드는 것입니다.",
+      "thirdTileHeader": "JoyProfits를 발견해보세요",
+      "thirdTileParagraph": "우리 애플리케이션의 잠재력을 발견하고, 즐거움과 오락을 통해 돈을 버는 기회를 이미 이용하고 있는 많은 사용자들 중 한 명이 되어 보세요.",
+      "thirdTileExtraParagraph": "우리는 온라인 시간을 보내는 방식에 변화를 주고, 새로운 혁신적인 수익원을 창출하고 있습니다."
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "앱 다운로드"
+  },
+  "VerifyEmail": {
+    "accountActivated": "계정이 활성화되었습니다",
+    "hello": "안녕하세요",
+    "thankYouNote": "감사합니다. 귀하의 이메일 주소가 확인되었습니다. 이제 계정이 활성화되었습니다. 아래 버튼을 클릭하여 앱으로 돌아가세요.",
+    "returnToApp": "앱으로 돌아가기",
+    "invalidRequest": "앗... 요청을 처리할 수 없습니다..."
+  },
+  "Validation": {
+    "emailRequired": "이메일 주소는 필수입니다",
+    "passwordRequired": "비밀번호는 필수입니다",
+    "firstNameRequired": "이름은 필수입니다",
+    "lastNameRequired": "성은 필수입니다",
+    "consentRequired": "동의가 필요합니다",
+    "descriptionRequired": "설명은 필수입니다",
+    "categorySelectionRequired": "카테고리 선택은 필수입니다",
+    "minLength": "최소 길이는 {count}자입니다",
+    "maxLength": "최대 길이는 {count}자입니다",
+    "invalidEmail": "유효하지 않은 이메일 주소입니다",
+    "passwordSpecialChar": "특수 문자가 필요합니다",
+    "passwordUppercase": "대문자가 최소 1개 필요합니다",
+    "passwordsMismatch": "비밀번호가 일치하지 않습니다"
+  },
+  "Dropdown": {
+    "selectType": "유형 선택"
+  },
+  "Languages": {
+    "en": "영어",
+    "es": "스페인어",
+    "de": "독일어",
+    "fr": "프랑스어",
+    "it": "이탈리아어",
+    "nl": "네덜란드어",
+    "da": "덴마크어",
+    "sv": "스웨덴어",
+    "pl": "폴란드어",
+    "pt": "포르투갈어",
+    "ro": "루마니아어",
+    "vi": "베트남어",
+    "tr": "터키어",
+    "id": "인도네시아어",
+    "ru": "러시아어",
+    "uk": "우크라이나어",
+    "ur": "우르두어",
+    "ar": "아랍어",
+    "hi": "힌디어",
+    "ta": "타밀어",
+    "si": "싱할라어",
+    "fa": "페르시아어",
+    "tl-PH": "필리핀어",
+    "bn": "벵골어",
+    "km": "캄보디아어",
+    "th": "태국어",
+    "ja": "일본어",
+    "zh-hant": "중국어(번체)",
+    "zh-hans": "중국어(간체)",
+    "ko": "한국어"
+  },
+  "Errors": {
+    "unknownError": "알 수 없는 오류가 발생했습니다",
+    "invalidToken": "유효하지 않은 토큰입니다",
+    "tokenExpired": "토큰이 만료되었습니다",
+    "missingTokenOwner": "토큰 소유자가 식별되지 않았습니다",
+    "tokenUsed": "토큰이 이미 사용되었습니다",
+    "tokenVerificationFailed": "토큰 검증에 실패했습니다...",
+    "invalidPassword": "잘못된 비밀번호입니다",
+    "passwordChangeFailed": "비밀번호 변경에 실패했습니다"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - 온라인에서 무료로 돈 벌기",
+      "description": "광고 시청, 설문 조사, 게임 플레이, 댓글 작성, 텍스트 작성, 질문 답변, 오퍼 수행 등으로 온라인에서 돈을 벌 수 있습니다."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - 작동 원리",
+      "description": "JoyProfits가 어떻게 작동하는지, 그리고 3단계로 어떻게 쉽게 돈을 벌 수 있는지 알아보세요. 간단한 설명과 팁, 수익을 올리는 방법을 제공합니다."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - 수익 창출 방법",
+      "description": "JoyProfits를 통해 온라인에서 돈을 벌 수 있는 다양한 방법을 알아보세요. 게임을 하거나, 영화를 보거나, 설문 조사를 하거나, 온라인 쇼핑을 하고, 그 외에도 다양한 방법이 있습니다."
+    },
+    "support": {
+      "title": "JoyProfits - 지원",
+      "description": "질문이 있거나 도움이 필요하거나 문제가 발생한 경우, 저희 지원팀에 연락해 주세요."
+    },
+    "signIn": {
+      "title": "JoyProfits - 로그인",
+      "description": "JoyProfits 계정에 로그인하고 온라인에서 돈을 벌기 시작하세요. 로그인하여 프로필에 접근하고 수익을 관리할 수 있습니다."
+    },
+    "register": {
+      "title": "JoyProfits - 가입",
+      "description": "JoyProfits에 가입하여 온라인에서 돈을 벌기 시작하세요. 계정을 만들어 다양한 방법으로 수익을 얻을 수 있습니다."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - 회사 소개",
+      "description": "JoyProfits, 앱 개발자, 플랫폼의 미션에 대해 자세히 알아보세요. JoyProfits를 사용함으로써 얻을 수 있는 혜택을 발견해 보세요."
+    },
+    "advertising": {
+      "title": "JoyProfits - 광고",
+      "description": "JoyProfits의 광고 정책을 알아보세요. 제품 및 서비스 홍보에서 투명성, 책임, 법적 규정 준수를 보장합니다."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - 개인정보 처리방침",
+      "description": "JoyProfits의 개인정보 처리방침을 읽고, 귀하의 개인정보를 어떻게 수집, 사용, 보호하는지 알아보세요. 데이터 안전을 보장하는 방법과 귀하의 권리를 이해하세요."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - 서비스 이용약관",
+      "description": "JoyProfits의 서비스 이용약관을 읽고, 플랫폼 이용 규정 및 약관을 이해하세요. 사용자로서의 권리와 의무에 대해 알아보세요."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - 쿠키 정책",
+      "description": "JoyProfits의 쿠키 정책을 읽고, 귀하의 플랫폼 경험을 향상시키기 위해 쿠키와 유사한 기술을 어떻게 사용하는지 알아보세요."
+    },
+    "locationData": {
+      "title": "JoyProfits - 위치 데이터",
+      "description": "JoyProfits가 위치 데이터를 어떻게 수집하고 사용하는지 알아보세요. 맞춤형 서비스를 제공하고 사용자 경험을 향상시키는 방법을 확인하세요."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - 사용자 데이터 관리",
+      "description": "JoyProfits가 사용자 데이터를 어떻게 관리하는지 알아보세요. 개인정보 보호와 안전을 보장하고 법적 요구 사항을 준수하는 방법을 확인하세요."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - 쿠키 종류",
+      "description": "JoyProfits가 사용자 경험을 향상시키고 맞춤형 서비스를 제공하기 위해 사용하는 쿠키 종류에 대해 알아보세요."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - 사용자 데이터 전송",
+      "description": "JoyProfits가 사용자 데이터를 어떻게 전송하여 개인정보 보호와 안전을 보장하는지 알아보세요."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - 이메일 주소 변경 확인",
+      "description": "이메일 주소 변경을 확인하여 계정 정보를 업데이트하세요. 지침에 따라 절차를 완료하세요."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - 비밀번호 복구",
+      "description": "JoyProfits에서 비밀번호를 복구하세요. 새 비밀번호를 입력하고 확인하여 계정 정보를 업데이트하세요."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - 계정 인증",
+      "description": "JoyProfits 계정을 인증하여 프로필을 활성화하고 온라인에서 돈을 벌기 시작하세요."
+    }
+  }
+}

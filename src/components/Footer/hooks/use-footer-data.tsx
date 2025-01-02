@@ -42,14 +42,14 @@ export const useFooterData = () => {
 }
 
 const languagesMap: Record<Language, string> = {
-  en: "us", // English -> United States
+  en: "en", // English -> United States
   es: "es", // Spanish -> Spain
   de: "de", // German -> Germany
   fr: "fr", // French -> France
   it: "it", // Italian -> Italy
   nl: "nl", // Dutch -> Netherlands
-  da: "dk", // Danish -> Denmark
-  sv: "se", // Swedish -> Sweden
+  da: "da", // Danish -> Denmark
+  sv: "sv", // Swedish -> Sweden
   pl: "pl", // Polish -> Poland
   pt: "pt", // Portuguese -> Portugal
   ro: "ro", // Romanian -> Romania
@@ -57,19 +57,19 @@ const languagesMap: Record<Language, string> = {
   tr: "tr", // Turkish -> Turkey
   id: "id", // Indonesian -> Indonesia
   ru: "ru", // Russian -> Russia
-  uk: "ua", // Ukrainian -> Ukraine
-  ur: "pk", // Urdu -> Pakistan
-  ar: "sa", // Arabic -> Saudi Arabia
-  hi: "in", // Hindi -> India
-  ta: "in", // Tamil -> India
-  si: "lk", // Sinhala -> Sri Lanka
-  fa: "ir", // Farsi (Persian) -> Iran
-  fil: "ph", // Filipino -> Philippines
-  bn: "bd", // Bangla -> Bangladesh
-  km: "kh", // Cambodian -> Cambodia
+  uk: "uk", // Ukrainian -> Ukraine
+  ur: "ur", // Urdu -> Pakistan
+  ar: "ar", // Arabic -> Saudi Arabia
+  hi: "hi", // Hindi -> India
+  ta: "ta", // Tamil -> India
+  si: "si", // Sinhala -> Sri Lanka
+  fa: "fa", // Farsi (Persian) -> Iran
+  "tl-PH": "tl-PH", // Filipino -> Philippines
+  bn: "bn", // Bangla -> Bangladesh
+  km: "km", // Cambodian -> Cambodia
   th: "th", // Thai -> Thailand
-  ja: "jp", // Japanese -> Japan
-  "zh-hant": "tw", // Chinese Traditional -> Taiwan
-  "zh-hans": "cn", // Chinese Simplified -> China
-  ko: "kr", // Korean -> South Korea
+  ja: "ja", // Japanese -> Japan
+  "zh-hant": "zh-hant", // Chinese Traditional -> Taiwan
+  "zh-hans": "zh-hans", // Chinese Simplified -> China
+  ko: "ko", // Korean -> South Korea
 }

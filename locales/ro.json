@@ -1,1 +1,384 @@
-{}
+{
+  "globals": {
+    "Captions": {
+      "signIn": "LOGARE",
+      "register": "ÎNREGISTRARE",
+      "mainPage": "PAGINA PRINCIPALĂ",
+      "howItWorks": "CUM FUNCȚIONEAZĂ",
+      "earnMethods": "METODE DE CÂȘTIG",
+      "support": "SUPORT",
+      "platform": "PLATFORMA",
+      "menu": "MENIU",
+      "company": "COMPANIE",
+      "policy": "POLITICA",
+      "blog": "BLOG",
+      "affilateProgram": "PROGRAM DE REFERINȚĂ",
+      "resources": "RESURSE",
+      "policyPrivacy": "POLITICA DE CONFIDENȚIALITATE",
+      "terms": "TERMENI",
+      "copyright": "DREPTURI DE AUTOR",
+      "cookiePolicy": "POLITICA COOKIE",
+      "adRules": "REGULI PUBLICITARE",
+      "aboutUs": "DESPRE NOI",
+      "downloadApp": "Descarcă aplicația",
+      "appDescription": "Alătură-te platformei noastre și descoperă cum poți câștiga bani folosindu-ți abilitățile"
+    },
+    "SignIn": {
+      "title": "Autentificare",
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Parolă",
+      "logIn": "Autentifică-te"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "Pagina nu a fost găsită",
+      "pageNotFoundDescription": "Pagina pe care o cauți nu există. Cum ai ajuns aici rămâne un mister. Totuși, poți face clic pe butonul de mai jos pentru a reveni pe pagina principală."
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "Autentificare",
+    "email": "Email",
+    "enterEmail": "Introduceți adresa de email",
+    "enterPassword": "Introduceți parola",
+    "emailPlaceholder": "Email",
+    "password": "Parolă",
+    "logIn": "Autentifică-te",
+    "signIn": "Autentifică-te",
+    "orSignInWith": "sau autentifică-te prin",
+    "forgotPassword": "Ai uitat parola?",
+    "reset": "Resetează",
+    "haveNotAnAccount": "Nu ai un cont?",
+    "register": "Înregistrează-te"
+  },
+  "Register": {
+    "title": "Autentificare",
+    "email": "Email",
+    "enterEmail": "Introduceți adresa de email",
+    "enterPassword": "Introduceți parola",
+    "reEnterPassword": "Confirmați parola",
+    "emailPlaceholder": "Email",
+    "password": "Parolă",
+    "register": "Înregistrează-te",
+    "orRegisterWith": "sau înregistrează-te prin",
+    "haveAnAccount": "Ai deja un cont?",
+    "signIn": "Autentifică-te"
+  },
+  "Support": {
+    "contactWithUs": "Contactează-ne",
+    "fillDataDescription": "Completează datele și descrie problema sau incidentul, iar noi te vom contacta imediat. Reține că poți trimite un raport chiar dacă nu ești încă utilizator al JoyProfits.",
+    "fillForm": "Completează formularul",
+    "selectReportType": "Alege tipul raportului",
+    "contactEmail": "Email de contact",
+    "describeReport": "Descrie motivul raportului",
+    "sendReport": "Trimite raportul",
+    "payoutProblem": "Problemă cu plata",
+    "paymentMethod": "Metodă de plată",
+    "taskWasNotCounted": "Sarcina nu a fost contabilizată",
+    "technicalError": "Eroare tehnică",
+    "reviews": "Recenzii",
+    "cooperation": "Cooperare",
+    "promote": "Promovare",
+    "firstName": "Prenumele tău",
+    "lastName": "Numele tău",
+    "iConsentToContact": "Sunt de acord să fiu contactat și să primesc informații de la JoyProfits prin email.",
+    "requiredFields": " câmpuri necesare"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "Câștigă premii și\nbani în timpul liber!",
+      "headerParagraph": "Descarcă aplicația și începe să câștigi oriunde și oricând!",
+      "downloadIos": "Descarcă pentru iOS",
+      "downloadAndroid": "Descarcă pentru Android"
+    },
+    "DownloadSection": {
+      "headerDescription": "Descarcă aplicația noastră",
+      "tileHeader": "Descarcă pe {appName}",
+      "leftTileDescription": "Descarcă aplicația noastră pentru iOS și descoperă noi oportunități! Cu un interfață ușor de folosit, poți gestiona rapid sarcinile tale, urmări progresul și utiliza funcții unice. Descoperă cât de simplu și plăcut este să folosești aplicația JoyProfits.",
+      "rightTileDescription": "Descarcă aplicația noastră din Google Play și bucură-te de acces complet la toate funcțiile! Cu un interfață intuitivă, vei gestiona ușor sarcinile tale, urmări progresul și folosi oferte unice. Instalează aplicația și descoperă cât de mult poți câștiga!"
+    },
+    "WCSSection": {
+      "headerDescription": "Ce spun utilizatorii noștri?",
+      "user1Description": "Aplicația oferă multe modalități de câștig, dar îmi place cel mai mult să vizionez videoclipuri. Adesea am timp liber, așa că pot câștiga câțiva bani în acest timp. Plățile sunt rapide și fără probleme.",
+      "user2Description": "O aplicație faină pentru cineva care are puțin timp liber și vrea să câștige suplimentar. Cel mai mult îmi place opțiunea de a juca jocuri. Analizele câștigurilor mă ajută să înțeleg mai bine unde și cât pot câștiga mai mult.",
+      "user3Description": "O aplicație foarte comodă. Mă joc jocuri când am timp și, de asemenea, vizionez videoclipuri pentru a câștiga suplimentar. Cashback-urile sunt un bonus extra, iar plățile sunt ok.",
+      "user4Description": "Aplicație bine concepută, cu opțiuni variate de câștig – de la jocuri la vizionarea de videoclipuri.",
+      "user5Description": "Modalități variate de câștig și plăți rapide pe PayPal. Cashback-urile sunt un plus fantastic!",
+      "user6Description": "Opțiuni bune de câștig și cashback-uri. Uneori plățile durează puțin mai mult, dar în general recomand.",
+      "user7Description": "Este grozav că pot alege între diferite platforme – filme, jocuri și altele. Plățile sunt rapide.",
+      "user8Description": "Mă bucur că sunt mai multe platforme de ales. Uneori prefer să joc, alteori să vizionez filme. Plățile sunt ok.",
+      "user9Description": "Multe oportunități de câștig, totul funcționează lin.",
+      "user10Description": "Recomand, funcționează bine și câștigurile sunt plătite fără probleme."
+    },
+    "TrustedUs": {
+      "trustedUs": "Ne-au încredințat"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "Cum funcționează",
+      "paragraphDescription": "Realizând sarcini simple, poți câștiga până la 3000 de lei pe lună, fără taxe ascunse sau suplimentare. În plus, câștigurile tale nu au limită superioară – tu decizi cât vrei să câștigi.",
+      "listDescription": "Cu JoyProfits poți câștiga în orice mod dorești",
+      "firstListDescription": "jucând jocuri",
+      "secondListDescription": "completând sondaje",
+      "thirdListDescription": "vizionând filme și reclame",
+      "fourthListDescription": "făcând cumpărături online"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "Care sunt beneficiile",
+      "paragraphDescription": "JoyProfits oferă posibilitatea de a lucra atât cu normă întreagă, cât și ca sursă suplimentară de venit, disponibilă pentru persoane din întreaga lume. Poți câștiga bani folosind orice dispozitiv cu acces la internet, indiferent de locația ta. Vei primi o plată pentru timpul și efortul depus folosind platforma."
+    },
+    "Benefits": {
+      "headerDescription": "Cum te poate ajuta JoyProfits?",
+      "description": "JoyProfits te va ajuta să îți valorifici punctele forte, oferind șase moduri diferite de câștig. Astfel, poți alege opțiunea care se potrivește cel mai bine abilităților și intereselor tale. Platforma permite transformarea eficientă a efortului și timpului tău în câștiguri concrete.",
+      "seeMore": "Vezi mai multe"
+    },
+    "AboutSection": {
+      "header": "Despre JoyProfits",
+      "description": "Descoperă aplicația noastră disponibilă pentru iOS și Android! Descarcă-o acum și începe să profiți de posibilitățile pe care le oferim!"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "JOACĂ ȘI CÂȘTIGĂ",
+      "secondTileHeader": "APLICAȚIE IOS & ANDROID",
+      "thirdTileHeader": "ANALIZA CÂȘTIGURILOR",
+      "fourthTileHeader": "100% SIGURANȚĂ",
+      "fifthTileHeader": "RETURNĂRI DE BANI",
+      "firstTileDescription": "Joacă-ți jocurile preferate și câștigă prin realizarea de realizări! Descoperă noi oportunități și transformă fiecare sesiune de joc într-o sursă de venit.",
+      "secondTileDescription": "Descoperă aplicația noastră disponibilă pentru iOS și Android! Descarcă-o acum și începe să profiți de posibilitățile pe care le oferim!",
+      "thirdTileDescription": "Cu ajutorul analiticii, ai control total asupra câștigurilor tale, urmărind și analizând fiecare aspect al veniturilor tale.",
+      "fourthTileDescription": "Plătește-ți câștigurile într-un mod simplu și sigur! 100% protecție pentru plăți și tranzacții.",
+      "fifthTileDescription": "Profită de cashback-uri! Returnează o parte din cheltuielile tale prin utilizarea noastră!"
+    }
+  },
+  "RecoverPassword": {
+    "success": "Succes!",
+    "passwordChangedSuccessfully": "Parola a fost schimbată cu succes",
+    "returnToApp": "Întoarce-te la aplicație",
+    "recoverPassword": "Recuperează-ți parola",
+    "description": "Introduceți o nouă parolă și confirmarea parolei. Apasă pe butonul de confirmare pentru a actualiza parola. Urmează instrucțiunile pe care le vei primi pentru a finaliza procesul de schimbare a parolei. Dacă întâmpini probleme, contactează suportul tehnic.",
+    "password": "Parola",
+    "reEnterPassword": "Reintroduceți parola",
+    "confirmNewPassword": "Confirmă noua parolă"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "Descoperă noi modalități de a câștiga",
+      "headerParagraph": "Cu o gamă largă de instrumente și resurse, oricine poate găsi o modalitate de a-și genera veniturile.",
+      "downloadIos": "Descarcă Ios",
+      "downloadAndroid": "Descarcă Android"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "Începe să câștigi acum efectuând trei pași de mai jos",
+      "firstStep": "Pasul 1",
+      "secondStep": "Pasul 2",
+      "thirdStep": "Pasul 3",
+      "firstTileHeader": "Înregistrare și configurare cont",
+      "firstTileParagraph": "Procesul de înregistrare pe JoyProfits este rapid și simplu. Tot ce trebuie să faci este să furnizezi datele de bază, să-ți verifici contul, apoi să te conectezi și să configurezi profilul.",
+      "firstTileExtraParagraph": "După conectare, poți configura profilul pentru ca platforma să poată adapta mai bine recomandările de câștig la nevoile tale.",
+      "secondTileHeader": "Alegerea strategiei de câștig și educație",
+      "secondTileParagraph": "JoyProfits oferă diverse strategii de câștig, cum ar fi marketingul afiliat, participarea la programe de parteneriate, jocurile și completarea sondajelor. Poți explora opțiunile disponibile și alege pe cele care ți se potrivesc cel mai bine.",
+      "secondTileExtraParagraph": "Pentru a-ți spori șansele de succes, profită de materialele educaționale disponibile pe platformă, cum ar fi cursuri, webinarii, articole și ghiduri. De asemenea, ai acces la suport tehnic și la comunitatea utilizatorilor, unde poți împărtăși experiențe și obține ajutor.",
+      "thirdTileHeader": "Monitorizarea progresului, optimizare și retrageri",
+      "thirdTileParagraph": "Platforma JoyProfits oferă instrumente analitice pentru a monitoriza rezultatele, ceea ce permite identificarea zonelor care necesită îmbunătățiri și optimizarea continuă a acțiunilor pentru maximizarea câștigurilor.",
+      "thirdTileExtraParagraph": "Fondurile câștigate pot fi retrase ușor prin diverse metode de plată, cum ar fi transferurile bancare sau contul PayPal. Retragerile sunt rapide și sigure, asigurându-ți un control complet asupra finanțelor tale."
+    },
+    "Section": {
+      "header": "Cum funcționează?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "Înregistrare și\nconfigurare cont",
+      "strategySelection": "Alegerea strategiei\nde câștig",
+      "educationAndSupport": "Educație\nși suport",
+      "analysis": "Monitorizarea progresului\nși optimizare",
+      "payouts": "Retragerea fondurilor\ncâștigate"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "O singură aplicație, multe posibilități! ",
+      "headerParagraph": "Suntem mândri de comunitatea noastră de utilizatori care descoperă zilnic noi modalități de a câștiga online.",
+      "downloadIos": "Descarcă Ios",
+      "downloadAndroid": "Descarcă Android"
+    },
+    "Section": {
+      "header": "O singură aplicație, multe modalități de câștig",
+      "readMore": "Citește mai mult",
+      "Tile1Header": "Jocuri",
+      "Tile1Description": "Câștigă puncte pentru atingerea nivelurilor și deblocarea funcțiilor în jocurile mobile. Realizează sarcini de dificultate variabilă în jocurile tale preferate.",
+      "Tile2Header": "Vizionarea de filme",
+      "Tile2Description": "Câștigă vizionând filme și reclame. Petrece câteva momente pe conținut interesant și primește recompensă pentru fiecare reclamă sau film vizionat. Alege dintre diverse categorii și teme.",
+      "Tile3Header": "Completarea sondajelor",
+      "Tile3Description": "Răspunde la întrebări și împărtășește-ți opiniile, primind recompensă pentru fiecare sondaj completat. Cu cât completezi mai multe sondaje, cu atât câștigi mai mult.",
+      "Tile4Header": "Cumpărături online",
+      "Tile4Description": "Cumpără în magazinele tale preferate și primește cashback și venituri suplimentare. Înregistrează-te pe site-urile magazinelor pentru a primi mostre gratuite și coduri de reducere.",
+      "Tile5Header": "Mikrozadanii",
+      "Tile5Description": "Câștigă învățând noi abilități, cum ar fi programarea sau designul grafic. Alege cursuri interesante și finalizează sarcinile disponibile pe JoyProfits.",
+      "Tile6Header": "Realizări",
+      "Tile6Description": "Realizează obiective pe JoyProfits, câștigă premii și crește-ți veniturile. Fiecare realizare te apropie de câștiguri mai mari și premii suplimentare."
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "Cunoaște creatorii JoyProfits!",
+      "headerParagraph": "Începe să câștigi cu JoyProfits într-un mod simplu și rapid. Descoperă acum câte opțiuni ai!",
+      "downloadIos": "Descarcă Ios",
+      "downloadAndroid": "Descarcă Android"
+    },
+    "StepTile": {
+      "headerDescription": "Ce spun utilizatorii noștri?",
+      "firstTileHeader": "Bună!",
+      "firstTileParagraph": "Numele meu este Jakub și sunt creatorul aplicației care combină plăcutul cu utilul – îți permite să câștigi bani jucând jocuri, vizionând filme și realizând multe alte sarcini.",
+      "firstTileExtraParagraph": "Fiind pasionat de tehnologiile noi și divertisment, am realizat că tot mai mulți oameni își petrec timpul liber în lumea virtuală. Am decis să creez o soluție care să permită obținerea de beneficii financiare din această activitate. Aplicația JoyProfits este rezultatul unor analize detaliate, cercetări de piață și muncă de luni de zile a mea și echipei mele pentru a crea un instrument sigur și prietenos pentru utilizator.",
+      "secondTileHeader": "Misiunea noastră",
+      "secondTileParagraph": "Misiunea noastră este să transformăm distracțiile de zi cu zi în beneficii financiare reale. În era digitalizării și a creșterii popularității divertismentului virtual, am observat un potențial uriaș în utilizarea timpului petrecut online pentru a genera venituri suplimentare.",
+      "secondTileExtraParagraph": "Punem accent pe un contact strâns cu utilizatorii și pe flexibilitatea de a răspunde nevoilor lor. În fiecare zi lucrăm pentru a îmbunătăți aplicația, astfel încât să oferim cele mai bune experiențe și oportunități de câștig. Scopul nostru este să creăm o comunitate în care fiecare utilizator să poată obține beneficii financiare din ceea ce îi face plăcere.",
+      "thirdTileHeader": "Descoperă JoyProfits",
+      "thirdTileParagraph": "Te invit să descoperi potențialul aplicației noastre și să te alături utilizatorilor mulțumiți care deja câștigă bani din distracție și divertisment.",
+      "thirdTileExtraParagraph": "Împreună schimbăm modul în care privim timpul petrecut online, creând noi și inovative surse de venit."
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "Descarcă aplicația"
+  },
+  "VerifyEmail": {
+    "accountActivated": "Contul a fost activat",
+    "hello": "Bună",
+    "thankYouNote": "Mulțumim, adresa ta de email a fost verificată. Contul tău este acum activ. Folosește butonul de mai jos pentru a reveni la aplicație.",
+    "returnToApp": "Întoarce-te la aplicație",
+    "invalidRequest": "Ups... Nu am putut procesa cererea ta..."
+  },
+  "Validation": {
+    "emailRequired": "Adresa de email este obligatorie",
+    "passwordRequired": "Parola este obligatorie",
+    "firstNameRequired": "Numele este obligatoriu",
+    "lastNameRequired": "Prenumele este obligatoriu",
+    "consentRequired": "Consimțământul este obligatoriu",
+    "descriptionRequired": "Descrierea este obligatorie",
+    "categorySelectionRequired": "Selectarea categoriei este obligatorie",
+    "minLength": "Lungimea minimă este de {count} caractere",
+    "maxLength": "Lungimea maximă este de {count} caractere",
+    "invalidEmail": "Adresă de email invalidă",
+    "passwordSpecialChar": "Parola trebuie să conțină cel puțin un caracter special.",
+    "passwordUppercase": "Parola trebuie să conțină cel puțin o literă mare.",
+    "passwordLowercase": "Parola trebuie să conțină cel puțin o literă mică.",
+    "passwordNumber": "Parola trebuie să conțină cel puțin un caracter numeric."
+  },
+  "Dropdown": {
+    "selectType": "Alege tipul"
+  },
+  "Languages": {
+    "en": "Engleză",
+    "es": "Spaniolă",
+    "de": "Germană",
+    "fr": "Franceză",
+    "it": "Italiană",
+    "nl": "Olandeză",
+    "da": "Daneză",
+    "sv": "Suedeză",
+    "pl": "Poloneză",
+    "pt": "Portugheză",
+    "ro": "Română",
+    "vi": "Vietnameză",
+    "tr": "Turcă",
+    "id": "Indoneziană",
+    "ru": "Rusă",
+    "uk": "Ucraineană",
+    "ur": "Urdu",
+    "ar": "Arabă",
+    "hi": "Hindu",
+    "ta": "Tamilă",
+    "si": "Singhaleză",
+    "fa": "Persană",
+    "tl-PH": "Filipineză",
+    "bn": "Bengaleză",
+    "km": "Cambodgiană",
+    "th": "Thailandeză",
+    "ja": "Japonă",
+    "zh-hant": "Chineză-Tradițională",
+    "zh-hans": "Chineză-Simplificată",
+    "ko": "Coreeană"
+  },
+  "Errors": {
+    "unknownError": "A apărut o eroare necunoscută",
+    "invalidToken": "Token invalid",
+    "tokenExpired": "Tokenul a expirat",
+    "missingTokenOwner": "Tokenul nu a fost identificat",
+    "tokenUsed": "Tokenul a fost deja utilizat",
+    "tokenVerificationFailed": "Verificarea tokenului a eșuat...",
+    "invalidPassword": "Parola introdusă este incorectă",
+    "passwordChangeFailed": "Schimbarea parolei a eșuat"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - Câștigă bani online gratuit",
+      "description": "Câștigă bani online vizionând reclame, completând sondaje, jucând jocuri, scriind comentarii, redactând texte, răspunzând la întrebări, realizând oferte și multe altele."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - Cum funcționează",
+      "description": "Află cum funcționează JoyProfits și cum poți începe să câștigi în doar 3 pași simpli. Explicație simplă cu sfaturi și metode de câștig."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Metode de câștig",
+      "description": "Descoperă diferite metode de câștiguri online cu JoyProfits. Joacă jocuri, vizionează filme, completează sondaje, fă cumpărături online și multe altele."
+    },
+    "support": {
+      "title": "JoyProfits - Suport",
+      "description": "Dacă ai întrebări, ai nevoie de ajutor sau ai întâmpinat o problemă, contactează echipa noastră de suport."
+    },
+    "signIn": {
+      "title": "JoyProfits - Conectează-te",
+      "description": "Conectează-te la contul tău JoyProfits și începe să câștigi bani online. Conectează-te pentru a accesa profilul tău și a gestiona câștigurile."
+    },
+    "register": {
+      "title": "JoyProfits - Înregistrează-te",
+      "description": "Înregistrează-te pe JoyProfits și începe să câștigi bani online. Creează un cont pentru a avea acces la diverse metode și oportunități de câștig."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - Despre noi",
+      "description": "Află mai multe despre JoyProfits, creatorii aplicației și misiunea platformei. Descoperă cum poți beneficia de utilizarea JoyProfits."
+    },
+    "advertising": {
+      "title": "JoyProfits - Publicitate",
+      "description": "Aflați despre politica publicitară a JoyProfits, asigurând transparență, responsabilitate și conformitate cu reglementările legale în promovarea produselor și serviciilor."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Politica de confidențialitate",
+      "description": "Citește politica de confidențialitate JoyProfits pentru a înțelege cum colectăm, folosim și protejăm datele tale personale. Înțelege drepturile tale și cum asigurăm securitatea datelor."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Termeni și condiții",
+      "description": "Citește termenii și condițiile de utilizare ale JoyProfits pentru a înțelege regulile și condițiile platformei. Află despre drepturile și responsabilitățile tale ca utilizator."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Politica de cookies",
+      "description": "Citește politica de cookies JoyProfits pentru a afla cum utilizăm cookies și tehnologii similare pentru a îmbunătăți experiența ta pe platformă."
+    },
+    "locationData": {
+      "title": "JoyProfits - Datele de locație",
+      "description": "Află cum JoyProfits colectează și utilizează datele de locație pentru a-ți oferi servicii personalizate și pentru a îmbunătăți experiența ta de utilizator."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - Gestionarea datelor utilizatorilor",
+      "description": "Află cum JoyProfits gestionează datele utilizatorilor pentru a asigura confidențialitatea, securitatea și conformitatea cu reglementările legale."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Tipuri de cookies",
+      "description": "Află ce tipuri de cookies folosește JoyProfits pentru a îmbunătăți experiența utilizatorilor și pentru a oferi servicii personalizate."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Transferul datelor utilizatorilor",
+      "description": "Află cum JoyProfits transferă datele utilizatorilor pentru a asigura confidențialitatea, securitatea și conformitatea cu reglementările legale."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - Confirmă schimbarea adresei de e-mail",
+      "description": "Confirmă schimbarea adresei tale de e-mail pentru a actualiza informațiile din contul tău. Urmează instrucțiunile pentru a finaliza procesul."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - Recuperează parola",
+      "description": "Recuperează parola pe JoyProfits. Introdu o parolă nouă și confirmă-o pentru a actualiza informațiile contului tău."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - Verifică contul",
+      "description": "Verifică-ți contul pe JoyProfits pentru a activa profilul și pentru a începe să câștigi bani online."
+    }
+  }
+}

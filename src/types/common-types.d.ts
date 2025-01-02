@@ -21,7 +21,7 @@ type Language =
   | "ta" // Tamil
   | "si" // Sinhala
   | "fa" // Farsi
-  | "fil" // Filipino
+  | "tl-PH" // Filipino
   | "bn" // Bangla
   | "km" // Cambodian
   | "th" // Thai

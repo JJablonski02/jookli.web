@@ -1,1 +1,383 @@
-{}
+{
+  "globals": {
+    "Captions": {
+      "signIn": "LOGGA IN",
+      "register": "REGISTRERA",
+      "mainPage": "HUVUDSIDA",
+      "howItWorks": "HUR DET FUNGERAR",
+      "earnMethods": "TJÄNA PENGAR",
+      "support": "SUPPORT",
+      "platform": "PLATTFORM",
+      "menu": "MENY",
+      "company": "FÖRETAG",
+      "policy": "POLITIK",
+      "blog": "BLOGG",
+      "affilateProgram": "REFERENSPROGRAM",
+      "resources": "RESURSER",
+      "policyPrivacy": "INTEGRITETSPOLICY",
+      "terms": "VILLKOR",
+      "copyright": "UPPHOVSRÄTT",
+      "cookiePolicy": "COOKIEPOLICY",
+      "adRules": "ANNONSREGLER",
+      "aboutUs": "OM OSS",
+      "downloadApp": "Ladda ner appen",
+      "appDescription": "Bli en del av vår plattform och upptäck hur du kan tjäna pengar på dina färdigheter"
+    },
+    "SignIn": {
+      "title": "Logga in",
+      "email": "E-post",
+      "emailPlaceholder": "E-post",
+      "password": "Lösenord",
+      "logIn": "Logga in"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "Sidan finns inte",
+      "pageNotFoundDescription": "Sidan du letar efter finns inte. Hur du hamnade här är en gåta. Du kan dock klicka på knappen nedan för att gå tillbaka till hemsidan."
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "Logga in",
+    "email": "E-post",
+    "enterEmail": "Ange e-postadress",
+    "enterPassword": "Ange lösenord",
+    "emailPlaceholder": "E-post",
+    "password": "Lösenord",
+    "logIn": "Logga in",
+    "signIn": "Logga in",
+    "orSignInWith": "eller logga in med",
+    "forgotPassword": "Glömt lösenord?",
+    "reset": "Återställ",
+    "haveNotAnAccount": "Har du inte ett konto?",
+    "register": "Registrera dig"
+  },
+  "Register": {
+    "title": "Registrera",
+    "email": "E-post",
+    "enterEmail": "Ange e-postadress",
+    "enterPassword": "Ange lösenord",
+    "reEnterPassword": "Bekräfta lösenord",
+    "emailPlaceholder": "E-post",
+    "password": "Lösenord",
+    "register": "Registrera",
+    "orRegisterWith": "eller registrera dig med",
+    "haveAnAccount": "Har du redan ett konto?",
+    "signIn": "Logga in"
+  },
+  "Support": {
+    "contactWithUs": "Kontakta oss",
+    "fillDataDescription": "Fyll i dina uppgifter och beskriv problemet eller händelsen, så kontaktar vi dig snarast. Du kan även skicka in en förfrågan utan att vara användare av JoyProfits än.",
+    "fillForm": "Fyll i formulär",
+    "selectReportType": "Välj typ av ärende",
+    "contactEmail": "Kontakt-e-postadress",
+    "describeReport": "Beskriv ärendet",
+    "sendReport": "Skicka rapport",
+    "payoutProblem": "Problem med utbetalning",
+    "paymentMethod": "Betalningsmetod",
+    "taskWasNotCounted": "Uppgift räknades inte",
+    "technicalError": "Tekniskt fel",
+    "reviews": "Recensioner",
+    "cooperation": "Samarbete",
+    "promote": "Marknadsföring",
+    "firstName": "Förnamn",
+    "lastName": "Efternamn",
+    "iConsentToContact": "Jag samtycker till kontakt och att ta emot information från JoyProfits via e-post.",
+    "requiredFields": "obligatoriska fält"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "Tjäna belöningar och\npengar på din fritid!",
+      "headerParagraph": "Ladda ner appen och börja tjäna var som helst och när som helst!",
+      "downloadIos": "Ladda ner för iOS",
+      "downloadAndroid": "Ladda ner för Android"
+    },
+    "DownloadSection": {
+      "headerDescription": "Ladda ner vår app",
+      "tileHeader": "Ladda ner på {appName}",
+      "leftTileDescription": "Ladda ner vår app för iOS och upptäck nya möjligheter! Med det användarvänliga gränssnittet kan du enkelt hantera dina uppgifter, följa dina framsteg och använda unika funktioner. Se hur enkelt och roligt det är att använda JoyProfits-appen.",
+      "rightTileDescription": "Ladda ner vår app från Google Play och få full tillgång till alla funktioner! Med det intuitiva gränssnittet kan du lätt hantera dina uppgifter, följa dina framsteg och använda unika erbjudanden. Installera appen och upptäck hur mycket du kan tjäna!"
+    },
+    "WCSSection": {
+      "headerDescription": "Vad säger våra användare?",
+      "user1Description": "Appen har många sätt att tjäna pengar på, men jag gillar mest att titta på videor. Jag har ofta ledig tid så jag kan tjäna lite pengar samtidigt. Utbetalningar är snabba och problemfria.",
+      "user2Description": "En bra app för någon som har lite ledig tid och vill tjäna extra pengar. Jag gillar mest att spela spel. Inkomstanalysen hjälper mig att förstå bättre var och hur jag kan tjäna mer.",
+      "user3Description": "Väldigt bekväm app. Jag spelar spel när jag har tid och tittar på videor för att tjäna pengar. Cashback är en extra fördel och utbetalningar fungerar bra.",
+      "user4Description": "Väl designad app med olika sätt att tjäna pengar – från spel till att titta på videor.",
+      "user5Description": "Många sätt att tjäna pengar och snabba utbetalningar via PayPal. Cashback är ett fantastiskt tillägg!",
+      "user6Description": "Bra sätt att tjäna pengar och cashback. Ibland tar utbetalningen längre tid, men generellt rekommenderar jag den.",
+      "user7Description": "Bra att jag kan välja mellan olika plattformar – filmer, spel och annat. Snabba utbetalningar.",
+      "user8Description": "Bra att det finns flera plattformar att välja mellan. Ibland vill jag spela, ibland titta på filmer. Utbetalningarna är okej.",
+      "user9Description": "Många möjligheter att tjäna pengar, allt fungerar smidigt.",
+      "user10Description": "Rekommenderar, det fungerar bra och utbetalningar görs utan problem."
+    },
+    "TrustedUs": {
+      "trustedUs": "De har litat på oss"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "Hur det fungerar",
+      "paragraphDescription": "Genom att utföra enkla uppgifter har du möjlighet att tjäna upp till 3000 SEK per månad, utan dolda avgifter eller ytterligare skatter. Dessutom finns det ingen övre gräns för dina inkomster – det är du som bestämmer hur mycket du vill tjäna.",
+      "listDescription": "Med JoyProfits kan du tjäna pengar på olika sätt",
+      "firstListDescription": "spela spel",
+      "secondListDescription": "fylla i enkäter",
+      "thirdListDescription": "titta på filmer och reklamer",
+      "fourthListDescription": "handla online"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "Vilka är fördelarna",
+      "paragraphDescription": "JoyProfits erbjuder en möjlighet att jobba både heltid och som extra inkomst, tillgänglig för personer från hela världen. Du kan tjäna pengar med valfri enhet som har internetåtkomst, oavsett var du är. Du kommer att få ersättning för din tid och det arbete du lägger ner på att använda plattformen."
+    },
+    "Benefits": {
+      "headerDescription": "Hur JoyProfits kan hjälpa dig?",
+      "description": "JoyProfits hjälper dig att utnyttja dina styrkor genom att erbjuda sex olika sätt att tjäna pengar. Detta gör att du kan välja det alternativ som passar bäst för dina färdigheter och intressen. Plattformen gör det möjligt att effektivt omvandla din tid och ansträngning till konkret vinst.",
+      "seeMore": "Se mer"
+    },
+    "AboutSection": {
+      "header": "Om JoyProfits",
+      "description": "Upptäck vår app tillgänglig på iOS och Android! Ladda ner nu och börja använda de möjligheter vi erbjuder!"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "SPEL OCH TJÄNA",
+      "secondTileHeader": "IOS & ANDROID APP",
+      "thirdTileHeader": "INKOMSTANALYS",
+      "fourthTileHeader": "100% SÄKERHET",
+      "fifthTileHeader": "CASHBACK",
+      "firstTileDescription": "Spela dina favoritspel och tjäna pengar genom att uppnå prestationer! Upptäck nya möjligheter och omvandla varje spelupplevelse till vinst.",
+      "secondTileDescription": "Ladda ner appen från Google Play och App Store för att ta del av alla funktioner och börja tjäna.",
+      "thirdTileDescription": "Analysera dina inkomster med hjälp av detaljerad statistik. Få insikt i hur mycket du tjänar och identifiera de bästa metoderna.",
+      "fourthTileDescription": "Vår plattform skyddar dina data och erbjuder säker betalning, så att du kan vara trygg.",
+      "fifthTileDescription": "Tjäna cashback när du handlar online och spara pengar på varje köp."
+    }
+  },
+  "RecoverPassword": {
+    "success": "Framgång!",
+    "passwordChangedSuccessfully": "Lösenordet har ändrats framgångsrikt",
+    "returnToApp": "Återgå till appen",
+    "recoverPassword": "Återställ ditt lösenord",
+    "description": "Ange ett nytt lösenord och bekräfta lösenordet. Klicka på bekräftelseknappen för att uppdatera lösenordet. Följ instruktionerna du får för att slutföra lösenordsändringsprocessen. Om du stöter på några problem, vänligen kontakta support.",
+    "password": "Lösenord",
+    "reEnterPassword": "Skriv in lösenordet igen",
+    "confirmNewPassword": "Bekräfta nytt lösenord"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "Upptäck nya sätt att tjäna pengar",
+      "headerParagraph": "Med ett brett utbud av verktyg och resurser kan alla hitta sätt att generera sina inkomster.",
+      "downloadIos": "Ladda ner för iOS",
+      "downloadAndroid": "Ladda ner för Android"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "Börja tjäna nu genom att följa de tre stegen nedan",
+      "firstStep": "Steg 1",
+      "secondStep": "Steg 2",
+      "thirdStep": "Steg 3",
+      "firstTileHeader": "Registrering och kontoinställning",
+      "firstTileParagraph": "Registreringsprocessen på JoyProfits är snabb och enkel. Du behöver bara ange grundläggande information, verifiera ditt konto och sedan logga in och ställa in din profil.",
+      "firstTileExtraParagraph": "När du är inloggad kan du konfigurera din profil så att plattformen kan anpassa inkomstrekommendationer efter dina behov.",
+      "secondTileHeader": "Val av inkomststrategi och utbildning",
+      "secondTileParagraph": "JoyProfits erbjuder olika inkomststrategier som affiliate-marknadsföring, deltagande i partnerskapsprogram, spela spel och fylla i enkäter. Du kan utforska tillgängliga alternativ och välja de som bäst passar dina behov.",
+      "secondTileExtraParagraph": "För att öka dina chanser att lyckas, ta del av de många utbildningsmaterialen på plattformen, såsom kurser, webbinarier, artiklar och guider. Dessutom får du tillgång till teknisk support och användargemenskapen där du kan dela erfarenheter och få hjälp.",
+      "thirdTileHeader": "Övervakning av framsteg, optimering och utbetalningar",
+      "thirdTileParagraph": "JoyProfits-plattformen erbjuder analytiska verktyg för att övervaka resultat, vilket gör att du kan identifiera områden som kan förbättras och kontinuerligt optimera aktiviteter för att maximera vinsterna.",
+      "thirdTileExtraParagraph": "De tjänade medlen kan enkelt tas ut via olika betalningsmetoder som banköverföring eller PayPal. Utbetalningarna är snabba och säkra, vilket ger dig full kontroll över din ekonomi."
+    },
+    "Section": {
+      "header": "Hur fungerar det?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "Registrering och\nkontoinställning",
+      "strategySelection": "Val av inkomststrategi",
+      "educationAndSupport": "Utbildning\noch support",
+      "analysis": "Övervakning av framsteg\noch optimering",
+      "payouts": "Utbetalning av\ntjänade medel"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "Endast en app, många möjligheter!",
+      "headerParagraph": "Vi är stolta över vårt användarsamhälle som varje dag upptäcker nya sätt att tjäna pengar online.",
+      "downloadIos": "Ladda ner för iOS",
+      "downloadAndroid": "Ladda ner för Android"
+    },
+    "Section": {
+      "header": "En app, många sätt att tjäna pengar",
+      "readMore": "Läs mer",
+      "Tile1Header": "Spela spel",
+      "Tile1Description": "Tjäna poäng för att uppnå nivåer och låsa upp funktioner i mobilspel. Utför uppgifter med olika svårighetsgrad i dina favoritspel.",
+      "Tile2Header": "Titta på filmer",
+      "Tile2Description": "Tjäna pengar genom att titta på filmer och annonser. Ta en stund för intressanta innehåll och få betalt för varje reklam eller film du tittar på. Välj bland olika kategorier och ämnen.",
+      "Tile3Header": "Fyll i enkäter",
+      "Tile3Description": "Svara på frågor och dela dina åsikter och få betalning för varje slutförd enkät. Ju fler enkäter du slutför, desto högre intäkter.",
+      "Tile4Header": "Handla online",
+      "Tile4Description": "Köp i dina favoritbutiker och få cashback och extra inkomst. Registrera dig på butikernas webbplatser för att ta emot gratisprover och rabattkoder.",
+      "Tile5Header": "Mikrouppgifter",
+      "Tile5Description": "Tjäna pengar medan du lär dig nya färdigheter, såsom programmering eller grafisk design. Välj intressanta kurser och utför tillgängliga uppgifter på JoyProfits.",
+      "Tile6Header": "Prestationer",
+      "Tile6Description": "Fullfölj mål på JoyProfits, tjäna belöningar och öka dina inkomster. Varje prestation leder dig närmare högre vinster och ytterligare belöningar."
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "Lär känna skaparna av JoyProfits!",
+      "headerParagraph": "Börja tjäna med JoyProfits på ett enkelt och snabbt sätt. Kolla nu hur många möjligheter du har!",
+      "downloadIos": "Ladda ner Ios",
+      "downloadAndroid": "Ladda ner Android"
+    },
+    "StepTile": {
+      "headerDescription": "Vad säger våra användare?",
+      "firstTileHeader": "Hej!",
+      "firstTileParagraph": "Jag heter Jakub och jag är skaparen av en app som kombinerar det roliga med det nyttiga – det möjliggör att tjäna pengar genom att spela spel, titta på filmer och utföra många andra uppgifter.",
+      "firstTileExtraParagraph": "Som en passionerad entusiast av ny teknik och underhållning insåg jag att fler och fler människor tillbringar sin fritid i den virtuella världen. Jag bestämde mig för att skapa en lösning som gör det möjligt att dra nytta av denna aktivitet ekonomiskt. Appen JoyProfits är resultatet av djupgående analyser, marknadsundersökningar och månadslångt arbete av mig och mitt team för att skapa ett säkert och användarvänligt verktyg.",
+      "secondTileHeader": "Vårt uppdrag",
+      "secondTileParagraph": "Vårt uppdrag är att omvandla vardagsunderhållning till verkliga ekonomiska fördelar. I en tid av digitalisering och växande popularitet av virtuella nöjen såg vi en enorm potential i att använda den tid som spenderas online för att generera extra inkomster.",
+      "secondTileExtraParagraph": "Vi satsar på nära kontakt med användarna och flexibilitet för att reagera på deras behov. Varje dag arbetar vi för att förbättra appen och ge bästa möjliga upplevelse och inkomstmöjligheter. Vårt mål är att skapa en gemenskap där varje användare kan dra nytta av det som ger dem nöje.",
+      "thirdTileHeader": "Upptäck JoyProfits",
+      "thirdTileParagraph": "Jag bjuder in dig att upptäcka potentialen i vår app och gå med i gruppen nöjda användare som redan nu använder möjligheterna att tjäna pengar genom spel och underhållning.",
+      "thirdTileExtraParagraph": "Tillsammans förändrar vi hur vi ser på den tid som spenderas online genom att skapa nya, innovativa inkomstkällor."
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "Ladda ner appen"
+  },
+  "VerifyEmail": {
+    "accountActivated": "Kontot har aktiverats",
+    "hello": "Hej",
+    "thankYouNote": "Tack, din e-postadress har verifierats. Ditt konto är nu aktivt. Använd knappen nedan för att återvända till appen.",
+    "returnToApp": "Återvänd till appen",
+    "invalidRequest": "Oj... Vi kunde inte behandla din begäran..."
+  },
+  "Validation": {
+    "emailRequired": "E-postadress krävs",
+    "passwordRequired": "Lösenord krävs",
+    "firstNameRequired": "Förnamn krävs",
+    "lastNameRequired": "Efternamn krävs",
+    "consentRequired": "Samtycke krävs",
+    "descriptionRequired": "Beskrivning krävs",
+    "categorySelectionRequired": "Val av kategori krävs",
+    "minLength": "Minsta längd är {count} tecken",
+    "maxLength": "Max längd är {count} tecken",
+    "invalidEmail": "Ogiltig e-postadress",
+    "passwordSpecialChar": "Speciellt tecken krävs",
+    "passwordUppercase": "Minst en stor bokstav krävs",
+    "passwordsMismatch": "Lösenorden matchar inte"
+  },
+  "Dropdown": {
+    "selectType": "Välj typ"
+  },
+  "Languages": {
+    "en": "Engelska",
+    "es": "Spanska",
+    "de": "Tyska",
+    "fr": "Franska",
+    "it": "Italienska",
+    "nl": "Holländska",
+    "da": "Danska",
+    "sv": "Svenska",
+    "pl": "Polska",
+    "pt": "Portugisiska",
+    "ro": "Rumänska",
+    "vi": "Vietnamesiska",
+    "tr": "Turkiska",
+    "id": "Indonesiska",
+    "ru": "Ryska",
+    "uk": "Ukrainska",
+    "ur": "Urdu",
+    "ar": "Arabiska",
+    "hi": "Hindi",
+    "ta": "Tamil",
+    "si": "Singalesiska",
+    "fa": "Persiska",
+    "tl-PH": "Filippinska",
+    "bn": "Bengaliska",
+    "km": "Kambodjanska",
+    "th": "Thailändska",
+    "ja": "Japanska",
+    "zh-hant": "Traditionell kinesiska",
+    "zh-hans": "Förenklad kinesiska",
+    "ko": "Koreanska"
+  },
+  "Errors": {
+    "unknownError": "Ett okänt fel uppstod",
+    "invalidToken": "Ogiltig token",
+    "tokenExpired": "Din token har löpt ut",
+    "missingTokenOwner": "Tokenägaren är inte identifierad",
+    "tokenUsed": "Token har redan använts",
+    "tokenVerificationFailed": "Tokenverifiering misslyckades...",
+    "invalidPassword": "Det angivna lösenordet är ogiltigt",
+    "passwordChangeFailed": "Lösenordsändring misslyckades"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - Tjäna pengar online gratis",
+      "description": "Tjäna pengar online genom att titta på annonser, fylla i enkäter, spela spel, skriva kommentarer, skriva texter, svara på frågor, genomföra erbjudanden och mycket mer."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - Hur det fungerar",
+      "description": "Läs om hur JoyProfits fungerar och hur du kan börja tjäna pengar i bara 3 enkla steg. Enkelt förklarat med tips och sätt att tjäna pengar."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Sätt att tjäna pengar",
+      "description": "Upptäck olika sätt att tjäna pengar online med JoyProfits. Spela spel, titta på filmer, fyll i enkäter, handla online och mycket mer."
+    },
+    "support": {
+      "title": "JoyProfits - Support",
+      "description": "Om du har några frågor, behöver hjälp eller har stött på ett problem, kontakta vårt supportteam."
+    },
+    "signIn": {
+      "title": "JoyProfits - Logga in",
+      "description": "Logga in på ditt JoyProfits-konto och börja tjäna pengar online. Logga in för att få tillgång till din profil och hantera dina intäkter."
+    },
+    "register": {
+      "title": "JoyProfits - Registrera dig",
+      "description": "Registrera dig på JoyProfits och börja tjäna pengar online. Skapa ett konto för att få tillgång till olika metoder och möjligheter att tjäna pengar."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - Om oss",
+      "description": "Läs mer om JoyProfits, skaparna av appen och uppdraget bakom plattformen. Upptäck hur du kan dra nytta av att använda JoyProfits."
+    },
+    "advertising": {
+      "title": "JoyProfits - Reklam",
+      "description": "Läs om JoyProfits reklampolicy som säkerställer transparens, ansvar och efterlevnad av lagar vid marknadsföring av produkter och tjänster."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Integritetspolicy",
+      "description": "Läs JoyProfits integritetspolicy för att förstå hur vi samlar in, använder och skyddar dina personuppgifter. Lär dig om dina rättigheter och hur vi säkerställer dataskydd."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Användarvillkor",
+      "description": "Läs användarvillkoren för JoyProfits för att förstå reglerna och villkoren för att använda plattformen. Lär dig om dina rättigheter och skyldigheter som användare."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Cookiespolicy",
+      "description": "Läs JoyProfits cookiespolicy för att förstå hur vi använder cookies och liknande teknologier för att förbättra din upplevelse på plattformen."
+    },
+    "locationData": {
+      "title": "JoyProfits - Platsdata",
+      "description": "Läs om hur JoyProfits samlar och använder platsdata för att ge dig personliga tjänster och förbättra din användarupplevelse."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - Hantering av användardata",
+      "description": "Läs om hur JoyProfits hanterar användardata för att säkerställa integritet, säkerhet och efterlevnad av lagar."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Typer av cookies",
+      "description": "Läs om vilka typer av cookies JoyProfits använder för att förbättra din användarupplevelse och tillhandahålla personliga tjänster."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Överföring av användardata",
+      "description": "Läs om hur JoyProfits överför användardata för att säkerställa integritet, säkerhet och efterlevnad av lagar."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - Bekräfta e-poständring",
+      "description": "Bekräfta ändringen av din e-postadress för att uppdatera kontoinformation. Följ instruktionerna för att slutföra processen."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - Återställ lösenord",
+      "description": "Återställ ditt lösenord på JoyProfits. Ange ett nytt lösenord och bekräfta det för att uppdatera kontoinformation."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - Verifiera konto",
+      "description": "Verifiera ditt konto på JoyProfits för att aktivera din profil och börja tjäna pengar online."
+    }
+  }
+}

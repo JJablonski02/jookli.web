@@ -1,1 +1,383 @@
-{}
+{
+  "globals": {
+    "Captions": {
+      "signIn": "GİRİŞ YAP",
+      "register": "KAYIT OL",
+      "mainPage": "ANA SAYFA",
+      "howItWorks": "NASIL ÇALIŞIR",
+      "earnMethods": "KAZANMA YÖNTEMLERİ",
+      "support": "DESTEK",
+      "platform": "PLATFORM",
+      "menu": "MENÜ",
+      "company": "ŞİRKET",
+      "policy": "POLİTİKA",
+      "blog": "BLOG",
+      "affilateProgram": "REFERRAL PROGRAMI",
+      "resources": "KAYNAKLAR",
+      "policyPrivacy": "GİZLİLİK POLİTİKASI",
+      "terms": "KOŞULLAR",
+      "copyright": "TELİF HAKKI",
+      "cookiePolicy": "ÇEREZ POLİTİKASI",
+      "adRules": "REKLAM KURALLARI",
+      "aboutUs": "HAKKIMIZDA",
+      "downloadApp": "Uygulamayı İndir",
+      "appDescription": "Platformumuza katılın ve yeteneklerinizle nasıl kazanabileceğinizi keşfedin"
+    },
+    "SignIn": {
+      "title": "Giriş Yap",
+      "email": "E-posta",
+      "emailPlaceholder": "E-posta",
+      "password": "Şifre",
+      "logIn": "Giriş Yap"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "Sayfa bulunamadı",
+      "pageNotFoundDescription": "Aradığınız sayfa mevcut değil. Buraya nasıl geldiğiniz bir sır. Ancak ana sayfaya geri dönmek için aşağıdaki butona tıklayabilirsiniz."
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "Giriş Yap",
+    "email": "E-posta",
+    "enterEmail": "E-posta adresinizi girin",
+    "enterPassword": "Şifrenizi girin",
+    "emailPlaceholder": "E-posta",
+    "password": "Şifre",
+    "logIn": "Giriş Yap",
+    "signIn": "Giriş Yap",
+    "orSignInWith": "ya da şunlarla giriş yap",
+    "forgotPassword": "Şifrenizi mi unuttunuz?",
+    "reset": "Sıfırla",
+    "haveNotAnAccount": "Hesabınız yok mu?",
+    "register": "Kayıt ol"
+  },
+  "Register": {
+    "title": "Kayıt Ol",
+    "email": "E-posta",
+    "enterEmail": "E-posta adresinizi girin",
+    "enterPassword": "Şifrenizi girin",
+    "reEnterPassword": "Şifrenizi tekrar girin",
+    "emailPlaceholder": "E-posta",
+    "password": "Şifre",
+    "register": "Kayıt Ol",
+    "orRegisterWith": "ya da şunlarla kayıt ol",
+    "haveAnAccount": "Hesabınız var mı?",
+    "signIn": "Giriş Yap"
+  },
+  "Support": {
+    "contactWithUs": "Bizimle iletişime geçin",
+    "fillDataDescription": "Verilerinizi doldurun ve sorunuzu veya olayınızı açıklayın, biz sizinle en kısa sürede iletişime geçeceğiz. Ayrıca, JoyProfits kullanıcısı olmasanız da başvurunuzu gönderebilirsiniz.",
+    "fillForm": "Formu doldurun",
+    "selectReportType": "Bildirim türünü seçin",
+    "contactEmail": "İletişim e-posta adresi",
+    "describeReport": "Bildirim nedenini açıklayın",
+    "sendReport": "Bildirim gönder",
+    "payoutProblem": "Ödeme problemi",
+    "paymentMethod": "Ödeme yöntemi",
+    "taskWasNotCounted": "Görev sayılmadı",
+    "technicalError": "Teknik hata",
+    "reviews": "Yorumlar",
+    "cooperation": "İşbirliği",
+    "promote": "Tanıtım",
+    "firstName": "Adınız",
+    "lastName": "Soyadınız",
+    "iConsentToContact": "JoyProfits ile iletişime geçmek ve e-posta yoluyla bilgi almak için izin veriyorum.",
+    "requiredFields": "gerekli alanlar"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "Ödüller kazanın ve\nboş zamanlarınızda para kazanın!",
+      "headerParagraph": "Uygulamayı indirin ve istediğiniz zaman, istediğiniz yerde kazanmaya başlayın!",
+      "downloadIos": "iOS İndir",
+      "downloadAndroid": "Android İndir"
+    },
+    "DownloadSection": {
+      "headerDescription": "Uygulamamızı indirin",
+      "tileHeader": "{appName} için İndir",
+      "leftTileDescription": "Uygulamamızı iOS için indirin ve yeni fırsatlar keşfedin! Kullanıcı dostu arayüzü sayesinde görevlerinizi hızlıca yönetebilir, ilerlemenizi takip edebilir ve benzersiz özelliklerden faydalanabilirsiniz. JoyProfits uygulamasının nasıl kolay ve keyifli bir deneyim sunduğunu keşfedin.",
+      "rightTileDescription": "Google Play'den uygulamamızı indirin ve tüm özelliklere tam erişim sağlayın! İntuitif arayüzü ile görevlerinizi kolayca yönetebilir, ilerlemenizi takip edebilir ve özel fırsatlardan faydalanabilirsiniz. Uygulamayı indirin ve ne kadar kazanabileceğinizi keşfedin!"
+    },
+    "WCSSection": {
+      "headerDescription": "Kullanıcılarımız ne diyor?",
+      "user1Description": "Uygulama birçok kazanma yolu sunuyor, ancak en çok videoları izlemeyi seviyorum. Boş zamanlarımda birkaç kuruş kazanmak çok iyi. Ödemeler hızlı ve sorunsuz.",
+      "user2Description": "Boş zamanları olan ve ekstra gelir elde etmek isteyenler için güzel bir uygulama. En sevdiğim özellik oyun oynamak. Kazanç analizleri bana ne kadar kazanabileceğimi ve nasıl daha fazla kazanabileceğimi anlamama yardımcı oluyor.",
+      "user3Description": "Çok pratik bir uygulama. Zamanım olduğunda oyun oynuyorum, arada videolar izliyorum ve para kazanıyorum. Cashbackler süper ve ödemeler sorunsuz.",
+      "user4Description": "Çeşitli kazanç yolları sunan iyi tasarlanmış bir uygulama – oyunlardan videolara kadar.",
+      "user5Description": "Çeşitli kazanç yolları ve hızlı PayPal ödemeleri. Cashbackler harika bir ek!",
+      "user6Description": "İyi kazanma seçenekleri ve cashbackler. Bazen ödeme biraz uzun sürebiliyor, ama genel olarak tavsiye ederim.",
+      "user7Description": "Farklı platformlar arasında seçim yapabilmek çok iyi – filmler, oyunlar ve diğerleri. Ödemeler hızlı.",
+      "user8Description": "Birçok platform var, bazen oyun oynar, bazen video izlerim. Ödemeler gayet iyi.",
+      "user9Description": "Birçok kazanç fırsatı var, her şey sorunsuz çalışıyor.",
+      "user10Description": "Tavsiye ederim, sorunsuz çalışıyor ve kazançlar ödeniyor."
+    },
+    "TrustedUs": {
+      "trustedUs": "Bize Güvendiler"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "Nasıl Çalışır",
+      "paragraphDescription": "Basit görevleri yerine getirerek ayda 3000 TL'ye kadar kazanma fırsatınız var, hiçbir gizli ücret veya ek vergi yok. Dahası, kazancınızın üst sınırı yok – ne kadar kazanmak istediğinize siz karar verirsiniz.",
+      "listDescription": "JoyProfits ile farklı yollarla kazanabilirsiniz",
+      "firstListDescription": "oyun oynayarak",
+      "secondListDescription": "anketleri doldurarak",
+      "thirdListDescription": "video ve reklam izleyerek",
+      "fourthListDescription": "online alışveriş yaparak"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "Faydalar Neler?",
+      "paragraphDescription": "JoyProfits, tam zamanlı veya ek gelir kaynağı olarak dünya çapında herkese uygun bir iş fırsatı sunar. İnternet bağlantısı olan herhangi bir cihazla çalışabilir ve her nerede olursanız olun kazanç sağlayabilirsiniz. Platformu kullanarak harcadığınız zaman ve çaba karşılığında ödeme alırsınız."
+    },
+    "Benefits": {
+      "headerDescription": "JoyProfits Size Nasıl Yardımcı Olur?",
+      "description": "JoyProfits, güçlü yönlerinizi kullanarak kazanmanızı sağlar, altı farklı kazanma yolu sunar. Bu sayede en uygun seçeneği seçebilirsiniz. Platform, çabanızı ve zamanınızı somut kazançlara dönüştürmenizi sağlar.",
+      "seeMore": "Daha Fazla Gör"
+    },
+    "AboutSection": {
+      "header": "JoyProfits Hakkında",
+      "description": "iOS ve Android için uygulamamızı keşfedin! Şimdi indirin ve sunduğumuz fırsatları keşfedin!"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "OYUN OYNAYIN VE KAZANIN",
+      "secondTileHeader": "IOS & ANDROID UYGULAMASI",
+      "thirdTileHeader": "KAZANÇ ANALİZİ",
+      "fourthTileHeader": "100% GÜVENLİK",
+      "fifthTileHeader": "Nakit İade",
+      "firstTileDescription": "Favori oyunlarınızda oynayın ve başarılar kazanarak para kazanın! Her oyunda yeni fırsatlar keşfedin ve her oyunu kazanca dönüştürün.",
+      "secondTileDescription": "iOS ve Android için uygulamamızı keşfedin! Şimdi indirin ve sunduğumuz fırsatları keşfedin!",
+      "thirdTileescription": "Analitik sayesinde kazançlarınızı tamamen kontrol edebilir, gelirlerinizin her yönünü izleyebilir ve analiz edebilirsiniz.",
+      "fourthTileDescription": "Kazandığınız parayı güvenli ve kolay bir şekilde banka hesabınıza veya PayPal hesabınıza çekebilirsiniz.",
+      "fifthTileDescription": "Ortaklarımızdan alışveriş yaparak her alışverişte nakit iade kazanabilirsiniz. Ekstra kazançlar ve tasarruflar elde etmek için iş ortaklarımızla alışveriş yapın."
+    }
+  },
+  "RecoverPassword": {
+    "success": "Başarı!",
+    "passwordChangedSuccessfully": "Şifreniz başarıyla değiştirildi",
+    "returnToApp": "Uygulamaya geri dön",
+    "recoverPassword": "Şifrenizi geri alın",
+    "description": "Yeni şifrenizi ve şifreyi onaylamayı girin. Şifrenizi güncellemek için onaylama düğmesine tıklayın. Şifre değiştirme işlemini tamamlamak için alacağınız talimatları izleyin. Herhangi bir sorunla karşılaşırsanız, teknik destekle iletişime geçin.",
+    "password": "Şifre",
+    "reEnterPassword": "Şifreyi tekrar girin",
+    "confirmNewPassword": "Yeni şifreyi onaylayın"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "Yeni Kazanma Yöntemlerini Keşfedin",
+      "headerParagraph": "Geniş bir araç ve kaynak yelpazesiyle herkes gelirlerini artırmak için bir yol bulabilir.",
+      "downloadIos": "İos'u İndir",
+      "downloadAndroid": "Android'i İndir"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "Aşağıdaki üç adımı takip ederek hemen kazanmaya başlayın",
+      "firstStep": "Adım 1",
+      "secondStep": "Adım 2",
+      "thirdStep": "Adım 3",
+      "firstTileHeader": "Kayıt ve hesap ayarları",
+      "firstTileParagraph": "JoyProfits'e kayıt süreci hızlı ve kolaydır. Sadece temel bilgilerinizi girin, hesabınızı doğrulayın, ardından giriş yapın ve profilinizi yapılandırın.",
+      "firstTileExtraParagraph": "Giriş yaptıktan sonra, platform daha iyi gelir önerileri sunabilmesi için profilinizi yapılandırabilirsiniz.",
+      "secondTileHeader": "Gelir stratejisi seçimi ve eğitim",
+      "secondTileParagraph": "JoyProfits, affiliate marketing, ortaklık programlarına katılma, oyun oynama ve anket doldurma gibi çeşitli kazanç stratejileri sunmaktadır. Mevcut seçenekleri keşfedebilir ve ihtiyaçlarınıza en uygun olanları seçebilirsiniz.",
+      "secondTileExtraParagraph": "Başarı şansınızı artırmak için platformda bulunan kurslar, web seminerleri, makaleler ve kılavuzlar gibi çok sayıda eğitim materyalinden yararlanabilirsiniz. Ayrıca, teknik destek ve kullanıcı topluluğuna erişiminiz vardır, burada deneyimlerinizi paylaşabilir ve yardım alabilirsiniz.",
+      "thirdTileHeader": "İlerlemenin izlenmesi, optimizasyon ve ödemeler",
+      "thirdTileParagraph": "JoyProfits platformu, sonuçları izlemek için analiz araçları sunar, bu da geliştirilmesi gereken alanları belirlemeye ve kârları maksimize etmek için mevcut faaliyetleri optimize etmeye yardımcı olur.",
+      "thirdTileExtraParagraph": "Kazandığınız parayı banka havaleleri veya PayPal hesapları gibi farklı ödeme yöntemleriyle kolayca çekebilirsiniz. Ödemeler hızlı ve güvenli olup, finanslarınız üzerinde tam kontrol sağlar."
+    },
+    "Section": {
+      "header": "Nasıl Çalışır?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "Kayıt ve\nhesap ayarları",
+      "strategySelection": "Gelir stratejisi\nseçimi",
+      "educationAndSupport": "Eğitim\nve destek",
+      "analysis": "İlerlemenin izlenmesi\nve optimizasyon",
+      "payouts": "Kazançların\nödemesi"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "Tek bir uygulama, birçok fırsat!",
+      "headerParagraph": "Kullanıcı topluluğumuzla gurur duyuyoruz, her gün yeni yollarla çevrimiçi para kazanma yöntemlerini keşfetmeye devam ediyorlar.",
+      "downloadIos": "iOS'u İndir",
+      "downloadAndroid": "Android'i İndir"
+    },
+    "Section": {
+      "header": "Tek bir uygulama, birçok para kazanma fırsatı",
+      "readMore": "Daha Fazla Oku",
+      "Tile1Header": "Oyun Oynamak",
+      "Tile1Description": "Mobil oyunlarda seviyeler atlayarak ve özellikler açarak puan kazanın. Seviyeleri geçmek ve oyun içi görevleri tamamlamak için çeşitli zorluklarda görevler yapın.",
+      "Tile2Header": "Film İzlemek",
+      "Tile2Description": "Film ve reklamlar izleyerek para kazanın. İlginç içeriklere birkaç dakika ayırın ve her izlediğiniz reklam veya film için ödeme alın. Farklı kategoriler ve konular arasından seçim yapın.",
+      "Tile3Header": "Anketleri Doldurmak",
+      "Tile3Description": "Soruları cevaplayarak ve görüşlerinizi paylaşarak her tamamlanan anket için ödeme kazanın. Ne kadar çok anket tamamlarsanız, o kadar fazla kazanırsınız.",
+      "Tile4Header": "Çevrimiçi Alışveriş",
+      "Tile4Description": "Favori mağazalarınızda alışveriş yapın, nakit geri ödeme kazanın ve ek gelirler elde edin. Web sitelerinde mağaza kayıtları yaparak ücretsiz numuneler ve indirim kodları alın.",
+      "Tile5Header": "Mikro Görevler",
+      "Tile5Description": "Yeni beceriler öğrenerek para kazanın, örneğin programlama veya grafik tasarım. İlginç kurslar seçin ve JoyProfits'te mevcut görevleri yapın.",
+      "Tile6Header": "Başarılar",
+      "Tile6Description": "JoyProfits'te hedefler gerçekleştirin, ödüller kazanın ve gelirlerinizi artırın. Her başarı, sizi daha yüksek kazançlar ve ek ödüller kazanmaya yaklaştırır."
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "JoyProfits'in yaratıcılarını daha yakından tanıyın!",
+      "headerParagraph": "JoyProfits ile kolay ve hızlı bir şekilde para kazanmaya başlayın. Şimdi ne kadar çok fırsatınız olduğunu keşfedin!",
+      "downloadIos": "iOS'u İndir",
+      "downloadAndroid": "Android'i İndir"
+    },
+    "StepTile": {
+      "headerDescription": "Kullanıcılarımız ne diyor?",
+      "firstTileHeader": "Hoş geldiniz!",
+      "firstTileParagraph": "Benim adım Jakub ve bu uygulamanın yaratıcısıyım. Bu uygulama, oyun oynayarak, film izleyerek ve diğer birçok görevle para kazanmanızı sağlar.",
+      "firstTileExtraParagraph": "Yeni teknolojilere ve eğlenceye olan tutkum nedeniyle, giderek daha fazla kişinin boş zamanlarını sanal dünyada geçirdiğini fark ettim. Bu aktiviteden finansal faydalar sağlamak için bir çözüm yaratmaya karar verdim. JoyProfits uygulaması, derinlemesine analizler, pazar araştırmaları ve benim ile ekibimin aylardır süren çalışmalarının bir sonucudur.",
+      "secondTileHeader": "Misyonumuz",
+      "secondTileParagraph": "Misyonumuz, günlük eğlenceleri gerçek finansal kazançlara dönüştürmektir. Dijitalleşme ve sanal eğlencelerin artan popülaritesiyle birlikte, çevrimiçi geçirilen zamanı ek gelir elde etmek için kullanmanın büyük bir potansiyel olduğunu fark ettik.",
+      "secondTileExtraParagraph": "Kullanıcılarımızla yakın temas kurmaya ve onların ihtiyaçlarına hızlı bir şekilde cevap vermeye büyük önem veriyoruz. Her gün uygulamamızı daha da geliştirmek için çalışıyoruz, böylece en iyi deneyimi ve kazanç fırsatlarını sunabiliyoruz. Amacımız, her kullanıcının keyif aldığı şeylerden finansal faydalar elde edebileceği bir topluluk oluşturmaktır.",
+      "thirdTileHeader": "JoyProfits'i Keşfedin",
+      "thirdTileParagraph": "Uygulamamızın potansiyelini keşfetmeye ve para kazanma fırsatlarını eğlence ile birleştiren memnun kullanıcılar topluluğuna katılmaya davet ediyorum.",
+      "thirdTileExtraParagraph": "Birlikte çevrimiçi geçirilen zamanı nasıl algıladığımızı değiştiriyoruz ve yeni, yenilikçi gelir kaynakları yaratıyoruz."
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "Uygulamayı İndir"
+  },
+  "VerifyEmail": {
+    "accountActivated": "Hesap Aktivasyonu Başarılı",
+    "hello": "Merhaba",
+    "thankYouNote": "Teşekkür ederiz, e-posta adresiniz doğrulandı. Hesabınız şimdi aktif. Aşağıdaki düğmeyi kullanarak uygulamaya geri dönün.",
+    "returnToApp": "Uygulamaya Geri Dön",
+    "invalidRequest": "Ups... Talebinizi işleme alamadık..."
+  },
+  "Validation": {
+    "emailRequired": "E-posta adresi gerekli",
+    "passwordRequired": "Şifre gerekli",
+    "firstNameRequired": "İsim gerekli",
+    "lastNameRequired": "Soyisim gerekli",
+    "consentRequired": "Onay gerekli",
+    "descriptionRequired": "Açıklama gerekli",
+    "categorySelectionRequired": "Kategori seçimi gerekli",
+    "minLength": "Minimum uzunluk {count} karakter olmalı",
+    "maxLength": "Maksimum uzunluk {count} karakter olmalı",
+    "invalidEmail": "Geçersiz e-posta adresi",
+    "passwordSpecialChar": "Özel karakter gereklidir",
+    "passwordUppercase": "En az bir büyük harf gereklidir",
+    "passwordsMismatch": "Şifreler uyuşmuyor"
+  },
+  "Dropdown": {
+    "selectType": "Tür Seç"
+  },
+  "Languages": {
+    "en": "İngilizce",
+    "es": "İspanyolca",
+    "de": "Almanca",
+    "fr": "Fransızca",
+    "it": "İtalyanca",
+    "nl": "Hollandaca",
+    "da": "Danca",
+    "sv": "İsveççe",
+    "pl": "Lehçe",
+    "pt": "Portekizce",
+    "ro": "Romence",
+    "vi": "Vietnamca",
+    "tr": "Türkçe",
+    "id": "Endonezyaca",
+    "ru": "Rusça",
+    "uk": "Ukraynaca",
+    "ur": "Urduca",
+    "ar": "Arapça",
+    "hi": "Hintçe",
+    "ta": "Tamilce",
+    "si": "Sinhala",
+    "fa": "Farsça",
+    "tl-PH": "Filipince",
+    "bn": "Bengalce",
+    "km": "Kamboçya Dili",
+    "th": "Tayca",
+    "ja": "Japonca",
+    "zh-hant": "Çince-Traditionel",
+    "zh-hans": "Çince-Simplified",
+    "ko": "Korece"
+  },
+  "Errors": {
+    "unknownError": "Bilinmeyen bir hata oluştu",
+    "invalidToken": "Geçersiz token",
+    "tokenExpired": "Token süresi dolmuş",
+    "missingTokenOwner": "Token sahibi tanımlanmadı",
+    "tokenUsed": "Token zaten kullanıldı",
+    "tokenVerificationFailed": "Token doğrulaması başarısız oldu...",
+    "invalidPassword": "Girilen şifre geçersiz",
+    "passwordChangeFailed": "Şifre değişikliği başarısız oldu"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - İnternetten Para Kazan, Ücretsiz",
+      "description": "Reklamları izleyerek, anket doldurarak, oyun oynayarak, yorumlar yazarak, metinler yazarak, soruları cevaplayarak, teklifler gerçekleştirerek ve daha birçok şekilde internetten para kazanın."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - Nasıl Çalışır",
+      "description": "JoyProfits'in nasıl çalıştığını ve sadece 3 basit adımda nasıl para kazanmaya başlayabileceğinizi öğrenin. Basit bir açıklama ve para kazanma yöntemleri ile rehberlik."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Kazanma Yöntemleri",
+      "description": "JoyProfits ile internetten para kazanmanın farklı yollarını keşfedin. Oyun oynayın, videolar izleyin, anketleri doldurun, online alışveriş yapın ve daha fazlası."
+    },
+    "support": {
+      "title": "JoyProfits - Destek",
+      "description": "Sorularınız varsa, yardıma ihtiyacınız varsa veya bir sorunla karşılaştıysanız, destek ekibimizle iletişime geçin."
+    },
+    "signIn": {
+      "title": "JoyProfits - Giriş Yap",
+      "description": "JoyProfits hesabınıza giriş yapın ve internetten para kazanmaya başlayın. Profilinize erişim sağlamak ve kazançlarınızı yönetmek için giriş yapın."
+    },
+    "register": {
+      "title": "JoyProfits - Kayıt Ol",
+      "description": "JoyProfits'e kaydolun ve internetten para kazanmaya başlayın. Hesap oluşturarak farklı kazanç yöntemlerine ve fırsatlara erişim sağlayın."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - Hakkımızda",
+      "description": "JoyProfits, uygulamanın geliştiricileri ve platformun arkasındaki misyon hakkında daha fazla bilgi edinin. JoyProfits'i nasıl kullanabileceğinizi keşfedin."
+    },
+    "advertising": {
+      "title": "JoyProfits - Reklam",
+      "description": "JoyProfits'in reklam politikalarını öğrenin, ürün ve hizmetlerin tanıtımında şeffaflık, sorumluluk ve yasal uyumluluğu sağlamak."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Gizlilik Politikası",
+      "description": "JoyProfits'in gizlilik politikasını okuyun, kişisel bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu öğrenin. Haklarınızı ve veri güvenliğini nasıl sağladığımızı anlayın."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Hizmet Şartları",
+      "description": "JoyProfits hizmet şartlarını okuyun, platformu kullanırken geçerli kurallar ve şartları anlayın. Kullanıcı olarak haklarınızı ve yükümlülüklerinizi öğrenin."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Çerez Politikası",
+      "description": "JoyProfits çerez politikasını okuyun, çerezleri ve benzer teknolojileri platformda deneyiminizi geliştirmek için nasıl kullandığımızı öğrenin."
+    },
+    "locationData": {
+      "title": "JoyProfits - Konum Verileri",
+      "description": "JoyProfits'in konum verilerinizi nasıl topladığını ve kullandığını öğrenin, kişiselleştirilmiş hizmetler sağlamak ve kullanıcı deneyiminizi iyileştirmek için."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - Kullanıcı Verilerini Yönetme",
+      "description": "JoyProfits'in kullanıcı verilerini nasıl yönettiğini öğrenin, gizliliği, güvenliği ve yasal uyumluluğu sağlamak için."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Çerez Türleri",
+      "description": "JoyProfits'in hangi tür çerezleri kullandığını öğrenin, kullanıcı deneyiminizi geliştirmek ve kişiselleştirilmiş hizmetler sağlamak için."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Kullanıcı Verilerinin Transferi",
+      "description": "JoyProfits'in kullanıcı verilerini nasıl transfer ettiğini öğrenin, gizliliği, güvenliği ve yasal uyumluluğu sağlamak için."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - E-posta Değişikliğini Onaylayın",
+      "description": "E-posta adresi değişikliğini onaylayın, böylece hesabınızın bilgilerini güncelleyin. Süreci tamamlamak için talimatları takip edin."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - Şifreyi Kurtar",
+      "description": "JoyProfits'te şifrenizi kurtarın. Yeni bir şifre girin ve onaylayın, böylece hesabınızın bilgilerini güncelleyin."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - Hesap Doğrulama",
+      "description": "JoyProfits'te hesabınızı doğrulayın, profilinizi etkinleştirin ve internetten para kazanmaya başlayın."
+    }
+  }
+}

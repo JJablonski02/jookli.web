@@ -1,1 +1,383 @@
-{}
+{
+  "globals": {
+    "Captions": {
+      "signIn": "INLOGGEN",
+      "register": "REGISTREREN",
+      "mainPage": "HOOFD PAGINA",
+      "howItWorks": "HOE HET WERKT",
+      "earnMethods": "INKOMSTMETHODEN",
+      "support": "ONDERSTEUNING",
+      "platform": "PLATFORM",
+      "menu": "MENU",
+      "company": "BEDRIJF",
+      "policy": "BELEID",
+      "blog": "BLOG",
+      "affilateProgram": "REFERENTIEPROGRAMMA",
+      "resources": "HULPBRONNEN",
+      "policyPrivacy": "PRIVACYBELEID",
+      "terms": "VOORWAARDEN",
+      "copyright": "AUTEURSRECHTEN",
+      "cookiePolicy": "COOKIEBELEID",
+      "adRules": "RECLAMEREGELS",
+      "aboutUs": "OVER ONS",
+      "downloadApp": "Download de app",
+      "appDescription": "Sluit je aan bij ons platform en ontdek hoe je kunt verdienen met jouw vaardigheden"
+    },
+    "SignIn": {
+      "title": "Inloggen",
+      "email": "E-mail",
+      "emailPlaceholder": "E-mail",
+      "password": "Wachtwoord",
+      "logIn": "Log in"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "Pagina niet gevonden",
+      "pageNotFoundDescription": "De pagina die je zoekt bestaat niet. Hoe je hier terecht bent gekomen is een mysterie. Maar je kunt op de onderstaande knop klikken om terug te gaan naar de hoofdpagina."
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "Inloggen",
+    "email": "E-mail",
+    "enterEmail": "Voer je e-mailadres in",
+    "enterPassword": "Voer je wachtwoord in",
+    "emailPlaceholder": "E-mail",
+    "password": "Wachtwoord",
+    "logIn": "Inloggen",
+    "signIn": "Log in",
+    "orSignInWith": "of log in met",
+    "forgotPassword": "Wachtwoord vergeten?",
+    "reset": "Resetten",
+    "haveNotAnAccount": "Heb je nog geen account?",
+    "register": "Registreer"
+  },
+  "Register": {
+    "title": "Registreren",
+    "email": "E-mail",
+    "enterEmail": "Voer je e-mailadres in",
+    "enterPassword": "Voer je wachtwoord in",
+    "reEnterPassword": "Bevestig je wachtwoord",
+    "emailPlaceholder": "E-mail",
+    "password": "Wachtwoord",
+    "register": "Registreer",
+    "orRegisterWith": "of registreer met",
+    "haveAnAccount": "Heb je al een account?",
+    "signIn": "Log in"
+  },
+  "Support": {
+    "contactWithUs": "Neem contact met ons op",
+    "fillDataDescription": "Vul de gegevens in en beschrijf het probleem of de gebeurtenis, en wij nemen snel contact met je op. Vergeet niet dat je een melding kunt versturen, zelfs als je nog geen gebruiker van JoyProfits bent.",
+    "fillForm": "Vul het formulier in",
+    "selectReportType": "Kies het type melding",
+    "contactEmail": "Contact e-mailadres",
+    "describeReport": "Beschrijf de reden van je melding",
+    "sendReport": "Verstuur de melding",
+    "payoutProblem": "Probleem met uitbetaling",
+    "paymentMethod": "Betaalmethode",
+    "taskWasNotCounted": "Taak werd niet geteld",
+    "technicalError": "Technische fout",
+    "reviews": "Recensies",
+    "cooperation": "Samenwerking",
+    "promote": "Promotie",
+    "firstName": "Jouw voornaam",
+    "lastName": "Jouw achternaam",
+    "iConsentToContact": "Ik geef toestemming voor contact en het ontvangen van informatie van JoyProfits via e-mail.",
+    "requiredFields": "verplichte velden"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "Verdien prijzen en\nverdien geld in je\nvrije tijd!",
+      "headerParagraph": "Download de app en begin te verdienen waar en wanneer je maar wilt!",
+      "downloadIos": "Download iOS",
+      "downloadAndroid": "Download Android"
+    },
+    "DownloadSection": {
+      "headerDescription": "Download onze app",
+      "tileHeader": "Download op {appName}",
+      "leftTileDescription": "Download onze app voor iOS en ontdek nieuwe mogelijkheden! Met een gebruiksvriendelijke interface kun je snel je taken beheren, je voortgang volgen en profiteren van unieke functies. Ontdek hoe eenvoudig en leuk het is om JoyProfits te gebruiken.",
+      "rightTileDescription": "Download onze app uit Google Play en geniet van volledige toegang tot alle functies! Met een intuïtieve interface kun je gemakkelijk je taken beheren, je voortgang volgen en profiteren van unieke aanbiedingen. Installeer de app en ontdek hoeveel je kunt verdienen!"
+    },
+    "WCSSection": {
+      "headerDescription": "Wat zeggen onze gebruikers?",
+      "user1Description": "De app biedt veel manieren om te verdienen, maar ik hou het meeste van het bekijken van video’s. Ik heb vaak vrije tijd, dus kan ik een beetje bijverdienen in mijn vrije tijd. Uitbetalingen zijn snel en probleemloos.",
+      "user2Description": "Leuke app voor iemand met wat vrije tijd die wat extra geld wil verdienen. Ik hou het meest van de spelletjesfunctie. De inkomstenanalyses helpen me beter te begrijpen hoeveel en waar ik meer kan verdienen.",
+      "user3Description": "Een zeer handige app. Ik speel spelletjes wanneer ik tijd heb en kijk video’s om bij te verdienen. Cashback is een geweldige extra, en de uitbetalingen werken perfect.",
+      "user4Description": "Goed ontworpen app met diverse manieren om te verdienen – van spellen tot video’s.",
+      "user5Description": "Diverse manieren om te verdienen en snelle uitbetalingen via PayPal. Cashback is een geweldige toevoeging!",
+      "user6Description": "Goede manieren om te verdienen en cashback. Soms duurt de uitbetaling wat langer, maar over het algemeen raad ik het aan.",
+      "user7Description": "Leuk dat ik kan kiezen tussen verschillende platforms – video’s, spelletjes en meer. Snel uitbetalen.",
+      "user8Description": "Leuk dat er verschillende platforms zijn om uit te kiezen. Soms speel ik, soms kijk ik video’s. Uitbetalingen zijn goed.",
+      "user9Description": "Veel mogelijkheden om te verdienen, alles werkt soepel.",
+      "user10Description": "Aanrader, het werkt goed en de uitbetalingen gaan probleemloos."
+    },
+    "TrustedUs": {
+      "trustedUs": "Ze vertrouwen ons"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "Hoe het werkt",
+      "paragraphDescription": "Door eenvoudige taken uit te voeren, kun je tot 3000 zł per maand verdienen, zonder verborgen kosten of extra belastingen. Bovendien is er geen limiet aan je inkomen – jij bepaalt hoeveel je wilt verdienen.",
+      "listDescription": "Met JoyProfits kun je op verschillende manieren geld verdienen",
+      "firstListDescription": "door games te spelen",
+      "secondListDescription": "door enquêtes in te vullen",
+      "thirdListDescription": "door video's en advertenties te bekijken",
+      "fourthListDescription": "door online aankopen te doen"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "Wat zijn de voordelen",
+      "paragraphDescription": "JoyProfits biedt de mogelijkheid om zowel fulltime te werken als een extra bron van inkomen, beschikbaar voor mensen wereldwijd. Je kunt geld verdienen met elk apparaat met internettoegang, ongeacht waar je je bevindt. Je ontvangt betaling voor de tijd en moeite die je besteedt aan het gebruik van het platform."
+    },
+    "Benefits": {
+      "headerDescription": "Hoe kan JoyProfits je helpen?",
+      "description": "JoyProfits helpt je je sterke punten te benutten door zes verschillende manieren van verdienen aan te bieden. Hierdoor kun je de optie kiezen die het beste bij jouw vaardigheden en interesses past. Het platform stelt je in staat je tijd en inspanning om te zetten in daadwerkelijke winst.",
+      "seeMore": "Meer zien"
+    },
+    "AboutSection": {
+      "header": "Over JoyProfits",
+      "description": "Ontdek onze app beschikbaar op iOS en Android! Download het nu en begin te profiteren van de mogelijkheden die we bieden!"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "GAMEN EN VERDIENEN",
+      "secondTileHeader": "IOS & ANDROID APP",
+      "thirdTileHeader": "INKOMSTENANALYSE",
+      "fourthTileHeader": "100% VEILIGHEID",
+      "fifthTileHeader": "GELDTERUGBETALINGEN",
+      "firstTileDescription": "Speel je favoriete games en verdien door prestaties te behalen! Ontdek nieuwe mogelijkheden en zet elke sessie om in een bron van inkomen.",
+      "secondTileDescription": "Ontdek onze app beschikbaar op iOS en Android! Download het nu en begin te profiteren van de mogelijkheden die we bieden!",
+      "thirdTileescription": "Met de analytische tools heb je volledige controle over je inkomsten, waarbij je elk aspect van je verdiensten kunt volgen en analyseren.",
+      "fourthTileDescription": "Betaal je verdiende geld eenvoudig en veilig uit, rechtstreeks naar je bankrekening of PayPal-account.",
+      "fifthTileDescription": "Door aankopen te doen bij onze partners, kun je geld terugkrijgen voor elke aankoop. Profiteer van extra voordelen en besparingen door gebruik te maken van ons netwerk van partners."
+    }
+  },
+  "RecoverPassword": {
+    "success": "Succes!",
+    "passwordChangedSuccessfully": "Wachtwoord is succesvol gewijzigd",
+    "returnToApp": "Terug naar de app",
+    "recoverPassword": "Herstel je wachtwoord",
+    "description": "Voer je nieuwe wachtwoord en bevestiging van het wachtwoord in. Klik op de bevestigingsknop om je wachtwoord bij te werken. Volg de instructies die je ontvangt om het proces van het wijzigen van het wachtwoord te voltooien. Als je problemen ondervindt, neem dan contact op met de technische ondersteuning.",
+    "password": "Wachtwoord",
+    "reEnterPassword": "Herhaal wachtwoord",
+    "confirmNewPassword": "Bevestig nieuw wachtwoord"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "Ontdek nieuwe manieren van verdienen",
+      "headerParagraph": "Met een breed scala aan tools en middelen kan iedereen een manier vinden om zijn inkomsten te genereren.",
+      "downloadIos": "Download iOS",
+      "downloadAndroid": "Download Android"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "Begin nu met verdienen door de drie onderstaande stappen te volgen",
+      "firstStep": "Stap 1",
+      "secondStep": "Stap 2",
+      "thirdStep": "Stap 3",
+      "firstTileHeader": "Registratie en accountinstelling",
+      "firstTileParagraph": "Het registratieproces bij JoyProfits is snel en eenvoudig. Vul je basisgegevens in, verifieer je account en log daarna in om je profiel in te stellen.",
+      "firstTileExtraParagraph": "Na inloggen kun je je profiel configureren zodat het platform aanbevelingen voor inkomsten kan afstemmen op je behoeften.",
+      "secondTileHeader": "Kies je verdienstrategie en educatie",
+      "secondTileParagraph": "JoyProfits biedt verschillende verdienstrategieën, zoals affiliate marketing, deelname aan partnerprogramma's, gamen en enquêtes invullen. Verken de beschikbare opties en kies degene die het beste bij je behoeften passen.",
+      "secondTileExtraParagraph": "Om je kansen op succes te vergroten, maak gebruik van de vele educatieve materialen die op het platform beschikbaar zijn, zoals cursussen, webinars, artikelen en handleidingen. Daarnaast heb je toegang tot technische ondersteuning en een gebruikersgemeenschap waar je ervaringen kunt delen en hulp kunt krijgen.",
+      "thirdTileHeader": "Volg je voortgang, optimaliseer en betaal uit",
+      "thirdTileParagraph": "Het platform JoyProfits biedt analytische tools om je resultaten te volgen, zodat je gebieden kunt identificeren die verbetering behoeven en je activiteiten kunt optimaliseren om je winsten te maximaliseren.",
+      "thirdTileExtraParagraph": "Verdiende middelen kunnen eenvoudig worden uitbetaald via verschillende betaalmethoden, zoals bankoverschrijvingen of PayPal. Uitbetalingen zijn snel en veilig, wat volledige controle over je financiën biedt."
+    },
+    "Section": {
+      "header": "Hoe werkt het?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "Registratie en\nconfiguratie van het account",
+      "strategySelection": "Selectie van de\nverdienstrategie",
+      "educationAndSupport": "Opleiding\nen ondersteuning",
+      "analysis": "Voortgangsbewaking\nen optimalisatie",
+      "payouts": "Uitbetalingen van\nverdienste"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "Één app, vele mogelijkheden! ",
+      "headerParagraph": "We zijn trots op onze gemeenschap van gebruikers die dagelijks nieuwe manieren ontdekken om online te verdienen.",
+      "downloadIos": "Download iOS",
+      "downloadAndroid": "Download Android"
+    },
+    "Section": {
+      "header": "Één app, vele manieren om te verdienen",
+      "readMore": "Lees meer",
+      "Tile1Header": "Gamen",
+      "Tile1Description": "Verzamel punten door niveaus te bereiken en functies in mobiele games te ontgrendelen. Voer taken uit van verschillende moeilijkheidsgraden in je favoriete games.",
+      "Tile2Header": "Films kijken",
+      "Tile2Description": "Verdien door films en advertenties te bekijken. Besteed even tijd aan interessante inhoud en ontvang betaling voor elke bekeken advertentie of film. Kies uit verschillende categorieën en onderwerpen.",
+      "Tile3Header": "Enquêtes invullen",
+      "Tile3Description": "Beantwoord vragen en deel je mening om betaald te worden voor elke voltooide enquête. Hoe meer enquêtes je invult, hoe groter je verdiensten.",
+      "Tile4Header": "Online winkelen",
+      "Tile4Description": "Shop in je favoriete winkels en krijg cashback en extra inkomsten. Meld je aan op webshops om gratis monsters en kortingscodes te ontvangen.",
+      "Tile5Header": "Mikrotaken",
+      "Tile5Description": "Verdien door nieuwe vaardigheden te leren, zoals programmeren of grafisch ontwerp. Kies interessante cursussen en voer beschikbare taken uit op JoyProfits.",
+      "Tile6Header": "Prestaties",
+      "Tile6Description": "Voltooi doelen op JoyProfits, verdien beloningen en verhoog je inkomsten. Elke prestatie brengt je dichter bij hogere verdiensten en extra beloningen."
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "Leer de makers van JoyProfits kennen!",
+      "headerParagraph": "Begin eenvoudig en snel te verdienen met JoyProfits. Ontdek nu hoeveel mogelijkheden je hebt!",
+      "downloadIos": "Download iOS",
+      "downloadAndroid": "Download Android"
+    },
+    "StepTile": {
+      "headerDescription": "Wat zeggen onze gebruikers?",
+      "firstTileHeader": "Hallo!",
+      "firstTileParagraph": "Mijn naam is Jakub en ik ben de maker van de app die plezier en nuttigheid combineert – het maakt het mogelijk om geld te verdienen door games te spelen, films te kijken en vele andere taken uit te voeren.",
+      "firstTileExtraParagraph": "Als een passievolle technoloog en entertainmentliefhebber realiseerde ik me dat steeds meer mensen hun vrije tijd doorbrengen in de virtuele wereld. Daarom besloot ik een oplossing te creëren waarmee je financieel kunt profiteren van deze activiteit. De JoyProfits-app is het resultaat van grondige analyses, marktonderzoek en maandenlange inspanningen van mijn team en mij om een veilige en gebruiksvriendelijke tool te ontwikkelen.",
+      "secondTileHeader": "Onze missie",
+      "secondTileParagraph": "Onze missie is om dagelijks entertainment om te zetten in echte financiële voordelen. In dit digitale tijdperk, met de toenemende populariteit van virtueel entertainment, zagen we een enorm potentieel om de tijd die online wordt doorgebracht te gebruiken om extra inkomsten te genereren.",
+      "secondTileExtraParagraph": "We hechten veel waarde aan direct contact met onze gebruikers en flexibiliteit in het reageren op hun behoeften. We werken elke dag aan het verbeteren van de app om de best mogelijke ervaring en verdienmogelijkheden te bieden. Ons doel is om een gemeenschap te creëren waarin elke gebruiker financieel voordeel kan halen uit wat hen plezier brengt.",
+      "thirdTileHeader": "Ontdek JoyProfits",
+      "thirdTileParagraph": "Ik nodig je uit om het potentieel van onze app te ontdekken en je aan te sluiten bij de groep tevreden gebruikers die al geld verdienen door plezier en entertainment.",
+      "thirdTileExtraParagraph": "Samen veranderen we de manier waarop we online tijd ervaren, door nieuwe, innovatieve inkomstenbronnen te creëren."
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "Download de app"
+  },
+  "VerifyEmail": {
+    "accountActivated": "Account geactiveerd",
+    "hello": "Hallo",
+    "thankYouNote": "Bedankt, je e-mailadres is geverifieerd. Je account is nu actief. Gebruik de knop hieronder om terug te keren naar de app.",
+    "returnToApp": "Terug naar de app",
+    "invalidRequest": "Oeps... We konden je verzoek niet verwerken..."
+  },
+  "Validation": {
+    "emailRequired": "E-mailadres is vereist",
+    "passwordRequired": "Wachtwoord is vereist",
+    "firstNameRequired": "Voornaam is vereist",
+    "lastNameRequired": "Achternaam is vereist",
+    "consentRequired": "Toestemming is vereist",
+    "descriptionRequired": "Beschrijving is vereist",
+    "categorySelectionRequired": "Categorie selectie is vereist",
+    "minLength": "Minimale lengte is {count} tekens",
+    "maxLength": "Maximale lengte is {count} tekens",
+    "invalidEmail": "Ongeldig e-mailadres",
+    "passwordSpecialChar": "Speciale teken vereist",
+    "passwordUppercase": "Minimaal één hoofdletter vereist",
+    "passwordsMismatch": "Wachtwoorden komen niet overeen"
+  },
+  "Dropdown": {
+    "selectType": "Selecteer type"
+  },
+  "Languages": {
+    "en": "Engels",
+    "es": "Spaans",
+    "de": "Duits",
+    "fr": "Frans",
+    "it": "Italiaans",
+    "nl": "Nederlands",
+    "da": "Deens",
+    "sv": "Zweeds",
+    "pl": "Pools",
+    "pt": "Portugees",
+    "ro": "Roemeens",
+    "vi": "Vietnamees",
+    "tr": "Turks",
+    "id": "Indonesisch",
+    "ru": "Russisch",
+    "uk": "Oekraïens",
+    "ur": "Urdu",
+    "ar": "Arabisch",
+    "hi": "Hindi",
+    "ta": "Tamil",
+    "si": "Singalees",
+    "fa": "Perzisch",
+    "tl-PH": "Filipijns",
+    "bn": "Bengaals",
+    "km": "Khmer",
+    "th": "Thai",
+    "ja": "Japans",
+    "zh-hant": "Chinees-Traditioneel",
+    "zh-hans": "Chinees-Vereenvoudigd",
+    "ko": "Koreaans"
+  },
+  "Errors": {
+    "unknownError": "Er is een onbekende fout opgetreden",
+    "invalidToken": "Ongeldige token",
+    "tokenExpired": "Je token is verlopen",
+    "missingTokenOwner": "Token eigenaar niet geïdentificeerd",
+    "tokenUsed": "Token is al gebruikt",
+    "tokenVerificationFailed": "Token verificatie mislukt...",
+    "invalidPassword": "Het ingevoerde wachtwoord is ongeldig",
+    "passwordChangeFailed": "Wachtwoord wijzigen is mislukt"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - Verdien geld online gratis",
+      "description": "Verdien geld online door advertenties te bekijken, enquêtes in te vullen, spellen te spelen, reacties te schrijven, teksten te schrijven, vragen te beantwoorden, aanbiedingen uit te voeren en nog veel meer."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - Hoe werkt het",
+      "description": "Leer hoe JoyProfits werkt en hoe je in slechts 3 eenvoudige stappen kunt beginnen met verdienen. Eenvoudige uitleg met tips en methoden om geld te verdienen."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Verdienmethoden",
+      "description": "Ontdek de verschillende manieren om online geld te verdienen met JoyProfits. Speel spellen, bekijk video's, vul enquêtes in, doe online aankopen en nog veel meer."
+    },
+    "support": {
+      "title": "JoyProfits - Ondersteuning",
+      "description": "Als je vragen hebt, hulp nodig hebt of een probleem hebt ondervonden, neem dan contact op met ons ondersteuningsteam."
+    },
+    "signIn": {
+      "title": "JoyProfits - Inloggen",
+      "description": "Log in op je JoyProfits-account en begin met het verdienen van geld online. Log in om toegang te krijgen tot je profiel en je verdiensten te beheren."
+    },
+    "register": {
+      "title": "JoyProfits - Registreren",
+      "description": "Registreer je bij JoyProfits en begin met het verdienen van geld online. Maak een account om toegang te krijgen tot verschillende methoden en verdienmogelijkheden."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - Over ons",
+      "description": "Leer meer over JoyProfits, de makers van de applicatie en de missie achter het platform. Ontdek hoe je kunt profiteren van het gebruik van JoyProfits."
+    },
+    "advertising": {
+      "title": "JoyProfits - Adverteren",
+      "description": "Leer het reclamebeleid van JoyProfits kennen, dat transparantie, verantwoordelijkheid en naleving van de wet biedt bij het promoten van producten en diensten."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Privacybeleid",
+      "description": "Lees het privacybeleid van JoyProfits om te begrijpen hoe we je persoonlijke gegevens verzamelen, gebruiken en beschermen. Begrijp je rechten en hoe we de gegevensbeveiliging waarborgen."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Gebruiksvoorwaarden",
+      "description": "Lees de gebruiksvoorwaarden van JoyProfits om de regels en voorwaarden van het gebruik van het platform te begrijpen. Leer je rechten en verplichtingen als gebruiker."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Cookiebeleid",
+      "description": "Lees het cookiebeleid van JoyProfits om te begrijpen hoe we cookies en vergelijkbare technologieën gebruiken om je ervaring op het platform te verbeteren."
+    },
+    "locationData": {
+      "title": "JoyProfits - Locatiegegevens",
+      "description": "Leer hoe JoyProfits locatiegegevens verzamelt en gebruikt om je gepersonaliseerde diensten te bieden en je gebruikerservaring te verbeteren."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - Beheer van gebruikersgegevens",
+      "description": "Leer hoe JoyProfits gebruikersgegevens beheert om privacy, veiligheid en naleving van de wet te waarborgen."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Soorten cookies",
+      "description": "Leer welke soorten cookies JoyProfits gebruikt om je gebruikerservaring te verbeteren en gepersonaliseerde diensten te leveren."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Gegevensoverdracht van gebruikers",
+      "description": "Leer hoe JoyProfits gebruikersgegevens overdraagt om privacy, veiligheid en naleving van de wet te waarborgen."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - Bevestig e-mailwijziging",
+      "description": "Bevestig de wijziging van je e-mailadres om je accountgegevens bij te werken. Volg de instructies om het proces te voltooien."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - Herstel wachtwoord",
+      "description": "Herstel je wachtwoord op JoyProfits. Voer een nieuw wachtwoord in en bevestig het om je accountgegevens bij te werken."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - Verifieer account",
+      "description": "Verifieer je account op JoyProfits om je profiel te activeren en te beginnen met het verdienen van geld online."
+    }
+  }
+}

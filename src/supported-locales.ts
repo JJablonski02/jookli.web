@@ -1,5 +1,5 @@
 // Wspierane języki w aplikacji
-const SUPPORTED_LOCALES = [
+const SUPPORTED_LOCALES: Language[] = [
   "en", // angielski
   "es", // hiszpański
   "de", // niemiecki
@@ -16,19 +16,19 @@ const SUPPORTED_LOCALES = [
   "id", // indonezyjski
   "ru", // rosyjski
   "uk", // ukraiński
-  "ur-PK", // urdu (Pakistan)
-  "ar-SA", // arabski (Arabia Saudyjska)
+  "ur", // urdu (Pakistan)
+  "ar", // arabski (Arabia Saudyjska)
   "hi", // hindi
   "ta", // tamil
   "si", // syngaleski
   "fa", // perski
-  "fil", // filipiński
-  "bn-BD", // bengalski (Bangladesz)
+  "tl-PH", // filipiński
+  "bn", // bengalski (Bangladesz)
   "km", // khmerski
   "th", // tajski
   "ja", // japoński
-  "zh-Hans", // chiński uproszczony
-  "zh-Hant", // chiński tradycyjny
+  "zh-hans", // chiński uproszczony
+  "zh-hant", // chiński tradycyjny
   "ko", // koreański
 ]
 

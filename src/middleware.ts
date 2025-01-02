@@ -10,11 +10,11 @@ export default createMiddleware({
   localePrefix,
   defaultLocale: "en",
 })
-// |es|de|fr|it|nl|dk|swe|pl|pt|ro|vn|tr|id|ru|uk|pk|sa|hi|ta|si|fa|ph|bd|kh|th|jp|chs|cht|kr
+// es|de|fr|it|nl|da|sv|pl|pt|ro|vi|tr|id|ru|uk|ur|ar|hi|ta|si|fa|tl-PH|bn|km|th|ja|zh-hans|zh-hant|ko
 export const config = {
   matcher: [
     "/",
-    "/:lang(es|de|fr|it|nl|da|sv|pl|pt|ro|vi|tr|id|ru|uk|pk|sa|hi|ta|si|fa|ph|bd|kh|th|jp|zh-hans|zh-hant|ko)/:path*",
+    "/:lang(en|es|de|fr|it|nl|da|sv|pl|pt|ro|vi|tr|id|ru|uk|ur|ar|hi|ta|si|fa|tl-PH|bn|km|th|ja|zh-hans|zh-hant|ko)/:path*",
     "/how-it-works",
     "/earn-methods",
     "/support",

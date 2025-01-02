@@ -1,0 +1,383 @@
+{
+  "globals": {
+    "Captions": {
+      "signIn": "MAG-LOGIN",
+      "register": "MAG-REHISTRO",
+      "mainPage": "PANGUNAHING PAHINA",
+      "howItWorks": "PAANO ITO GUMAGANA",
+      "earnMethods": "PARAAN NG PAGKITA",
+      "support": "SUPORTA",
+      "platform": "PLATFORM",
+      "menu": "MENYU",
+      "company": "KUMPANYA",
+      "policy": "POLITIKA",
+      "blog": "BLOG",
+      "affilateProgram": "PROGRAMANG REFERAL",
+      "resources": "YAMAN",
+      "policyPrivacy": "POLITIKA NG PRIVACY",
+      "terms": "MGA TERMINO",
+      "copyright": "MGA KARAPATAN SA AKDA",
+      "cookiePolicy": "POLITIKA NG COOKIE",
+      "adRules": "MGA PANUNTUNAN SA PAGPAPATALASTAS",
+      "aboutUs": "TUNGKOL SA AMIN",
+      "downloadApp": "I-download ang App",
+      "appDescription": "Sumali sa aming platform at tuklasin kung paano ka kikita gamit ang iyong mga kasanayan"
+    },
+    "SignIn": {
+      "title": "Pag-login",
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Password",
+      "logIn": "Mag-Login"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "Pahina Hindi Natagpuan",
+      "pageNotFoundDescription": "Ang pahinang hinahanap mo ay hindi umiiral. Paano ka nakarating dito ay nananatiling isang misteryo. Maaari mong i-click ang pindutang nasa ibaba upang bumalik sa pangunahing pahina."
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "Pag-login",
+    "email": "Email",
+    "enterEmail": "Ilagay ang iyong email address",
+    "enterPassword": "Ilagay ang iyong password",
+    "emailPlaceholder": "Email",
+    "password": "Password",
+    "logIn": "Mag-Login",
+    "signIn": "Mag-Login",
+    "orSignInWith": "o mag-login gamit ang",
+    "forgotPassword": "Nakalimutan ang password?",
+    "reset": "I-reset",
+    "haveNotAnAccount": "Wala ka pang account?",
+    "register": "Mag-rehistro"
+  },
+  "Register": {
+    "title": "Pag-rehistro",
+    "email": "Email",
+    "enterEmail": "Ilagay ang iyong email address",
+    "enterPassword": "Ilagay ang iyong password",
+    "reEnterPassword": "Kumpirmahin ang password",
+    "emailPlaceholder": "Email",
+    "password": "Password",
+    "register": "Mag-rehistro",
+    "orRegisterWith": "o mag-rehistro gamit ang",
+    "haveAnAccount": "May account ka na?",
+    "signIn": "Mag-login"
+  },
+  "Support": {
+    "contactWithUs": "Makipag-ugnay sa Amin",
+    "fillDataDescription": "Punan ang iyong mga detalye at ilarawan ang problema o insidente, at makikipag-ugnay kami sa iyo agad. Tandaan na maaari ka ring magpadala ng ulat kahit hindi ka pa gumagamit ng JoyProfits.",
+    "fillForm": "Punan ang Form",
+    "selectReportType": "Pumili ng uri ng ulat",
+    "contactEmail": "Email na Pang-contact",
+    "describeReport": "Ilarawan ang dahilan ng ulat",
+    "sendReport": "Ipadala ang ulat",
+    "payoutProblem": "Problema sa Pagbabayad",
+    "paymentMethod": "Paraan ng Pagbabayad",
+    "taskWasNotCounted": "Hindi nabilang ang gawain",
+    "technicalError": "Pagkakamali sa Teknikal",
+    "reviews": "Mga Review",
+    "cooperation": "Kooperasyon",
+    "promote": "Pagpo-promote",
+    "firstName": "Iyong Pangalan",
+    "lastName": "Iyong Apelyido",
+    "iConsentToContact": "Sumasang-ayon ako sa pakikipag-ugnay at pagtanggap ng mga impormasyon mula sa JoyProfits sa pamamagitan ng email.",
+    "requiredFields": "mga kinakailangang patlang"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "Kumuha ng mga gantimpala at\nkumita ng pera sa\niyong libreng oras!",
+      "headerParagraph": "I-download ang app at magsimula ng kumita kahit saan at anumang oras!",
+      "downloadIos": "I-download sa iOS",
+      "downloadAndroid": "I-download sa Android"
+    },
+    "DownloadSection": {
+      "headerDescription": "I-download ang aming app",
+      "tileHeader": "I-download sa {appName}",
+      "leftTileDescription": "I-download ang aming app sa iOS at tuklasin ang mga bagong posibilidad! Sa madaling gamitin na interface, mabilis mong ma-aasikaso ang iyong mga gawain, subaybayan ang progreso, at gamitin ang mga natatanging tampok. Subukan kung gaano kasimple at kaaya-aya ang paggamit ng JoyProfits app.",
+      "rightTileDescription": "I-download ang aming app mula sa Google Play at tamasahin ang buong access sa lahat ng mga tampok! Sa intuitive na interface, madali mong mapapamahalaan ang iyong mga gawain, subaybayan ang progreso, at gamitin ang mga natatanging alok. I-install ang app at tuklasin kung gaano ka maraming maaring kitain!"
+    },
+    "WCSSection": {
+      "headerDescription": "Ano ang sinasabi ng aming mga gumagamit?",
+      "user1Description": "Ang app ay may maraming paraan upang kumita, pero ang pinaka gusto ko ay ang kakayahang manood ng mga video. Madalas akong may libreng oras kaya nakakapag-kita ako ng kaunting pera sa pagitan. Mabilis at walang aberyang mga payouts.",
+      "user2Description": "Magandang app para sa mga may kaunting libreng oras at gustong kumita ng extra. Pinakamahalaga ko ay ang opsyong maglaro ng mga laro. Ang pagsusuri ng mga kita ay tumutulong sa akin upang maunawaan kung magkano at saan pa ako pwedeng kumita ng mas malaki.",
+      "user3Description": "Napaka-komportable ng app. Naglalaro ako ng mga laro kapag may oras, at nanonood ng mga video para kumita ng dagdag. Ang mga cashback ay isang magandang dagdag, at ang mga payouts ay walang problema.",
+      "user4Description": "Magandang disenyo ng app na may maraming paraan upang kumita - mula sa mga laro hanggang sa panonood ng mga video.",
+      "user5Description": "Maraming paraan upang kumita at mabilis na payouts sa PayPal. Ang mga cashback ay isang super na karagdagan!",
+      "user6Description": "Magandang mga paraan upang kumita at cashback. Minsan, medyo matagal ang payout, pero sa kabuuan, inirerekomenda ko.",
+      "user7Description": "Maganda na maaari kong pumili sa pagitan ng iba't ibang mga platform – mga video, laro, at iba pa. Mabilis ang payouts.",
+      "user8Description": "Okay na may ilang mga platform na mapagpipilian. Minsan gusto kong maglaro, minsan manood ng mga video. Okay ang mga payouts.",
+      "user9Description": "Maraming paraan upang kumita, lahat ay gumagana ng maayos.",
+      "user10Description": "Inirerekomenda ko, gumagana ng maayos, at ang mga kita ay ipinapadala ng walang problema."
+    },
+    "TrustedUs": {
+      "trustedUs": "Pinagkatiwalaan kami"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "Paano ito gumagana",
+      "paragraphDescription": "Sa pamamagitan ng paggawa ng mga simpleng gawain, maaari kang kumita ng hanggang 3000 pesos bawat buwan, nang walang mga nakatagong bayad o dagdag na buwis. Bukod dito, walang limitasyon sa iyong kita – ikaw ang magpapasya kung gaano karaming gusto mong kitain.",
+      "listDescription": "Sa JoyProfits, maaari kang kumita sa iba't ibang paraan",
+      "firstListDescription": "naglalaro ng mga laro",
+      "secondListDescription": "nagpapasagot ng mga surveys",
+      "thirdListDescription": "nanonood ng mga video at mga ads",
+      "fourthListDescription": "bumibili ng mga bagay online"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "Ano ang mga benepisyo",
+      "paragraphDescription": "Nag-aalok ang JoyProfits ng posibilidad na magtrabaho ng full-time o bilang karagdagang pinagkakakitaan, na bukas sa mga tao mula sa buong mundo. Maaari kang kumita ng pera gamit ang anumang device na may internet access, kahit saan ka man. Makakatanggap ka ng bayad para sa oras at pagsisikap na inilaan mo sa paggamit ng platform."
+    },
+    "Benefits": {
+      "headerDescription": "Paano makakatulong ang JoyProfits sa iyo?",
+      "description": "Tutulungan ka ng JoyProfits na magamit ang iyong mga kalakasan, na nag-aalok ng anim na magkakaibang paraan ng pagkita. Dahil dito, maaari mong piliin ang opsyon na pinaka-akma sa iyong mga kakayahan at interes. Binibigyan ka ng platform ng pagkakataon na epektibong i-convert ang iyong oras at pagsisikap sa mga konkretong kita.",
+      "seeMore": "Tingnan pa"
+    },
+    "AboutSection": {
+      "header": "Tungkol sa JoyProfits",
+      "description": "Tuklasin ang aming app na available sa iOS at Android! I-download na ngayon at simulan ang paggamit ng mga posibilidad na inaalok namin!"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "MAGLARO AT KUMITA",
+      "secondTileHeader": "IOS & ANDROID APP",
+      "thirdTileHeader": "PAGSUSURI NG KITA",
+      "fourthTileHeader": "100% KALIGTASAN",
+      "fifthTileHeader": "CASHBACK",
+      "firstTileDescription": "Maglaro ng iyong paboritong laro at kumita sa pamamagitan ng pagkuha ng mga achievements! Tuklasin ang mga bagong posibilidad at gawing kita ang bawat laro.",
+      "secondTileDescription": "Tuklasin ang aming app na available sa iOS at Android! I-download na ngayon at simulan ang paggamit ng mga posibilidad na inaalok namin!",
+      "thirdTileescription": "Sa pamamagitan ng analytics, may buong kontrol ka sa iyong mga kita, sinusubaybayan at sinusuri ang bawat aspeto ng iyong kita.",
+      "fourthTileDescription": "Mag-withdraw ng iyong mga kita sa isang simple at secure na paraan, diretso sa iyong bank account o PayPal account.",
+      "fifthTileDescription": "Kapag bumili ka sa aming mga partner, maaari kang makakuha ng cashback sa bawat pagbili. Mag-enjoy ng mga karagdagang benepisyo at matipid habang gamit ang aming partner network."
+    }
+  },
+  "RecoverPassword": {
+    "success": "Tagumpay!",
+    "passwordChangedSuccessfully": "Matagumpay na nabago ang iyong password",
+    "returnToApp": "Bumalik sa app",
+    "recoverPassword": "I-recover ang iyong password",
+    "description": "Ilagay ang iyong bagong password at kumpirmahin ang iyong password. I-click ang confirmation button upang i-update ang iyong password. Sundin ang mga tagubilin na makakamtan mo upang tapusin ang proseso ng pagbabago ng password. Kung may mga problema, makipag-ugnayan sa technical support.",
+    "password": "Password",
+    "reEnterPassword": "I-reenter ang password",
+    "confirmNewPassword": "Kumpirmahin ang bagong password"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "Tuklasin ang mga bagong paraan ng pagkita",
+      "headerParagraph": "Sa pamamagitan ng iba't ibang tools at resources, bawat isa ay maaaring makahanap ng paraan upang mag-generate ng kanilang kita.",
+      "downloadIos": "I-download sa iOS",
+      "downloadAndroid": "I-download sa Android"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "Simulan ang pagkita ngayon sa tatlong hakbang na ito",
+      "firstStep": "Hakbang 1",
+      "secondStep": "Hakbang 2",
+      "thirdStep": "Hakbang 3",
+      "firstTileHeader": "Pagpaparehistro at pag-setup ng account",
+      "firstTileParagraph": "Ang proseso ng pagpaparehistro sa JoyProfits ay mabilis at madali. Ibigay lamang ang iyong pangunahing impormasyon, i-verify ang iyong account, at pagkatapos mag-login at i-setup ang iyong profile.",
+      "firstTileExtraParagraph": "Pagkatapos mag-login, maaari mong i-setup ang iyong profile upang mas madali kang makakuha ng mga rekomendasyon sa pagkita mula sa platform.",
+      "secondTileHeader": "Piliin ang iyong strategy at edukasyon",
+      "secondTileParagraph": "Nag-aalok ang JoyProfits ng iba't ibang mga paraan ng pagkita, tulad ng affiliate marketing, pagsali sa mga partner programs, paglalaro ng mga laro at pagsagot sa mga surveys. Maaari mong tuklasin ang mga opsyon at piliin ang pinaka-akma sa iyong pangangailangan.",
+      "secondTileExtraParagraph": "Upang madagdagan ang iyong chance ng tagumpay, gamitin ang maraming edukasyonal na materyales na available sa platform, tulad ng mga kurso, webinars, artikulo, at mga gabay. Mayroon ding support at community para sa karagdagang tulong.",
+      "thirdTileHeader": "Pag-monitor ng mga resulta, pag-optimize at mga payouts",
+      "thirdTileParagraph": "Nag-aalok ang JoyProfits ng mga analytical tools upang i-monitor ang iyong resulta, na makakatulong upang tuklasin ang mga areas na pwedeng pagbutihin at tuloy-tuloy na mapabuti ang iyong kita.",
+      "thirdTileExtraParagraph": "Madali mong mai-withdraw ang iyong kita gamit ang iba't ibang payment methods tulad ng bank transfers o PayPal. Ang mga payouts ay mabilis at secure, kaya may kumpletong kontrol ka sa iyong mga finances."
+    },
+    "Section": {
+      "header": "Paano ito gumagana?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "Pagpaparehistro at\nsetup ng account",
+      "strategySelection": "Piliin ang iyong\nkita-strategy",
+      "educationAndSupport": "Edukasyon\nat suporta",
+      "analysis": "Monitoring ng mga resulta\nat optimization",
+      "payouts": "Pag-withdraw ng iyong\nkita"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "Isang App, Maraming Paraan para Kumita!",
+      "headerParagraph": "Ipinagmamalaki namin ang aming komunidad ng mga gumagamit na araw-araw ay natutuklasan ang mga bagong paraan upang kumita online.",
+      "downloadIos": "I-download sa iOS",
+      "downloadAndroid": "I-download sa Android"
+    },
+    "Section": {
+      "header": "Isang App, Maraming Paraan para Kumita",
+      "readMore": "Magbasa Pa",
+      "Tile1Header": "Paglalaro ng mga Laro",
+      "Tile1Description": "Kumuha ng mga puntos sa pag-abot ng mga level at pagbubukas ng mga tampok sa mga mobile na laro. Gawin ang mga task na may iba't ibang antas ng kahirapan sa iyong mga paboritong laro.",
+      "Tile2Header": "Panonood ng mga Video",
+      "Tile2Description": "Kumita habang nanonood ng mga video at mga patalastas. Maglaan ng ilang minuto upang manood ng mga interesante at kumita ng pera para sa bawat napanood na patalastas o video. Pumili mula sa iba't ibang kategorya at tema.",
+      "Tile3Header": "Pagsagot ng mga Survey",
+      "Tile3Description": "Sumagot ng mga tanong at ibahagi ang iyong opinyon, kumita para sa bawat natapos na survey. Mas maraming survey ang matatapos mo, mas malaki ang iyong kita.",
+      "Tile4Header": "Online Shopping",
+      "Tile4Description": "Mamili sa iyong mga paboritong tindahan at makakuha ng cash back at dagdag na kita. Mag-sign up sa mga website ng mga tindahan upang makakuha ng mga libreng sample at mga discount code.",
+      "Tile5Header": "Microwork Tasks",
+      "Tile5Description": "Kumita habang natututo ng mga bagong kasanayan, tulad ng programming o graphic design. Pumili ng mga interesting na kurso at gawin ang mga available na task sa JoyProfits.",
+      "Tile6Header": "Mga Achievements",
+      "Tile6Description": "Kumpletuhin ang mga layunin sa JoyProfits, kumita ng mga gantimpala, at dagdagan ang iyong kita. Ang bawat achievement ay nagdadala sa iyo ng mas mataas na kita at dagdag na gantimpala."
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "Kilalanin ang mga Lumikha ng JoyProfits!",
+      "headerParagraph": "Simulan ang kumita sa JoyProfits sa isang simpleng at mabilis na paraan. Tingnan ngayon kung gaano karaming mga posibilidad ang mayroon ka!",
+      "downloadIos": "I-download sa iOS",
+      "downloadAndroid": "I-download sa Android"
+    },
+    "StepTile": {
+      "headerDescription": "Ano ang Sinasabi ng Aming mga User?",
+      "firstTileHeader": "Kamusta!",
+      "firstTileParagraph": "Ang pangalan ko ay Jakub at ako ang lumikha ng isang app na pinagsasama ang kasiyahan at kita – nag-aalok ng pagkakataong kumita ng pera sa pamamagitan ng paglalaro ng mga laro, panonood ng mga pelikula, at paggawa ng iba pang mga gawain.",
+      "firstTileExtraParagraph": "Bilang isang mahilig sa mga bagong teknolohiya at libangan, napansin ko na marami sa atin ang naglalagi ng oras sa virtual na mundo. Kaya't nagpasya akong lumikha ng isang solusyon na magbibigay ng financial benefits mula sa aktibidad na ito. Ang JoyProfits app ay isang resulta ng malalim na pagsusuri, market research, at mga buwan ng pagsusumikap ng aking koponan at ako sa pagbuo ng isang ligtas at user-friendly na tool.",
+      "secondTileHeader": "Ang Aming Misyon",
+      "secondTileParagraph": "Ang aming misyon ay gawing mga tunay na benepisyo sa pera ang pang-araw-araw na libangan. Sa panahon ng digitalization at pagtaas ng popularidad ng mga virtual na libangan, nakita namin ang napakalaking potensyal sa paggamit ng oras na ginugol online para sa karagdagang kita.",
+      "secondTileExtraParagraph": "Kami ay nakatuon sa malapit na ugnayan sa aming mga gumagamit at pagiging flexible sa pagtugon sa kanilang mga pangangailangan. Araw-araw kaming nagtatrabaho upang pagbutihin ang aming app at magbigay ng pinakamahusay na karanasan at mga oportunidad para kumita. Ang aming layunin ay lumikha ng isang komunidad kung saan bawat user ay maaaring makakuha ng mga benepisyo mula sa mga bagay na nagbibigay kasiyahan sa kanila.",
+      "thirdTileHeader": "Tuklasin ang JoyProfits",
+      "thirdTileParagraph": "Inaanyayahan kita na tuklasin ang potensyal ng aming app at sumali sa mga nasisiyahang gumagamit na kumikita ng pera sa pamamagitan ng kasiyahan at libangan.",
+      "thirdTileExtraParagraph": "Magkasama nating binabago ang pananaw natin sa oras na ginugol online, at lumilikha ng mga bagong, makabago at mapagkakakitaang pagkakataon."
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "I-download ang App"
+  },
+  "VerifyEmail": {
+    "accountActivated": "Na-activate na ang Iyong Account",
+    "hello": "Kamusta",
+    "thankYouNote": "Salamat, ang iyong email address ay na-verify na. Ang iyong account ay aktibo na. Gamitin ang button sa ibaba upang bumalik sa app.",
+    "returnToApp": "Bumalik sa App",
+    "invalidRequest": "Oop... Hindi namin ma-proseso ang iyong request..."
+  },
+  "Validation": {
+    "emailRequired": "Kinakailangan ang email address",
+    "passwordRequired": "Kinakailangan ang password",
+    "firstNameRequired": "Kinakailangan ang pangalan",
+    "lastNameRequired": "Kinakailangan ang apelyido",
+    "consentRequired": "Kinakailangan ang pahintulot",
+    "descriptionRequired": "Kinakailangan ang paglalarawan",
+    "categorySelectionRequired": "Kinakailangan ang pagpili ng kategorya",
+    "minLength": "Ang minimum na haba ay {count} na mga karakter",
+    "maxLength": "Ang maximum na haba ay {count} na mga karakter",
+    "invalidEmail": "Hindi tamang email address",
+    "passwordSpecialChar": "Kinakailangan ang isang espesyal na karakter",
+    "passwordUppercase": "Kinakailangan ang isang uppercase na letra",
+    "passwordsMismatch": "Hindi magkatugma ang mga password"
+  },
+  "Dropdown": {
+    "selectType": "Pumili ng uri"
+  },
+  "Languages": {
+    "en": "Ingles",
+    "es": "Espanyol",
+    "de": "Aleman",
+    "fr": "Pranses",
+    "it": "Italyano",
+    "nl": "Olandes",
+    "da": "Danes",
+    "sv": "Swedish",
+    "pl": "Polski",
+    "pt": "Portuges",
+    "ro": "Romeno",
+    "vi": "Biyetnames",
+    "tr": "Turko",
+    "id": "Indonesiano",
+    "ru": "Ruso",
+    "uk": "Ukrainian",
+    "ur": "Urdu",
+    "ar": "Arabe",
+    "hi": "Hindu",
+    "ta": "Tamil",
+    "si": "Singales",
+    "fa": "Persiano",
+    "tl-PH": "Filipino",
+    "bn": "Bengali",
+    "km": "Khmer",
+    "th": "Thai",
+    "ja": "Hapones",
+    "zh-hant": "Chinese-Tradicional",
+    "zh-hans": "Chinese-Simplificado",
+    "ko": "Koreano"
+  },
+  "Errors": {
+    "unknownError": "Nagkaroon ng hindi kilalang error",
+    "invalidToken": "Hindi tamang token",
+    "tokenExpired": "Ang iyong token ay expired na",
+    "missingTokenOwner": "Hindi matukoy ang may-ari ng token",
+    "tokenUsed": "Ginamit na ang token",
+    "tokenVerificationFailed": "Nabigo ang pag-verify ng token...",
+    "invalidPassword": "Ang password na ipinasok ay hindi tama",
+    "passwordChangeFailed": "Nabigong palitan ang password"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - Kumita ng pera online nang libre",
+      "description": "Kumita ng pera online sa pamamagitan ng panonood ng mga ad, pagsagot ng mga survey, paglalaro ng mga laro, pagsusulat ng mga komento, pagsusulat ng mga teksto, pagsagot sa mga tanong, at iba pang mga alok."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - Paano ito gumagana",
+      "description": "Alamin kung paano gumagana ang JoyProfits at kung paano ka makakapagsimula kumita sa tatlong simpleng hakbang. Simpleng paliwanag kasama ang mga tip at paraan ng pagkita."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Mga Paraan ng Pagkita",
+      "description": "Tuklasin ang iba't ibang paraan ng pagkita ng pera online sa JoyProfits. Maglaro ng mga laro, manood ng mga pelikula, sumagot ng mga survey, mamili online at marami pang iba."
+    },
+    "support": {
+      "title": "JoyProfits - Suporta",
+      "description": "Kung mayroon kang mga tanong, kailangan ng tulong o nakatagpo ng problema, makipag-ugnayan sa aming support team."
+    },
+    "signIn": {
+      "title": "JoyProfits - Mag-sign In",
+      "description": "Mag-sign in sa iyong JoyProfits account at magsimulang kumita ng pera online. Mag-sign in upang ma-access ang iyong profile at pamahalaan ang iyong kita."
+    },
+    "register": {
+      "title": "JoyProfits - Mag-register",
+      "description": "Mag-register sa JoyProfits at magsimulang kumita ng pera online. Gumawa ng account upang ma-access ang iba't ibang paraan at oportunidad sa pagkita."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - Tungkol sa Amin",
+      "description": "Alamin ang higit pa tungkol sa JoyProfits, ang mga lumikha ng app, at ang misyon ng platform. Tuklasin kung paano mo mapapakinabangan ang paggamit ng JoyProfits."
+    },
+    "advertising": {
+      "title": "JoyProfits - Advertising",
+      "description": "Alamin ang patakaran ng JoyProfits sa advertising, na tinitiyak ang transparency, responsibilidad, at pagsunod sa mga regulasyon sa pagpapromote ng mga produkto at serbisyo."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Patakaran sa Privacy",
+      "description": "Basahin ang privacy policy ng JoyProfits upang malaman kung paano namin kinokolekta, ginagamit, at pinoprotektahan ang iyong personal na impormasyon. Unawain ang iyong mga karapatan at kung paano namin pinapangalagaan ang iyong data."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Mga Termino ng Serbisyo",
+      "description": "Basahin ang mga termino ng serbisyo ng JoyProfits upang maunawaan ang mga patakaran at kondisyon sa paggamit ng platform. Alamin ang iyong mga karapatan at obligasyon bilang gumagamit."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Patakaran sa Cookies",
+      "description": "Basahin ang cookies policy ng JoyProfits upang malaman kung paano namin ginagamit ang cookies at mga katulad na teknolohiya upang mapabuti ang iyong karanasan sa platform."
+    },
+    "locationData": {
+      "title": "JoyProfits - Datos ng Lokasyon",
+      "description": "Alamin kung paano kinokolekta at ginagamit ng JoyProfits ang datos ng lokasyon upang magbigay ng mga personalized na serbisyo at mapabuti ang iyong karanasan bilang gumagamit."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - Pamamahala ng Datos ng Gumagamit",
+      "description": "Alamin kung paano pinamamahalaan ng JoyProfits ang datos ng mga gumagamit upang matiyak ang privacy, seguridad, at pagsunod sa mga regulasyon."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Mga Uri ng Cookies",
+      "description": "Alamin kung anong uri ng cookies ang ginagamit ng JoyProfits upang mapabuti ang iyong karanasan bilang gumagamit at magbigay ng personalized na serbisyo."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Paglilipat ng Datos ng Gumagamit",
+      "description": "Alamin kung paano inililipat ng JoyProfits ang datos ng mga gumagamit upang matiyak ang privacy, seguridad, at pagsunod sa mga regulasyon."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - Kumpirmahin ang Pagbabago ng Email Address",
+      "description": "Kumpirmahin ang pagbabago ng iyong email address upang ma-update ang impormasyon ng iyong account. Sundin ang mga tagubilin upang tapusin ang proseso."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - I-recover ang Password",
+      "description": "I-recover ang iyong password sa JoyProfits. Maglagay ng bagong password at kumpirmahin ito upang i-update ang impormasyon ng iyong account."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - I-verify ang Account",
+      "description": "I-verify ang iyong account sa JoyProfits upang i-activate ang iyong profile at magsimulang kumita ng pera online."
+    }
+  }
+}
