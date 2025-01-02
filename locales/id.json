@@ -1,1 +1,383 @@
-{}
+{
+  "globals": {
+    "Captions": {
+      "signIn": "MASUK",
+      "register": "DAFTAR",
+      "mainPage": "HALAMAN UTAMA",
+      "howItWorks": "BAGAIMANA CARA KERJANYA",
+      "earnMethods": "METODE PENGHASILAN",
+      "support": "DUKUNGAN",
+      "platform": "PLATFORM",
+      "menu": "MENU",
+      "company": "PERUSAHAAN",
+      "policy": "KEBIJAKAN",
+      "blog": "BLOK",
+      "affilateProgram": "PROGRAM AFFILIATE",
+      "resources": "SUMBER DAYA",
+      "policyPrivacy": "KEBIJAKAN PRIVASI",
+      "terms": "SYARAT",
+      "copyright": "HAK CIPTA",
+      "cookiePolicy": "KEBIJAKAN COOKIE",
+      "adRules": "ATURAN IKLAN",
+      "aboutUs": "TENTANG KAMI",
+      "downloadApp": "Unduh aplikasi",
+      "appDescription": "Bergabunglah dengan platform kami dan temukan bagaimana Anda bisa menghasilkan uang dari keterampilan Anda"
+    },
+    "SignIn": {
+      "title": "Masuk",
+      "email": "Email",
+      "emailPlaceholder": "Email",
+      "password": "Kata Sandi",
+      "logIn": "Masuk"
+    },
+    "NotFoundPage": {
+      "pageNotFound": "Halaman tidak ditemukan",
+      "pageNotFoundDescription": "Halaman yang Anda cari tidak ada. Bagaimana Anda bisa sampai di sini tetap menjadi misteri. Namun, Anda dapat mengklik tombol di bawah untuk kembali ke halaman utama."
+    },
+    "Messages": {},
+    "Errors": {}
+  },
+  "SignIn": {
+    "title": "Masuk",
+    "email": "Email",
+    "enterEmail": "Masukkan alamat email",
+    "enterPassword": "Masukkan kata sandi",
+    "emailPlaceholder": "Email",
+    "password": "Kata Sandi",
+    "logIn": "Masuk",
+    "signIn": "Masuk",
+    "orSignInWith": "atau masuk dengan",
+    "forgotPassword": "Lupa kata sandi?",
+    "reset": "Setel ulang",
+    "haveNotAnAccount": "Belum punya akun?",
+    "register": "Daftar"
+  },
+  "Register": {
+    "title": "Daftar",
+    "email": "Email",
+    "enterEmail": "Masukkan alamat email",
+    "enterPassword": "Masukkan kata sandi",
+    "reEnterPassword": "Konfirmasi kata sandi",
+    "emailPlaceholder": "Email",
+    "password": "Kata Sandi",
+    "register": "Daftar",
+    "orRegisterWith": "atau daftar dengan",
+    "haveAnAccount": "Sudah punya akun?",
+    "signIn": "Masuk"
+  },
+  "Support": {
+    "contactWithUs": "Hubungi kami",
+    "fillDataDescription": "Isi data dan deskripsikan masalah atau kejadian, dan kami akan menghubungi Anda segera. Ingat, Anda juga bisa mengirimkan laporan meskipun Anda belum menjadi pengguna JoyProfits.",
+    "fillForm": "Isi formulir",
+    "selectReportType": "Pilih jenis laporan",
+    "contactEmail": "Email kontak",
+    "describeReport": "Deskripsikan alasan laporan",
+    "sendReport": "Kirim laporan",
+    "payoutProblem": "Masalah pembayaran",
+    "paymentMethod": "Metode pembayaran",
+    "taskWasNotCounted": "Tugas tidak dihitung",
+    "technicalError": "Kesalahan teknis",
+    "reviews": "Ulasan",
+    "cooperation": "Kerja sama",
+    "promote": "Promosi",
+    "firstName": "Nama depan Anda",
+    "lastName": "Nama belakang Anda",
+    "iConsentToContact": "Saya setuju untuk dihubungi dan menerima informasi dari JoyProfits melalui email.",
+    "requiredFields": " kolom yang wajib diisi"
+  },
+  "HomePage": {
+    "Header": {
+      "headerTitle": "Dapatkan hadiah dan\nhasilkan uang di\nwaktu luang Anda!",
+      "headerParagraph": "Unduh aplikasi dan mulai menghasilkan uang kapan saja dan di mana saja!",
+      "downloadIos": "Unduh di iOS",
+      "downloadAndroid": "Unduh di Android"
+    },
+    "DownloadSection": {
+      "headerDescription": "Unduh aplikasi kami",
+      "tileHeader": "Unduh di {appName}",
+      "leftTileDescription": "Unduh aplikasi kami di iOS dan temukan peluang baru! Dengan antarmuka yang mudah digunakan, Anda dapat dengan cepat mengelola tugas Anda, melacak kemajuan, dan memanfaatkan fitur unik. Rasakan betapa mudah dan menyenangkannya menggunakan aplikasi JoyProfits.",
+      "rightTileDescription": "Unduh aplikasi kami dari Google Play dan nikmati akses penuh ke semua fitur! Dengan antarmuka yang intuitif, Anda dapat dengan mudah mengelola tugas Anda, melacak kemajuan, dan memanfaatkan penawaran eksklusif. Pasang aplikasi dan temukan bagaimana banyak yang dapat Anda peroleh!"
+    },
+    "WCSSection": {
+      "headerDescription": "Apa kata pengguna kami?",
+      "user1Description": "Aplikasinya memiliki banyak cara untuk menghasilkan uang, tetapi yang paling saya sukai adalah menonton video. Saya sering punya waktu luang, jadi saya bisa menghasilkan beberapa uang sambil bersantai. Pembayaran cepat dan lancar.",
+      "user2Description": "Aplikasi yang bagus untuk seseorang yang punya waktu luang dan ingin mendapatkan uang tambahan. Saya paling suka opsi bermain game. Analisis pendapatan membantu saya lebih memahami berapa banyak dan di mana saya bisa menghasilkan lebih.",
+      "user3Description": "Aplikasi yang sangat nyaman. Saya bermain game ketika saya punya waktu, dan saya juga menonton video untuk mendapatkan uang tambahan. Cashback sangat menyenangkan, dan pembayaran berjalan lancar.",
+      "user4Description": "Aplikasi yang dirancang dengan baik dengan berbagai cara untuk menghasilkan uang – dari permainan hingga menonton video.",
+      "user5Description": "Cara yang beragam untuk menghasilkan uang dan pembayaran cepat ke PayPal. Cashback adalah tambahan yang sangat bagus!",
+      "user6Description": "Pilihan penghasilan yang baik dan cashback. Kadang pembayaran memakan waktu lebih lama, tetapi secara keseluruhan saya merekomendasikan.",
+      "user7Description": "Saya suka bisa memilih antara berbagai platform – film, game, dan lainnya. Pembayaran cepat.",
+      "user8Description": "Bagus, ada beberapa platform yang bisa dipilih. Kadang saya lebih suka bermain game, kadang menonton video. Pembayaran lancar.",
+      "user9Description": "Banyak peluang penghasilan, semuanya berjalan lancar.",
+      "user10Description": "Saya merekomendasikan, berfungsi dengan baik dan pembayaran diterima tanpa masalah."
+    },
+    "TrustedUs": {
+      "trustedUs": "Kami dipercaya oleh"
+    },
+    "HowItWorksSection": {
+      "headerDescription": "Bagaimana cara kerjanya",
+      "paragraphDescription": "Dengan menyelesaikan tugas-tugas sederhana, Anda bisa mendapatkan hingga 3000 ribu sebulan, tanpa biaya tersembunyi atau pajak tambahan. Selain itu, pendapatan Anda tidak memiliki batas atas – Anda yang memutuskan berapa banyak yang ingin Anda hasilkan.",
+      "listDescription": "Dengan JoyProfits, Anda bisa menghasilkan uang dengan berbagai cara",
+      "firstListDescription": "bermain game",
+      "secondListDescription": "mengisi survei",
+      "thirdListDescription": "menonton video dan iklan",
+      "fourthListDescription": "belanja online"
+    },
+    "SectionImageBlueBg": {
+      "headerDescription": "Apa manfaatnya",
+      "paragraphDescription": "JoyProfits menawarkan peluang kerja, baik penuh waktu maupun sebagai sumber penghasilan tambahan, tersedia untuk orang di seluruh dunia. Anda bisa menghasilkan uang menggunakan perangkat apa pun yang memiliki akses ke internet, di mana saja Anda berada. Anda akan dibayar atas waktu dan usaha yang Anda habiskan menggunakan platform ini."
+    },
+    "Benefits": {
+      "headerDescription": "Apa yang akan dibantu oleh JoyProfits?",
+      "description": "JoyProfits akan membantu Anda memanfaatkan kekuatan Anda dengan menawarkan enam cara berbeda untuk menghasilkan uang. Dengan demikian, Anda dapat memilih opsi yang paling sesuai dengan keterampilan dan minat Anda. Platform ini memungkinkan Anda untuk mengonversi usaha dan waktu Anda menjadi penghasilan nyata.",
+      "seeMore": "Lihat lebih lanjut"
+    },
+    "AboutSection": {
+      "header": "Tentang JoyProfits",
+      "description": "Temukan aplikasi kami yang tersedia di iOS dan Android! Unduh sekarang dan mulai menggunakan semua kesempatan yang kami tawarkan!"
+    },
+    "AboutSectionTiles": {
+      "firstTileHeader": "BERMAIN DAN MENGHASILKAN",
+      "secondTileHeader": "APLIKASI IOS & ANDROID",
+      "thirdTileHeader": "ANALISIS PENDAPATAN",
+      "fourthTileHeader": "100% KEAMANAN",
+      "fifthTileHeader": "CASHBACK",
+      "firstTileDescription": "Mainkan game favorit Anda dan hasilkan uang dengan mencapai pencapaian! Temukan peluang baru dan ubah setiap permainan menjadi sumber pendapatan.",
+      "secondTileDescription": "Temukan aplikasi kami yang tersedia di iOS dan Android! Unduh sekarang dan mulai menggunakan semua kesempatan yang kami tawarkan!",
+      "thirdTileDescription": "Dengan analisis pendapatan, Anda memiliki kontrol penuh atas pendapatan Anda, melacak dan menganalisis setiap aspek dari pendapatan Anda.",
+      "fourthTileDescription": "Tarik uang yang Anda hasilkan dengan cara yang sederhana dan aman, langsung ke rekening bank atau akun PayPal Anda.",
+      "fifthTileDescription": "Dengan melakukan pembelian melalui mitra kami, Anda bisa menikmati cashback untuk setiap pembelian. Dapatkan manfaat tambahan dan hemat dengan menggunakan jaringan mitra kami."
+    }
+  },
+  "RecoverPassword": {
+    "success": "Sukses!",
+    "passwordChangedSuccessfully": "Kata sandi berhasil diubah",
+    "returnToApp": "Kembali ke aplikasi",
+    "recoverPassword": "Pulihkan kata sandi Anda",
+    "description": "Masukkan kata sandi baru dan konfirmasi kata sandi. Klik tombol konfirmasi untuk memperbarui kata sandi. Ikuti petunjuk yang Anda terima untuk menyelesaikan proses perubahan kata sandi. Jika Anda mengalami masalah, hubungi dukungan teknis.",
+    "password": "Kata sandi",
+    "reEnterPassword": "Masukkan kata sandi lagi",
+    "confirmNewPassword": "Konfirmasi kata sandi baru"
+  },
+  "HowItWorksPage": {
+    "Header": {
+      "headerTitle": "Kenali cara baru untuk menghasilkan uang",
+      "headerParagraph": "Dengan berbagai alat dan sumber daya, setiap orang dapat menemukan cara untuk menghasilkan pendapatan mereka.",
+      "downloadIos": "Unduh Ios",
+      "downloadAndroid": "Unduh Android"
+    },
+    "StepTile": {
+      "startEarningBy3Steps": "Mulai menghasilkan sekarang dengan mengikuti tiga langkah di bawah ini",
+      "firstStep": "Langkah 1",
+      "secondStep": "Langkah 2",
+      "thirdStep": "Langkah 3",
+      "firstTileHeader": "Pendaftaran dan konfigurasi akun",
+      "firstTileParagraph": "Proses pendaftaran di JoyProfits cepat dan mudah. Cukup masukkan data dasar, verifikasi akun Anda, lalu login dan atur profil.",
+      "firstTileExtraParagraph": "Setelah login, Anda dapat mengatur profil Anda agar platform dapat menyesuaikan rekomendasi penghasilan dengan kebutuhan Anda.",
+      "secondTileHeader": "Pilih strategi penghasilan dan edukasi",
+      "secondTileParagraph": "JoyProfits menawarkan berbagai strategi untuk menghasilkan uang, seperti pemasaran afiliasi, berpartisipasi dalam program mitra, bermain game, dan mengisi survei. Anda dapat menjelajahi opsi yang tersedia dan memilih yang paling sesuai dengan kebutuhan Anda.",
+      "secondTileExtraParagraph": "Untuk meningkatkan peluang kesuksesan Anda, manfaatkan berbagai materi edukasi yang tersedia di platform, seperti kursus, webinar, artikel, dan panduan. Selain itu, Anda juga mendapatkan dukungan teknis dan komunitas pengguna di mana Anda bisa berbagi pengalaman dan mendapatkan bantuan.",
+      "thirdTileHeader": "Pantau kemajuan, optimalkan, dan tarik pembayaran",
+      "thirdTileParagraph": "Platform JoyProfits menyediakan alat analitik untuk memantau hasil, memungkinkan Anda untuk mengidentifikasi area yang perlu perbaikan dan melakukan optimasi berkelanjutan untuk memaksimalkan keuntungan.",
+      "thirdTileExtraParagraph": "Uang yang diperoleh dapat dengan mudah ditarik melalui berbagai metode pembayaran, seperti transfer bank atau akun PayPal. Penarikan cepat dan aman, memberikan kontrol penuh atas keuangan Anda."
+    },
+    "Section": {
+      "header": "Bagaimana cara kerjanya?"
+    },
+    "StepOverview": {
+      "registrationAndConfig": "Pendaftaran dan\nkonfigurasi akun",
+      "strategySelection": "Pilih strategi\npenghasilan",
+      "educationAndSupport": "Edukasi\ndan dukungan",
+      "analysis": "Pantau kemajuan\n dan optimasi",
+      "payouts": "Penarikan dana\n yang diperoleh"
+    }
+  },
+  "EarnMethods": {
+    "Header": {
+      "headerTitle": "Hanya satu aplikasi, banyak peluang!",
+      "headerParagraph": "Kami bangga dengan komunitas pengguna kami yang setiap hari menemukan cara baru untuk menghasilkan uang secara online.",
+      "downloadIos": "Unduh Ios",
+      "downloadAndroid": "Unduh Android"
+    },
+    "Section": {
+      "header": "Satu aplikasi, banyak cara untuk menghasilkan uang",
+      "readMore": "Baca lebih lanjut",
+      "Tile1Header": "Bermain game",
+      "Tile1Description": "Kumpulkan poin dengan mencapai level dan membuka fitur dalam permainan seluler. Lakukan tugas dengan berbagai tingkat kesulitan di permainan favorit Anda.",
+      "Tile2Header": "Menonton video",
+      "Tile2Description": "Dapatkan uang dengan menonton video dan iklan. Luangkan waktu untuk menonton konten menarik dan dapatkan bayaran untuk setiap iklan atau video yang ditonton. Pilih dari berbagai kategori dan topik.",
+      "Tile3Header": "Mengisi survei",
+      "Tile3Description": "Jawab pertanyaan dan bagikan pendapat Anda, dapatkan uang untuk setiap survei yang diselesaikan. Semakin banyak survei yang Anda selesaikan, semakin besar penghasilan Anda.",
+      "Tile4Header": "Belanja online",
+      "Tile4Description": "Berbelanja di toko favorit dan dapatkan cashback serta penghasilan tambahan. Daftar di situs web toko untuk mendapatkan sampel gratis dan kupon diskon.",
+      "Tile5Header": "Mikro-tugas",
+      "Tile5Description": "Dapatkan uang sambil mempelajari keterampilan baru seperti pemrograman atau desain grafis. Pilih kursus yang menarik dan selesaikan tugas yang tersedia di JoyProfits.",
+      "Tile6Header": "Pencapaian",
+      "Tile6Description": "Capai tujuan di JoyProfits, kumpulkan hadiah, dan tingkatkan penghasilan Anda. Setiap pencapaian mendekatkan Anda pada penghasilan lebih tinggi dan hadiah tambahan."
+    }
+  },
+  "AboutUs": {
+    "Header": {
+      "headerTitle": "Kenali lebih dekat pembuat JoyProfits!",
+      "headerParagraph": "Mulailah menghasilkan uang dengan JoyProfits dengan cara yang mudah dan cepat. Cek sekarang betapa banyak kesempatan yang Anda miliki!",
+      "downloadIos": "Unduh Ios",
+      "downloadAndroid": "Unduh Android"
+    },
+    "StepTile": {
+      "headerDescription": "Apa kata pengguna kami?",
+      "firstTileHeader": "Halo!",
+      "firstTileParagraph": "Nama saya Jakub dan saya adalah pembuat aplikasi yang menggabungkan yang menyenangkan dengan yang berguna - memungkinkan Anda menghasilkan uang melalui bermain game, menonton video, dan melakukan berbagai tugas lainnya.",
+      "firstTileExtraParagraph": "Sebagai penggemar teknologi baru dan hiburan, saya memahami bahwa semakin banyak orang menghabiskan waktu luang mereka di dunia virtual. Saya memutuskan untuk menciptakan solusi yang memungkinkan manfaat finansial dari aktivitas ini. Aplikasi JoyProfits adalah hasil dari analisis mendalam, riset pasar, dan kerja keras tim saya untuk menciptakan alat yang aman dan ramah pengguna.",
+      "secondTileHeader": "Misi kami",
+      "secondTileParagraph": "Misi kami adalah mengubah hiburan sehari-hari menjadi manfaat finansial yang nyata. Dalam era digitalisasi dan popularitas hiburan virtual yang meningkat, kami melihat potensi besar dalam menggunakan waktu yang dihabiskan online untuk menghasilkan pendapatan tambahan.",
+      "secondTileExtraParagraph": "Kami menempatkan hubungan yang erat dengan pengguna dan fleksibilitas dalam merespon kebutuhan mereka sebagai prioritas. Setiap hari kami bekerja untuk meningkatkan aplikasi agar memberikan pengalaman dan peluang penghasilan terbaik. Tujuan kami adalah menciptakan komunitas di mana setiap pengguna dapat mendapatkan keuntungan finansial dari apa yang mereka nikmati.",
+      "thirdTileHeader": "Temukan JoyProfits",
+      "thirdTileParagraph": "Saya mengundang Anda untuk menjelajahi potensi aplikasi kami dan bergabung dengan komunitas pengguna yang sudah puas, yang kini menghasilkan uang dengan bermain dan hiburan.",
+      "thirdTileExtraParagraph": "Bersama-sama kita mengubah cara kita melihat waktu yang dihabiskan online, menciptakan sumber pendapatan baru dan inovatif."
+    }
+  },
+  "JPDownloadButton": {
+    "downloadApp": "Unduh aplikasi"
+  },
+  "VerifyEmail": {
+    "accountActivated": "Akun telah diaktifkan",
+    "hello": "Halo",
+    "thankYouNote": "Terima kasih, alamat email Anda telah diverifikasi. Akun Anda kini aktif. Gunakan tombol di bawah untuk kembali ke aplikasi.",
+    "returnToApp": "Kembali ke aplikasi",
+    "invalidRequest": "Ups... Kami tidak dapat memproses permintaan Anda..."
+  },
+  "Validation": {
+    "emailRequired": "Alamat email diperlukan",
+    "passwordRequired": "Kata sandi diperlukan",
+    "firstNameRequired": "Nama depan diperlukan",
+    "lastNameRequired": "Nama belakang diperlukan",
+    "consentRequired": "Persetujuan diperlukan",
+    "descriptionRequired": "Deskripsi diperlukan",
+    "categorySelectionRequired": "Pemilihan kategori diperlukan",
+    "minLength": "Panjang minimum adalah {count} karakter",
+    "maxLength": "Panjang maksimum adalah {count} karakter",
+    "invalidEmail": "Alamat email tidak valid",
+    "passwordSpecialChar": "Karakter khusus diperlukan",
+    "passwordUppercase": "Harus ada setidaknya satu huruf kapital",
+    "passwordsMismatch": "Kata sandi tidak cocok"
+  },
+  "Dropdown": {
+    "selectType": "Pilih tipe"
+  },
+  "Languages": {
+    "en": "Inggris",
+    "es": "Spanyol",
+    "de": "Jerman",
+    "fr": "Prancis",
+    "it": "Italia",
+    "nl": "Belanda",
+    "da": "Denmark",
+    "sv": "Swedia",
+    "pl": "Polandia",
+    "pt": "Portugis",
+    "ro": "Rumania",
+    "vi": "Vietnam",
+    "tr": "Turki",
+    "id": "Indonesia",
+    "ru": "Rusia",
+    "uk": "Ukraina",
+    "ur": "Urdu",
+    "ar": "Arab",
+    "hi": "Hindi",
+    "ta": "Tamil",
+    "si": "Singala",
+    "fa": "Persia",
+    "fil": "Filipina",
+    "bn": "Bengali",
+    "km": "Kamboja",
+    "th": "Thailand",
+    "ja": "Jepang",
+    "zh-hant": "Cina-Tradisional",
+    "zh-hans": "Cina-Sederhana",
+    "ko": "Korea"
+  },
+  "Errors": {
+    "unknownError": "Terjadi kesalahan yang tidak diketahui",
+    "invalidToken": "Token tidak valid",
+    "tokenExpired": "Token Anda telah kedaluwarsa",
+    "missingTokenOwner": "Pemilik token tidak teridentifikasi",
+    "tokenUsed": "Token sudah digunakan",
+    "tokenVerificationFailed": "Verifikasi token gagal...",
+    "invalidPassword": "Kata sandi yang dimasukkan tidak valid",
+    "passwordChangeFailed": "Perubahan kata sandi gagal"
+  },
+  "Metadata": {
+    "homePage": {
+      "title": "JoyProfits - Dapatkan Uang Online Secara Gratis",
+      "description": "Dapatkan uang secara online dengan menonton iklan, mengisi survei, bermain game, menulis komentar, menulis teks, menjawab pertanyaan, menyelesaikan tawaran, dan banyak lagi."
+    },
+    "howItWorks": {
+      "title": "JoyProfits - Cara Kerja",
+      "description": "Pelajari cara kerja JoyProfits dan bagaimana Anda dapat mulai menghasilkan uang dalam 3 langkah sederhana. Penjelasan mudah dengan tips dan cara menghasilkan uang."
+    },
+    "earnMethods": {
+      "title": "JoyProfits - Metode Penghasilan",
+      "description": "Temukan berbagai cara untuk menghasilkan uang secara online melalui JoyProfits. Mainkan game, tonton video, isi survei, belanja online, dan banyak lagi."
+    },
+    "support": {
+      "title": "JoyProfits - Dukungan",
+      "description": "Jika Anda memiliki pertanyaan, membutuhkan bantuan, atau mengalami masalah, hubungi tim dukungan kami."
+    },
+    "signIn": {
+      "title": "JoyProfits - Masuk",
+      "description": "Masuk ke akun JoyProfits Anda dan mulai menghasilkan uang online. Masuk untuk mengakses profil Anda dan mengelola penghasilan Anda."
+    },
+    "register": {
+      "title": "JoyProfits - Daftar",
+      "description": "Daftar di JoyProfits dan mulai menghasilkan uang online. Buat akun untuk mengakses berbagai metode dan peluang penghasilan."
+    },
+    "aboutUs": {
+      "title": "JoyProfits - Tentang Kami",
+      "description": "Pelajari lebih lanjut tentang JoyProfits, pembuat aplikasi, dan misi di balik platform ini. Temukan bagaimana Anda dapat memanfaatkan JoyProfits."
+    },
+    "advertising": {
+      "title": "JoyProfits - Iklan",
+      "description": "Kenali kebijakan periklanan JoyProfits yang memastikan transparansi, tanggung jawab, dan kepatuhan hukum dalam mempromosikan produk dan layanan."
+    },
+    "privacyPolicy": {
+      "title": "JoyProfits - Kebijakan Privasi",
+      "description": "Baca kebijakan privasi JoyProfits untuk memahami bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi Anda. Ketahui hak-hak Anda dan bagaimana kami menjaga keamanan data."
+    },
+    "termsOfService": {
+      "title": "JoyProfits - Ketentuan Layanan",
+      "description": "Baca ketentuan layanan JoyProfits untuk memahami aturan dan persyaratan penggunaan platform. Pelajari hak dan kewajiban Anda sebagai pengguna."
+    },
+    "cookiesPolicy": {
+      "title": "JoyProfits - Kebijakan Cookies",
+      "description": "Baca kebijakan cookies JoyProfits untuk memahami bagaimana kami menggunakan cookies dan teknologi serupa untuk meningkatkan pengalaman Anda di platform."
+    },
+    "locationData": {
+      "title": "JoyProfits - Data Lokasi",
+      "description": "Pelajari bagaimana JoyProfits mengumpulkan dan menggunakan data lokasi untuk memberikan layanan yang dipersonalisasi dan meningkatkan pengalaman pengguna."
+    },
+    "managingUsersData": {
+      "title": "JoyProfits - Pengelolaan Data Pengguna",
+      "description": "Pelajari bagaimana JoyProfits mengelola data pengguna untuk memastikan privasi, keamanan, dan kepatuhan terhadap hukum."
+    },
+    "typesOfCookies": {
+      "title": "JoyProfits - Jenis Cookies",
+      "description": "Pelajari jenis cookies yang digunakan JoyProfits untuk meningkatkan pengalaman pengguna dan memberikan layanan yang dipersonalisasi."
+    },
+    "usersTransferData": {
+      "title": "JoyProfits - Transfer Data Pengguna",
+      "description": "Pelajari bagaimana JoyProfits mentransfer data pengguna untuk memastikan privasi, keamanan, dan kepatuhan terhadap hukum."
+    },
+    "confirmEmailChange": {
+      "title": "JoyProfits - Konfirmasi Perubahan Email",
+      "description": "Konfirmasi perubahan alamat email Anda untuk memperbarui informasi akun Anda. Ikuti petunjuk untuk menyelesaikan proses."
+    },
+    "recoverPassword": {
+      "title": "JoyProfits - Pulihkan Kata Sandi",
+      "description": "Pulihkan kata sandi Anda di JoyProfits. Masukkan kata sandi baru dan konfirmasikan untuk memperbarui informasi akun Anda."
+    },
+    "verifyAccount": {
+      "title": "JoyProfits - Verifikasi Akun",
+      "description": "Verifikasi akun Anda di JoyProfits untuk mengaktifkan profil Anda dan mulai menghasilkan uang secara online."
+    }
+  }
+}

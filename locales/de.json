@@ -23,7 +23,6 @@
       "downloadApp": "App herunterladen",
       "appDescription": "Treten Sie unserer Plattform bei und entdecken Sie, wie Sie mit Ihren Fähigkeiten Geld verdienen können"
     },
-
     "SignIn": {
       "title": "Anmelden",
       "email": "E-Mail",
@@ -31,16 +30,13 @@
       "password": "Passwort",
       "logIn": "Einloggen"
     },
-
     "NotFoundPage": {
       "pageNotFound": "Seite nicht gefunden",
       "pageNotFoundDescription": "Die Seite, die Sie suchen, existiert nicht. Wie Sie hierher gekommen sind, bleibt ein Geheimnis. Sie können jedoch auf die Schaltfläche unten klicken, um zur Hauptseite zurückzukehren.",
-
       "Messages": {},
       "Errors": {}
     }
   },
-
   "SignIn": {
     "title": "Anmelden",
     "email": "E-Mail",
@@ -56,7 +52,6 @@
     "haveNotAnAccount": "Haben Sie noch kein Konto?",
     "register": "Registrieren Sie sich"
   },
-
   "Register": {
     "title": "Registrieren",
     "email": "E-Mail",
@@ -70,7 +65,6 @@
     "haveAnAccount": "Haben Sie bereits ein Konto?",
     "signIn": "Einloggen"
   },
-
   "Support": {
     "contactWithUs": "Kontaktieren Sie uns",
     "fillDataDescription": "Füllen Sie die Daten aus und beschreiben Sie das Problem oder Ereignis, und wir werden uns umgehend mit Ihnen in Verbindung setzen. Denken Sie daran, dass Sie eine Anfrage auch ohne JoyProfits-Nutzer zu sein, senden können.",
@@ -91,7 +85,6 @@
     "iConsentToContact": "Ich stimme zu, kontaktiert zu werden und Informationen von JoyProfits per E-Mail zu erhalten.",
     "requiredFields": "Pflichtfelder"
   },
-
   "HomePage": {
     "Header": {
       "headerTitle": "Verdiene Belohnungen und\nGeld in deiner Freizeit!",
@@ -99,14 +92,12 @@
       "downloadIos": "Lade iOS herunter",
       "downloadAndroid": "Lade Android herunter"
     },
-
     "DownloadSection": {
       "headerDescription": "Lade unsere App herunter",
       "tileHeader": "Lade auf {appName} herunter",
       "leftTileDescription": "Lade unsere App für iOS herunter und entdecke neue Möglichkeiten! Mit der benutzerfreundlichen Oberfläche kannst du deine Aufgaben schnell verwalten, Fortschritte verfolgen und einzigartige Funktionen nutzen. Überzeuge dich selbst, wie einfach und angenehm die Nutzung der JoyProfits-App ist.",
       "rightTileDescription": "Lade unsere App aus dem Google Play Store herunter und genieße vollen Zugriff auf alle Funktionen! Mit der intuitiven Oberfläche kannst du deine Aufgaben einfach verwalten, Fortschritte verfolgen und von einzigartigen Angeboten profitieren. Installiere die App und entdecke, wie viel du gewinnen kannst!"
     },
-
     "WCSSection": {
       "headerDescription": "Was sagen unsere Nutzer?",
       "user1Description": "Die App bietet viele Möglichkeiten, Geld zu verdienen, aber am meisten gefällt mir die Möglichkeit, Videos anzusehen. Ich habe oft freie Zeit, also kann ich ein bisschen Geld verdienen. Auszahlungen sind schnell und problemlos.",
@@ -120,11 +111,9 @@
       "user9Description": "Viele Möglichkeiten zu verdienen, alles läuft reibungslos.",
       "user10Description": "Ich empfehle es, es funktioniert einwandfrei, und die Auszahlungen erfolgen ohne Probleme."
     },
-
     "TrustedUs": {
       "trustedUs": "Vertrauen uns"
     },
-
     "HowItWorksSection": {
       "headerDescription": "Wie funktioniert es",
       "paragraphDescription": "Indem du einfache Aufgaben übernimmst, hast du die Möglichkeit, bis zu 3000 PLN monatlich zu verdienen, ohne versteckte Gebühren oder zusätzliche Steuern. Was mehr ist, gibt es kein Oberlimit für deine Einnahmen – du entscheidest, wie viel du verdienen möchtest.",
@@ -134,23 +123,19 @@
       "thirdListDescription": "durch das Ansehen von Videos und Werbung",
       "fourthListDescription": "durch Online-Shopping"
     },
-
     "SectionImageBlueBg": {
       "headerDescription": "Was sind die Vorteile",
       "paragraphDescription": "JoyProfits bietet die Möglichkeit, sowohl in Vollzeit als auch als zusätzliches Einkommen zu arbeiten, für Menschen aus der ganzen Welt. Du kannst Geld verdienen, indem du jedes Gerät mit Internetzugang nutzt, egal wo du dich befindest. Du erhältst eine Vergütung für die Zeit und Mühe, die du auf der Plattform investierst."
     },
-
     "Benefits": {
       "headerDescription": "Wie hilft dir JoyProfits?",
       "description": "JoyProfits hilft dir, deine Stärken zu nutzen, indem es sechs verschiedene Möglichkeiten zum Geldverdienen bietet. So kannst du die Option wählen, die am besten zu deinen Fähigkeiten und Interessen passt. Die Plattform ermöglicht es dir, deinen Aufwand und deine Zeit effektiv in konkrete Gewinne umzuwandeln.",
       "seeMore": "Mehr erfahren"
     },
-
     "AboutSection": {
       "header": "Über JoyProfits",
       "description": "Entdecke unsere App, die sowohl für iOS als auch für Android verfügbar ist! Lade sie jetzt herunter und beginne, die Möglichkeiten zu nutzen, die wir dir bieten!"
     },
-
     "AboutSectionTiles": {
       "firstTileHeader": "SPIELEN UND VERDIENEN",
       "secondTileHeader": "IOS & ANDROID APP",
@@ -174,7 +159,6 @@
     "reEnterPassword": "Passwort wiederholen",
     "confirmNewPassword": "Bestätige das neue Passwort"
   },
-
   "HowItWorksPage": {
     "Header": {
       "headerTitle": "Entdecke neue Wege, Geld zu verdienen",
@@ -208,7 +192,6 @@
       "payouts": "Auszahlung der verdienten\nGelder"
     }
   },
-
   "EarnMethods": {
     "Header": {
       "headerTitle": "Eine App, viele Möglichkeiten!",
@@ -218,6 +201,7 @@
     },
     "Section": {
       "header": "Eine App, viele Verdienstmöglichkeiten",
+      "readMore": "Mehr lesen",
       "Tile1Header": "Spielen",
       "Tile1Description": "Sammle Punkte, indem du Level erreichst und Funktionen in mobilen Spielen freischaltest. Erfülle Aufgaben mit unterschiedlichem Schwierigkeitsgrad in deinen Lieblingsspielen.",
       "Tile2Header": "Filme schauen",
@@ -232,7 +216,6 @@
       "Tile6Description": "Erreiche Ziele auf JoyProfits, sammle Belohnungen und erhöhe dein Einkommen. Jeder Erfolg bringt dich näher an höhere Gewinne und zusätzliche Belohnungen."
     }
   },
-
   "AboutUs": {
     "Header": {
       "headerTitle": "Lerne die Macher von JoyProfits kennen!",

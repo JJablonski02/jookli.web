@@ -37,7 +37,7 @@ const Section = () => {
                 </div>
                 <p>{t(`${data.label}`)}</p>
                 <div className="mt-6 flex w-full justify-center">
-                  <JPButton label="Read more" className="flex" />
+                  <JPButton label={t("readMore")} className="flex" />
                 </div>
               </MotionDiv>
             ))}
